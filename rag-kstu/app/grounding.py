@@ -167,6 +167,9 @@ def select_context(hits, request, scope, year, limit):
             continue
         item = {key: hit[key] for key in ('chunk_id', 'selection_id', 'scope', 'source', 'source_url',
                                           'academic_year', 'audience_restrictions', 'limitations', 'text', 'topic')}
+        publication_year = hit.get('effective_date_evidence', {}).get('publication_year')
+        if type(publication_year) is int:
+            item['publication_year'] = publication_year
         item['pages'] = sorted({reference['page_number'] for reference in hit['citations']})
         amount = len(json.dumps(item, ensure_ascii=False))
         item_tokens = token_count(json.dumps(item, ensure_ascii=False))
@@ -212,6 +215,8 @@ def validate_proposal(proposal, selected):
                     return False
                 ref.quote = match.group(0)
             supported_numbers.update(numbers(chunk['text'] + ' ' + chunk['academic_year']))
+            if type(chunk.get('publication_year')) is int:
+                supported_numbers.add(str(chunk['publication_year']))
         if not numbers(claim.text).issubset(supported_numbers):
             return False
     return True

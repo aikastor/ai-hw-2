@@ -2,14 +2,29 @@
   "schema_version": 1,
   "files": [
     {
+      "path": ".dockerignore",
+      "sha256": "ac02d2c1f80c816ed90467ab3d86ed6034f3ddb525702924d629bd55cdf87650",
+      "bytes": 240
+    },
+    {
       "path": ".gitignore",
       "sha256": "71cf0f08396fd0f5de3c6b2ca6bec334b02dbe08cc5e086324146058346056d7",
       "bytes": 428
     },
     {
+      "path": "Dockerfile",
+      "sha256": "802d9ca8906c2c51afe26a76d2bed938debfbe30afd5035290aff252fe84f6ee",
+      "bytes": 474
+    },
+    {
       "path": "README.md",
-      "sha256": "28569d4ce18287f4682083c9eadc2650bae1165ca94d0894d15a8c73bff3d5c4",
-      "bytes": 3089
+      "sha256": "fbc6bcd4c41be5aee96ec46187bf4dba86175f4368f6c3ada6fda42a3ea83f1f",
+      "bytes": 3022
+    },
+    {
+      "path": "compose.yaml",
+      "sha256": "96af4b2e629b72e8f86a29520dc7d864000d487beae5ab8d1b63f8ed268ba909",
+      "bytes": 1885
     },
     {
       "path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
@@ -113,18 +128,13 @@
     },
     {
       "path": "rag-kstu/.env.example",
-      "sha256": "a78e5a63dbfa437c5d699d2a2e5a5604146a2c6a217760d76d629a9df905a1ff",
-      "bytes": 356
+      "sha256": "e2a2db0929091ef50f18b4af6bea8245ce33f9f2869ab07089ebf63e456d1faf",
+      "bytes": 298
     },
     {
       "path": "rag-kstu/.gitignore",
       "sha256": "71cf0f08396fd0f5de3c6b2ca6bec334b02dbe08cc5e086324146058346056d7",
       "bytes": 428
-    },
-    {
-      "path": "rag-kstu/ASSIGNMENT-STATUS.md",
-      "sha256": "bd70b03401fc3ae4b0cf4ddeb25b35aecaf6aad57e8486edc8ee09ae7ec25aaa",
-      "bytes": 2576
     },
     {
       "path": "rag-kstu/ATTRIBUTION.md",
@@ -133,8 +143,8 @@
     },
     {
       "path": "rag-kstu/README.md",
-      "sha256": "742928c207c6c6a72e12362b475ca3848c3341efbc821ce125d50bbe56110b18",
-      "bytes": 10972
+      "sha256": "c21cd09e02a019b64a000c2866930fd6047dfecd482f661b0ad33a953d1e8a1f",
+      "bytes": 11117
     },
     {
       "path": "rag-kstu/UNIVERSITY.md",
@@ -168,8 +178,8 @@
     },
     {
       "path": "rag-kstu/app/grounding.py",
-      "sha256": "2806f1c0fce052fedd56ae79475f4b1ccbec3760453e0bf368bed04b9d0eacd2",
-      "bytes": 24411
+      "sha256": "287702c1591b93cd6857eec580bbae7925b947f0b832bb8fba8f606773e51518",
+      "bytes": 24728
     },
     {
       "path": "rag-kstu/app/models.py",
@@ -187,19 +197,9 @@
       "bytes": 3887
     },
     {
-      "path": "rag-kstu/data/CHAT-REPORT.md",
-      "sha256": "a9dd640c441cd7962b332fa3bcf1aa44aee96c8344b386be36ae35a8c304af5c",
-      "bytes": 6694
-    },
-    {
       "path": "rag-kstu/data/REPORT.md",
       "sha256": "31ea77057e4442f857a68a55bbed8fffc7429100c846149a45d0763e39771000",
       "bytes": 11878
-    },
-    {
-      "path": "rag-kstu/data/RETRIEVAL-REPORT.md",
-      "sha256": "d0a7cb5438c0f8e77dc3c1795d3c276d01ced3754347d4e5bc34ecd9adf8291f",
-      "bytes": 10682
     },
     {
       "path": "rag-kstu/data/acquisition/20261020-162300-936458/manifest.jsonl",
@@ -397,6 +397,21 @@
       "bytes": 2368
     },
     {
+      "path": "rag-kstu/docker/Dockerfile",
+      "sha256": "802d9ca8906c2c51afe26a76d2bed938debfbe30afd5035290aff252fe84f6ee",
+      "bytes": 474
+    },
+    {
+      "path": "rag-kstu/docker/compose.yaml",
+      "sha256": "96af4b2e629b72e8f86a29520dc7d864000d487beae5ab8d1b63f8ed268ba909",
+      "bytes": 1885
+    },
+    {
+      "path": "rag-kstu/docker/dockerignore",
+      "sha256": "ac02d2c1f80c816ed90467ab3d86ed6034f3ddb525702924d629bd55cdf87650",
+      "bytes": 240
+    },
+    {
       "path": "rag-kstu/evaluation/chat-filter-results.json",
       "sha256": "18850ac08dad76889259356fcc7ede4876e8febda9e262b96cb3113de09d53df",
       "bytes": 130
@@ -482,6 +497,11 @@
       "bytes": 1744
     },
     {
+      "path": "rag-kstu/scripts/docker_bootstrap.py",
+      "sha256": "13394e758a18835cda68fc94f82d5fa1b8b8cc5477b91c0378740c1b99d95c65",
+      "bytes": 3806
+    },
+    {
       "path": "rag-kstu/scripts/evaluate_chat.py",
       "sha256": "d4beb40e342206d108e26fd322214a03d4c8b0213fffc66f5a11e9db22891ed7",
       "bytes": 8375
@@ -493,8 +513,8 @@
     },
     {
       "path": "rag-kstu/scripts/package_repository.py",
-      "sha256": "561c1b63fdf25368ef1d98e495495d8ef3d5b7da8221e1ae1bbc3bb54d6f04b3",
-      "bytes": 9921
+      "sha256": "5a8bf80384a778967e53a6140df97f5e6906e1b784aa51d8e430e3811a206702",
+      "bytes": 10100
     },
     {
       "path": "rag-kstu/scripts/prepare_expansion.py",
@@ -503,13 +523,13 @@
     },
     {
       "path": "rag-kstu/scripts/retrieval.py",
-      "sha256": "cd9d3ef5e0204a1129297ef81984e338752ec859045ff7307f49cdf25583867f",
-      "bytes": 26257
+      "sha256": "0daf087ddb554c34b8b414f19355f91d4c2e167c5acfcf9f7edfed6a0f5b9305",
+      "bytes": 26383
     },
     {
       "path": "rag-kstu/scripts/run_teacher.py",
-      "sha256": "005a9a12f126184807e63e1010622fc7e10076d909a54c5a0afcd2b01ee94a0c",
-      "bytes": 6904
+      "sha256": "ae958506c52734aeee544fb1f9ad0670df27f4184df2cd0a314f3af6dd04099e",
+      "bytes": 1136
     },
     {
       "path": "rag-kstu/scripts/setup_ollama.py",
@@ -518,13 +538,18 @@
     },
     {
       "path": "rag-kstu/scripts/test_chat.py",
-      "sha256": "64e97830e0bb20e322148e91824bcbeedb64972260673ed51832e6334476dd18",
-      "bytes": 28874
+      "sha256": "ce1ac527909ee2831fa36a89ba753e74dac35794175c4b3b586659fe95a55ee4",
+      "bytes": 30339
     },
     {
       "path": "rag-kstu/scripts/test_chunks.py",
       "sha256": "348894845c569c2be160a8542bf2b92d505d7d8bdf3175d5d32d4a3641749372",
       "bytes": 11554
+    },
+    {
+      "path": "rag-kstu/scripts/test_docker_bootstrap.py",
+      "sha256": "a8a5b3083c2fd3625b97dc5c6f9a9f783aa111c789cee5c3be96847a262c4e12",
+      "bytes": 4761
     },
     {
       "path": "rag-kstu/scripts/test_expanded_sources.py",
@@ -538,8 +563,8 @@
     },
     {
       "path": "rag-kstu/scripts/test_retrieval.py",
-      "sha256": "1dc30163ff4855df353a4423465f71cd0a649ab37bd8047da9a65167ee89bf7f",
-      "bytes": 21641
+      "sha256": "363730cc6b2509b6a6a0fbce84f31cfa1075621f6c53f0063a65ee57c5592e8d",
+      "bytes": 24982
     },
     {
       "path": "rag-kstu/scripts/validate_chunks.py",
@@ -555,21 +580,6 @@
       "path": "rag-kstu/sources/shortlist.json",
       "sha256": "97948bf30e50d74da095904447a431ccdc24a6af72befdc1ca9c4875c8c06560",
       "bytes": 109027
-    },
-    {
-      "path": "rag-kstu/tasks/01-prepare-sources-and-chunks.md",
-      "sha256": "e61d1cf21051179aa1aab040dbd62ae0bc3f53a908090132b257cf9a0e643893",
-      "bytes": 13923
-    },
-    {
-      "path": "rag-kstu/tasks/02-build-retrieval.md",
-      "sha256": "704255071ff7637275fed5fb2eba14ac4beacf9cbf73a717bb93f03311f2e43f",
-      "bytes": 2338
-    },
-    {
-      "path": "rag-kstu/tasks/03-build-grounded-chat.md",
-      "sha256": "8f540ad2be0ec847469adf239105ce4ad500301d606c2b91a0cd4b0bab121cf4",
-      "bytes": 21990
     },
     {
       "path": "task.md",

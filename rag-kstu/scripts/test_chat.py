@@ -221,6 +221,27 @@ class ChatContracts(unittest.TestCase):
                                       'masters_admissions', '2026-2027', 12000)
             self.assertEqual(selected, [])
 
+    def test_reviewed_publication_year_supports_policy_date_only(self):
+        hit = dict(HIT, scope='general_academic_policy', text='GPA is weighted by credits.',
+                   effective_date_evidence={'publication_year': 2025, 'unreviewed_number': 99999})
+        request = ChatRequest(question='How is GPA calculated?')
+        selected = select_context([hit], request, 'general_academic_policy', '2026-2027', 12000)
+        self.assertEqual(selected[0]['publication_year'], 2025)
+        self.assertNotIn('unreviewed_number', selected[0])
+        proposal = Proposal.model_validate({
+            'decision': 'answered', 'clarification': '', 'claims': [{
+                'text': 'According to the published 2025 policy, GPA is weighted by credits.',
+                'evidence': [{'chunk_id': hit['chunk_id'], 'quote': hit['text']}]}]})
+        self.assertTrue(validate_proposal(proposal, selected))
+        proposal.claims[0].text = 'The GPA rule is 99999.'
+        self.assertFalse(validate_proposal(proposal, selected))
+        for invalid_year in ('2025', True, None):
+            hit['effective_date_evidence']['publication_year'] = invalid_year
+            selected = select_context([hit], request, 'general_academic_policy', '2026-2027', 12000)
+            self.assertNotIn('publication_year', selected[0])
+            proposal.claims[0].text = 'The policy was published in 2025.'
+            self.assertFalse(validate_proposal(proposal, selected))
+
     def test_context_keeps_table_header_and_entire_chunk(self):
         selected = select_context([HIT], ChatRequest(question='Masters grade B'), 'masters_admissions', '2026-2027', 12000)
         self.assertEqual(selected[0]['text'], TEXT)

@@ -11,13 +11,13 @@ import tempfile
 ROOT = Path(__file__).resolve().parents[2]
 APP = 'rag-kstu/'
 FILES = [
-    '.env.example', '.gitignore', 'README.md', 'ASSIGNMENT-STATUS.md', 'UNIVERSITY.md',
+    '.env.example', '.gitignore', 'README.md', 'UNIVERSITY.md',
     'ATTRIBUTION.md', 'requirements-chunking.txt', 'requirements-retrieval.txt',
     'requirements-chat.txt', 'models/ollama-embedding.json',
     'data/source-manifest.json', 'data/chunks.current.jsonl', 'data/chunks.archive.jsonl',
     'data/build-stats.json', 'data/coverage.json', 'data/validation.json', 'data/exclusions.json',
-    'data/shortlist-snapshot.json', 'data/REPORT.md', 'data/RETRIEVAL-REPORT.md',
-    'data/retrieval-validation.json', 'data/CHAT-REPORT.md',
+    'data/shortlist-snapshot.json', 'data/REPORT.md',
+    'data/retrieval-validation.json',
     'data/expanded/source-manifest.json', 'data/expanded/chunks.current.jsonl',
     'data/expanded/chunks.archive.jsonl', 'data/expanded/build-stats.json',
     'data/expanded/validation.json', 'data/expanded/review/policies.json',
@@ -27,7 +27,8 @@ FILES = [
     'evaluation/generation-final-manifest.json', 'evaluation/chat-results.json',
     'evaluation/chat-filter-results.json', 'evaluation/verification.json',
     'evaluation/expanded-smoke.jsonl', 'evaluation/expanded-smoke-results.json', 'evaluation/validation-ru.md',
-    'scripts/retrieval.py', 'scripts/run_teacher.py', 'scripts/setup_ollama.py', 'scripts/build_chunks.py',
+    'docker/Dockerfile', 'docker/compose.yaml', 'docker/dockerignore',
+    'scripts/docker_bootstrap.py', 'scripts/test_docker_bootstrap.py', 'scripts/retrieval.py', 'scripts/run_teacher.py', 'scripts/setup_ollama.py', 'scripts/build_chunks.py',
     'scripts/validate_chunks.py', 'scripts/test_chunks.py', 'scripts/test_retrieval.py',
     'scripts/test_chat.py', 'scripts/evaluate_chat.py', 'scripts/check_chat_filters.py', 'scripts/package_repository.py',
     'scripts/test_package_repository.py', 'scripts/verify_package.py',
@@ -35,8 +36,6 @@ FILES = [
     'app/__init__.py', 'app/models.py', 'app/config.py', 'app/groq.py',
     'app/grounding.py', 'app/api.py', 'app/frontend.py',
     'app/prompts/generate.txt', 'app/prompts/verify.txt',
-    'tasks/01-prepare-sources-and-chunks.md', 'tasks/02-build-retrieval.md',
-    'tasks/03-build-grounded-chat.md',
 ]
 SECRET = re.compile(rb'(?:gsk_[A-Za-z0-9]{20,}|gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|sk-proj-[A-Za-z0-9_-]{20,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----)')
 
@@ -112,41 +111,10 @@ def export(destination, root=ROOT):
                 raise ValueError('Copy hash mismatch: ' + relative)
             inventory.append({'path': relative, 'sha256': value, 'bytes': target.stat().st_size})
         (stage / '.gitignore').write_text((root / 'rag-kstu/.gitignore').read_text())
-        (stage / 'README.md').write_text('''# Чат-помощник КГТУ
-
-Ответы на русском и английском по проверенным официальным источникам КГТУ со ссылками на документы.
-
-## Запуск для преподавателя
-
-Нужны **macOS, Python 3.13, интернет и собственный ключ Groq**. На первом запуске скачиваются зависимости и модель эмбеддингов размером около 1,2 ГБ.
-
-```sh
-git clone https://github.com/aikastor/ai-hw-2.git
-cd ai-hw-2
-python3.13 rag-kstu/scripts/run_teacher.py
-```
-
-Введите ключ Groq в скрытом приглашении. Скрипт установит зависимости, подготовит модель и локальный индекс, затем запустит приложение. После сообщения «Готово» откройте **http://127.0.0.1:8501**. Для остановки нажмите **Ctrl+C**. Ключ, введённый в терминале, не сохраняется.
-
-Повторный запуск выполняется той же командой. Автоматическая установка рассчитана на macOS; Linux и Windows пока не проверены.
-
-## Документация
-
-- [Подробная установка, ручной запуск и устранение проблем](rag-kstu/README.md).
-- [Вопросы для проверки на русском](rag-kstu/evaluation/validation-ru.md).
-- [Статус задания](rag-kstu/ASSIGNMENT-STATUS.md) и [результаты проверок](rag-kstu/data/CHAT-REPORT.md).
-
-## Данные и технологии
-
-FastAPI, Streamlit, локальная Qdrant, BM25 и Ollama bge-m3. Groq генерирует и проверяет ответы; выбранные источники и сообщения диалога передаются этому внешнему сервису.
-
-Каталоги `rag-kstu/data/` и `data/` содержат проверенные фрагменты и исходные материалы для воспроизводимой сборки. Сохраните оба каталога. Сбор сайта и OCR повторять не нужно. Секреты, виртуальные окружения, веса модели и сгенерированная база не включены; каждый пользователь создаёт свой индекс.
-
-Покрытие источников неполное: общеуниверситетские пороги ОРТ и квоты грантов на бакалавриат ещё не подтверждены. Проверочные вопросы описывают ожидаемое поведение, а не гарантируют прохождение всех тестов.
-
-Авторство университетских документов сохранено: [атрибуция](rag-kstu/ATTRIBUTION.md).
-''')
-        for name in ['.gitignore', 'README.md']:
+        (stage / 'README.md').write_text('# Чат-помощник КГТУ\n\nОтветы на русском и английском по официальным источникам КГТУ, со ссылками на документы.\n\n## Запуск для преподавателя через Docker\n\nНужны **Docker Desktop** (либо Docker Engine с Compose), интернет и собственный ключ Groq. Python и Ollama отдельно устанавливать не нужно.\n\n```sh\ngit clone https://github.com/aikastor/ai-hw-2.git\ncd ai-hw-2\ncp rag-kstu/.env.example rag-kstu/.env\n```\n\nВ Windows PowerShell используйте `Copy-Item` вместо `cp`, если требуется. Откройте `rag-kstu/.env` и укажите свой `GROQ_API_KEY`, затем:\n\n```sh\ndocker compose up --build\n```\n\nОткройте **http://localhost:8501** после готовности сервисов. Первый запуск скачивает образы и модель bge-m3 (около 1,2 ГБ), затем создаёт индекс. Повторные запуски используют сохранённые модель и базу.\n\nДля остановки — Ctrl+C или `docker compose down`. Не добавляйте `-v`, если хотите сохранить данные. Docker использует ресурсы вашего компьютера; приложение не размещается в облаке.\n\n## Документация\n\n- [Подробная инструкция и устранение проблем](rag-kstu/README.md).\n- [Вопросы для проверки на русском](rag-kstu/evaluation/validation-ru.md).\n\n## Данные и технологии\n\nCompose запускает Ollama, FastAPI со встроенной локальной Qdrant и Streamlit. Поиск объединяет BM25 и bge-m3. Groq генерирует и проверяет ответы; выбранные источники и сообщения передаются этому внешнему сервису. Ключ доступен только API.\n\nКаталоги `rag-kstu/data/` и `data/` содержат проверенные материалы для воспроизводимой сборки. Сбор сайта и OCR повторять не нужно. Секреты, виртуальные окружения, модель и сгенерированная база исключены из Git и контекста сборки.\n\nПокрытие неполное: общеуниверситетские пороги ОРТ и квоты грантов на бакалавриат ещё не подтверждены. Проверочные вопросы описывают ожидаемое поведение, а не гарантируют прохождение всех тестов.\n\nАвторство университетских документов сохранено: [атрибуция](rag-kstu/ATTRIBUTION.md).\n')
+        for name, source_name in {'Dockerfile': 'Dockerfile', 'compose.yaml': 'compose.yaml', '.dockerignore': 'dockerignore'}.items():
+            shutil.copyfile(root / 'rag-kstu/docker' / source_name, stage / name)
+        for name in ['.gitignore', 'README.md', 'Dockerfile', 'compose.yaml', '.dockerignore']:
             target = stage / name
             inventory.append({'path': name, 'sha256': digest(target), 'bytes': target.stat().st_size})
         (stage / 'PACKAGE-INVENTORY.json').write_text(json.dumps({'schema_version': 1, 'files': sorted(inventory, key=lambda r:r['path'])}, indent=2)+'\n')

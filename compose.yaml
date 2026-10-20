@@ -1,0 +1,64 @@
+name: kstu-chat
+services:
+  ollama:
+    image: ollama/ollama:0.40.6
+    environment:
+      OLLAMA_HOST: 0.0.0.0:11434
+      OLLAMA_NO_CLOUD: "1"
+    volumes:
+      - ollama-models:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+    restart: unless-stopped
+
+  api:
+    build: .
+    image: kstu-chat-app:local
+    init: true
+    restart: unless-stopped
+    env_file:
+      - rag-kstu/.env
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+      KSTU_ALLOW_DOCKER_OLLAMA: "1"
+      KSTU_INDEX: /var/lib/kstu/index
+    volumes:
+      - retrieval-index:/var/lib/kstu
+    depends_on:
+      ollama:
+        condition: service_healthy
+    command: ["sh", "-c", "python rag-kstu/scripts/docker_bootstrap.py && exec python -m uvicorn app.api:app --host 0.0.0.0 --port 8000 --workers 1 --no-access-log"]
+    ports:
+      - "127.0.0.1:${KSTU_API_PORT:-8000}:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=15)"]
+      interval: 30s
+      timeout: 20s
+      start_period: 30m
+      retries: 3
+
+  ui:
+    build: .
+    image: kstu-chat-app:local
+    init: true
+    restart: unless-stopped
+    environment:
+      KSTU_API_URL: http://api:8000
+    depends_on:
+      api:
+        condition: service_healthy
+    command: ["python", "-m", "streamlit", "run", "rag-kstu/app/frontend.py", "--server.address", "0.0.0.0", "--server.port", "8501", "--server.headless", "true", "--browser.gatherUsageStats", "false"]
+    ports:
+      - "127.0.0.1:${KSTU_UI_PORT:-8501}:8501"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8501/_stcore/health', timeout=5)"]
+      interval: 15s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  ollama-models:
+  retrieval-index:

@@ -99,7 +99,7 @@ def validate_corpus(chunks_path):
 
 
 class OllamaEmbedder:
-    """Pinned bge-m3 on loopback Ollama, with server-enforced full input coverage."""
+    """Pinned bge-m3 on local or explicitly enabled Compose Ollama."""
     def __init__(self, embedding_config=DEFAULT_EMBEDDING_CONFIG):
         self.config_path = Path(embedding_config).resolve()
         config_bytes = self.config_path.read_bytes()
@@ -146,6 +146,8 @@ class OllamaEmbedder:
 
     @staticmethod
     def _loopback_url(host):
+        if host == 'http://ollama:11434' and os.environ.get('KSTU_ALLOW_DOCKER_OLLAMA') == '1':
+            return host
         if not isinstance(host, str) or not host.strip():
             raise ValueError('OLLAMA_HOST must be a loopback HTTP URL')
         parsed = urlsplit(host if '://' in host else 'http://' + host)
@@ -164,7 +166,7 @@ class OllamaEmbedder:
     def _request(self, method, path, payload=None):
         import httpx
         try:
-            # Ignore proxy environment variables and never follow redirects off loopback.
+            # Ignore proxy environment variables and never follow redirects away from the configured endpoint.
             with httpx.Client(base_url=self.base_url, timeout=300, trust_env=False,
                               follow_redirects=False) as client:
                 response = client.request(method, path, json=payload)

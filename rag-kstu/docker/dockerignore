@@ -1,0 +1,17 @@
+**/.git
+**/.env
+**/.env.*
+!**/.env.example
+**/.venv*
+**/__pycache__
+**/*.pyc
+**/.run-logs
+**/.audit
+**/.DS_Store
+**/tools
+**/models/ollama
+**/models/multilingual-e5-small
+**/data/retrieval
+**/data/retrieval-expanded
+**/secrets.toml
+exports

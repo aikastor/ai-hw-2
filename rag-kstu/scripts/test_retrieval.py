@@ -25,6 +25,59 @@ def read_rows(path):
     return [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
 
 
+class OllamaEndpointTests(unittest.TestCase):
+    def test_compose_endpoint_requires_exact_opt_in(self):
+        for flag in ('', '0', 'true', 'yes'):
+            with patch.dict('os.environ', {'KSTU_ALLOW_DOCKER_OLLAMA': flag}):
+                with self.assertRaises(ValueError):
+                    retrieval.OllamaEmbedder._loopback_url('http://ollama:11434')
+        with patch.dict('os.environ', {'KSTU_ALLOW_DOCKER_OLLAMA': '1'}):
+            self.assertEqual(retrieval.OllamaEmbedder._loopback_url('http://ollama:11434'),
+                             'http://ollama:11434')
+
+    def test_compose_opt_in_does_not_admit_other_remote_urls(self):
+        rejected = ['http://ollama', 'ollama:11434', 'https://ollama:11434',
+                    'http://ollama:11435', 'http://ollama:11434/',
+                    'http://user:password@ollama:11434', 'http://ollama:11434/api',
+                    'http://ollama:11434?x=1', 'http://ollama:11434#fragment',
+                    'http://remote:11434', 'http://192.168.1.2:11434',
+                    'http://ollama.example:11434', 'http://OLLAMA:11434',
+                    ' http://ollama:11434', 'http://ollama:11434\n']
+        with patch.dict('os.environ', {'KSTU_ALLOW_DOCKER_OLLAMA': '1'}):
+            for host in rejected:
+                with self.subTest(host=host), self.assertRaises(ValueError):
+                    retrieval.OllamaEmbedder._loopback_url(host)
+
+    def test_loopback_behavior_is_unchanged_with_compose_opt_in(self):
+        with patch.dict('os.environ', {'KSTU_ALLOW_DOCKER_OLLAMA': '1'}):
+            for host, expected in [('localhost', 'http://127.0.0.1:11434'),
+                                   ('http://127.0.0.1:12345', 'http://127.0.0.1:12345'),
+                                   ('http://[::1]:11434', 'http://[::1]:11434')]:
+                self.assertEqual(retrieval.OllamaEmbedder._loopback_url(host), expected)
+            for host in ['http://user@localhost:11434', 'http://localhost:11434/api',
+                         'http://localhost:11434?x=1', 'http://localhost:11434#fragment']:
+                with self.assertRaises(ValueError):
+                    retrieval.OllamaEmbedder._loopback_url(host)
+
+    def test_compose_endpoint_still_checks_runtime_and_model_pins(self):
+        config = json.loads(CONFIG.read_text())
+        for wrong in ('runtime', 'digest', None):
+            def respond(method, path, payload=None):
+                if path == '/api/version':
+                    return {'version': 'wrong' if wrong == 'runtime' else config['ollama_version']}
+                if path == '/api/tags':
+                    return {'models': [{'name': config['model'], 'digest': 'wrong' if wrong == 'digest' else config['model_digest']}]}
+                if path == '/api/show':
+                    return {'capabilities': ['embedding']}
+                raise AssertionError(path)
+            with patch.dict('os.environ', {'KSTU_ALLOW_DOCKER_OLLAMA': '1', 'OLLAMA_HOST': 'http://ollama:11434'}), patch.object(retrieval.OllamaEmbedder, '_request', side_effect=respond):
+                if wrong:
+                    with self.assertRaisesRegex(ValueError, 'pinned'):
+                        retrieval.OllamaEmbedder()
+                else:
+                    self.assertEqual(retrieval.OllamaEmbedder().base_url, 'http://ollama:11434')
+
+
 class RetrievalTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
