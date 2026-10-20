@@ -3,13 +3,13 @@
   "files": [
     {
       "path": ".gitignore",
-      "sha256": "de0f9b7c07cb9b54e1c0fdafb0ad90ceb983221e4c68bf34c3b4bda424816e07",
-      "bytes": 416
+      "sha256": "71cf0f08396fd0f5de3c6b2ca6bec334b02dbe08cc5e086324146058346056d7",
+      "bytes": 428
     },
     {
       "path": "README.md",
-      "sha256": "b6cfd836cbe313cff68a487f6ba3f64c2461aad305c4b8f28c89c1457146f7f4",
-      "bytes": 1855
+      "sha256": "28569d4ce18287f4682083c9eadc2650bae1165ca94d0894d15a8c73bff3d5c4",
+      "bytes": 3089
     },
     {
       "path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
@@ -118,8 +118,8 @@
     },
     {
       "path": "rag-kstu/.gitignore",
-      "sha256": "de0f9b7c07cb9b54e1c0fdafb0ad90ceb983221e4c68bf34c3b4bda424816e07",
-      "bytes": 416
+      "sha256": "71cf0f08396fd0f5de3c6b2ca6bec334b02dbe08cc5e086324146058346056d7",
+      "bytes": 428
     },
     {
       "path": "rag-kstu/ASSIGNMENT-STATUS.md",
@@ -133,8 +133,8 @@
     },
     {
       "path": "rag-kstu/README.md",
-      "sha256": "faf29bc98a70d31c3137d86b574438b1d436ca86a0f4f1318a34d7fe3f04146a",
-      "bytes": 8632
+      "sha256": "742928c207c6c6a72e12362b475ca3848c3341efbc821ce125d50bbe56110b18",
+      "bytes": 10972
     },
     {
       "path": "rag-kstu/UNIVERSITY.md",
@@ -493,8 +493,8 @@
     },
     {
       "path": "rag-kstu/scripts/package_repository.py",
-      "sha256": "d63c01362703836da2e67af5b3b1b9cfdc3017cf5bc68a0de64e06f6263986aa",
-      "bytes": 8661
+      "sha256": "561c1b63fdf25368ef1d98e495495d8ef3d5b7da8221e1ae1bbc3bb54d6f04b3",
+      "bytes": 9921
     },
     {
       "path": "rag-kstu/scripts/prepare_expansion.py",
@@ -505,6 +505,11 @@
       "path": "rag-kstu/scripts/retrieval.py",
       "sha256": "cd9d3ef5e0204a1129297ef81984e338752ec859045ff7307f49cdf25583867f",
       "bytes": 26257
+    },
+    {
+      "path": "rag-kstu/scripts/run_teacher.py",
+      "sha256": "005a9a12f126184807e63e1010622fc7e10076d909a54c5a0afcd2b01ee94a0c",
+      "bytes": 6904
     },
     {
       "path": "rag-kstu/scripts/setup_ollama.py",

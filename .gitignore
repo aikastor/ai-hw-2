@@ -22,3 +22,5 @@ rag-kstu/tools/
 exports/
 data/groq-preflight.json
 rag-kstu/data/groq-preflight.json
+
+.run-logs/

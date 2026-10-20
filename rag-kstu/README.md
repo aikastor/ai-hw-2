@@ -1,21 +1,26 @@
-# Run the KSTU grounded chat
+# Чат-помощник КГТУ: запуск и проверка
 
-The application answers questions from the reviewed KSTU corpus for 2026-2027. It uses local Ollama bge-m3 embeddings, Qdrant hybrid retrieval, FastAPI, Streamlit and Groq hosted generation. Groq receives selected source passages and supplied conversation messages. This configuration is not fully private.
+Приложение отвечает на русском и английском по проверенным официальным материалам КГТУ и показывает ссылки на источники. Используются FastAPI, Streamlit, локальная Qdrant, поиск BM25 и эмбеддинги Ollama bge-m3. Ответы генерирует и проверяет Groq: выбранные фрагменты документов и сообщения диалога передаются этому внешнему сервису.
 
-The expanded corpus adds the official 2026–2027 programme catalogue, separately scoped admissions checklists, and reviewed passages on GPA, retakes, academic leave and appeals. The catalogue includes bachelor and specialist programmes; not every row is a bachelor programme. Academic policy answers must identify the published policy year, and the admissions checklist is undated. Current 2026 bachelor ORT thresholds and grant quotas remain unverified. Tuition covers only reviewed logistics and railway groups. [Base source coverage](data/coverage.json) and the [expanded source manifest](data/expanded/source-manifest.json) record the evidence and limits.
+## Быстрый запуск для преподавателя
 
-## Install the application
-
-Clone the repository first:
+Автоматический установщик рассчитан на **macOS и Python 3.13**. Нужны интернет и собственный ключ Groq. На первом запуске скачиваются зависимости и модель эмбеддингов размером около 1,2 ГБ; установка может занять несколько минут. Linux и Windows пока не проверены.
 
 ```sh
 git clone https://github.com/aikastor/ai-hw-2.git
 cd ai-hw-2
+python3.13 rag-kstu/scripts/run_teacher.py
 ```
 
-Run commands from the standalone repository root, which contains both `rag-kstu/` and `data/`. Python 3.13 is the verified environment. The pinned Ollama installer supports macOS. Another operating system needs the same Ollama version and bge-m3 digest installed separately.
+Скрипт создаст виртуальное окружение, установит зависимости, подготовит закреплённую версию Ollama и модель, создаст индекс и запустит серверы. Ключ Groq запрашивается скрыто и не сохраняется. Можно заранее задать `GROQ_API_KEY` в окружении или в локальном `rag-kstu/.env`.
 
-You need your own Groq API key, internet access for installation and hosted answers, and disk space for Python dependencies and the embedding model (about 1.2 GB for the model alone). macOS is the tested platform; Linux and Windows execution has not been verified.
+После сообщения «Готово» откройте **http://127.0.0.1:8501**. Оставьте терминал открытым. Нажатие **Ctrl+C** остановит только процессы, запущенные скриптом. Уже работающий Ollama скрипт не останавливает.
+
+Повторный запуск — той же командой. Существующая модель и индекс используются повторно. Если порты 8000 или 8501 заняты, сначала остановите предыдущий запуск. Диагностические журналы находятся в `rag-kstu/.run-logs/` и не включаются в Git.
+
+## Ручная установка
+
+Все команды выполняются из корня репозитория, где находятся каталоги `rag-kstu/` и `data/`. Сохраняйте оба: исходные документы нужны для проверки происхождения данных.
 
 ```sh
 python3.13 -m venv rag-kstu/.venv-retrieval
@@ -23,104 +28,90 @@ rag-kstu/.venv-retrieval/bin/python -m pip install -r rag-kstu/requirements-chat
 cp rag-kstu/.env.example rag-kstu/.env
 ```
 
-Set `GROQ_API_KEY` in the ignored `rag-kstu/.env`. The selected model is `openai/gpt-oss-120b`. No credentials belong in Git or frontend settings. The backend checks the configured model rather than silently switching providers or models.
+Укажите собственный `GROQ_API_KEY` в `rag-kstu/.env`. Не отправляйте этот файл в Git. Используемая модель генерации — `openai/gpt-oss-120b`.
 
-Install the pinned Ollama runtime once.
+Установите закреплённый Ollama и запустите его в отдельном терминале:
 
 ```sh
 rag-kstu/.venv-retrieval/bin/python rag-kstu/scripts/setup_ollama.py install
-```
-
-Start Ollama in a terminal and leave it running. If the pinned service is already running at `127.0.0.1:11434`, reuse it.
-
-```sh
 rag-kstu/.venv-retrieval/bin/python rag-kstu/scripts/setup_ollama.py serve
 ```
 
-In another terminal, download the pinned embedding model and build this checkout's local index. Run these commands before starting FastAPI. Do not copy an index from another checkout because its manifest contains an absolute corpus path.
+В другом терминале скачайте модель и создайте локальную базу:
 
 ```sh
 rag-kstu/.venv-retrieval/bin/python rag-kstu/scripts/setup_ollama.py pull
 rag-kstu/.venv-retrieval/bin/python rag-kstu/scripts/retrieval.py build --chunks rag-kstu/data/expanded/chunks.current.jsonl --index rag-kstu/data/retrieval-expanded
 ```
 
-The model and runtime pins are in [the retrieval report](data/RETRIEVAL-REPORT.md). A fresh clone needs the packaged reviewed evidence, tokenizer and expanded chunks. It does not need crawling, OCR or re-chunking.
+Повторно собирать сайт, выполнять OCR и разбивать документы не требуется. В репозитории уже есть проверенные источники и готовые фрагменты. Модель и сгенерированная база не хранятся в Git: каждый пользователь создаёт индекс у себя.
 
-## Start the API and chat
+## Ручной запуск серверов
 
-Launch one API worker. One dedicated executor owns the Retriever, including its construction and shutdown. Multiple workers cannot open the same local Qdrant directory.
+Запустите API с одним рабочим процессом:
 
 ```sh
 KSTU_INDEX="$PWD/rag-kstu/data/retrieval-expanded" PYTHONPATH=rag-kstu rag-kstu/.venv-retrieval/bin/python -m uvicorn app.api:app --host 127.0.0.1 --port 8000 --workers 1 --no-access-log
 ```
 
-The explicit `KSTU_INDEX` selects the expanded index. The original corpus and index remain available for baseline checks.
-
-Launch Streamlit in another terminal.
+В другом терминале запустите интерфейс:
 
 ```sh
 rag-kstu/.venv-retrieval/bin/python -m streamlit run rag-kstu/app/frontend.py --server.address 127.0.0.1 --server.port 8501 --server.headless true
 ```
 
-Open http://127.0.0.1:8501. API readiness is at http://127.0.0.1:8000/health, and the typed request contract is at http://127.0.0.1:8000/docs.
+- Чат: http://127.0.0.1:8501
+- Проверка готовности: http://127.0.0.1:8000/health
+- Описание API: http://127.0.0.1:8000/docs
 
-Use Ctrl+C in each server terminal to stop Streamlit, FastAPI and Ollama. After editing a prompt, restart FastAPI: prompts are loaded at process startup. If Qdrant reports that storage is already accessed, stop the other API or retrieval process using that index; do not delete its storage.
+Для остановки нажмите Ctrl+C в каждом терминале. После изменения промптов перезапустите API: файлы загружаются при старте процесса. Если Qdrant сообщает о занятом хранилище, остановите другой процесс, использующий этот индекс; не удаляйте базу.
 
-Try these questions.
+## Что спросить
 
-- What GPA minimum permits competition for a masters state-grant place?
-- What is first-year full-time Logistics bachelor tuition for Kyrgyz citizens in 2026-2027?
-- Какие программы доступны после школы?
-- How is GPA calculated according to the published academic policy?
+- Какие программы бакалавриата есть в КГТУ?
+- Какие документы нужны для поступления после 11 класса?
+- Как рассчитывается GPA?
+- На какой срок можно взять академический отпуск?
+- Сколько стоит первый курс очной логистики 580600 для граждан КР в 2026–2027 году?
 
-When reviewed evidence is missing, the app explains the limitation in Russian or English according to the question and suggests what information would help. It does not invent a contact or office location. The user superseded the original fixed-English-fallback requirement on 20 October 2026. Malformed provider output is a service error, not evidence that university information is unavailable.
+Полный [набор вопросов на русском](evaluation/validation-ru.md) содержит ожидаемое поведение. Это план проверки, а не утверждение, что все вопросы уже проходят тестирование. Кнопка **Reset conversation** очищает историю.
 
-Supported responses show clickable official source titles, with physical pages for PDF evidence and page links for HTML evidence. Missing audience information can produce a clarification. Provider, Ollama and index outages produce retryable service errors. The UI preserves validated turns in the browser session. **Reset conversation** clears the conversation.
+При недостатке данных приложение объясняет ограничение или задаёт уточнение. Ошибки сервиса отображаются отдельно. Ответ может содержать подтверждённую часть информации с явным указанием того, что установить не удалось. Ссылка на источник сама по себе не доказывает правильность ответа.
 
-## Verify behavior
+## Данные и ограничения
 
-Stop FastAPI before running standalone commands against its index. The source tests do not require Groq. Retrieval tests require the pinned Ollama service.
+Расширенный корпус содержит 69 фрагментов, включая каталог программ, списки документов для разных категорий поступающих и выбранные положения об успеваемости. Каталог включает бакалавриат и специалитет; эти квалификации нельзя смешивать. Некоторые положения опубликованы в 2025 году, а центральный список документов не содержит даты действия.
 
-```sh
-rag-kstu/.venv-retrieval/bin/python -m unittest discover -s rag-kstu/scripts -p test_chunks.py -v
-rag-kstu/.venv-retrieval/bin/python -m unittest discover -s rag-kstu/scripts -p test_retrieval.py -v
-PYTHONPATH=rag-kstu rag-kstu/.venv-retrieval/bin/python -m unittest discover -s rag-kstu/scripts -p test_chat.py -v
-rag-kstu/.venv-retrieval/bin/python -m unittest discover -s rag-kstu/scripts -p test_package_repository.py -v
-rag-kstu/.venv-retrieval/bin/python -m unittest discover -s rag-kstu/scripts -p test_expanded_sources.py -v
-```
+Общеуниверситетские пороги ОРТ и квоты грантов на бакалавриат на 2026–2027 год ещё не подтверждены. Стоимость обучения представлена только для выбранных институтов и категорий студентов. Подробности: [манифест источников](data/expanded/source-manifest.json), [статус задания](ASSIGNMENT-STATUS.md), [отчёт о чате](data/CHAT-REPORT.md). Некоторые отчёты описывают предыдущие версии корпуса и промптов. Оценка Ragas и защита проекта остаются отдельным этапом.
 
-Validate determinism without overwriting the earlier source report.
+Groq может ограничивать частоту запросов. Генерация и проверка выполняются двумя обращениями к модели, поэтому ответ иногда занимает больше времени. Не вводите персональные данные.
 
-```sh
-PYTHONPATH=rag-kstu/scripts rag-kstu/.venv-retrieval/bin/python -c "from validate_chunks import validate; print(validate('rag-kstu/data/source-manifest.json','rag-kstu/data',True))"
-```
+## Проверки
 
-Validate the expanded corpus against its pinned sources without re-chunking.
+Проверка источников и тесты чата:
 
 ```sh
 rag-kstu/.venv-retrieval/bin/python rag-kstu/scripts/expanded_sources.py validate
+PYTHONPATH=rag-kstu rag-kstu/.venv-retrieval/bin/python -m unittest discover -s rag-kstu/scripts -p test_chat.py
+rag-kstu/.venv-retrieval/bin/python -m unittest discover -s rag-kstu/scripts -p test_expanded_sources.py
 ```
 
-Start the API again before HTTP generation evaluation. The original evaluation sets describe the base corpus. Run the expanded development smoke cases against the expanded API. These cases are not a held-out evaluation.
+Для проверки поиска остановите процессы, использующие соответствующий индекс, и оставьте Ollama работающим:
 
 ```sh
-rag-kstu/.venv-retrieval/bin/python rag-kstu/scripts/evaluate_chat.py --cases rag-kstu/evaluation/expanded-smoke.jsonl --chunks rag-kstu/data/expanded/chunks.current.jsonl --output rag-kstu/evaluation/expanded-smoke-results.json
+rag-kstu/.venv-retrieval/bin/python -m unittest discover -s rag-kstu/scripts -p test_retrieval.py
 ```
 
-Evaluation saves evidence, claims, exact quotations, decisions, citations and usage. Gold labels are never sent to the chat endpoint as retrieval filters. The bilingual retrieval set is reused development evidence. The separate generation set was frozen before prompt tuning. A passing quotation check alone does not establish semantic support. Read the actual source audit and incomplete checks in [the chat report](data/CHAT-REPORT.md).
-
-The account's observed Groq limit is 8,000 tokens per minute. Two-pass claim generation and verification can take longer under that limit. Retries and concurrent provider requests are bounded. There is no streaming of unvalidated claims.
-
-## Export a standalone repository
-
-The exporter preserves every manifest-pinned input at its original relative path. It rejects missing files, hash drift, traversal paths, symlinks, credential patterns, oversized files and an existing destination. It excludes secrets, caches, audit transcripts, model weights and generated indexes.
+Для проверки ответов через запущенный API:
 
 ```sh
-rag-kstu/.venv-retrieval/bin/python rag-kstu/scripts/package_repository.py /tmp/rag-kstu-export
-cd /tmp/rag-kstu-export
-python3 rag-kstu/scripts/verify_package.py
+rag-kstu/.venv-retrieval/bin/python rag-kstu/scripts/evaluate_chat.py --cases rag-kstu/evaluation/expanded-smoke.jsonl --chunks rag-kstu/data/expanded/chunks.current.jsonl --output rag-kstu/evaluation/expanded-smoke-results.json --delay 30
 ```
 
-The package inventory lists hashes of selected repository files. University documents remain third-party materials. See [attribution](ATTRIBUTION.md).
+Это проверочные примеры разработки, не независимый итоговый тест. Результаты сохраняют ответы, цитаты и ошибки. Проверка точного совпадения цитат не заменяет ручной проверки смысла.
 
-Repository destination: https://github.com/aikastor/ai-hw-2. Ragas evaluation and project defense remain stage 5. Source-coverage research remains separate. See [Russian validation questions](evaluation/validation-ru.md) for manual checks; these are expected behaviors, not a claim that every case passes.
+## Состав репозитория
+
+Код, промпты, зависимости, проверенные источники и фрагменты включены. Ключи API, виртуальные окружения, модель, журналы и сгенерированный индекс исключены. Авторство университетских документов сохранено: [источники и атрибуция](ATTRIBUTION.md).
+
+Скрипт `package_repository.py` формирует отдельную копию только из разрешённых файлов и проверяет их хеши. `verify_package.py` проверяет экспорт по `PACKAGE-INVENTORY.json`. После осознанного изменения файлов старый инвентарь нужно обновить; несовпадение хешей означает изменение экспорта, а не обязательно ошибку приложения.

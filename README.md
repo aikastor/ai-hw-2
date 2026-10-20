@@ -1,28 +1,33 @@
-# KSTU grounded chat
+# Чат-помощник КГТУ
 
-A Russian/English university assistant that answers from reviewed official KSTU documents and web pages, with source citations.
+Ответы на русском и английском по проверенным официальным источникам КГТУ со ссылками на документы.
 
-## Run locally
+## Запуск для преподавателя
 
-Follow the [installation and startup guide](rag-kstu/README.md). It includes exact commands for cloning, installing dependencies, configuring your key, downloading the embedding model, building the index and starting the app.
+Нужны **macOS, Python 3.13, интернет и собственный ключ Groq**. На первом запуске скачиваются зависимости и модель эмбеддингов размером около 1,2 ГБ.
 
-Requirements: Python 3.13, your own Groq API key, and the pinned Ollama runtime/model. macOS is tested; other platforms are not yet verified.
+```sh
+git clone https://github.com/aikastor/ai-hw-2.git
+cd ai-hw-2
+python3.13 rag-kstu/scripts/run_teacher.py
+```
 
-The app uses FastAPI, Streamlit, local Qdrant, BM25 and Ollama bge-m3 embeddings. Groq generates and checks answers from the retrieved evidence. Selected evidence and conversation messages go to Groq.
+Введите ключ Groq в скрытом приглашении. Скрипт установит зависимости, подготовит модель и локальный индекс, затем запустит приложение. После сообщения «Готово» откройте **http://127.0.0.1:8501**. Для остановки нажмите **Ctrl+C**. Ключ, введённый в терминале, не сохраняется.
 
-After setup, open http://127.0.0.1:8501.
+Повторный запуск выполняется той же командой. Автоматическая установка рассчитана на macOS; Linux и Windows пока не проверены.
 
-## Repository contents
+## Документация
 
-- `rag-kstu/app/`: backend, frontend and prompts.
-- `rag-kstu/scripts/`: source validation, index building, tests and packaging.
-- `rag-kstu/data/` and `data/`: reviewed chunks and hash-pinned evidence needed to reproduce the index. Keep both directories.
-- `rag-kstu/evaluation/`: evaluation records and [Russian validation questions](rag-kstu/evaluation/validation-ru.md).
+- [Подробная установка, ручной запуск и устранение проблем](rag-kstu/README.md).
+- [Вопросы для проверки на русском](rag-kstu/evaluation/validation-ru.md).
+- [Статус задания](rag-kstu/ASSIGNMENT-STATUS.md) и [результаты проверок](rag-kstu/data/CHAT-REPORT.md).
 
-Credentials, virtual environments, model weights and generated Qdrant indexes are excluded. Each clone builds its own index.
+## Данные и технологии
 
-## Coverage and verification
+FastAPI, Streamlit, локальная Qdrant, BM25 и Ollama bge-m3. Groq генерирует и проверяет ответы; выбранные источники и сообщения диалога передаются этому внешнему сервису.
 
-The expanded corpus includes programme tables, applicant checklists and selected academic policies, tuition and calendar evidence. Coverage is incomplete; current bachelor ORT thresholds and grant quotas remain unverified. See [assignment status](rag-kstu/ASSIGNMENT-STATUS.md) and [observed chat results](rag-kstu/data/CHAT-REPORT.md). Historical evaluations may describe earlier corpus or prompt versions.
+Каталоги `rag-kstu/data/` и `data/` содержат проверенные фрагменты и исходные материалы для воспроизводимой сборки. Сохраните оба каталога. Сбор сайта и OCR повторять не нужно. Секреты, виртуальные окружения, веса модели и сгенерированная база не включены; каждый пользователь создаёт свой индекс.
 
-Reviewed university documents retain their original attribution. See [attribution](rag-kstu/ATTRIBUTION.md).
+Покрытие источников неполное: общеуниверситетские пороги ОРТ и квоты грантов на бакалавриат ещё не подтверждены. Проверочные вопросы описывают ожидаемое поведение, а не гарантируют прохождение всех тестов.
+
+Авторство университетских документов сохранено: [атрибуция](rag-kstu/ATTRIBUTION.md).
