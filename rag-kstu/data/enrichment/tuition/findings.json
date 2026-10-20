@@ -1,0 +1,191 @@
+{
+  "status": "reused_current_scoped",
+  "topic": "tuition",
+  "review_method": "Reused published current selections and their reviewed Markdown tables. Original and extraction hashes rechecked; no new visual recognition decision.",
+  "records": [
+    {
+      "source_sha256": "33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913",
+      "source": "Международная высшая школа логистики tuition schedule 2026-2027",
+      "source_url": "https://kstu.kg/fileadmin/user_upload/mvshl_03.pdf",
+      "page_number": 1,
+      "original_path": "/Users/aika/study/ai-homework-2/data/expansion/pilot-20261019/raw/originals/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.pdf",
+      "extraction_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+      "extraction_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+      "academic_year": "2026-2027",
+      "audience_restrictions": [
+        "InternationalHigherSchoolofLogistics,KSTU; KyrgyzCitizensfull-timeanddistancewithDOT; near-foreigncitizensfull-timeinintergovernmentalagreementandnonagreementgroupsasliterallyprinted. Source doesnotlistmembercountries."
+      ],
+      "block_refs": [
+        {
+          "index": 0,
+          "order": 0,
+          "docling_ref": null,
+          "block_sha256": "7b3a8f556497f5cd298244477bb7d3f33da242aabf8c858f045912a66ce8b314"
+        },
+        {
+          "index": 1,
+          "order": 1,
+          "docling_ref": null,
+          "block_sha256": "0feddeea3be01da0331103a3b42bb9af67e7ad5edb07a077b20f4a64a14b85b9"
+        },
+        {
+          "index": 2,
+          "order": 2,
+          "docling_ref": null,
+          "block_sha256": "241d6e190da0c9c7b1c8cb8f0a81593b52e6d2363ab6dcfeeaab0b3a221dc1b5"
+        },
+        {
+          "index": 3,
+          "order": 3,
+          "docling_ref": null,
+          "block_sha256": "1ecda5aa32bada0eb2b581751452b773b6ebca1f76be6a08abf478ef4bbf0609"
+        },
+        {
+          "index": 4,
+          "order": 4,
+          "docling_ref": null,
+          "block_sha256": "2decba34f8e4f600c383b6cf008793758233eb506425bd39c4a738a8a3bb2279"
+        },
+        {
+          "index": 5,
+          "order": 5,
+          "docling_ref": null,
+          "block_sha256": "d1fb18ee0e6c1b8adfdb82bb112530de81a49a263ffa22c6585d1f296270bea3"
+        },
+        {
+          "index": 6,
+          "order": 6,
+          "docling_ref": null,
+          "block_sha256": "e6836091b4876708dcb85d74028ab60ddb5e1beeb01dc5c0376562bbc7f9eeca"
+        },
+        {
+          "index": 7,
+          "order": 7,
+          "docling_ref": null,
+          "block_sha256": "b395ae1900b2167d7f01acfd90c93fd98e458b32d76a5c65eecd67f046ae677e"
+        },
+        {
+          "index": 8,
+          "order": 8,
+          "docling_ref": null,
+          "block_sha256": "d944528be84a122d9ffb8e6be89c80cdf95b629be360ecd26e39940f1636f0a7"
+        },
+        {
+          "index": 9,
+          "order": 9,
+          "docling_ref": null,
+          "block_sha256": "5849fd5ec98a2bc32cd9ca4e585b26d9f865f012851b76ad70cbadd2aaad1d4a"
+        },
+        {
+          "index": 10,
+          "order": 10,
+          "docling_ref": null,
+          "block_sha256": "2f6b6847e9f4cefffe0a426461750a29b95d4625ab6cacaa8d97fdaf4f06082c"
+        },
+        {
+          "index": 11,
+          "order": 11,
+          "docling_ref": null,
+          "block_sha256": "17b25872f18e38ca031936181f696bc7ac49adbd54445c68b9acf26b2a668c28"
+        },
+        {
+          "index": 12,
+          "order": 12,
+          "docling_ref": null,
+          "block_sha256": "32168d545f2965dbba5e700eb367427d722d5e7236c23b2c279be75e40e69d00"
+        },
+        {
+          "index": 13,
+          "order": 13,
+          "docling_ref": null,
+          "block_sha256": "f813ff9f12b82fca34eb41cd475d05aacb40be7799e467f524e8011f0474dc54"
+        },
+        {
+          "index": 14,
+          "order": 14,
+          "docling_ref": null,
+          "block_sha256": "6d94f44db72fa5157e8419b944ce584d92c012036b10839e5eb35e007ffabcfe"
+        },
+        {
+          "index": 15,
+          "order": 15,
+          "docling_ref": null,
+          "block_sha256": "b645111f826ea5c9935753c63fa6c549ce77bd4a11c8fcc189c93a30cb8a3274"
+        },
+        {
+          "index": 16,
+          "order": 16,
+          "docling_ref": null,
+          "block_sha256": "48e74b460f3d1ad5d4a527c1bc9212d61cc949ac6e0c7a5e45ba924bc60504a2"
+        }
+      ],
+      "text": "СОГЛАСОВАНО\nПопечительский совет КГТУ им.И. Раззакова\nПредседатель Турдумамбетова Э.Д.\n\"10\" 06 2026 г.\n\nУТВЕРЖДАЮ\nРектор КГТУ им.И.Раззакова\nЧыныбаев М.К.\n2026г.\n\nПРЕЙСКУРАНТ ТАРИФОВ ( ЦЕН )\nна платные образовательные услуги по подготовке инженеров, бакалавров, магистрантов, граждан КР и граждан ближнего и дальнего зарубежья\nКыргызского государственного технического университета им. И.Раззакова\nна 2026-2027 учебный год\n\nстоимость обучения по курсам, сом:\n\nГРАЖДАНЕ КР\n\nМЕЖДУНАРОДНАЯ ВЫСШАЯ ШКОЛА ЛОГИСТИКИ\n\nОчная форма обучения\n\n| № | Перечень | шифр | 1 курс | 2 курс | 3 курс | 4 курс | 5 курс | 6 курс |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1 | Логистика Профиль:Логистика (бакалавр) | 580600 | 81000 | 81000 | 77220 | 72600 | 72600 |  |\n|  | 1 кредит |  | 1350 | 1350 | 1287 | 1210 | 1210 |  |\n| 2 | Кампус И.Раззакова. Профессиональное обучение Профиль: Профессиональное обучение | 550800 | 81000 | 81000 | 66000 | 38478 | 38478 |  |\n|  | 1 кредит |  | 1350 | 1350 | 1100 | 641 | 641 |  |\n\nЗаочная форма обучения с ДОТ\n\n| № | Перечень | шифр | 1 курс | 2 курс | 3 курс | 4 курс | 5 курс | 6 курс |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1 | Логистика Профиль:Логистика (бакалавр) | 580600 |  | 81000 | 61776 | 58080 | 58080 | 58080 |\n|  | 1 кредит |  |  | 1620 | 1236 | 1162 | 1162 | 1162 |\n| 2 | Кампус И.Раззакова. Профессиональное обучение Профиль: Профессиональное обучение | 550800 |  | 81000 | 52800 | 30782 | 30782 | 30782 |\n|  | 1 кредит |  |  | 1620 | 1056 | 616 | 616 | 616 |\n\nИностранные студенты дневного обучения\n\nФакультета (обучение граждан ближнего зарубежья входящие в межправ.согл.)\n\nОчная форма обучения\n\n| № | Перечень | шифр | 1 курс | 2 курс | 3 курс | 4 курс | 5 курс | 6 курс |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1 | Логистика Профиль:Логистика (бакалавр) | 580600 | 93000 | 93000 | 99000 | 94380 | 72600 |  |\n|  | 1 кредит |  | 1550 | 1550 | 1650 | 1573 | 1210 |  |\n| 2 | Кампус И.Раззакова. Профессиональное обучение Профиль: Профессиональное обучение | 550800 | 90000 | 90000 | 99000 | 75141 | 56628 |  |\n|  | 1 кредит |  | 1500 | 1500 | 1650 | 1252 | 944 |  |\n\nФакультета (обучение граждан ближнего зарубежья не входящие в межправ.согл.)\n\nОчная форма обучения\n\n| № | Перечень | шифр | 1 курс | 2 курс | 3 курс | 4 курс | 5 курс | 6 курс |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1 | Логистика Профиль:Логистика (бакалавр) | 580600 | 138000 | 138000 | 148500 | 94380 | 72600 |  |\n|  | 1 кредит |  | 2300 | 2300 | 2475 | 1573 | 1210 |  |\n| 2 | Кампус И.Раззакова. Профессиональное обучение Профиль: Профессиональное обучение | 550800 | 135000 | 135000 | 148500 | 75141 | 56628 |  |\n|  | 1 кредит |  | 2250 | 2250 | 2475 | 1252 | 944 |  |"
+    },
+    {
+      "source_sha256": "7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e",
+      "source": "Институт путей сообщения tuition schedule 2026-2027",
+      "source_url": "https://kstu.kg/fileadmin/user_upload/preiskurant_ips.pdf",
+      "page_number": 1,
+      "original_path": "/Users/aika/study/ai-homework-2/data/expansion/pilot-20261019/raw/originals/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.pdf",
+      "extraction_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+      "extraction_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+      "academic_year": "2026-2027",
+      "audience_restrictions": "Only citizens of the Kyrgyz Republic, Institute of Railway Communication, full-time (Очная форма обучения), six complete programme/credit pairs by printed course1–6 columns in som. Not foreign categories or extramural/masters continuation.",
+      "block_refs": [
+        {
+          "index": 0,
+          "order": 0,
+          "docling_ref": null,
+          "block_sha256": "43e3da0e408b0c4ae2f2ee391731c5979a9f039dc2f19897821588e75d3653cd"
+        },
+        {
+          "index": 1,
+          "order": 1,
+          "docling_ref": null,
+          "block_sha256": "be1be3964a3398adb7f108a46ceb040010ba110f05e8763c13f7eb4be1535575"
+        },
+        {
+          "index": 3,
+          "order": 3,
+          "docling_ref": null,
+          "block_sha256": "b0f051a11b0d0d38681a5f59b7431ad7e9498b0b35ff2f5181fd50710e4ea298"
+        },
+        {
+          "index": 4,
+          "order": 4,
+          "docling_ref": null,
+          "block_sha256": "d6e7708b973fd9e3019a6c6d1530c5ba12d20d5299edcabd1511ba43fa111e1b"
+        },
+        {
+          "index": 5,
+          "order": 5,
+          "docling_ref": null,
+          "block_sha256": "fed926254bf08a65f273233b5eec4646ba45b650a969b6698f77ebbd62c4fa96"
+        },
+        {
+          "index": 6,
+          "order": 6,
+          "docling_ref": null,
+          "block_sha256": "b7aa7f998c36294ee8c18f59afa12dfb623634ec8b54294aa6d3188affdce99b"
+        },
+        {
+          "index": 7,
+          "order": 7,
+          "docling_ref": null,
+          "block_sha256": "ef64ef5454ae2a96885ab821542f6d6a294720cd2b0c2da2f98ae17d13aa0983"
+        },
+        {
+          "index": 8,
+          "order": 8,
+          "docling_ref": null,
+          "block_sha256": "856d0ab67e8c5a77ea0b4b8c397e1c8126c016969184273607ebfebecdfaa21d"
+        }
+      ],
+      "text": "СОГЛАСОВАНО\nПопечительский совет КГТУ им.И. Раззакова\nПредседатель Турдумамбетова Э.Д.\n\"10\" 06 2026 г.\n\nУТВЕРЖДАЮ\nРектор КГТУ им.И.Раззакова\nЧыныбаев М.К.\n2026г.\n\nПРЕЙСКУРАНТ ТАРИФОВ ( ЦЕН )\nна платные образовательные услуги по подготовке инженеров, бакалавров, магистрантов, граждан КР и граждан ближнего и дальнего зарубежья\nКыргызского государственного технического университета им. И.Раззакова\nна 2026-2027 учебный год\n\nстоимость обучения по курсам, сом:\n\nГРАЖДАНЕ КР\n\nИНСТИТУТ ПУТЕЙ СООБЩЕНИЯ\n\nОчная форма обучения\n\n| № | Перечень | шифр | 1 курс | 2 курс | 3 курс | 4 курс | 5 курс | 6 курс |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1 | Автомобильные дороги и аэродромы. Строительство АД и аэродромов | 750500 | 81000 | 81000 | 66000 |  | 45980 |  |\n|  | 1 кредит |  | 1350 | 1350 | 1100 |  | 766 |  |\n| 2 | Подвижной состав железных дорог (специалитет). Специальность вагоны | 670001 | 81000 | 81000 |  |  |  |  |\n|  | 1 кредит |  | 1350 | 1350 |  |  |  |  |\n| 3 | Технология транспортных процессов Профиль: Организация перевозок и управление на железнодорожном транспорте | 670300 | 81000 | 81000 | 66000 | 45980 | 45980 |  |\n|  | 1 кредит |  | 1350 | 1350 | 1100 | 766 | 766 |  |\n| 4 | Строительство железных дорог, мостов и транспортных тоннелей Профиль: Строительство железных дорог, мостов и транспортных тоннелей | 750001 | 81000 | 81000 | 66000 | 45980 | 45980 |  |\n|  | 1 кредит |  | 1350 | 1350 | 1100 | 766 | 766 |  |\n| 5 | Эксплуатация железных дорог Профиль: Организация перевозок и управление на железнодорожном транспорте | Экп.уч.пл. | 81000 | 81000 | 66000 |  |  |  |\n|  | 1 кредит |  | 1350 | 1350 | 1100 |  |  |  |\n| 6 | Строительство Профиль; Городские дороги и улицы | 750500 | 81000 | 81000 |  |  |  |  |\n|  | 1 кредит |  | 1350 | 1350 |  |  |  |  |"
+    }
+  ],
+  "limitations": [
+    "Two institutes only, not a university-wide fee schedule.",
+    "Do not interpolate missing course cells or extend citizenship/study-mode scope."
+  ]
+}

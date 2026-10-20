@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "manifest_sha256": "63110ddbf7e9738ce6c255d2eb902563d93de5395574c94bd15192cef4dbf17d",
+  "source_count": 9,
+  "selection_count": 32,
+  "selected_unit_count": 57,
+  "chunk_counts": {
+    "current": 30,
+    "archive": 5
+  },
+  "size_distribution": {
+    "minimum": 173,
+    "maximum": 1328,
+    "under_500": 19,
+    "500_to_1000": 14,
+    "over_1000": 2
+  },
+  "size_exception_count": 21,
+  "overlap_pairs": [
+    {
+      "chunk_id": "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+      "denominator_tokens": 717,
+      "exception": "No complete trailing unit fits the 10–15% overlap target and next chunk size.",
+      "previous_chunk_id": "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+      "ratio": 0.0,
+      "repeated_context_tokens": 402,
+      "shared_tokens": 0,
+      "shared_unit_ids": []
+    },
+    {
+      "chunk_id": "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3",
+      "denominator_tokens": 900,
+      "exception": null,
+      "previous_chunk_id": "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+      "ratio": 0.12,
+      "repeated_context_tokens": 375,
+      "shared_tokens": 108,
+      "shared_unit_ids": [
+        "7577d9d7-kr-full-time-rows-10"
+      ]
+    },
+    {
+      "chunk_id": "kstu-a74fe7640494864e3a05750300c2316bc6390cb86c0b3843b09f6eaa17ae1199",
+      "denominator_tokens": 938,
+      "exception": "No complete trailing unit fits the 10–15% overlap target and next chunk size.",
+      "previous_chunk_id": "kstu-137ad7603ef77d915a00d90b6d76d7ecffc451a46bada69ff81720254818cfb1",
+      "ratio": 0.0,
+      "repeated_context_tokens": 21,
+      "shared_tokens": 0,
+      "shared_unit_ids": []
+    }
+  ],
+  "unaccounted_selected_units": 0,
+  "coverage": {
+    "topics_with_current_scoped_evidence": 7,
+    "current_topics": [
+      "admissions_documents",
+      "course_registration",
+      "examination_periods",
+      "grants",
+      "holidays",
+      "thresholds",
+      "tuition"
+    ],
+    "full_assignment_coverage": false
+  },
+  "questions": {
+    "status": "passed",
+    "cases": 30,
+    "refusal_cases": 10,
+    "table_lookup_cases": 5
+  },
+  "exclusion_records": 82,
+  "determinism": "Two fresh builds and saved corpus are byte-identical, including ordered IDs and content."
+}

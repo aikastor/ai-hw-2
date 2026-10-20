@@ -1,0 +1,2096 @@
+{
+  "review_date": "2026-10-20",
+  "method": "Source research and visual policy review recorded in sibling policies.json and programmes-research.md; source text is reconstructed independently.",
+  "selections": [
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "programmes-01",
+      "source": {
+        "title": "Бакалавр и Специалитет: направления подготовки КГТУ, 2026–2027",
+        "source_url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982",
+        "raw_path": "rag-kstu/data/expanded/sources/programmes.html",
+        "source_sha256": "6844f19b7f47daa5622c63e9e1c47a65e6d9845b3ec694c4f02a65ad38e73ca0",
+        "format": "html_programmes"
+      },
+      "scope": "bachelor_programmes",
+      "category": "prospective student",
+      "topic": [
+        "programmes"
+      ],
+      "audience_restrictions": [
+        "ИНСТИТУТ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ"
+      ],
+      "effective_date_evidence": {
+        "status": "explicit_2026_2027_intake",
+        "review_date": "2026-10-20",
+        "source_year": 2026
+      },
+      "limitations": [
+        "The page title includes bachelor and specialist programmes. Do not classify every specialization row as bachelor. This selection covers one institute; do not claim a complete university list."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-2-2",
+          "page_number": null,
+          "text_sha256": "dcb665915e0df4f21a7ddbef243955827e3befe0d43f51a5666cd47fd7c0e1a4"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-3-3",
+          "page_number": null,
+          "text_sha256": "77a8d28c701354e42cb9d0e767c87e19fcbec3c27c47a860b446bbddf9ac3ad5"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-4-4",
+          "page_number": null,
+          "text_sha256": "a6d685885664f6a9c8196c172d226fccff69b7cc8b8004a277cd18af369fe8da"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-5-5",
+          "page_number": null,
+          "text_sha256": "dd152504547d27a4b3960e4b099aef279f529ded11c9feeeff1aca86a72df977"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-6-6",
+          "page_number": null,
+          "text_sha256": "534eb71543b95f0c92ffa1e7951d608090f98ec4e0878e54174978fef2eac2d8"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-7-7",
+          "page_number": null,
+          "text_sha256": "8ea9af90aa01d8162e0441b54d8b9cf7c17e1c7a41f878d05f29d55970081fdf"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-8-8",
+          "page_number": null,
+          "text_sha256": "85087cb2d9bf8119c6da18fa5a7e40f38e8de66d0938a34fdbfbfec33b9fdc29"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-9-9",
+          "page_number": null,
+          "text_sha256": "3b2cb7dba3fb262e4670440591afd4b37412ed3ecbadb9a8170101a5744179cf"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-10-10",
+          "page_number": null,
+          "text_sha256": "a7b5c0370b4a6576ab3a5a57165b6a4d2ac8015b133b167b8aa2769cda870794"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-11-11",
+          "page_number": null,
+          "text_sha256": "dee8df5007a0902f2487eecc4bd5b58bfa450b14629fbfdba434804c133a8b42"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-12-12",
+          "page_number": null,
+          "text_sha256": "48cf3b5a7da757aa5a0f7677d7c6dfeb1031d9e21a6decc69f5439711180485c"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-13-13",
+          "page_number": null,
+          "text_sha256": "44533cec60e1b6f4b93afbb4809ab2b1fd306391b2f4e066a15079b0145ebf25"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-14-14",
+          "page_number": null,
+          "text_sha256": "4841d366c1f4ddc82975265e1fd972a4c8a707bda80c57c2ef17c9bca3e4d6e9"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-15-15",
+          "page_number": null,
+          "text_sha256": "b41bca536a8ce1844d2e835b65b6a4fe420b5e3480adc308dd9beb594254edc9"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-16-16",
+          "page_number": null,
+          "text_sha256": "246888f7bd09ba82bb8263daa311c1505955378d14457f6fe5e28aa15d3bd038"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-17-17",
+          "page_number": null,
+          "text_sha256": "b2da1b6c30806eb28ad745e0a5e9cb4041dd63d74502c1170365696ec90bc83a"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-18-18",
+          "page_number": null,
+          "text_sha256": "1d7e78eff51838e67b82a0ecd42ce705910e22c0ffcc8434eea6e4e22bc213dc"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-19-19",
+          "page_number": null,
+          "text_sha256": "19ebe81aaff7a7b302d82987d2b0a2dea9b2f3594e440072960dd8211fa1f80d"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-20-20",
+          "page_number": null,
+          "text_sha256": "d2890cd9885cefe17a9b4baccdaedd037b74f17707834b4ea721172de4e29ff0"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-1-rows-21-21",
+          "page_number": null,
+          "text_sha256": "ad142df8b2c3cd9f98cc8a44c3cf63a53cff5c0253a06ec394b46c110e3afb66"
+        }
+      ],
+      "recognition_status": "reviewed_html_tables"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "programmes-02",
+      "source": {
+        "title": "Бакалавр и Специалитет: направления подготовки КГТУ, 2026–2027",
+        "source_url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982",
+        "raw_path": "rag-kstu/data/expanded/sources/programmes.html",
+        "source_sha256": "6844f19b7f47daa5622c63e9e1c47a65e6d9845b3ec694c4f02a65ad38e73ca0",
+        "format": "html_programmes"
+      },
+      "scope": "bachelor_programmes",
+      "category": "prospective student",
+      "topic": [
+        "programmes"
+      ],
+      "audience_restrictions": [
+        "ТЕХНОЛОГИЧЕСКИЙ ИНСТИТУТ"
+      ],
+      "effective_date_evidence": {
+        "status": "explicit_2026_2027_intake",
+        "review_date": "2026-10-20",
+        "source_year": 2026
+      },
+      "limitations": [
+        "The page title includes bachelor and specialist programmes. Do not classify every specialization row as bachelor. This selection covers one institute; do not claim a complete university list."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-2-rows-2-2",
+          "page_number": null,
+          "text_sha256": "25ae4c25fed528124188bfabf65806f98bbb2552c2e2b6f5670793b536a4689d"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-2-rows-3-3",
+          "page_number": null,
+          "text_sha256": "91a0f9df3a272681bb62cd69ac50a51d02e830b76081160ecca380d9cd24f47f"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-2-rows-4-4",
+          "page_number": null,
+          "text_sha256": "1a7b980109489fed0250b38a7467b8076b494b6554e779061880ed30a9668c04"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-2-rows-5-5",
+          "page_number": null,
+          "text_sha256": "66ef6d2f98179dbc28dd54a445c19e03f810c5f46affcd6096b22e23a42ec717"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-2-rows-6-6",
+          "page_number": null,
+          "text_sha256": "443be2470da0900ad2f7924aa2ee6ad798c1861450bd0ee4ad06946f5f747c90"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-2-rows-7-7",
+          "page_number": null,
+          "text_sha256": "3e93f9de7bc2e11580928b96f379e1b04a8f05a4e26ea59d64aeea329d242384"
+        }
+      ],
+      "recognition_status": "reviewed_html_tables"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "programmes-03",
+      "source": {
+        "title": "Бакалавр и Специалитет: направления подготовки КГТУ, 2026–2027",
+        "source_url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982",
+        "raw_path": "rag-kstu/data/expanded/sources/programmes.html",
+        "source_sha256": "6844f19b7f47daa5622c63e9e1c47a65e6d9845b3ec694c4f02a65ad38e73ca0",
+        "format": "html_programmes"
+      },
+      "scope": "bachelor_programmes",
+      "category": "prospective student",
+      "topic": [
+        "programmes"
+      ],
+      "audience_restrictions": [
+        "ЭНЕРГЕТИЧЕСКИЙ ИНСТИТУТ"
+      ],
+      "effective_date_evidence": {
+        "status": "explicit_2026_2027_intake",
+        "review_date": "2026-10-20",
+        "source_year": 2026
+      },
+      "limitations": [
+        "The page title includes bachelor and specialist programmes. Do not classify every specialization row as bachelor. This selection covers one institute; do not claim a complete university list."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-3-rows-2-8",
+          "page_number": null,
+          "text_sha256": "3a75edc6ada46ea67d02eff146b581f754632fa7f0ad4562b49ff9df54ff49b2"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-3-rows-9-9",
+          "page_number": null,
+          "text_sha256": "a58fbde011dee2ef4da6d7f1be2ae5abda0214695a2cd1a28ca41d4dd2555fa3"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-3-rows-10-10",
+          "page_number": null,
+          "text_sha256": "96acf4dfb24474d1a7e2d01994378e035a045e502b4dddbda768adb274f603bc"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-3-rows-11-11",
+          "page_number": null,
+          "text_sha256": "b8af58cdcccf0470347a29fc216bbc89338fe4239467182a850af025cf327f2a"
+        }
+      ],
+      "recognition_status": "reviewed_html_tables"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "programmes-04",
+      "source": {
+        "title": "Бакалавр и Специалитет: направления подготовки КГТУ, 2026–2027",
+        "source_url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982",
+        "raw_path": "rag-kstu/data/expanded/sources/programmes.html",
+        "source_sha256": "6844f19b7f47daa5622c63e9e1c47a65e6d9845b3ec694c4f02a65ad38e73ca0",
+        "format": "html_programmes"
+      },
+      "scope": "bachelor_programmes",
+      "category": "prospective student",
+      "topic": [
+        "programmes"
+      ],
+      "audience_restrictions": [
+        "ИНСТИТУТ ТРАНСПОРТА И РОБОТОТЕХНИКИ"
+      ],
+      "effective_date_evidence": {
+        "status": "explicit_2026_2027_intake",
+        "review_date": "2026-10-20",
+        "source_year": 2026
+      },
+      "limitations": [
+        "The page title includes bachelor and specialist programmes. Do not classify every specialization row as bachelor. This selection covers one institute; do not claim a complete university list."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-4-rows-2-2",
+          "page_number": null,
+          "text_sha256": "a03708fe099d1bd111d7ee60628ea2fb13f31d728383ceb0fe4ce6fd8b115ae6"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-4-rows-3-3",
+          "page_number": null,
+          "text_sha256": "cede6072d4119a656cc10b45cce7096c95a617840439ade72fdcb314a4bb1447"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-4-rows-4-4",
+          "page_number": null,
+          "text_sha256": "8f7e75c829fab593ca14d4d4415978fbd4ef4ea477154402bb100ed6fa55e1d0"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-4-rows-5-5",
+          "page_number": null,
+          "text_sha256": "7dae32157162f684ef2a89b901b6f12adad8d27b01d911c3f0bf3c38370da346"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-4-rows-6-6",
+          "page_number": null,
+          "text_sha256": "6b80d5cb5890550f66f8f8dd6005ed97579b98a47d2ef2de58f9202908ea3f5f"
+        }
+      ],
+      "recognition_status": "reviewed_html_tables"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "programmes-05",
+      "source": {
+        "title": "Бакалавр и Специалитет: направления подготовки КГТУ, 2026–2027",
+        "source_url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982",
+        "raw_path": "rag-kstu/data/expanded/sources/programmes.html",
+        "source_sha256": "6844f19b7f47daa5622c63e9e1c47a65e6d9845b3ec694c4f02a65ad38e73ca0",
+        "format": "html_programmes"
+      },
+      "scope": "bachelor_programmes",
+      "category": "prospective student",
+      "topic": [
+        "programmes"
+      ],
+      "audience_restrictions": [
+        "КЫРГЫЗСКО-ГЕРМАНСКИЙ ТЕХНИЧЕСКИЙ ИНСТИТУТ"
+      ],
+      "effective_date_evidence": {
+        "status": "explicit_2026_2027_intake",
+        "review_date": "2026-10-20",
+        "source_year": 2026
+      },
+      "limitations": [
+        "The page title includes bachelor and specialist programmes. Do not classify every specialization row as bachelor. This selection covers one institute; do not claim a complete university list."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-5-rows-2-2",
+          "page_number": null,
+          "text_sha256": "1c7f5239af827dd7f9d1fd4ab53b32ef1365dea0c6f9e1d11c578d705509bab9"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-5-rows-3-3",
+          "page_number": null,
+          "text_sha256": "5363479ea0ff87ad6780091117a79faeae1089b9e1aef9f6580c565f3193eb21"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-5-rows-4-4",
+          "page_number": null,
+          "text_sha256": "cfef769619379d267541fef4f3dee9cae18bb1a00a42317049e7d03793411042"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-5-rows-5-5",
+          "page_number": null,
+          "text_sha256": "405c0cb1a40c8fb93e0693e761a767f6052d160738ad5f4e7a79e49b5cf7673a"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-5-rows-6-6",
+          "page_number": null,
+          "text_sha256": "311047ab4dc9d0b17adbda809a48a828e36a90ea6ddca7a8d00d25a56c3c9838"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-5-rows-7-7",
+          "page_number": null,
+          "text_sha256": "e676d2d645d242ab301fcd6ce89d526f108d5b25060f8cdae35afa853b782035"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-5-rows-8-8",
+          "page_number": null,
+          "text_sha256": "f70f1211ddb6bcf8434d4ad84848b73494eae370de3fc0e52a23fcbda0f35f88"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-5-rows-9-9",
+          "page_number": null,
+          "text_sha256": "54243a136789e0854e0f7a306aee33a348eb870e504da0a11faf401d4458501e"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-5-rows-10-10",
+          "page_number": null,
+          "text_sha256": "6d6dedf58e512661321e6a2a2b53489242a500c9bcc59ae7e7269a95f2aa5855"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-5-rows-11-11",
+          "page_number": null,
+          "text_sha256": "361ed0d6cb0a554209f9ee968bcc5750be66eef8d8544c10f378cfea9db34ff3"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-5-rows-12-12",
+          "page_number": null,
+          "text_sha256": "996adcb9679588a2e079829a9aceef34135ef88ed8064bb3e609d5b5601c27e7"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-5-rows-13-13",
+          "page_number": null,
+          "text_sha256": "55b7034960cd4d8af3a0895ee3529143323333b68f096cfdde3bf82b964b0a2d"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-5-rows-14-14",
+          "page_number": null,
+          "text_sha256": "50a220cb6b0a0a3bcf8381a8c322fa83e2f87779427f86241810b6072c9574a1"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-5-rows-15-15",
+          "page_number": null,
+          "text_sha256": "1196c1e91f0fbb6075c9b99e78f5dd9eeccf5908d6878233bc5e8e2ababe7377"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-5-rows-16-16",
+          "page_number": null,
+          "text_sha256": "0de7bfc9824070e62c2009cf6142008bc6f83d8e5757d5f242771bcefe4539d4"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-5-rows-17-17",
+          "page_number": null,
+          "text_sha256": "231e847068fbf58a51b117eec25a550fc4873d3b9b8c64f07917fedcae8a6834"
+        }
+      ],
+      "recognition_status": "reviewed_html_tables"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "programmes-06",
+      "source": {
+        "title": "Бакалавр и Специалитет: направления подготовки КГТУ, 2026–2027",
+        "source_url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982",
+        "raw_path": "rag-kstu/data/expanded/sources/programmes.html",
+        "source_sha256": "6844f19b7f47daa5622c63e9e1c47a65e6d9845b3ec694c4f02a65ad38e73ca0",
+        "format": "html_programmes"
+      },
+      "scope": "bachelor_programmes",
+      "category": "prospective student",
+      "topic": [
+        "programmes"
+      ],
+      "audience_restrictions": [
+        "ИНСТИТУТ ЭЛЕКТРОНИКИ И ТЕЛЕКОММУНИКАЦИЙ"
+      ],
+      "effective_date_evidence": {
+        "status": "explicit_2026_2027_intake",
+        "review_date": "2026-10-20",
+        "source_year": 2026
+      },
+      "limitations": [
+        "The page title includes bachelor and specialist programmes. Do not classify every specialization row as bachelor. This selection covers one institute; do not claim a complete university list."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-6-rows-2-2",
+          "page_number": null,
+          "text_sha256": "d944f944a4dfcbef98a158ce09221b019c08aafe602c8b41cb923b1613bdd0b0"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-6-rows-3-3",
+          "page_number": null,
+          "text_sha256": "2d551787b0a624120424b6cabd30cfac9706bac6e10873a92693438eff83ba55"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-6-rows-4-4",
+          "page_number": null,
+          "text_sha256": "d9ed790e12f6a829112b16e326645edfef04b5e223456c4cd17456fa4893c9b2"
+        }
+      ],
+      "recognition_status": "reviewed_html_tables"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "programmes-07",
+      "source": {
+        "title": "Бакалавр и Специалитет: направления подготовки КГТУ, 2026–2027",
+        "source_url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982",
+        "raw_path": "rag-kstu/data/expanded/sources/programmes.html",
+        "source_sha256": "6844f19b7f47daa5622c63e9e1c47a65e6d9845b3ec694c4f02a65ad38e73ca0",
+        "format": "html_programmes"
+      },
+      "scope": "bachelor_programmes",
+      "category": "prospective student",
+      "topic": [
+        "programmes"
+      ],
+      "audience_restrictions": [
+        "КЫРГЫЗСКИЙ ГОРНО-МЕТАЛЛУРГИЧЕСКИЙ ИНСТИТУТ ИМ. АК. У. АСАНАЛИЕВА"
+      ],
+      "effective_date_evidence": {
+        "status": "explicit_2026_2027_intake",
+        "review_date": "2026-10-20",
+        "source_year": 2026
+      },
+      "limitations": [
+        "The page title includes bachelor and specialist programmes. Do not classify every specialization row as bachelor. This selection covers one institute; do not claim a complete university list."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-7-rows-2-3",
+          "page_number": null,
+          "text_sha256": "6514dfa6ceefce5dec77f33906d900651bf3d968981f3b0577f2d60c673d9ac9"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-7-rows-4-5",
+          "page_number": null,
+          "text_sha256": "9a28eabcf2821219010207877f53958944ae004662ff6dc508c2ae61dea1182f"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-7-rows-6-11",
+          "page_number": null,
+          "text_sha256": "3bc980f6fdb7f7b802e0695ebc53ae3dff265ce0d4bbb201a57207b832b589d7"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-7-rows-12-12",
+          "page_number": null,
+          "text_sha256": "13e33b95993d68b9ccbb0389c3036099e1b81ed176dd4817c13c8caaf3729fdd"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-7-rows-13-13",
+          "page_number": null,
+          "text_sha256": "a194e0f6cf7d8c5284c844d61734d64e15c4041aae1a4c4f248cf77846025ae1"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-7-rows-14-14",
+          "page_number": null,
+          "text_sha256": "789a638cb23a3bae932e6fda53ea6b4b3d7706c6a3cbb62de405571e0e3441d8"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-7-rows-15-15",
+          "page_number": null,
+          "text_sha256": "710d7149811c302a69c657e5a29df0aa7debc531b6aec740cfcde8b8bd4c8804"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-7-rows-16-16",
+          "page_number": null,
+          "text_sha256": "e3c0b6c04f12c211a04a5d67e493f24415fd34ef8e76d030d286f293ab4fdbaf"
+        }
+      ],
+      "recognition_status": "reviewed_html_tables"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "programmes-08",
+      "source": {
+        "title": "Бакалавр и Специалитет: направления подготовки КГТУ, 2026–2027",
+        "source_url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982",
+        "raw_path": "rag-kstu/data/expanded/sources/programmes.html",
+        "source_sha256": "6844f19b7f47daa5622c63e9e1c47a65e6d9845b3ec694c4f02a65ad38e73ca0",
+        "format": "html_programmes"
+      },
+      "scope": "bachelor_programmes",
+      "category": "prospective student",
+      "topic": [
+        "programmes"
+      ],
+      "audience_restrictions": [
+        "КЫРГЫЗСКИЙ ИНЖЕНЕРНО-СТРОИТЕЛЬНЫЙ ИНСТИТУТ ИМ. Н. ИСАНОВА"
+      ],
+      "effective_date_evidence": {
+        "status": "explicit_2026_2027_intake",
+        "review_date": "2026-10-20",
+        "source_year": 2026
+      },
+      "limitations": [
+        "The page title includes bachelor and specialist programmes. Do not classify every specialization row as bachelor. This selection covers one institute; do not claim a complete university list."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-8-rows-2-10",
+          "page_number": null,
+          "text_sha256": "e6da727bdc16c74aa43153d02710b667e989d652052c668895aa8ae78788ae43"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-8-rows-11-11",
+          "page_number": null,
+          "text_sha256": "d6583606e06ae64764d7b8b85cdbb8d0da28740eb2318ae12aff99e2eca652cb"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-8-rows-12-12",
+          "page_number": null,
+          "text_sha256": "1a54c3245a1fc1ddb4ee83156f9ffc9f8ceb702fe5a7bd0acc901c2e3833b4e3"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-8-rows-13-13",
+          "page_number": null,
+          "text_sha256": "f971ca224b411edfd116815df8f2fe822c468633651bca47c0297914f0c6bbd7"
+        }
+      ],
+      "recognition_status": "reviewed_html_tables"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "programmes-09",
+      "source": {
+        "title": "Бакалавр и Специалитет: направления подготовки КГТУ, 2026–2027",
+        "source_url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982",
+        "raw_path": "rag-kstu/data/expanded/sources/programmes.html",
+        "source_sha256": "6844f19b7f47daa5622c63e9e1c47a65e6d9845b3ec694c4f02a65ad38e73ca0",
+        "format": "html_programmes"
+      },
+      "scope": "bachelor_programmes",
+      "category": "prospective student",
+      "topic": [
+        "programmes"
+      ],
+      "audience_restrictions": [
+        "ИНСТИТУТ ПУТЕЙ СООБЩЕНИЯ"
+      ],
+      "effective_date_evidence": {
+        "status": "explicit_2026_2027_intake",
+        "review_date": "2026-10-20",
+        "source_year": 2026
+      },
+      "limitations": [
+        "The page title includes bachelor and specialist programmes. Do not classify every specialization row as bachelor. This selection covers one institute; do not claim a complete university list."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-9-rows-2-2",
+          "page_number": null,
+          "text_sha256": "eaa6483874fb9bcb3a0854d458f987788c8a4d1cdab4a26fc1bb28b040042605"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-9-rows-3-3",
+          "page_number": null,
+          "text_sha256": "7ba6879f1ff643ad06e8e0849f20b997a80eaada8d12e0f4594ddd1beb9e92fd"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-9-rows-4-4",
+          "page_number": null,
+          "text_sha256": "b4379c53963865e9369a4344d72ec1cc02c7a95702004ec722c2869d9d4d36d4"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-9-rows-5-5",
+          "page_number": null,
+          "text_sha256": "358252f070571576616aaf20b195aaa8ed036a51469209a2ff7a86d995f030b1"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-9-rows-6-6",
+          "page_number": null,
+          "text_sha256": "73a9fa828003f13f8ed3fb5f55d02aadffde8da1034ed2d8f20bb2b3ff693105"
+        }
+      ],
+      "recognition_status": "reviewed_html_tables"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "programmes-10",
+      "source": {
+        "title": "Бакалавр и Специалитет: направления подготовки КГТУ, 2026–2027",
+        "source_url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982",
+        "raw_path": "rag-kstu/data/expanded/sources/programmes.html",
+        "source_sha256": "6844f19b7f47daa5622c63e9e1c47a65e6d9845b3ec694c4f02a65ad38e73ca0",
+        "format": "html_programmes"
+      },
+      "scope": "bachelor_programmes",
+      "category": "prospective student",
+      "topic": [
+        "programmes"
+      ],
+      "audience_restrictions": [
+        "ИНСТИТУТ АРХИТЕКТУРЫ И ДИЗАЙНА"
+      ],
+      "effective_date_evidence": {
+        "status": "explicit_2026_2027_intake",
+        "review_date": "2026-10-20",
+        "source_year": 2026
+      },
+      "limitations": [
+        "The page title includes bachelor and specialist programmes. Do not classify every specialization row as bachelor. This selection covers one institute; do not claim a complete university list."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-10-rows-2-2",
+          "page_number": null,
+          "text_sha256": "8c9c3dcd374aed5b2a6559380abb9f232b6cd800c30758e7546d041707b8dd72"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-10-rows-3-3",
+          "page_number": null,
+          "text_sha256": "9cfd8061454f2e9e27faf192fdba7065fdb5b9451ee6abed91dde1efefe430d7"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-10-rows-4-4",
+          "page_number": null,
+          "text_sha256": "e9605221185ed1381697b70785fc33fa9b157c495c3968a9fec0656c3d63bc93"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-10-rows-5-5",
+          "page_number": null,
+          "text_sha256": "fb442b9d674f053a0d23d3b550efff0a73aca061c6ae459370542a4b8079d079"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-10-rows-6-6",
+          "page_number": null,
+          "text_sha256": "a57fed5e645f56b9c9cbf4ee613f322888bad84f7b224eafa8b245e35cf845fe"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-10-rows-7-7",
+          "page_number": null,
+          "text_sha256": "7e946af57f2d13772a7f9634dd46b3c323c13f4f3d4b1c39df3253a37b8616fa"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-10-rows-8-8",
+          "page_number": null,
+          "text_sha256": "a942a9dd0b5e242996059438103a1287d29892106403b3b13e7a6680cfd452dd"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-10-rows-9-9",
+          "page_number": null,
+          "text_sha256": "85194271d8a7055b9a05341c959ba912a82b15c3a2b621a52f1966c426641f64"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-10-rows-10-11",
+          "page_number": null,
+          "text_sha256": "24b72fc3b8b85b8666e60f1c706c1a2041e000d191cc92265598b33f9c734a64"
+        }
+      ],
+      "recognition_status": "reviewed_html_tables"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "programmes-11",
+      "source": {
+        "title": "Бакалавр и Специалитет: направления подготовки КГТУ, 2026–2027",
+        "source_url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982",
+        "raw_path": "rag-kstu/data/expanded/sources/programmes.html",
+        "source_sha256": "6844f19b7f47daa5622c63e9e1c47a65e6d9845b3ec694c4f02a65ad38e73ca0",
+        "format": "html_programmes"
+      },
+      "scope": "bachelor_programmes",
+      "category": "prospective student",
+      "topic": [
+        "programmes"
+      ],
+      "audience_restrictions": [
+        "МЕЖДУНАРОДНАЯ ВЫСШАЯ ШКОЛА ЛОГИСТИКИ"
+      ],
+      "effective_date_evidence": {
+        "status": "explicit_2026_2027_intake",
+        "review_date": "2026-10-20",
+        "source_year": 2026
+      },
+      "limitations": [
+        "The page title includes bachelor and specialist programmes. Do not classify every specialization row as bachelor. This selection covers one institute; do not claim a complete university list."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-11-rows-2-2",
+          "page_number": null,
+          "text_sha256": "cde29520b3987ad62b676e23bc40c6c5a3d4786cf8239b90467c062e246f0705"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-11-rows-3-3",
+          "page_number": null,
+          "text_sha256": "9d2d24db1e4dad397cddc0d479d3e1e9f034415da9af58701fe6ec85924adb09"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-11-rows-4-4",
+          "page_number": null,
+          "text_sha256": "388700e3af1dcc03f3f2d02aec05bf3e5fec8ab7194601d733340a6574d5447b"
+        }
+      ],
+      "recognition_status": "reviewed_html_tables"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "programmes-12",
+      "source": {
+        "title": "Бакалавр и Специалитет: направления подготовки КГТУ, 2026–2027",
+        "source_url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982",
+        "raw_path": "rag-kstu/data/expanded/sources/programmes.html",
+        "source_sha256": "6844f19b7f47daa5622c63e9e1c47a65e6d9845b3ec694c4f02a65ad38e73ca0",
+        "format": "html_programmes"
+      },
+      "scope": "bachelor_programmes",
+      "category": "prospective student",
+      "topic": [
+        "programmes"
+      ],
+      "audience_restrictions": [
+        "ВЫСШАЯ ШКОЛА ЭКОНОМИКИ И БИЗНЕСА"
+      ],
+      "effective_date_evidence": {
+        "status": "explicit_2026_2027_intake",
+        "review_date": "2026-10-20",
+        "source_year": 2026
+      },
+      "limitations": [
+        "The page title includes bachelor and specialist programmes. Do not classify every specialization row as bachelor. This selection covers one institute; do not claim a complete university list."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-12-rows-2-5",
+          "page_number": null,
+          "text_sha256": "4930c60c6f91cb3c791c4a2f579af23ac1f2716ece3131c84f0f7da00c3d1121"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-12-rows-6-6",
+          "page_number": null,
+          "text_sha256": "62cf276ba837b4f13c212ceec6bc389e257b4cf0acbc6ffe91236878307fbca7"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-12-rows-7-7",
+          "page_number": null,
+          "text_sha256": "53849ec288db6284e488e264149b0eba871469290feb5d603349f137ad9bd818"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-12-rows-8-8",
+          "page_number": null,
+          "text_sha256": "913b5767a773d352f65e2312e7fa2540c1c8906230bd48cec661b6902cfd6a02"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-12-rows-9-9",
+          "page_number": null,
+          "text_sha256": "0558aabcb31605829a188e8c0d5f2977ae3341c51234fff630846c7c1fa5d42c"
+        },
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/programmes-passages.json",
+          "artifact_sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+          "passage_id": "programmes-table-12-rows-10-10",
+          "page_number": null,
+          "text_sha256": "c1f287545648d8e4304d971cefe66ddac12042ae01fd618b48e8da143c52403c"
+        }
+      ],
+      "recognition_status": "reviewed_html_tables"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "bachelor-documents-01",
+      "source": {
+        "title": "Документы для поступления: официальный перечень КГТУ",
+        "source_url": "https://kstu.kg/abiturientu/4/dokumenty#c4011",
+        "raw_path": "rag-kstu/data/expanded/sources/admissions-documents.html",
+        "source_sha256": "8ebbfe632d6b78a2ad0aa8fe8c76d1a0c9433dd37368b01f7ec4b0cfef81e060",
+        "format": "html_requirements"
+      },
+      "scope": "bachelor_admissions",
+      "category": "prospective student",
+      "topic": [
+        "admissions_documents"
+      ],
+      "audience_restrictions": [
+        "На базе 11-го класса на бакалавриат по ОРТ"
+      ],
+      "effective_date_evidence": {
+        "status": "currently_published_undated_checklist",
+        "review_date": "2026-10-20",
+        "source_year": null
+      },
+      "limitations": [
+        "The central checklist prints no intake year. Describe the currently published checklist, without asserting an explicit 2026-2027 date. Other applicant groups have different lists."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/admissions-documents-passages.json",
+          "artifact_sha256": "8d0812a607a8169d52d70ef8e0fd8383828a6d6f328ab85723d1e1481ea00717",
+          "passage_id": "requirements-section-1",
+          "page_number": null,
+          "text_sha256": "c9e3fb38ebdc5b7f27cf5fb2b240ca63760e67addb6e5a7a26d295fa4c89270d"
+        }
+      ],
+      "recognition_status": "reviewed_html_checklist"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "bachelor-documents-02",
+      "source": {
+        "title": "Документы для поступления: официальный перечень КГТУ",
+        "source_url": "https://kstu.kg/abiturientu/4/dokumenty#c4011",
+        "raw_path": "rag-kstu/data/expanded/sources/admissions-documents.html",
+        "source_sha256": "8ebbfe632d6b78a2ad0aa8fe8c76d1a0c9433dd37368b01f7ec4b0cfef81e060",
+        "format": "html_requirements"
+      },
+      "scope": "bachelor_admissions",
+      "category": "prospective student",
+      "topic": [
+        "admissions_documents"
+      ],
+      "audience_restrictions": [
+        "На базе колледжа на ускоренную форму обучения"
+      ],
+      "effective_date_evidence": {
+        "status": "currently_published_undated_checklist",
+        "review_date": "2026-10-20",
+        "source_year": null
+      },
+      "limitations": [
+        "The central checklist prints no intake year. Describe the currently published checklist, without asserting an explicit 2026-2027 date. Other applicant groups have different lists."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/admissions-documents-passages.json",
+          "artifact_sha256": "8d0812a607a8169d52d70ef8e0fd8383828a6d6f328ab85723d1e1481ea00717",
+          "passage_id": "requirements-section-2",
+          "page_number": null,
+          "text_sha256": "217a030e0dcd56a63bfe95cbda7bfda02ec5304b62375496144d6751f74e50ba"
+        }
+      ],
+      "recognition_status": "reviewed_html_checklist"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "bachelor-documents-03",
+      "source": {
+        "title": "Документы для поступления: официальный перечень КГТУ",
+        "source_url": "https://kstu.kg/abiturientu/4/dokumenty#c4011",
+        "raw_path": "rag-kstu/data/expanded/sources/admissions-documents.html",
+        "source_sha256": "8ebbfe632d6b78a2ad0aa8fe8c76d1a0c9433dd37368b01f7ec4b0cfef81e060",
+        "format": "html_requirements"
+      },
+      "scope": "bachelor_admissions",
+      "category": "prospective student",
+      "topic": [
+        "admissions_documents"
+      ],
+      "audience_restrictions": [
+        "На базе высшего образования для получения второго высшего образования"
+      ],
+      "effective_date_evidence": {
+        "status": "currently_published_undated_checklist",
+        "review_date": "2026-10-20",
+        "source_year": null
+      },
+      "limitations": [
+        "The central checklist prints no intake year. Describe the currently published checklist, without asserting an explicit 2026-2027 date. Other applicant groups have different lists."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/admissions-documents-passages.json",
+          "artifact_sha256": "8d0812a607a8169d52d70ef8e0fd8383828a6d6f328ab85723d1e1481ea00717",
+          "passage_id": "requirements-section-3",
+          "page_number": null,
+          "text_sha256": "09c11c297a67af6a8e549ef85382afc38633257215ddf51bd5ff54df20905268"
+        }
+      ],
+      "recognition_status": "reviewed_html_checklist"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "bachelor-documents-04",
+      "source": {
+        "title": "Документы для поступления: официальный перечень КГТУ",
+        "source_url": "https://kstu.kg/abiturientu/4/dokumenty#c4011",
+        "raw_path": "rag-kstu/data/expanded/sources/admissions-documents.html",
+        "source_sha256": "8ebbfe632d6b78a2ad0aa8fe8c76d1a0c9433dd37368b01f7ec4b0cfef81e060",
+        "format": "html_requirements"
+      },
+      "scope": "bachelor_admissions",
+      "category": "prospective student",
+      "topic": [
+        "admissions_documents"
+      ],
+      "audience_restrictions": [
+        "На базе профессионального лицея"
+      ],
+      "effective_date_evidence": {
+        "status": "currently_published_undated_checklist",
+        "review_date": "2026-10-20",
+        "source_year": null
+      },
+      "limitations": [
+        "The central checklist prints no intake year. Describe the currently published checklist, without asserting an explicit 2026-2027 date. Other applicant groups have different lists."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/admissions-documents-passages.json",
+          "artifact_sha256": "8d0812a607a8169d52d70ef8e0fd8383828a6d6f328ab85723d1e1481ea00717",
+          "passage_id": "requirements-section-4",
+          "page_number": null,
+          "text_sha256": "9ad657b2f6d1ca2530ce836fa8091b6aaed04e459b15ca1a4ce3b8fb52d912e9"
+        }
+      ],
+      "recognition_status": "reviewed_html_checklist"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "bachelor-documents-05",
+      "source": {
+        "title": "Документы для поступления: официальный перечень КГТУ",
+        "source_url": "https://kstu.kg/abiturientu/4/dokumenty#c4011",
+        "raw_path": "rag-kstu/data/expanded/sources/admissions-documents.html",
+        "source_sha256": "8ebbfe632d6b78a2ad0aa8fe8c76d1a0c9433dd37368b01f7ec4b0cfef81e060",
+        "format": "html_requirements"
+      },
+      "scope": "bachelor_admissions",
+      "category": "prospective student",
+      "topic": [
+        "admissions_documents"
+      ],
+      "audience_restrictions": [
+        "Для иностранных граждан"
+      ],
+      "effective_date_evidence": {
+        "status": "currently_published_undated_checklist",
+        "review_date": "2026-10-20",
+        "source_year": null
+      },
+      "limitations": [
+        "The central checklist prints no intake year. Describe the currently published checklist, without asserting an explicit 2026-2027 date. Other applicant groups have different lists."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/admissions-documents-passages.json",
+          "artifact_sha256": "8d0812a607a8169d52d70ef8e0fd8383828a6d6f328ab85723d1e1481ea00717",
+          "passage_id": "requirements-section-5",
+          "page_number": null,
+          "text_sha256": "92da5fd60654ddc5c43a451c8f5a850baedd0e4f318518b7b86d49045e77702e"
+        }
+      ],
+      "recognition_status": "reviewed_html_checklist"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "published-policy-retake-fx-i-f-published-2025",
+      "source": {
+        "title": "Положение о проведении текущей и промежут. аттес.обучающихся высшего и среднего проф-го образования КГТУ им.И.Раззакова",
+        "source_url": "https://kstu.kg/fileadmin/user_upload/polozhenie_o_provedenii_tekushchei_i_promezhutochnoi_attestacii_obuchajushchikhsja_vpo_i_spo_kgtu_im.i.razzakova_2025_compressed.pdf",
+        "raw_path": "data/expansion/pilot-20261019/raw/originals/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.pdf",
+        "source_sha256": "dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d",
+        "format": "pdf"
+      },
+      "scope": "general_academic_policy",
+      "category": "current student",
+      "topic": [
+        "retakes"
+      ],
+      "audience_restrictions": [
+        "KSTU higher and secondary professional education students, as stated by source title."
+      ],
+      "context": [
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 0,
+          "text_sha256": "8c683d2a9b5676e0d7509c753a9e87df8d7788595ca5166d2cea983c488743bd"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 1,
+          "text_sha256": "5216f6ea208391e68309ecee8618a77eeb002ed284ba3fb3f2b1b8aad925255c"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 2,
+          "text_sha256": "9f808630723894d6c618b7be52c074043e9ec302f2fb4ff1907689f8d75e222d"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 3,
+          "text_sha256": "fb94931c3655e4550469f0dc1aa4aa80fdaf7107bd0d9b57f49b7541d4eda8ba"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 4,
+          "text_sha256": "ccb889c5f8082b43cff1f4829ae6172bc6dec9a0f5bd3e3c3c377fc19012e3a9"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 5,
+          "text_sha256": "f6a5b45cffe7b2b29743a4bcb0cd426562fd93a16344b33a7f181473e4ec8397"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 6,
+          "text_sha256": "bda050585a00f0f6cb502350559d75532ae3b244c9498b996e7c5df2d98dfc8d"
+        }
+      ],
+      "units": [
+        {
+          "unit_id": "policy-retake-fx-i-f-published-2025-unit-1",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 6,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "76da415f7cf19e70357c18e6ff9ecae4cdbd4eb531d2ed880d756c969f182aad"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 6,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "ef0ac99b05234e1ff9cadeb071ab1a07db36458fd0bfc3a578a366012daabe95"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 6,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "3a74f4ac655e461c39baa7f0ab16024d9123fece8d77f1888c3ed5accaf39a07"
+            }
+          ]
+        }
+      ],
+      "effective_date_evidence": {
+        "status": "officially_published_policy_2025",
+        "publication_year": 2025,
+        "review_date": "2026-10-20",
+        "publication_indexes": [
+          {
+            "url": "https://kstu.kg/glavnoe-menju/abiturientu/uchebnyi-otdel/zagolovok-po-umolchaniju",
+            "verified_live": true,
+            "observed": "All four policies appear together under Положения, alongside2026-27academiccalendar. No replacement version of these titles appears in this index."
+          },
+          {
+            "url": "https://kstu.kg/otdel/otdel-kachestva-obrazovanija/lo",
+            "verified_live": true,
+            "observed": "All four policies appear under Нормативные документы2025года; distinct2026section includes appeals policy. This index is publication context, not explicit legal certification of non-repeal."
+          }
+        ],
+        "applicability": "Published-policy explanation. Query cohort is 2026-2027; explicit non-repeal and individual eligibility are not established."
+      },
+      "limitations": [
+        "General explanation according to officially published2025policy. No assertion that an individual is eligible or that the policy is legally unchanged in2026-27.",
+        "Preserve all exceptions. Do not invent rector order dates or correct the printed amendment-sheet inconsistency.",
+        "The old appeal deadline in clause 3.4 is excluded because a separately published 2026 appeals policy differs."
+      ],
+      "recognition_status": "reviewed_selected_pdf_passage"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "published-policy-retake-rules-published-2025",
+      "source": {
+        "title": "Положение о проведении текущей и промежут. аттес.обучающихся высшего и среднего проф-го образования КГТУ им.И.Раззакова",
+        "source_url": "https://kstu.kg/fileadmin/user_upload/polozhenie_o_provedenii_tekushchei_i_promezhutochnoi_attestacii_obuchajushchikhsja_vpo_i_spo_kgtu_im.i.razzakova_2025_compressed.pdf",
+        "raw_path": "data/expansion/pilot-20261019/raw/originals/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.pdf",
+        "source_sha256": "dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d",
+        "format": "pdf"
+      },
+      "scope": "general_academic_policy",
+      "category": "current student",
+      "topic": [
+        "retakes"
+      ],
+      "audience_restrictions": [
+        "KSTU higher and secondary professional education students, as stated by source title."
+      ],
+      "context": [
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 0,
+          "text_sha256": "8c683d2a9b5676e0d7509c753a9e87df8d7788595ca5166d2cea983c488743bd"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 1,
+          "text_sha256": "5216f6ea208391e68309ecee8618a77eeb002ed284ba3fb3f2b1b8aad925255c"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 2,
+          "text_sha256": "9f808630723894d6c618b7be52c074043e9ec302f2fb4ff1907689f8d75e222d"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 3,
+          "text_sha256": "fb94931c3655e4550469f0dc1aa4aa80fdaf7107bd0d9b57f49b7541d4eda8ba"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 4,
+          "text_sha256": "ccb889c5f8082b43cff1f4829ae6172bc6dec9a0f5bd3e3c3c377fc19012e3a9"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 5,
+          "text_sha256": "f6a5b45cffe7b2b29743a4bcb0cd426562fd93a16344b33a7f181473e4ec8397"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 6,
+          "text_sha256": "bda050585a00f0f6cb502350559d75532ae3b244c9498b996e7c5df2d98dfc8d"
+        }
+      ],
+      "units": [
+        {
+          "unit_id": "policy-retake-rules-published-2025-unit-1",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 11,
+              "text_sha256": "d2c46faf5ce975a6607f1e9bbdd26a5391299cddb7ea48414ba275ebe971e1bb"
+            }
+          ]
+        },
+        {
+          "unit_id": "policy-retake-rules-published-2025-unit-2",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 12,
+              "text_sha256": "cf54dad0c4fff1afda5cc9f4fb3115664b1590e5beff570192a651a84f175506"
+            }
+          ]
+        },
+        {
+          "unit_id": "policy-retake-rules-published-2025-unit-3",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 13,
+              "text_sha256": "cf1cb9585167d2f67f6a2aab01b9a318411089121e1613aec6f96708f1f62a0e"
+            }
+          ]
+        },
+        {
+          "unit_id": "policy-retake-rules-published-2025-unit-4",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 14,
+              "text_sha256": "633c69d69bbc109e3e6d79326b554a90342e807901b5e180865f6b3d7e966908"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 8,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "18727e58c0d3f6ce9994ea0075e831422e354c02458bb4d3d6c6b8d11fe54a36"
+            }
+          ]
+        },
+        {
+          "unit_id": "policy-retake-rules-published-2025-unit-5",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 8,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "a9ca8b473fdb74359671b9ab2b98e685d83a180dc884a084d3d0e0fe8f659607"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 8,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "e969dc399bb04df6fbf48cd9bae5d8a32f7a9b5370c28366dc9a9ad89f39d9ae"
+            }
+          ]
+        },
+        {
+          "unit_id": "policy-retake-rules-published-2025-unit-6",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 8,
+              "reader": "block",
+              "block_index": 4,
+              "text_sha256": "9017bc569300d828ccaef06e0c1ea329867a51b3110d6fc667c14f102f8ab108"
+            }
+          ]
+        },
+        {
+          "unit_id": "policy-retake-rules-published-2025-unit-7",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 8,
+              "reader": "block",
+              "block_index": 5,
+              "text_sha256": "0ca059712b03d9ca22608277b102fa79cfb14908a565b75010015549b207231f"
+            }
+          ]
+        },
+        {
+          "unit_id": "policy-retake-rules-published-2025-unit-8",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 8,
+              "reader": "block",
+              "block_index": 6,
+              "text_sha256": "e6cb92156090d6f7bc32b9fa3e4adeadcb2f8d5fff42478a681b7ff7a39b5b86"
+            }
+          ]
+        },
+        {
+          "unit_id": "policy-retake-rules-published-2025-unit-9",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 8,
+              "reader": "block",
+              "block_index": 7,
+              "text_sha256": "3cc3a928fabde54de410ca4baea187878c0aa54c550751a4d47f1313041c92f4"
+            }
+          ]
+        },
+        {
+          "unit_id": "policy-retake-rules-published-2025-unit-10",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 8,
+              "reader": "block",
+              "block_index": 8,
+              "text_sha256": "2912def80108e1e4b12923f7187894ce41b48d67b30fe55f3854b014b2eacb61"
+            }
+          ]
+        }
+      ],
+      "effective_date_evidence": {
+        "status": "officially_published_policy_2025",
+        "publication_year": 2025,
+        "review_date": "2026-10-20",
+        "publication_indexes": [
+          {
+            "url": "https://kstu.kg/glavnoe-menju/abiturientu/uchebnyi-otdel/zagolovok-po-umolchaniju",
+            "verified_live": true,
+            "observed": "All four policies appear together under Положения, alongside2026-27academiccalendar. No replacement version of these titles appears in this index."
+          },
+          {
+            "url": "https://kstu.kg/otdel/otdel-kachestva-obrazovanija/lo",
+            "verified_live": true,
+            "observed": "All four policies appear under Нормативные документы2025года; distinct2026section includes appeals policy. This index is publication context, not explicit legal certification of non-repeal."
+          }
+        ],
+        "applicability": "Published-policy explanation. Query cohort is 2026-2027; explicit non-repeal and individual eligibility are not established."
+      },
+      "limitations": [
+        "General explanation according to officially published2025policy. No assertion that an individual is eligible or that the policy is legally unchanged in2026-27.",
+        "Preserve all exceptions. Do not invent rector order dates or correct the printed amendment-sheet inconsistency.",
+        "The old appeal deadline in clause 3.4 is excluded because a separately published 2026 appeals policy differs."
+      ],
+      "recognition_status": "reviewed_selected_pdf_passage"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "published-policy-gpa-formula-published-2025",
+      "source": {
+        "title": "Положение об орган. учеб. процесса ВПО и СПО в КГТУ им. И.Раззакова с примен. акад. кредитов",
+        "source_url": "https://kstu.kg/fileadmin/user_upload/polozhenie_ob_organizacii_uchebnogo_processa_vpo_i_spo_v_kgtu_im.i.razzakova_s_primeneniem_akedemicheskikh_kreditov_compressed_compressed.pdf",
+        "raw_path": "data/expansion/pilot-20261019/raw/originals/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.pdf",
+        "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+        "format": "pdf"
+      },
+      "scope": "general_academic_policy",
+      "category": "current student",
+      "topic": [
+        "gpa"
+      ],
+      "audience_restrictions": [
+        "KSTU higher and secondary professional education students, as stated by source title."
+      ],
+      "context": [
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "artifact_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 0,
+          "text_sha256": "41d5902d16f6fc2af043fe9e539d8a7908bf17db4d70c824ce35d57747a5d3f5"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "artifact_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 1,
+          "text_sha256": "5216f6ea208391e68309ecee8618a77eeb002ed284ba3fb3f2b1b8aad925255c"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "artifact_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 2,
+          "text_sha256": "cba99436ba893ef68be92459820b0cf87fa74efca590092d9adc626f78247743"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "artifact_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 3,
+          "text_sha256": "7a93d92321b0ea32d9b8cc8adb5848187f2d769fa2a57655510cdbb449a4f798"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "artifact_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 4,
+          "text_sha256": "ccb889c5f8082b43cff1f4829ae6172bc6dec9a0f5bd3e3c3c377fc19012e3a9"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "artifact_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 5,
+          "text_sha256": "0864dc9259f83d296c8205e6841885560c5d634338918033bb752bfc38f1fc0c"
+        }
+      ],
+      "units": [
+        {
+          "unit_id": "policy-gpa-formula-published-2025-unit-1",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+              "artifact_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+              "page_number": 16,
+              "reader": "block",
+              "block_index": 9,
+              "text_sha256": "ec99379bf8fc2723a3c2579cbddfeef6bc900bb9d7bcae35a7cad252894f5690"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+              "artifact_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+              "page_number": 16,
+              "reader": "block",
+              "block_index": 10,
+              "text_sha256": "ead5e417dfccfd10ffd4f37174f1b8738c06bca455bd2d2797bf22d303b534f0"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+              "artifact_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+              "page_number": 16,
+              "reader": "block",
+              "block_index": 11,
+              "text_sha256": "d9fdaf4157a0d724acefb07174178ee41871a801415a25694bbe2e00ed693054"
+            }
+          ]
+        }
+      ],
+      "effective_date_evidence": {
+        "status": "officially_published_policy_2025",
+        "publication_year": 2025,
+        "review_date": "2026-10-20",
+        "publication_indexes": [
+          {
+            "url": "https://kstu.kg/glavnoe-menju/abiturientu/uchebnyi-otdel/zagolovok-po-umolchaniju",
+            "verified_live": true,
+            "observed": "All four policies appear together under Положения, alongside2026-27academiccalendar. No replacement version of these titles appears in this index."
+          },
+          {
+            "url": "https://kstu.kg/otdel/otdel-kachestva-obrazovanija/lo",
+            "verified_live": true,
+            "observed": "All four policies appear under Нормативные документы2025года; distinct2026section includes appeals policy. This index is publication context, not explicit legal certification of non-repeal."
+          }
+        ],
+        "applicability": "Published-policy explanation. Query cohort is 2026-2027; explicit non-repeal and individual eligibility are not established."
+      },
+      "limitations": [
+        "General explanation according to officially published2025policy. No assertion that an individual is eligible or that the policy is legally unchanged in2026-27.",
+        "Preserve all exceptions. Do not invent rector order dates or correct the printed amendment-sheet inconsistency.",
+        "The old appeal deadline in clause 3.4 is excluded because a separately published 2026 appeals policy differs."
+      ],
+      "recognition_status": "reviewed_selected_pdf_passage"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "published-policy-academic-leave-published-2025",
+      "source": {
+        "title": "Положение о порядке перев., отч., восст. и предос. акад.отпусков обуч. высшего и сред. проф.образ-я в КГТУ им.И.Раззакова",
+        "source_url": "https://kstu.kg/fileadmin/user_upload/polozhenie_o_porjadke_perevoda__otchislenija__vosstanovlenija_i_predostavlenija_akademicheskikh_otpuskov_obuchajushchimsja_vysshego_i_srednego__compressed.pdf",
+        "raw_path": "data/expansion/pilot-20261019/raw/originals/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.pdf",
+        "source_sha256": "a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f",
+        "format": "pdf"
+      },
+      "scope": "general_academic_policy",
+      "category": "current student",
+      "topic": [
+        "academic_leave"
+      ],
+      "audience_restrictions": [
+        "KSTU higher and secondary professional education students, as stated by source title."
+      ],
+      "context": [
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 0,
+          "text_sha256": "8c683d2a9b5676e0d7509c753a9e87df8d7788595ca5166d2cea983c488743bd"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 1,
+          "text_sha256": "5216f6ea208391e68309ecee8618a77eeb002ed284ba3fb3f2b1b8aad925255c"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 2,
+          "text_sha256": "1d1e294b07b225d7ec60f6dd1eadd28ff7170170eaa17bf11bfba093e0acd60d"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 3,
+          "text_sha256": "1850bf2ce881b60528accac18a2d30eac3c3b81cc7711a9d3d5ecdb6fe45728f"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 4,
+          "text_sha256": "d3b70441de0c88fd46d2b6fb6fb7cd1beee4c6bdc2fc6536adc97d159ba6f9d4"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 5,
+          "text_sha256": "e4ba703768aadcb1e27330de026ff50e2252c2d095f9f10b17833bdf3e22d497"
+        },
+        {
+          "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "page_number": 1,
+          "reader": "block",
+          "block_index": 6,
+          "text_sha256": "31a0f73317bf28918f8e4cb9aa4e26056b7b2c7cf66cdac0b569f560b1aca820"
+        }
+      ],
+      "units": [
+        {
+          "unit_id": "policy-academic-leave-published-2025-unit-1",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 8,
+              "text_sha256": "4e3517b52cc07cef86b1e22c3d3ffdc544d1a87753cbbe05d7f4a2fddb1d6aa6"
+            }
+          ]
+        },
+        {
+          "unit_id": "policy-academic-leave-published-2025-unit-2",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 9,
+              "text_sha256": "166ed1c05675cc9e09d50920b877c8312b02916f1b6ed5fd71fda3c00844e506"
+            }
+          ]
+        },
+        {
+          "unit_id": "policy-academic-leave-published-2025-unit-3",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 10,
+              "text_sha256": "c46120a13a18a8d07f90c540263de44dc9a51dd18cf5d8d47e819d89d7fe6d60"
+            }
+          ]
+        },
+        {
+          "unit_id": "policy-academic-leave-published-2025-unit-4",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 11,
+              "text_sha256": "d14ea1b2d07b2e0e6bcff0757b345c8351e47066446ef65bc6a53a611a4becf9"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 12,
+              "text_sha256": "f9d962e25b7f500cb1498cb8b3c182cb9aeebcb913ad0907eced810ef4fe56f6"
+            }
+          ]
+        },
+        {
+          "unit_id": "policy-academic-leave-published-2025-unit-5",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 13,
+              "text_sha256": "bed7de9b11aae6b581e5dee85022a7e1458765e614a34ea352ddbaa45d9461e5"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 14,
+              "text_sha256": "b56aa83bc84a20017c4209b9e00f8136beb92151c6ac8e2ec06309476cb053f9"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 15,
+              "text_sha256": "71810d4af5b0dce2b976d5cf5cdf67e2a4bdeada79b660e76857758edc6ed5c8"
+            }
+          ]
+        },
+        {
+          "unit_id": "policy-academic-leave-published-2025-unit-6",
+          "kind": "paragraph",
+          "parts": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 16,
+              "text_sha256": "95b418098c12562deebb9895ab988d315ce6983a24604b62a36f157e56acf19e"
+            }
+          ]
+        }
+      ],
+      "effective_date_evidence": {
+        "status": "officially_published_policy_2025",
+        "publication_year": 2025,
+        "review_date": "2026-10-20",
+        "publication_indexes": [
+          {
+            "url": "https://kstu.kg/glavnoe-menju/abiturientu/uchebnyi-otdel/zagolovok-po-umolchaniju",
+            "verified_live": true,
+            "observed": "All four policies appear together under Положения, alongside2026-27academiccalendar. No replacement version of these titles appears in this index."
+          },
+          {
+            "url": "https://kstu.kg/otdel/otdel-kachestva-obrazovanija/lo",
+            "verified_live": true,
+            "observed": "All four policies appear under Нормативные документы2025года; distinct2026section includes appeals policy. This index is publication context, not explicit legal certification of non-repeal."
+          }
+        ],
+        "applicability": "Published-policy explanation. Query cohort is 2026-2027; explicit non-repeal and individual eligibility are not established."
+      },
+      "limitations": [
+        "General explanation according to officially published2025policy. No assertion that an individual is eligible or that the policy is legally unchanged in2026-27.",
+        "Preserve all exceptions. Do not invent rector order dates or correct the printed amendment-sheet inconsistency.",
+        "The old appeal deadline in clause 3.4 is excluded because a separately published 2026 appeals policy differs."
+      ],
+      "recognition_status": "reviewed_selected_pdf_passage"
+    },
+    {
+      "current_answer_eligible": true,
+      "review_decision": "approved",
+      "additional_categories": [],
+      "selection_id": "published-appeal-deadline-2026",
+      "source": {
+        "title": "Положение об апелляции результатов итоговых государственных испытаний и промежуточной аттестации обучающихся ВПО и СПО КГТУ, 2026",
+        "source_url": "https://kstu.kg/fileadmin/user_upload/polozhenie_ob_apelljacii_rezultatov_itogovykh_gosudarstvennykh_ispytanii_i_promezhutochnoi_attestacii_obuchajushchikhsja_vpo_i_spo_v_kgtu_im_compressed.pdf",
+        "raw_path": "rag-kstu/data/expanded/sources/appeals-2026.pdf",
+        "source_sha256": "e3378ef798972c111e5b0dea72b64f44385929bce483752fbf57e379d543a209",
+        "format": "pdf"
+      },
+      "scope": "general_academic_policy",
+      "category": "current student",
+      "topic": [
+        "appeals"
+      ],
+      "audience_restrictions": [
+        "KSTU higher and secondary professional education students; final state examinations and intermediate attestation."
+      ],
+      "context": [],
+      "refs": [
+        {
+          "reader": "passage",
+          "artifact_path": "rag-kstu/data/expanded/appeals-passages.json",
+          "artifact_sha256": "c669e4a7c9cda49c6245883093b4f3930155c1e365ffc7929c7c727357378d4b",
+          "passage_id": "appeals-deadline-2.4",
+          "page_number": 4,
+          "text_sha256": "eeba719313c933a784d9dc708aefe2e2065258d8fdc2804f20f2fbc839db4bfa"
+        }
+      ],
+      "effective_date_evidence": {
+        "status": "officially_published_policy_2026",
+        "publication_year": 2026,
+        "review_date": "2026-10-20"
+      },
+      "limitations": [
+        "Physical PDF page 4, clause 2.4. Do not use the conflicting older 2025 clause 3.4. This selection establishes the filing deadline, not the entire appeals procedure."
+      ],
+      "recognition_status": "visually_reviewed_manual_transcription"
+    }
+  ]
+}

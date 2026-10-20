@@ -1,0 +1,24 @@
+{
+  "additional_chunk_count": 39,
+  "base_current_count": 30,
+  "chunk_counts": {
+    "archive": 5,
+    "current": 69
+  },
+  "kind": "reviewed_expansion",
+  "manifest_path": "rag-kstu/data/expanded/source-manifest.json",
+  "manifest_sha256": "c230d8347cab132e317f9ee1268c4a600c7b042244e798bc34ee229a1ecd7aab",
+  "settings": {
+    "preferred_tokens": 800,
+    "target_max_tokens": 1000,
+    "target_min_tokens": 500,
+    "tokenizer": "cl100k_base",
+    "tokenizer_version": "0.12.0"
+  },
+  "supplement_selection_count": 22,
+  "target_academic_year": "2026-2027",
+  "tokenizer": {
+    "name": "cl100k_base",
+    "version": "0.12.0"
+  }
+}

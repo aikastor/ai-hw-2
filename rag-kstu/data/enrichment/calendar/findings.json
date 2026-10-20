@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-20",
+  "status": "source_verified_current_scoped",
+  "review_scope": "Selected calendar event/date associations plus complete same-page title, audience, and institutional approval. Not an approval of all calendar cells.",
+  "university_id": "kstu",
+  "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+  "original_path": "data/expansion/pilot-20261019/raw/originals/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.pdf",
+  "extraction_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+  "extraction_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+  "source_url": "https://kstu.kg/fileadmin/user_upload/akademicheskii_kalendar_2026-27_uch.god_ochnaja_forma_obuchenija__bakalavr__specialist_.pdf",
+  "page_number": 1,
+  "academic_year": "2026-2027",
+  "audience": "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly.",
+  "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used.",
+  "render_path": "rag-kstu/data/enrichment/calendar/calendar-full.png",
+  "records": [
+    {
+      "topic": "holidays",
+      "date": "2027-01-01",
+      "source_label": "Новый год",
+      "source_block_indices": [
+        10,
+        28
+      ],
+      "review": "Matched printed holiday label to its numbered calendar cell and month row on complete rendered source page. Date is the university calendar label, not a separate legal holiday determination."
+    },
+    {
+      "topic": "holidays",
+      "date": "2027-01-07",
+      "source_label": "Рождество",
+      "source_block_indices": [
+        10,
+        30
+      ],
+      "review": "Matched printed holiday label to its numbered calendar cell and month row on complete rendered source page. Date is the university calendar label, not a separate legal holiday determination."
+    },
+    {
+      "topic": "holidays",
+      "date": "2027-03-08",
+      "source_label": "Межд.женский день",
+      "source_block_indices": [
+        12,
+        42
+      ],
+      "review": "Matched printed holiday label to its numbered calendar cell and month row on complete rendered source page. Date is the university calendar label, not a separate legal holiday determination."
+    },
+    {
+      "topic": "holidays",
+      "date": "2027-03-21",
+      "source_label": "Нооруз",
+      "source_block_indices": [
+        12,
+        45
+      ],
+      "review": "Matched printed holiday label to its numbered calendar cell and month row on complete rendered source page. Date is the university calendar label, not a separate legal holiday determination."
+    },
+    {
+      "topic": "holidays",
+      "date": "2027-05-01",
+      "source_label": "Праздник труда",
+      "source_block_indices": [
+        14,
+        53
+      ],
+      "review": "Matched printed holiday label to its numbered calendar cell and month row on complete rendered source page. Date is the university calendar label, not a separate legal holiday determination."
+    },
+    {
+      "topic": "holidays",
+      "date": "2027-05-05",
+      "source_label": "День Конституции КР",
+      "source_block_indices": [
+        14,
+        55
+      ],
+      "review": "Matched printed holiday label to its numbered calendar cell and month row on complete rendered source page. Date is the university calendar label, not a separate legal holiday determination."
+    },
+    {
+      "topic": "holidays",
+      "date": "2027-05-09",
+      "source_label": "День победы",
+      "source_block_indices": [
+        14,
+        56
+      ],
+      "review": "Matched printed holiday label to its numbered calendar cell and month row on complete rendered source page. Date is the university calendar label, not a separate legal holiday determination."
+    },
+    {
+      "topic": "holidays",
+      "date": "2027-08-31",
+      "source_label": "День независимости КР",
+      "source_block_indices": [
+        18,
+        79
+      ],
+      "review": "Matched printed holiday label to its numbered calendar cell and month row on complete rendered source page. Date is the university calendar label, not a separate legal holiday determination."
+    },
+    {
+      "topic": "course_registration",
+      "start_date": "2026-09-21",
+      "end_date": "2026-09-25",
+      "source_label": "Регистрация на осенний семестр (до/перерегистрация, оплата)",
+      "source_block_indices": [
+        6,
+        24
+      ],
+      "review": "Matched complete cyan Monday-Friday span to numbered cells; retained the complete caption including other activities and audience qualifiers. This is a planned registration window, not an inferred exact closing time."
+    },
+    {
+      "topic": "course_registration",
+      "start_date": "2027-02-08",
+      "end_date": "2027-02-12",
+      "source_label": "Рег.на вес.сем.( перерегистр., оплата) / Практика вып.курса / Пересдача FX и I",
+      "source_block_indices": [
+        11,
+        36
+      ],
+      "review": "Matched complete cyan Monday-Friday span to numbered cells; retained the complete caption including other activities and audience qualifiers. This is a planned registration window, not an inferred exact closing time."
+    },
+    {
+      "topic": "course_registration",
+      "start_date": "2027-02-15",
+      "end_date": "2027-02-19",
+      "source_label": "Рег.на вес.сем.( перерегистр., оплата) / Практика вып.курса / Пересдача FX и I",
+      "source_block_indices": [
+        11,
+        37
+      ],
+      "review": "Matched complete cyan Monday-Friday span to numbered cells; retained the complete caption including other activities and audience qualifiers. This is a planned registration window, not an inferred exact closing time."
+    },
+    {
+      "topic": "course_registration",
+      "start_date": "2027-04-26",
+      "end_date": "2027-04-30",
+      "source_label": "Выполнение ВКР выпуск.курса / Предварит.регистрация на осен. семестр",
+      "source_block_indices": [
+        14,
+        52
+      ],
+      "review": "Matched complete cyan Monday-Friday span to numbered cells; retained the complete caption including other activities and audience qualifiers. This is a planned registration window, not an inferred exact closing time."
+    },
+    {
+      "topic": "course_registration",
+      "start_date": "2027-06-21",
+      "end_date": "2027-06-25",
+      "source_label": "Регист. и начало летн.сем. и Пересдача FX и I / Все виды практик/Лет.кан./Защита ВКР",
+      "source_block_indices": [
+        16,
+        67
+      ],
+      "review": "Matched complete cyan Monday-Friday span to numbered cells; retained the complete caption including other activities and audience qualifiers. This is a planned registration window, not an inferred exact closing time."
+    },
+    {
+      "topic": "course_registration",
+      "source_label": "30.11.2026–04.12.2026\nПредварительная регистрация на весенний семестр",
+      "source_block_indices": [
+        83
+      ],
+      "review": "Reused existing current selection with prior source-image-adjudicated complete period."
+    },
+    {
+      "topic": "examination_periods",
+      "source_label": "11.01.2027–15.01.2027\nЭкзаменационная сессия",
+      "source_block_indices": [
+        84
+      ],
+      "review": "Reused existing current selection with prior source-image-adjudicated complete period."
+    },
+    {
+      "topic": "examination_periods",
+      "source_label": "18.01.2027–22.01.2027\nЭкзаменационная сессия",
+      "source_block_indices": [
+        85
+      ],
+      "review": "Reused existing current selection with prior source-image-adjudicated complete period."
+    },
+    {
+      "topic": "examination_periods",
+      "source_label": "07.06.2027–11.06.2027\nЭкзаменационная сессия\nОбзор. лк и ГЭ выпуск. курса\nВыполнение ВКР выпуск.курса",
+      "source_block_indices": [
+        86
+      ],
+      "review": "Reused existing current selection with prior source-image-adjudicated complete period."
+    },
+    {
+      "topic": "examination_periods",
+      "source_label": "14.06.2027–18.06.2027\nЭкзаменационная сессия\nГЭ выпуск. курса / Выполнение ВКР выпуск.курса",
+      "source_block_indices": [
+        87
+      ],
+      "review": "Reused existing current selection with prior source-image-adjudicated complete period."
+    }
+  ],
+  "source_blocks": [
+    {
+      "index": 0,
+      "text": "СОГЛАСОВАНО\nПроректор по академической работе\nЭ.И.Сырымбекова",
+      "sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+    },
+    {
+      "index": 1,
+      "text": "УТВЕРЖДЕНО\nРектор КГТУ им И.Раззакова\nМ.К. Чыныбаев",
+      "sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+    },
+    {
+      "index": 2,
+      "text": "Академический календарь на 2026-27 учебный год",
+      "sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+    },
+    {
+      "index": 3,
+      "text": "для образовательных программ бакалавров / специалистов очной формы обучения КГТУ им.И.Раззакова",
+      "sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+    },
+    {
+      "index": 6,
+      "text": "|  | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Сентябрь-Октябрь | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 УС КГТУ | 1 | 2 | 3 | 4 |",
+      "sha256": "e4d11750e8dc320e88515b488d97453dd2b26eb4cf28d7d08a81cd6e013bff01"
+    },
+    {
+      "index": 10,
+      "text": "|  | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Декабрь-Январь | 28 | 29 | 30 | 31 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 |",
+      "sha256": "1d5e0bcc0e612eacc95dd34faa440c08ec1cbcce862f995542ed9606c21235fa"
+    },
+    {
+      "index": 11,
+      "text": "|  | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Январь-Февраль | 25 | 26 | 27 УС КГТУ | 28 | 29 | 30 | 31 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 |",
+      "sha256": "633e6e2674b2c93c3fd408f29794b2335f33d9478ed4e4c14673cffa88f7d568"
+    },
+    {
+      "index": 12,
+      "text": "|  | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Февраль-Март | 22 | 23 | 24 УС КГТУ | 25 | 26 | 27 | 28 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 |",
+      "sha256": "81567ee842e93b3a16425f2de0788c75becae3f8505cf97c91fa6c3600963a9d"
+    },
+    {
+      "index": 14,
+      "text": "|  | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Апрель-Май | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 УС КГТУ | 29 | 30 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |",
+      "sha256": "18ca2d1d5c1ed1781a0be998bf8ae5dc731e8c364276478439bb6fd53fbee7ae"
+    },
+    {
+      "index": 16,
+      "text": "|  | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Июнь-Июль | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 УС КГТУ | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |",
+      "sha256": "9ae74248805caacf488891208a92c51307e89479d770d721e70fb9a48c886bc7"
+    },
+    {
+      "index": 18,
+      "text": "|  | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС | ПН | ВТ | СР | ЧТ | ПТ | СБ | ВС |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Август | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 |  |  |  |  |  |",
+      "sha256": "fe6a9a3ea77d7493427aabb1bd75917482ad0ac6eea1d84f2081b83ca033a625"
+    },
+    {
+      "index": 24,
+      "text": "Регистрация на осенний семестр (до/перерегистрация, оплата)",
+      "sha256": "194ebf047e8b1015effecec1fac9db475107f8740b9692369933e2e4fc4d388d"
+    },
+    {
+      "index": 28,
+      "text": "Новый год",
+      "sha256": "90b4c95dee317e4b3424563a8fcb0b5ca44540bd5b43b407c761709193a0f5fd"
+    },
+    {
+      "index": 30,
+      "text": "Рождество",
+      "sha256": "3f6821be1e4b446e943581f9efcad0565e2e4f4d1dffb28d15d9eedb9a306a52"
+    },
+    {
+      "index": 36,
+      "text": "Рег.на вес.сем.( перерегистр., оплата) / Практика вып.курса / Пересдача FX и I",
+      "sha256": "4a59181714b97722926e3a81b0d454ae1407359edd1d262aa3a4e97855489f66"
+    },
+    {
+      "index": 37,
+      "text": "Рег.на вес.сем.( перерегистр., оплата) / Практика вып.курса / Пересдача FX и I",
+      "sha256": "4a59181714b97722926e3a81b0d454ae1407359edd1d262aa3a4e97855489f66"
+    },
+    {
+      "index": 42,
+      "text": "Межд.женский день",
+      "sha256": "c1c6f1ecefcce9258628814eef5aef0a74285050b377d6fee57dfcea14620d8d"
+    },
+    {
+      "index": 45,
+      "text": "Нооруз",
+      "sha256": "875541afb92b8379056c43c60d90df538a607e48eefcde0de9dab88c9afea92e"
+    },
+    {
+      "index": 52,
+      "text": "Выполнение ВКР выпуск.курса / Предварит.регистрация на осен. семестр",
+      "sha256": "46c37fb899b6dccb64c4e752d620553ad9e27430057e43a7325ad22928fac562"
+    },
+    {
+      "index": 53,
+      "text": "Праздник труда",
+      "sha256": "773cf470b12f4208b35643ebc464ee76a7bef44f09b0f2e144024b7083b095e7"
+    },
+    {
+      "index": 55,
+      "text": "День Конституции КР",
+      "sha256": "cf8045e385595738d1936f79eed944b9139edff4acbfab56689de1f15e1ef790"
+    },
+    {
+      "index": 56,
+      "text": "День победы",
+      "sha256": "013a7170f857e921c4009e336a994b83409c1d8559bb0d66fae63d30c4c0882f"
+    },
+    {
+      "index": 67,
+      "text": "Регист. и начало летн.сем. и Пересдача FX и I / Все виды практик/Лет.кан./Защита ВКР",
+      "sha256": "ee96ab5cbd92243d494752d14a9152f5ef2b60d2b5f84e5e2e8f7f95347c44b4"
+    },
+    {
+      "index": 79,
+      "text": "День независимости КР",
+      "sha256": "33730c9991ecf9bd57192b9d817f8177210f89c8fa359c07d03775bc24561d88"
+    },
+    {
+      "index": 83,
+      "text": "30.11.2026–04.12.2026\nПредварительная регистрация на весенний семестр",
+      "sha256": "6a92aef2be670bb1a6a906743b64a0a954ab6ed118431631bb257484cb0c7e10"
+    },
+    {
+      "index": 84,
+      "text": "11.01.2027–15.01.2027\nЭкзаменационная сессия",
+      "sha256": "8382b06a80b5c2026575e9578a05c7b7c6af117fd1d7f13de00c8894f8210b1e"
+    },
+    {
+      "index": 85,
+      "text": "18.01.2027–22.01.2027\nЭкзаменационная сессия",
+      "sha256": "6c397722ac1170b8f45ff0ffc43f76d3d8ba3554e651da95fc64fa2940456361"
+    },
+    {
+      "index": 86,
+      "text": "07.06.2027–11.06.2027\nЭкзаменационная сессия\nОбзор. лк и ГЭ выпуск. курса\nВыполнение ВКР выпуск.курса",
+      "sha256": "193c4786f309b0a403a2bd65268138beb719826eaebde8d5e696dec2d30b00a1"
+    },
+    {
+      "index": 87,
+      "text": "14.06.2027–18.06.2027\nЭкзаменационная сессия\nГЭ выпуск. курса / Выполнение ВКР выпуск.курса",
+      "sha256": "8f31fdb522f1cd56c30a314167b363d53f1e297f2f92882c4e474e554f70e690"
+    }
+  ],
+  "limitations": [
+    "Planned university calendar only, not a legal public-holiday ruling.",
+    "Missing November24 cell is not repaired or inferred.",
+    "Summer registration caption also lists retakes/practice/holidays/VKR; preserve whole caption.",
+    "No blanket applicability to masters, part-time, doctoral, or other universities.",
+    "This separate enrichment packet does not rewrite the frozen multi-university eligibility decisions."
+  ]
+}

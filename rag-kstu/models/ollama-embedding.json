@@ -1,0 +1,12 @@
+{
+  "provider": "ollama",
+  "model": "bge-m3:latest",
+  "model_digest": "7907646426070047a77226ac3e684fbbe8410524f7b4a74d02837e43f2146bab",
+  "dimension": 1024,
+  "max_tokens": 8192,
+  "ollama_version": "0.40.6",
+  "model_info": {
+    "bert.context_length": 8192,
+    "bert.embedding_length": 1024
+  }
+}

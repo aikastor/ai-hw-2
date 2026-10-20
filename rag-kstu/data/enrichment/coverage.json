@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "topic_count": 10,
+  "topics_with_reusable_evidence": 10,
+  "topics_with_current_scoped_evidence": 7,
+  "topics_with_qualified_published_policy_evidence": 3,
+  "full_university_coverage": false,
+  "topics": [
+    {
+      "topic": "retakes",
+      "evidence_status": "verified_published_policy_currentness_qualified",
+      "current_answer_eligible": false,
+      "evidence_packet": "rag-kstu/data/enrichment/policies/findings.json",
+      "scope": "KSTU published VPO/SPO policies, printed2025; selected complete clauses only",
+      "remaining": "Confirm operative applicability/amendments."
+    },
+    {
+      "topic": "gpa",
+      "evidence_status": "verified_published_policy_currentness_qualified",
+      "current_answer_eligible": false,
+      "evidence_packet": "rag-kstu/data/enrichment/policies/findings.json",
+      "scope": "KSTU published VPO/SPO policies, printed2025; selected complete clauses only",
+      "remaining": "Confirm operative applicability/amendments. For GPA calculator also reconcile grade-conversion matrix."
+    },
+    {
+      "topic": "academic_leave",
+      "evidence_status": "verified_published_policy_currentness_qualified",
+      "current_answer_eligible": false,
+      "evidence_packet": "rag-kstu/data/enrichment/policies/findings.json",
+      "scope": "KSTU published VPO/SPO policies, printed2025; selected complete clauses only",
+      "remaining": "Confirm operative applicability/amendments."
+    },
+    {
+      "topic": "admissions_documents",
+      "evidence_status": "verified_current_scoped",
+      "current_answer_eligible": true,
+      "evidence_packet": "rag-kstu/data/enrichment/admissions/findings.json",
+      "scope": "Masters2026-2027 and Tokmok branch2026-2027",
+      "remaining": "University-wide bachelor checklist is not established."
+    },
+    {
+      "topic": "thresholds",
+      "evidence_status": "verified_current_scoped",
+      "current_answer_eligible": true,
+      "evidence_packet": "rag-kstu/data/enrichment/admissions/findings.json",
+      "scope": "Masters2026-2027 admission GPA thresholds only",
+      "remaining": "Bachelor ORT2026-2027 signed authoritative order and exceptions remain unverified. Do not use masters GPA as ORT."
+    },
+    {
+      "topic": "grants",
+      "evidence_status": "verified_current_scoped",
+      "current_answer_eligible": true,
+      "evidence_packet": "rag-kstu/data/enrichment/admissions/findings.json",
+      "scope": "Masters2026-2027 conditions and exceptions",
+      "remaining": "Bachelor grant eligibility and nationwide quota rules remain unverified."
+    },
+    {
+      "topic": "tuition",
+      "evidence_status": "verified_current_scoped",
+      "current_answer_eligible": true,
+      "evidence_packet": "rag-kstu/data/enrichment/tuition/findings.json",
+      "scope": "Selected logistics/railway programmes and nationality/study-mode/course groups",
+      "remaining": "Other institutes/programmes and excluded table continuations are not covered."
+    },
+    {
+      "topic": "examination_periods",
+      "evidence_status": "verified_current_scoped",
+      "current_answer_eligible": true,
+      "evidence_packet": "rag-kstu/data/enrichment/calendar/findings.json",
+      "scope": "Selected2026-2027 full-time bachelor/specialist calendar entries",
+      "remaining": "No blanket scope for masters, part-time or doctoral students; unselected calendar cells stay excluded."
+    },
+    {
+      "topic": "course_registration",
+      "evidence_status": "verified_current_scoped",
+      "current_answer_eligible": true,
+      "evidence_packet": "rag-kstu/data/enrichment/calendar/findings.json",
+      "scope": "Selected2026-2027 full-time bachelor/specialist calendar entries",
+      "remaining": "No blanket scope for masters, part-time or doctoral students; unselected calendar cells stay excluded."
+    },
+    {
+      "topic": "holidays",
+      "evidence_status": "verified_current_scoped",
+      "current_answer_eligible": true,
+      "evidence_packet": "rag-kstu/data/enrichment/calendar/findings.json",
+      "scope": "Selected2026-2027 full-time bachelor/specialist calendar entries",
+      "remaining": "No blanket scope for masters, part-time or doctoral students; unselected calendar cells stay excluded."
+    }
+  ]
+}

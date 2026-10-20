@@ -1,0 +1,23 @@
+{
+  "review_date": "2026-10-20",
+  "reviewer_model": "GPT-6 (runtime identity; exact serving variant not exposed)",
+  "status": "PASS_WITH_SCOPE_LIMITS",
+  "findings_sha256": "fbd3682f3951de5581fa99092aa465dc066e3ca06330be9bdffd202647f215a1",
+  "verified": [
+    "Viewed full calendar image: all eight selected holiday dates match printed cells and month rows.",
+    "Five new registration spans match colored weekday cells; reused preliminary registration and four exam spans match source image.",
+    "Full-time bachelor/specialist audience, academic year, rector approval and vice-rector agreement are visible; graduating-course qualifiers retained.",
+    "All 29 source block texts and text hashes match indexed extraction blocks; PDF and extraction SHA256 values match files.",
+    "Source URL and audience agree with extraction references.",
+    "Crawl report contains 42 candidates: 16 existing, 26 new; all candidate saved files exist; all remain explicitly unreviewed."
+  ],
+  "defects": [],
+  "limits": [
+    "Selected-record verification only, not complete calendar coverage or all ten topics.",
+    "Image visibly contains an additional autumn registration span on 2026-09-16 through 2026-09-18 (extraction block 23), absent from selected findings; not a contradiction because review scope is explicitly selected.",
+    "Source extraction still says review_needed: this packet does not approve every source cell.",
+    "Crawl report marks all eight search topics not_verified; downloading candidates does not close coverage gaps.",
+    "Audit TSV currently has one frame decision row; it does not yet record completed crawl, reviews, or final outcome.",
+    "No independent network retrieval or full original PDF rerender; source hashes and supplied complete render checked."
+  ]
+}

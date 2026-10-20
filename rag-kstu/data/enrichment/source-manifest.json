@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-20",
+  "university_id": "kstu",
+  "status": "enriched_with_scope_and_applicability_gaps",
+  "full_university_coverage": false,
+  "source_count": 9,
+  "sources": [
+    {
+      "source_sha256": "a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.pdf",
+      "source_url": "https://kstu.kg/fileadmin/user_upload/polozhenie_o_porjadke_perevoda__otchislenija__vosstanovlenija_i_predostavlenija_akademicheskikh_otpuskov_obuchajushchimsja_vysshego_i_srednego__compressed.pdf",
+      "evidence_packets": [
+        "rag-kstu/data/enrichment/policies/findings.json"
+      ],
+      "extraction_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+      "extraction_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe"
+    },
+    {
+      "source_sha256": "cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d.pdf",
+      "source_url": "https://kstu.kg/fileadmin/user_upload/polozhenie_o_porjadke_predostavlenija_povtornogo_obuchenija_studentam_vpo_i_spo_v_kgtu_im.i.razzakova_2025_compressed.pdf",
+      "evidence_packets": [
+        "rag-kstu/data/enrichment/policies/findings.json"
+      ],
+      "extraction_path": "data/expansion/pilot-20261019/extracted/cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d.json",
+      "extraction_sha256": "f379b984437ecebf0ab8ce069c430fc78dc9372243435286c024708f53f4be01"
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.pdf",
+      "source_url": "https://kstu.kg/fileadmin/user_upload/polozhenie_ob_organizacii_uchebnogo_processa_vpo_i_spo_v_kgtu_im.i.razzakova_s_primeneniem_akedemicheskikh_kreditov_compressed_compressed.pdf",
+      "evidence_packets": [
+        "rag-kstu/data/enrichment/policies/findings.json"
+      ],
+      "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+      "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014"
+    },
+    {
+      "source_sha256": "dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.pdf",
+      "source_url": "https://kstu.kg/fileadmin/user_upload/polozhenie_o_provedenii_tekushchei_i_promezhutochnoi_attestacii_obuchajushchikhsja_vpo_i_spo_kgtu_im.i.razzakova_2025_compressed.pdf",
+      "evidence_packets": [
+        "rag-kstu/data/enrichment/policies/findings.json"
+      ],
+      "extraction_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+      "extraction_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0"
+    },
+    {
+      "source_sha256": "899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9.pdf",
+      "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+      "evidence_packets": [
+        "rag-kstu/data/enrichment/admissions/findings.json"
+      ],
+      "extraction_path": "data/expansion/pilot-20261019/extracted/899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9.json",
+      "extraction_sha256": "22a306e985dc136b33a4309567e93399b75ed6edf9664e31041b8024cee9d2b8",
+      "selected_text_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+      "selected_text_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392"
+    },
+    {
+      "source_sha256": "f707f6aa8f6fa22b8e02a6c0c04a3abd934adbd4e7e380a61450efabaab0132b",
+      "original_path": "rag-kstu/data/acquisition/20261020-tokmok-lead/originals/f707f6aa8f6fa22b8e02a6c0c04a3abd934adbd4e7e380a61450efabaab0132b.pdf",
+      "source_url": "https://kstu.kg/fileadmin/kstu-13.04.2026/inf.list_na_kyrg._i_russ.pdf",
+      "evidence_packets": [
+        "rag-kstu/data/enrichment/admissions/findings.json"
+      ],
+      "selected_text_path": "rag-kstu/data/enrichment/admissions/tokmok-p1.txt",
+      "selected_text_sha256": "7011b9ec14a4e3591a41fd444a70b7726825220ec3780cc632a5517b4fdb26b1"
+    },
+    {
+      "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.pdf",
+      "source_url": "https://kstu.kg/fileadmin/user_upload/akademicheskii_kalendar_2026-27_uch.god_ochnaja_forma_obuchenija__bakalavr__specialist_.pdf",
+      "evidence_packets": [
+        "rag-kstu/data/enrichment/calendar/findings.json"
+      ],
+      "extraction_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+      "extraction_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc"
+    },
+    {
+      "source_sha256": "33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.pdf",
+      "source_url": "https://kstu.kg/fileadmin/user_upload/mvshl_03.pdf",
+      "evidence_packets": [
+        "rag-kstu/data/enrichment/tuition/findings.json"
+      ],
+      "extraction_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+      "extraction_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58"
+    },
+    {
+      "source_sha256": "7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.pdf",
+      "source_url": "https://kstu.kg/fileadmin/user_upload/preiskurant_ips.pdf",
+      "evidence_packets": [
+        "rag-kstu/data/enrichment/tuition/findings.json"
+      ],
+      "extraction_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+      "extraction_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922"
+    }
+  ],
+  "note": "Separate enrichment overlay. Frozen collection/review/eligibility files are unchanged. Do not treat every acquired file as approved."
+}

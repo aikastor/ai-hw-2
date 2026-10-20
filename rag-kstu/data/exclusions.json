@@ -1,0 +1,1490 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "source_sha256": "a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f",
+      "page_number": 1,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f",
+      "page_number": 2,
+      "block_indices": [
+        0,
+        1,
+        2
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f",
+      "page_number": 3,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f",
+      "page_number": 4,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f",
+      "page_number": 5,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f",
+      "page_number": 6,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f",
+      "page_number": 7,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        17,
+        18,
+        19,
+        20
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f",
+      "page_number": 8,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f",
+      "page_number": 9,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f",
+      "page_number": 10,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f",
+      "page_number": 11,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d",
+      "page_number": 1,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d",
+      "page_number": 2,
+      "block_indices": [
+        0,
+        1,
+        2
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d",
+      "page_number": 3,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d",
+      "page_number": 4,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d",
+      "page_number": 5,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 1,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 2,
+      "block_indices": [
+        0,
+        1
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 3,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 4,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 5,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 6,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 7,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 8,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 9,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 10,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 11,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 12,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 13,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 14,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 15,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 16,
+      "block_indices": [
+        0,
+        6,
+        7,
+        8,
+        12,
+        13
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 17,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 18,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 19,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 20,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 21,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 22,
+      "block_indices": [
+        0,
+        1,
+        2
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 23,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 24,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 25,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 26,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 27,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 28,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 29,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 30,
+      "block_indices": [
+        0,
+        1,
+        2
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 31,
+      "block_indices": [
+        0,
+        1,
+        2
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 32,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 33,
+      "block_indices": [
+        0
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 34,
+      "block_indices": [
+        0
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 35,
+      "block_indices": [
+        0
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 36,
+      "block_indices": [
+        0
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 37,
+      "block_indices": [
+        0
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "page_number": 38,
+      "block_indices": [
+        0,
+        1,
+        2
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d",
+      "page_number": 1,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d",
+      "page_number": 2,
+      "block_indices": [
+        0,
+        1,
+        2
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d",
+      "page_number": 3,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d",
+      "page_number": 4,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d",
+      "page_number": 5,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d",
+      "page_number": 6,
+      "block_indices": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d",
+      "page_number": 7,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        15
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d",
+      "page_number": 8,
+      "block_indices": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9",
+      "page_number": 1,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9",
+      "page_number": 2,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9",
+      "page_number": 3,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9",
+      "page_number": 4,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+      "page_number": 1,
+      "block_indices": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        13,
+        15,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        38,
+        39,
+        40,
+        41,
+        43,
+        44,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        54,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        80,
+        81,
+        82
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913",
+      "page_number": 1,
+      "block_indices": [
+        17,
+        18
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913",
+      "page_number": 2,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913",
+      "page_number": 3,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e",
+      "page_number": 1,
+      "block_indices": [
+        2,
+        9,
+        10
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e",
+      "page_number": 2,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e",
+      "page_number": 3,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e",
+      "page_number": 4,
+      "block_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "reason": "Outside reviewed enrichment selection. Recognition or cover context does not approve the remaining page/document."
+    },
+    {
+      "source_sha256": "8ebbfe632d6b78a2ad0aa8fe8c76d1a0c9433dd37368b01f7ec4b0cfef81e060",
+      "original_path": "data/expansion/additional-20261020-01/batch-014/raw/originals/8ebbfe632d6b78a2ad0aa8fe8c76d1a0c9433dd37368b01f7ec4b0cfef81e060.html",
+      "pages": [
+        null
+      ],
+      "reason": "Undated admissions document list. Not selected by the reviewed enrichment overlay; retain frozen withheld/archive decision."
+    },
+    {
+      "source_sha256": "4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "reason": "Saved national admissions procedure; recognition review pending. Not selected by the reviewed enrichment overlay; retain frozen withheld/archive decision."
+    },
+    {
+      "source_sha256": "4e3c3cc8f059a5eec43d4b7b7852467887816d56f6fc8a46dc0c5fb62a39dd42",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/4e3c3cc8f059a5eec43d4b7b7852467887816d56f6fc8a46dc0c5fb62a39dd42.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reason": "Historical administrative calendar; negative retrieval case. Not selected by the reviewed enrichment overlay; retain frozen withheld/archive decision."
+    },
+    {
+      "source_sha256": "580216d6b1e25736ff8ad95c8725028385ce36fc2a61580bccaacb4eecf25dc0",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/580216d6b1e25736ff8ad95c8725028385ce36fc2a61580bccaacb4eecf25dc0.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "reason": "Admissions schedule and voucher provision; dependency restrictions apply. Not selected by the reviewed enrichment overlay; retain frozen withheld/archive decision."
+    },
+    {
+      "source_sha256": "745910ad63f8f56de523c2ff32f6b699fad57f55501bb97b446f77308275a70d",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/745910ad63f8f56de523c2ff32f6b699fad57f55501bb97b446f77308275a70d.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "2025 threshold document; not current-year threshold evidence. Not selected by the reviewed enrichment overlay; retain frozen withheld/archive decision."
+    },
+    {
+      "source_sha256": "8ebbfe632d6b78a2ad0aa8fe8c76d1a0c9433dd37368b01f7ec4b0cfef81e060",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/8ebbfe632d6b78a2ad0aa8fe8c76d1a0c9433dd37368b01f7ec4b0cfef81e060.html",
+      "pages": [
+        null
+      ],
+      "reason": "Undated admissions document list. Not selected by the reviewed enrichment overlay; retain frozen withheld/archive decision."
+    },
+    {
+      "source_sha256": "d0df7412d91f9aad358f0a200c644209e9a1598d392662808580e5fb1d5a867e",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/d0df7412d91f9aad358f0a200c644209e9a1598d392662808580e5fb1d5a867e.html",
+      "pages": [
+        null
+      ],
+      "reason": "Admissions directory for targeted discovery, not advice text. Not selected by the reviewed enrichment overlay; retain frozen withheld/archive decision."
+    },
+    {
+      "source_sha256": "f707f6aa8f6fa22b8e02a6c0c04a3abd934adbd4e7e380a61450efabaab0132b",
+      "artifact_path": "rag-kstu/data/enrichment/admissions/tokmok-p1.txt",
+      "reason": "Only title, document checklist and graphic-design ORT exception are selected; all other brochure programmes, marketing text, contacts and Kyrgyz-language page excluded."
+    }
+  ]
+}

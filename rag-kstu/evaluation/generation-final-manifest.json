@@ -1,0 +1,38 @@
+{
+  "dataset": "generation-final",
+  "version": 1,
+  "frozen_at_utc": "2026-10-20T11:59:54.232898+00:00",
+  "client_date": "2026-10-20",
+  "client_timezone": "Asia/Bishkek",
+  "sha256": "650cf137b3e69d9c8a2cfe860a4b29420cdcb8d6ce012f6b1c04022cb858af41",
+  "corpus_relative_path": "rag-kstu/data/chunks.current.jsonl",
+  "corpus_sha256": "df0baeee207a42e79fa44c1b818690fffd0e02c9797bf5ddc004b402ec8203f1",
+  "case_count": 26,
+  "status_counts": {
+    "answered": 16,
+    "refused": 7,
+    "needs_clarification": 3
+  },
+  "kind_counts": {
+    "table": 6,
+    "supported": 7,
+    "unsupported_policy": 3,
+    "unsupported_year": 1,
+    "audience_ambiguity": 3,
+    "follow_up": 1,
+    "follow_up_scope_change": 2,
+    "instruction_attack": 2,
+    "history_instruction_attack": 1
+  },
+  "languages": [
+    "English",
+    "Russian"
+  ],
+  "unused_before_tuning": true,
+  "used_for_prompt_tuning": false,
+  "evaluated_before_freeze": false,
+  "source_gold_method": "Gold written from reviewed chunk text. Every factual evidence quotation checked as an exact substring of its named current chunk. Unsupported policies reflect current reviewed corpus coverage limits.",
+  "novelty_check": "No case request question exactly matches questions.jsonl or retrieval-heldout.jsonl. New supported facts use new table rows, course columns or admission clauses.",
+  "request_filters": "No scope/category/year filters supplied. Audience context appears only in the question or conversation, as a real user could provide.",
+  "evaluation_note": "Gold expected_answer is semantic reference text except exact refusal. Correct supported paraphrases and translations may differ. Do not send gold fields to the API. Unknown or ambiguous scopes require refusal or clarification as marked. If used for tuning, mark reused and freeze a new final set."
+}

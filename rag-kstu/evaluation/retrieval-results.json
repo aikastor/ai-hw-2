@@ -1,0 +1,3424 @@
+{
+  "schema_version": 1,
+  "index_manifest_sha256": "780536f29087745367497badf1058213e56edc210d7d7bfd28feb31ccdeb29b1",
+  "question_hashes": {
+    "rag-kstu/evaluation/questions.jsonl": "34c9e055770b69b737a86fcd6ade9a11dac1815adeafd9d739af0b21ca355802",
+    "rag-kstu/evaluation/retrieval-heldout.jsonl": "20da1363f0221ff91f5044ecbdfd6eecc58ceb2a7ac127db9c5a4fe9fc66d68a"
+  },
+  "method": "BM25, dense and RRF top-5; answerable queries use no audience/topic/selection gold filters. Expected selection IDs and fragments are grading labels only.",
+  "limitations": [
+    "Small source-grounded sets, not statistical proof of production accuracy.",
+    "The separate query set was originally held out and is reused here as a regression set after changing the embedding provider; no ranking parameters tuned to it.",
+    "Metadata isolation uses caller-supplied scope/topic/year. It does not demonstrate automatic semantic refusal.",
+    "No generation, answer correctness judge, Ragas or latency benchmark."
+  ],
+  "summary": {
+    "handoff": {
+      "bm25": {
+        "answerable_cases": 20,
+        "hit_at_1": 0.05,
+        "hit_at_5": 0.15,
+        "reciprocal_rank_at_5": 0.1,
+        "evidence_fragment_recall_at_5": 0.15,
+        "metadata_isolation_cases": 0,
+        "metadata_isolation_passed": 0,
+        "raw_unsupported_cases": 10,
+        "raw_unsupported_returned_candidates": 7
+      },
+      "dense": {
+        "answerable_cases": 20,
+        "hit_at_1": 0.5,
+        "hit_at_5": 0.8,
+        "reciprocal_rank_at_5": 0.625,
+        "evidence_fragment_recall_at_5": 0.8,
+        "metadata_isolation_cases": 0,
+        "metadata_isolation_passed": 0,
+        "raw_unsupported_cases": 10,
+        "raw_unsupported_returned_candidates": 10
+      },
+      "hybrid": {
+        "answerable_cases": 20,
+        "hit_at_1": 0.5,
+        "hit_at_5": 0.8,
+        "reciprocal_rank_at_5": 0.6208333333333333,
+        "evidence_fragment_recall_at_5": 0.8,
+        "metadata_isolation_cases": 0,
+        "metadata_isolation_passed": 0,
+        "raw_unsupported_cases": 10,
+        "raw_unsupported_returned_candidates": 10
+      }
+    },
+    "heldout": {
+      "bm25": {
+        "answerable_cases": 12,
+        "hit_at_1": 0.75,
+        "hit_at_5": 0.8333333333333334,
+        "reciprocal_rank_at_5": 0.7777777777777778,
+        "evidence_fragment_recall_at_5": 0.8333333333333334,
+        "metadata_isolation_cases": 6,
+        "metadata_isolation_passed": 6,
+        "raw_unsupported_cases": 0,
+        "raw_unsupported_returned_candidates": 0
+      },
+      "dense": {
+        "answerable_cases": 12,
+        "hit_at_1": 0.8333333333333334,
+        "hit_at_5": 0.9166666666666666,
+        "reciprocal_rank_at_5": 0.875,
+        "evidence_fragment_recall_at_5": 0.9166666666666666,
+        "metadata_isolation_cases": 6,
+        "metadata_isolation_passed": 6,
+        "raw_unsupported_cases": 0,
+        "raw_unsupported_returned_candidates": 0
+      },
+      "hybrid": {
+        "answerable_cases": 12,
+        "hit_at_1": 1.0,
+        "hit_at_5": 1.0,
+        "reciprocal_rank_at_5": 1.0,
+        "evidence_fragment_recall_at_5": 1.0,
+        "metadata_isolation_cases": 6,
+        "metadata_isolation_passed": 6,
+        "raw_unsupported_cases": 0,
+        "raw_unsupported_returned_candidates": 0
+      }
+    }
+  },
+  "cases": [
+    {
+      "dataset": "handoff",
+      "case_id": "masters-docs",
+      "mode": "bm25",
+      "query": "What prior-education records do KSTU masters applicants need for 2026-2027?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-3465706c3727cc596c5379d88e112b4f04d040bac6bafcbbbafcfa2c0eb81ae6",
+        "kstu-3cf435eaa48210903f93eb715f9ee8a8ab5ba191c50d11efc93741c5e092677f",
+        "kstu-c1869a3003154c3e567053f25f2f9cf5bd8a7b7c0f4496311fa22978829b8228",
+        "kstu-c159430085b656222a75a6afdc897813224fc59804cc73dd8f3204418885de13",
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-15",
+        "calendar-16",
+        "calendar-18",
+        "calendar-17",
+        "tokmok-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-docs",
+      "mode": "dense",
+      "query": "What prior-education records do KSTU masters applicants need for 2026-2027?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec"
+      ],
+      "retrieved_selection_ids": [
+        "masters-documents",
+        "masters-grants",
+        "masters-documents",
+        "masters-ranking",
+        "tokmok-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-docs",
+      "mode": "hybrid",
+      "query": "What prior-education records do KSTU masters applicants need for 2026-2027?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a"
+      ],
+      "retrieved_selection_ids": [
+        "tokmok-documents",
+        "masters-documents",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-33d632ae-kr-full-time",
+        "masters-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.5,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-fee-confirmation",
+      "mode": "bm25",
+      "query": "How much must recommended fee-paying masters applicants pay to confirm a place?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8"
+      ],
+      "retrieved_selection_ids": [
+        "masters-gpa-appendix"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-fee-confirmation",
+      "mode": "dense",
+      "query": "How much must recommended fee-paying masters applicants pay to confirm a place?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-33d632ae-near-foreign-agreement"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-fee-confirmation",
+      "mode": "hybrid",
+      "query": "How much must recommended fee-paying masters applicants pay to confirm a place?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77"
+      ],
+      "retrieved_selection_ids": [
+        "masters-gpa-appendix",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-33d632ae-near-foreign-other"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-pedagogical",
+      "mode": "bm25",
+      "query": "What extra documents apply to pedagogical grant graduates entering extramural masters study?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-pedagogical",
+      "mode": "dense",
+      "query": "What extra documents apply to pedagogical grant graduates entering extramural masters study?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e"
+      ],
+      "retrieved_selection_ids": [
+        "masters-documents",
+        "masters-documents",
+        "masters-grants",
+        "masters-ranking",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-pedagogical",
+      "mode": "hybrid",
+      "query": "What extra documents apply to pedagogical grant graduates entering extramural masters study?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e"
+      ],
+      "retrieved_selection_ids": [
+        "masters-documents",
+        "masters-documents",
+        "masters-grants",
+        "masters-ranking",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-grant-threshold",
+      "mode": "bm25",
+      "query": "What GPA minimum permits competition for a masters state-grant place?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0"
+      ],
+      "retrieved_selection_ids": [
+        "masters-gpa-appendix",
+        "masters-ranking",
+        "masters-grants"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.5,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-grant-threshold",
+      "mode": "dense",
+      "query": "What GPA minimum permits competition for a masters state-grant place?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8"
+      ],
+      "retrieved_selection_ids": [
+        "masters-ranking",
+        "masters-grants",
+        "masters-documents",
+        "masters-documents",
+        "masters-gpa-appendix"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-grant-threshold",
+      "mode": "hybrid",
+      "query": "What GPA minimum permits competition for a masters state-grant place?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173"
+      ],
+      "retrieved_selection_ids": [
+        "masters-ranking",
+        "masters-grants",
+        "masters-gpa-appendix",
+        "masters-documents",
+        "masters-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-contract-threshold",
+      "mode": "bm25",
+      "query": "What GPA minimum permits competition for a fee-paying masters place?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0"
+      ],
+      "retrieved_selection_ids": [
+        "masters-gpa-appendix",
+        "masters-ranking",
+        "masters-grants"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.5,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-contract-threshold",
+      "mode": "dense",
+      "query": "What GPA minimum permits competition for a fee-paying masters place?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e"
+      ],
+      "retrieved_selection_ids": [
+        "masters-ranking",
+        "masters-grants",
+        "masters-documents",
+        "masters-documents",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-contract-threshold",
+      "mode": "hybrid",
+      "query": "What GPA minimum permits competition for a fee-paying masters place?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173"
+      ],
+      "retrieved_selection_ids": [
+        "masters-ranking",
+        "masters-grants",
+        "masters-gpa-appendix",
+        "masters-documents",
+        "masters-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-grant-conditions",
+      "mode": "bm25",
+      "query": "What are the reviewed masters state-grant competition conditions?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-grant-conditions",
+      "mode": "dense",
+      "query": "What are the reviewed masters state-grant competition conditions?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8"
+      ],
+      "retrieved_selection_ids": [
+        "masters-ranking",
+        "masters-grants",
+        "masters-documents",
+        "masters-documents",
+        "masters-gpa-appendix"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.5,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-grant-conditions",
+      "mode": "hybrid",
+      "query": "What are the reviewed masters state-grant competition conditions?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8"
+      ],
+      "retrieved_selection_ids": [
+        "masters-ranking",
+        "masters-grants",
+        "masters-documents",
+        "masters-documents",
+        "masters-gpa-appendix"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.5,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-foreign-exception",
+      "mode": "bm25",
+      "query": "Do the reviewed masters fee-paying categories include every foreign citizen without exception?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-foreign-exception",
+      "mode": "dense",
+      "query": "Do the reviewed masters fee-paying categories include every foreign citizen without exception?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-33d632ae-near-foreign-agreement",
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-33d632ae-kr-distance"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-foreign-exception",
+      "mode": "hybrid",
+      "query": "Do the reviewed masters fee-paying categories include every foreign citizen without exception?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-33d632ae-near-foreign-agreement",
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-33d632ae-kr-distance"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "admission-grade-table",
+      "mode": "bm25",
+      "query": "In the masters admission appendix, what are grade B and its numeric equivalent?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8"
+      ],
+      "retrieved_selection_ids": [
+        "masters-gpa-appendix"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "admission-grade-table",
+      "mode": "dense",
+      "query": "In the masters admission appendix, what are grade B and its numeric equivalent?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173"
+      ],
+      "retrieved_selection_ids": [
+        "masters-ranking",
+        "masters-grants",
+        "masters-gpa-appendix",
+        "masters-documents",
+        "masters-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.3333333333333333,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "admission-grade-table",
+      "mode": "hybrid",
+      "query": "In the masters admission appendix, what are grade B and its numeric equivalent?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173"
+      ],
+      "retrieved_selection_ids": [
+        "masters-gpa-appendix",
+        "masters-ranking",
+        "masters-grants",
+        "masters-documents",
+        "masters-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "tokmok-documents",
+      "mode": "bm25",
+      "query": "How many photos and which medical form does the reviewed Tokmok checklist request?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "tokmok-documents",
+      "mode": "dense",
+      "query": "How many photos and which medical form does the reviewed Tokmok checklist request?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548"
+      ],
+      "retrieved_selection_ids": [
+        "tokmok-documents",
+        "tuition-7577d9d7-kr-full-time",
+        "masters-documents",
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-kr-full-time"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "tokmok-documents",
+      "mode": "hybrid",
+      "query": "How many photos and which medical form does the reviewed Tokmok checklist request?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548"
+      ],
+      "retrieved_selection_ids": [
+        "tokmok-documents",
+        "tuition-7577d9d7-kr-full-time",
+        "masters-documents",
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-kr-full-time"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "tokmok-ort-exception",
+      "mode": "bm25",
+      "query": "Does the Tokmok brochure require ORT for bachelor graphic design?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "tokmok-ort-exception",
+      "mode": "dense",
+      "query": "Does the Tokmok brochure require ORT for bachelor graphic design?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81"
+      ],
+      "retrieved_selection_ids": [
+        "tokmok-documents",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-33d632ae-near-foreign-agreement"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "tokmok-ort-exception",
+      "mode": "hybrid",
+      "query": "Does the Tokmok brochure require ORT for bachelor graphic design?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81"
+      ],
+      "retrieved_selection_ids": [
+        "tokmok-documents",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-33d632ae-near-foreign-agreement"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "logistics-kr-year1",
+      "mode": "bm25",
+      "query": "What is first-year full-time Logistics bachelor tuition and the per-credit rate for Kyrgyz citizens in 2026-2027?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-3465706c3727cc596c5379d88e112b4f04d040bac6bafcbbbafcfa2c0eb81ae6",
+        "kstu-3cf435eaa48210903f93eb715f9ee8a8ab5ba191c50d11efc93741c5e092677f",
+        "kstu-c1869a3003154c3e567053f25f2f9cf5bd8a7b7c0f4496311fa22978829b8228",
+        "kstu-c159430085b656222a75a6afdc897813224fc59804cc73dd8f3204418885de13",
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-15",
+        "calendar-16",
+        "calendar-18",
+        "calendar-17",
+        "tokmok-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "logistics-kr-year1",
+      "mode": "dense",
+      "query": "What is first-year full-time Logistics bachelor tuition and the per-credit rate for Kyrgyz citizens in 2026-2027?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-near-foreign-agreement",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.5,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "logistics-kr-year1",
+      "mode": "hybrid",
+      "query": "What is first-year full-time Logistics bachelor tuition and the per-credit rate for Kyrgyz citizens in 2026-2027?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-33d632ae-kr-full-time",
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-33d632ae-kr-distance",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-33d632ae-near-foreign-agreement"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "logistics-distance-year2",
+      "mode": "bm25",
+      "query": "What is second-year Logistics tuition and per-credit rate for Kyrgyz citizens studying extramurally with DOT?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "logistics-distance-year2",
+      "mode": "dense",
+      "query": "What is second-year Logistics tuition and per-credit rate for Kyrgyz citizens studying extramurally with DOT?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-33d632ae-near-foreign-agreement",
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.3333333333333333,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "logistics-distance-year2",
+      "mode": "hybrid",
+      "query": "What is second-year Logistics tuition and per-credit rate for Kyrgyz citizens studying extramurally with DOT?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-33d632ae-near-foreign-agreement",
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.3333333333333333,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "logistics-near-foreign",
+      "mode": "bm25",
+      "query": "What first-year full-time Logistics amount is printed for near-foreign citizens within intergovernmental agreements?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "logistics-near-foreign",
+      "mode": "dense",
+      "query": "What first-year full-time Logistics amount is printed for near-foreign citizens within intergovernmental agreements?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-33d632ae-near-foreign-agreement",
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.5,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "logistics-near-foreign",
+      "mode": "hybrid",
+      "query": "What first-year full-time Logistics amount is printed for near-foreign citizens within intergovernmental agreements?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-33d632ae-near-foreign-agreement",
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.5,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "railway-roads",
+      "mode": "bm25",
+      "query": "For Kyrgyz citizens studying full time at the railway institute, what are third-year Automobile Roads and Aerodromes tuition and per-credit rate?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "railway-roads",
+      "mode": "dense",
+      "query": "For Kyrgyz citizens studying full time at the railway institute, what are third-year Automobile Roads and Aerodromes tuition and per-credit rate?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-33d632ae-near-foreign-agreement"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "railway-roads",
+      "mode": "hybrid",
+      "query": "For Kyrgyz citizens studying full time at the railway institute, what are third-year Automobile Roads and Aerodromes tuition and per-credit rate?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-33d632ae-near-foreign-agreement"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "new-year",
+      "mode": "bm25",
+      "query": "When is New Year marked in the reviewed 2026-2027 full-time bachelor/specialist calendar?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-3465706c3727cc596c5379d88e112b4f04d040bac6bafcbbbafcfa2c0eb81ae6",
+        "kstu-3cf435eaa48210903f93eb715f9ee8a8ab5ba191c50d11efc93741c5e092677f",
+        "kstu-c1869a3003154c3e567053f25f2f9cf5bd8a7b7c0f4496311fa22978829b8228",
+        "kstu-c159430085b656222a75a6afdc897813224fc59804cc73dd8f3204418885de13",
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-15",
+        "calendar-16",
+        "calendar-18",
+        "calendar-17",
+        "tokmok-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "new-year",
+      "mode": "dense",
+      "query": "When is New Year marked in the reviewed 2026-2027 full-time bachelor/specialist calendar?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-589a6a49258d29e2ced41fefd75adc49a4968cf40124dca19c0e7d90968dbec5",
+        "kstu-9aa9c54a8090d0a2bc51d406b503a3925528defcf5ed2b24020cde62e4a6c95f",
+        "kstu-f6df49cefda01876b6908f85b788b576ddd3d1e9ec296b36fc768a36c662227e",
+        "kstu-8a788284140050ad8ce50901fd59b6a1c2f0a4c71c72351ab52129d22f0e32b3",
+        "kstu-6dddff05a350b7998ee7a2a36a029dba1e878f506ebb3a228452b97aa68c1b4b"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-01",
+        "calendar-02",
+        "calendar-05",
+        "calendar-03",
+        "calendar-11"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "new-year",
+      "mode": "hybrid",
+      "query": "When is New Year marked in the reviewed 2026-2027 full-time bachelor/specialist calendar?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-3465706c3727cc596c5379d88e112b4f04d040bac6bafcbbbafcfa2c0eb81ae6",
+        "kstu-3cf435eaa48210903f93eb715f9ee8a8ab5ba191c50d11efc93741c5e092677f",
+        "kstu-c1869a3003154c3e567053f25f2f9cf5bd8a7b7c0f4496311fa22978829b8228",
+        "kstu-589a6a49258d29e2ced41fefd75adc49a4968cf40124dca19c0e7d90968dbec5",
+        "kstu-9aa9c54a8090d0a2bc51d406b503a3925528defcf5ed2b24020cde62e4a6c95f"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-15",
+        "calendar-16",
+        "calendar-18",
+        "calendar-01",
+        "calendar-02"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.25,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "nooruz",
+      "mode": "bm25",
+      "query": "When is Nooruz marked in that calendar?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "nooruz",
+      "mode": "dense",
+      "query": "When is Nooruz marked in that calendar?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-9aa9c54a8090d0a2bc51d406b503a3925528defcf5ed2b24020cde62e4a6c95f",
+        "kstu-589a6a49258d29e2ced41fefd75adc49a4968cf40124dca19c0e7d90968dbec5",
+        "kstu-574cdf46d7c8a3c80cb0e862feab09bf8b317e8e8996220af9c8f9c566ddf42f",
+        "kstu-e0550eca2dcf64fe8ac021f5c560f5f8c10011a6eda403d45c1fc72d0f650061",
+        "kstu-a4f2ee314f0f8b10de00a9d4da07192025f51a1cd53832ab1f9952a96fd42e8d"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-02",
+        "calendar-01",
+        "calendar-04",
+        "calendar-08",
+        "calendar-07"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.3333333333333333,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "nooruz",
+      "mode": "hybrid",
+      "query": "When is Nooruz marked in that calendar?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-9aa9c54a8090d0a2bc51d406b503a3925528defcf5ed2b24020cde62e4a6c95f",
+        "kstu-589a6a49258d29e2ced41fefd75adc49a4968cf40124dca19c0e7d90968dbec5",
+        "kstu-574cdf46d7c8a3c80cb0e862feab09bf8b317e8e8996220af9c8f9c566ddf42f",
+        "kstu-e0550eca2dcf64fe8ac021f5c560f5f8c10011a6eda403d45c1fc72d0f650061",
+        "kstu-a4f2ee314f0f8b10de00a9d4da07192025f51a1cd53832ab1f9952a96fd42e8d"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-02",
+        "calendar-01",
+        "calendar-04",
+        "calendar-08",
+        "calendar-07"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.3333333333333333,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "registration-autumn",
+      "mode": "bm25",
+      "query": "What autumn registration window is selected for full-time bachelor/specialist students?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "registration-autumn",
+      "mode": "dense",
+      "query": "What autumn registration window is selected for full-time bachelor/specialist students?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-65f6bfaed7cea460e35a7729182c1415a7eee5e2e78f468462895bcd6696421e",
+        "kstu-9a677ee2b5e32af346395c83533263314e49e88c80f58e0e1296df11accf0660",
+        "kstu-af1b6df1d9c5af97f12cc108eb9d71fa5efd7a404a34eb4013d1eb3c988c76ca",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-7a1348f23c67b784acdee3c2aaae8c1b5a4b8a5dd161672e1f66bc536d6d5eb7"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-09",
+        "calendar-14",
+        "calendar-12",
+        "masters-grants",
+        "calendar-13"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "registration-autumn",
+      "mode": "hybrid",
+      "query": "What autumn registration window is selected for full-time bachelor/specialist students?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-65f6bfaed7cea460e35a7729182c1415a7eee5e2e78f468462895bcd6696421e",
+        "kstu-9a677ee2b5e32af346395c83533263314e49e88c80f58e0e1296df11accf0660",
+        "kstu-af1b6df1d9c5af97f12cc108eb9d71fa5efd7a404a34eb4013d1eb3c988c76ca",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-7a1348f23c67b784acdee3c2aaae8c1b5a4b8a5dd161672e1f66bc536d6d5eb7"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-09",
+        "calendar-14",
+        "calendar-12",
+        "masters-grants",
+        "calendar-13"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "registration-spring",
+      "mode": "bm25",
+      "query": "What is the reviewed spring pre-registration window?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "registration-spring",
+      "mode": "dense",
+      "query": "What is the reviewed spring pre-registration window?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-9a677ee2b5e32af346395c83533263314e49e88c80f58e0e1296df11accf0660",
+        "kstu-af1b6df1d9c5af97f12cc108eb9d71fa5efd7a404a34eb4013d1eb3c988c76ca",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-14",
+        "calendar-12",
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-33d632ae-near-foreign-other"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "registration-spring",
+      "mode": "hybrid",
+      "query": "What is the reviewed spring pre-registration window?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-9a677ee2b5e32af346395c83533263314e49e88c80f58e0e1296df11accf0660",
+        "kstu-af1b6df1d9c5af97f12cc108eb9d71fa5efd7a404a34eb4013d1eb3c988c76ca",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-14",
+        "calendar-12",
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-33d632ae-near-foreign-other"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "winter-exam",
+      "mode": "bm25",
+      "query": "What is the first selected winter examination week?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "winter-exam",
+      "mode": "dense",
+      "query": "What is the first selected winter examination week?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-9aa9c54a8090d0a2bc51d406b503a3925528defcf5ed2b24020cde62e4a6c95f",
+        "kstu-589a6a49258d29e2ced41fefd75adc49a4968cf40124dca19c0e7d90968dbec5",
+        "kstu-6dddff05a350b7998ee7a2a36a029dba1e878f506ebb3a228452b97aa68c1b4b",
+        "kstu-d5ed287addf99e385f9ca492f9e347cc921cfcda58d89cfe1f26d87cbfd17a03",
+        "kstu-8a788284140050ad8ce50901fd59b6a1c2f0a4c71c72351ab52129d22f0e32b3"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-02",
+        "calendar-01",
+        "calendar-11",
+        "calendar-10",
+        "calendar-03"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "winter-exam",
+      "mode": "hybrid",
+      "query": "What is the first selected winter examination week?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-9aa9c54a8090d0a2bc51d406b503a3925528defcf5ed2b24020cde62e4a6c95f",
+        "kstu-589a6a49258d29e2ced41fefd75adc49a4968cf40124dca19c0e7d90968dbec5",
+        "kstu-6dddff05a350b7998ee7a2a36a029dba1e878f506ebb3a228452b97aa68c1b4b",
+        "kstu-d5ed287addf99e385f9ca492f9e347cc921cfcda58d89cfe1f26d87cbfd17a03",
+        "kstu-8a788284140050ad8ce50901fd59b6a1c2f0a4c71c72351ab52129d22f0e32b3"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-02",
+        "calendar-01",
+        "calendar-11",
+        "calendar-10",
+        "calendar-03"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "summer-exam",
+      "mode": "bm25",
+      "query": "What is the first selected summer examination week?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "summer-exam",
+      "mode": "dense",
+      "query": "What is the first selected summer examination week?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-7a1348f23c67b784acdee3c2aaae8c1b5a4b8a5dd161672e1f66bc536d6d5eb7",
+        "kstu-e0550eca2dcf64fe8ac021f5c560f5f8c10011a6eda403d45c1fc72d0f650061",
+        "kstu-8eae2da0ba0a99ff3dced4693a7f83801838d4e1c3d45e41d75631ca1d051d64",
+        "kstu-c1869a3003154c3e567053f25f2f9cf5bd8a7b7c0f4496311fa22978829b8228",
+        "kstu-af1b6df1d9c5af97f12cc108eb9d71fa5efd7a404a34eb4013d1eb3c988c76ca"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-13",
+        "calendar-08",
+        "calendar-06",
+        "calendar-18",
+        "calendar-12"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "summer-exam",
+      "mode": "hybrid",
+      "query": "What is the first selected summer examination week?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-7a1348f23c67b784acdee3c2aaae8c1b5a4b8a5dd161672e1f66bc536d6d5eb7",
+        "kstu-e0550eca2dcf64fe8ac021f5c560f5f8c10011a6eda403d45c1fc72d0f650061",
+        "kstu-8eae2da0ba0a99ff3dced4693a7f83801838d4e1c3d45e41d75631ca1d051d64",
+        "kstu-c1869a3003154c3e567053f25f2f9cf5bd8a7b7c0f4496311fa22978829b8228",
+        "kstu-af1b6df1d9c5af97f12cc108eb9d71fa5efd7a404a34eb4013d1eb3c988c76ca"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-13",
+        "calendar-08",
+        "calendar-06",
+        "calendar-18",
+        "calendar-12"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-retakes",
+      "mode": "bm25",
+      "query": "Can I retake my failed exam under the current general KSTU retake policy?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-6dddff05a350b7998ee7a2a36a029dba1e878f506ebb3a228452b97aa68c1b4b",
+        "kstu-d5ed287addf99e385f9ca492f9e347cc921cfcda58d89cfe1f26d87cbfd17a03",
+        "kstu-7a1348f23c67b784acdee3c2aaae8c1b5a4b8a5dd161672e1f66bc536d6d5eb7"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-11",
+        "calendar-10",
+        "calendar-13"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-retakes",
+      "mode": "dense",
+      "query": "Can I retake my failed exam under the current general KSTU retake policy?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a"
+      ],
+      "retrieved_selection_ids": [
+        "masters-gpa-appendix",
+        "masters-grants",
+        "masters-ranking",
+        "masters-documents",
+        "masters-documents"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-retakes",
+      "mode": "hybrid",
+      "query": "Can I retake my failed exam under the current general KSTU retake policy?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-6dddff05a350b7998ee7a2a36a029dba1e878f506ebb3a228452b97aa68c1b4b",
+        "kstu-d5ed287addf99e385f9ca492f9e347cc921cfcda58d89cfe1f26d87cbfd17a03",
+        "kstu-7a1348f23c67b784acdee3c2aaae8c1b5a4b8a5dd161672e1f66bc536d6d5eb7",
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-11",
+        "calendar-10",
+        "calendar-13",
+        "masters-gpa-appendix",
+        "masters-grants"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-gpa",
+      "mode": "bm25",
+      "query": "How is general enrolled-student GPA calculated, including failed and repeated courses?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0"
+      ],
+      "retrieved_selection_ids": [
+        "masters-ranking",
+        "masters-gpa-appendix",
+        "masters-grants"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-gpa",
+      "mode": "dense",
+      "query": "How is general enrolled-student GPA calculated, including failed and repeated courses?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81"
+      ],
+      "retrieved_selection_ids": [
+        "masters-gpa-appendix",
+        "masters-ranking",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-33d632ae-near-foreign-agreement"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-gpa",
+      "mode": "hybrid",
+      "query": "How is general enrolled-student GPA calculated, including failed and repeated courses?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3"
+      ],
+      "retrieved_selection_ids": [
+        "masters-ranking",
+        "masters-gpa-appendix",
+        "masters-grants",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-academic_leave",
+      "mode": "bm25",
+      "query": "How long may I take academic leave under the currently operative KSTU policy?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-6dddff05a350b7998ee7a2a36a029dba1e878f506ebb3a228452b97aa68c1b4b",
+        "kstu-d5ed287addf99e385f9ca492f9e347cc921cfcda58d89cfe1f26d87cbfd17a03",
+        "kstu-7a1348f23c67b784acdee3c2aaae8c1b5a4b8a5dd161672e1f66bc536d6d5eb7"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-11",
+        "calendar-10",
+        "calendar-13"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-academic_leave",
+      "mode": "dense",
+      "query": "How long may I take academic leave under the currently operative KSTU policy?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-e0550eca2dcf64fe8ac021f5c560f5f8c10011a6eda403d45c1fc72d0f650061",
+        "kstu-f6df49cefda01876b6908f85b788b576ddd3d1e9ec296b36fc768a36c662227e",
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-8eae2da0ba0a99ff3dced4693a7f83801838d4e1c3d45e41d75631ca1d051d64",
+        "kstu-af1b6df1d9c5af97f12cc108eb9d71fa5efd7a404a34eb4013d1eb3c988c76ca"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-08",
+        "calendar-05",
+        "masters-gpa-appendix",
+        "calendar-06",
+        "calendar-12"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-academic_leave",
+      "mode": "hybrid",
+      "query": "How long may I take academic leave under the currently operative KSTU policy?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-7a1348f23c67b784acdee3c2aaae8c1b5a4b8a5dd161672e1f66bc536d6d5eb7",
+        "kstu-6dddff05a350b7998ee7a2a36a029dba1e878f506ebb3a228452b97aa68c1b4b",
+        "kstu-d5ed287addf99e385f9ca492f9e347cc921cfcda58d89cfe1f26d87cbfd17a03",
+        "kstu-e0550eca2dcf64fe8ac021f5c560f5f8c10011a6eda403d45c1fc72d0f650061",
+        "kstu-f6df49cefda01876b6908f85b788b576ddd3d1e9ec296b36fc768a36c662227e"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-13",
+        "calendar-11",
+        "calendar-10",
+        "calendar-08",
+        "calendar-05"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-admissions_documents",
+      "mode": "bm25",
+      "query": "What is the university-wide bachelor admissions checklist for 2026-2027?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-3465706c3727cc596c5379d88e112b4f04d040bac6bafcbbbafcfa2c0eb81ae6",
+        "kstu-3cf435eaa48210903f93eb715f9ee8a8ab5ba191c50d11efc93741c5e092677f",
+        "kstu-c1869a3003154c3e567053f25f2f9cf5bd8a7b7c0f4496311fa22978829b8228",
+        "kstu-c159430085b656222a75a6afdc897813224fc59804cc73dd8f3204418885de13",
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-15",
+        "calendar-16",
+        "calendar-18",
+        "calendar-17",
+        "tokmok-documents"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-admissions_documents",
+      "mode": "dense",
+      "query": "What is the university-wide bachelor admissions checklist for 2026-2027?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-af1b6df1d9c5af97f12cc108eb9d71fa5efd7a404a34eb4013d1eb3c988c76ca",
+        "kstu-574cdf46d7c8a3c80cb0e862feab09bf8b317e8e8996220af9c8f9c566ddf42f",
+        "kstu-6dddff05a350b7998ee7a2a36a029dba1e878f506ebb3a228452b97aa68c1b4b",
+        "kstu-d5ed287addf99e385f9ca492f9e347cc921cfcda58d89cfe1f26d87cbfd17a03",
+        "kstu-a4f2ee314f0f8b10de00a9d4da07192025f51a1cd53832ab1f9952a96fd42e8d"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-12",
+        "calendar-04",
+        "calendar-11",
+        "calendar-10",
+        "calendar-07"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-admissions_documents",
+      "mode": "hybrid",
+      "query": "What is the university-wide bachelor admissions checklist for 2026-2027?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-3cf435eaa48210903f93eb715f9ee8a8ab5ba191c50d11efc93741c5e092677f",
+        "kstu-3465706c3727cc596c5379d88e112b4f04d040bac6bafcbbbafcfa2c0eb81ae6",
+        "kstu-574cdf46d7c8a3c80cb0e862feab09bf8b317e8e8996220af9c8f9c566ddf42f",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-c1869a3003154c3e567053f25f2f9cf5bd8a7b7c0f4496311fa22978829b8228"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-16",
+        "calendar-15",
+        "calendar-04",
+        "masters-ranking",
+        "calendar-18"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-thresholds",
+      "mode": "bm25",
+      "query": "What is the KSTU bachelor ORT threshold for 2026-2027?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-3465706c3727cc596c5379d88e112b4f04d040bac6bafcbbbafcfa2c0eb81ae6",
+        "kstu-3cf435eaa48210903f93eb715f9ee8a8ab5ba191c50d11efc93741c5e092677f",
+        "kstu-c1869a3003154c3e567053f25f2f9cf5bd8a7b7c0f4496311fa22978829b8228",
+        "kstu-c159430085b656222a75a6afdc897813224fc59804cc73dd8f3204418885de13",
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-15",
+        "calendar-16",
+        "calendar-18",
+        "calendar-17",
+        "tokmok-documents"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-thresholds",
+      "mode": "dense",
+      "query": "What is the KSTU bachelor ORT threshold for 2026-2027?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548"
+      ],
+      "retrieved_selection_ids": [
+        "masters-gpa-appendix",
+        "masters-grants",
+        "masters-ranking",
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-kr-full-time"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-thresholds",
+      "mode": "hybrid",
+      "query": "What is the KSTU bachelor ORT threshold for 2026-2027?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3"
+      ],
+      "retrieved_selection_ids": [
+        "tokmok-documents",
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-kr-full-time",
+        "masters-gpa-appendix",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-grants",
+      "mode": "bm25",
+      "query": "Am I eligible for a bachelor grant and are places still available?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-6dddff05a350b7998ee7a2a36a029dba1e878f506ebb3a228452b97aa68c1b4b",
+        "kstu-d5ed287addf99e385f9ca492f9e347cc921cfcda58d89cfe1f26d87cbfd17a03",
+        "kstu-7a1348f23c67b784acdee3c2aaae8c1b5a4b8a5dd161672e1f66bc536d6d5eb7"
+      ],
+      "retrieved_selection_ids": [
+        "masters-gpa-appendix",
+        "calendar-11",
+        "calendar-10",
+        "calendar-13"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-grants",
+      "mode": "dense",
+      "query": "Am I eligible for a bachelor grant and are places still available?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e"
+      ],
+      "retrieved_selection_ids": [
+        "masters-grants",
+        "masters-ranking",
+        "masters-documents",
+        "masters-documents",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-grants",
+      "mode": "hybrid",
+      "query": "Am I eligible for a bachelor grant and are places still available?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-6dddff05a350b7998ee7a2a36a029dba1e878f506ebb3a228452b97aa68c1b4b",
+        "kstu-d5ed287addf99e385f9ca492f9e347cc921cfcda58d89cfe1f26d87cbfd17a03",
+        "kstu-7a1348f23c67b784acdee3c2aaae8c1b5a4b8a5dd161672e1f66bc536d6d5eb7",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0"
+      ],
+      "retrieved_selection_ids": [
+        "masters-gpa-appendix",
+        "calendar-11",
+        "calendar-10",
+        "calendar-13",
+        "masters-grants"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-tuition",
+      "mode": "bm25",
+      "query": "What is the 2026-2027 tuition for a programme outside the selected logistics and railway tables?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-3465706c3727cc596c5379d88e112b4f04d040bac6bafcbbbafcfa2c0eb81ae6",
+        "kstu-3cf435eaa48210903f93eb715f9ee8a8ab5ba191c50d11efc93741c5e092677f",
+        "kstu-c1869a3003154c3e567053f25f2f9cf5bd8a7b7c0f4496311fa22978829b8228",
+        "kstu-c159430085b656222a75a6afdc897813224fc59804cc73dd8f3204418885de13"
+      ],
+      "retrieved_selection_ids": [
+        "masters-gpa-appendix",
+        "calendar-15",
+        "calendar-16",
+        "calendar-18",
+        "calendar-17"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-tuition",
+      "mode": "dense",
+      "query": "What is the 2026-2027 tuition for a programme outside the selected logistics and railway tables?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-33d632ae-near-foreign-agreement",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-33d632ae-kr-distance",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-tuition",
+      "mode": "hybrid",
+      "query": "What is the 2026-2027 tuition for a programme outside the selected logistics and railway tables?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937"
+      ],
+      "retrieved_selection_ids": [
+        "masters-gpa-appendix",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-33d632ae-near-foreign-agreement",
+        "tuition-33d632ae-kr-distance"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-course_registration",
+      "mode": "bm25",
+      "query": "When does registration close for part-time masters students?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": false,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-course_registration",
+      "mode": "dense",
+      "query": "When does registration close for part-time masters students?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-9a677ee2b5e32af346395c83533263314e49e88c80f58e0e1296df11accf0660"
+      ],
+      "retrieved_selection_ids": [
+        "masters-documents",
+        "masters-grants",
+        "masters-ranking",
+        "masters-documents",
+        "calendar-14"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-course_registration",
+      "mode": "hybrid",
+      "query": "When does registration close for part-time masters students?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-9a677ee2b5e32af346395c83533263314e49e88c80f58e0e1296df11accf0660"
+      ],
+      "retrieved_selection_ids": [
+        "masters-documents",
+        "masters-grants",
+        "masters-ranking",
+        "masters-documents",
+        "calendar-14"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-examination_periods",
+      "mode": "bm25",
+      "query": "When are doctoral examinations?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": false,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-examination_periods",
+      "mode": "dense",
+      "query": "When are doctoral examinations?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-3cf435eaa48210903f93eb715f9ee8a8ab5ba191c50d11efc93741c5e092677f",
+        "kstu-9aa9c54a8090d0a2bc51d406b503a3925528defcf5ed2b24020cde62e4a6c95f",
+        "kstu-3465706c3727cc596c5379d88e112b4f04d040bac6bafcbbbafcfa2c0eb81ae6",
+        "kstu-589a6a49258d29e2ced41fefd75adc49a4968cf40124dca19c0e7d90968dbec5",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-16",
+        "calendar-02",
+        "calendar-15",
+        "calendar-01",
+        "masters-grants"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-examination_periods",
+      "mode": "hybrid",
+      "query": "When are doctoral examinations?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-3cf435eaa48210903f93eb715f9ee8a8ab5ba191c50d11efc93741c5e092677f",
+        "kstu-9aa9c54a8090d0a2bc51d406b503a3925528defcf5ed2b24020cde62e4a6c95f",
+        "kstu-3465706c3727cc596c5379d88e112b4f04d040bac6bafcbbbafcfa2c0eb81ae6",
+        "kstu-589a6a49258d29e2ced41fefd75adc49a4968cf40124dca19c0e7d90968dbec5",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-16",
+        "calendar-02",
+        "calendar-15",
+        "calendar-01",
+        "masters-grants"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-holidays",
+      "mode": "bm25",
+      "query": "What holidays apply to doctoral students?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": false,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-holidays",
+      "mode": "dense",
+      "query": "What holidays apply to doctoral students?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-e0550eca2dcf64fe8ac021f5c560f5f8c10011a6eda403d45c1fc72d0f650061",
+        "kstu-9aa9c54a8090d0a2bc51d406b503a3925528defcf5ed2b24020cde62e4a6c95f",
+        "kstu-f6df49cefda01876b6908f85b788b576ddd3d1e9ec296b36fc768a36c662227e",
+        "kstu-589a6a49258d29e2ced41fefd75adc49a4968cf40124dca19c0e7d90968dbec5",
+        "kstu-8a788284140050ad8ce50901fd59b6a1c2f0a4c71c72351ab52129d22f0e32b3"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-08",
+        "calendar-02",
+        "calendar-05",
+        "calendar-01",
+        "calendar-03"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "refuse-holidays",
+      "mode": "hybrid",
+      "query": "What holidays apply to doctoral students?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-e0550eca2dcf64fe8ac021f5c560f5f8c10011a6eda403d45c1fc72d0f650061",
+        "kstu-9aa9c54a8090d0a2bc51d406b503a3925528defcf5ed2b24020cde62e4a6c95f",
+        "kstu-f6df49cefda01876b6908f85b788b576ddd3d1e9ec296b36fc768a36c662227e",
+        "kstu-589a6a49258d29e2ced41fefd75adc49a4968cf40124dca19c0e7d90968dbec5",
+        "kstu-8a788284140050ad8ce50901fd59b6a1c2f0a4c71c72351ab52129d22f0e32b3"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-08",
+        "calendar-02",
+        "calendar-05",
+        "calendar-01",
+        "calendar-03"
+      ],
+      "kind": "raw_unsupported_question",
+      "returned_candidates": true,
+      "note": "Candidate retrieval is not a semantic answerability/refusal classifier."
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-threshold",
+      "mode": "bm25",
+      "query": "Какой минимальный GPA нужен для конкурса на грант в магистратуру КГТУ?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a"
+      ],
+      "retrieved_selection_ids": [
+        "masters-ranking",
+        "masters-grants",
+        "masters-gpa-appendix",
+        "masters-documents",
+        "masters-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-threshold",
+      "mode": "dense",
+      "query": "Какой минимальный GPA нужен для конкурса на грант в магистратуру КГТУ?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a"
+      ],
+      "retrieved_selection_ids": [
+        "masters-grants",
+        "masters-ranking",
+        "masters-gpa-appendix",
+        "masters-documents",
+        "masters-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-threshold",
+      "mode": "hybrid",
+      "query": "Какой минимальный GPA нужен для конкурса на грант в магистратуру КГТУ?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a"
+      ],
+      "retrieved_selection_ids": [
+        "masters-grants",
+        "masters-ranking",
+        "masters-gpa-appendix",
+        "masters-documents",
+        "masters-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-contract",
+      "mode": "bm25",
+      "query": "Как подтвердить платное место в магистратуре и какую часть годовой стоимости оплатить?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8"
+      ],
+      "retrieved_selection_ids": [
+        "masters-documents",
+        "masters-ranking",
+        "masters-grants",
+        "masters-documents",
+        "masters-gpa-appendix"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-contract",
+      "mode": "dense",
+      "query": "Как подтвердить платное место в магистратуре и какую часть годовой стоимости оплатить?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-contract",
+      "mode": "hybrid",
+      "query": "Как подтвердить платное место в магистратуре и какую часть годовой стоимости оплатить?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77"
+      ],
+      "retrieved_selection_ids": [
+        "masters-documents",
+        "tuition-7577d9d7-kr-full-time",
+        "masters-grants",
+        "masters-ranking",
+        "tuition-33d632ae-near-foreign-other"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-equivalence",
+      "mode": "bm25",
+      "query": "Нужна ли справка об эквивалентности иностранного диплома для поступления в магистратуру гражданину ЕАЭС?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec"
+      ],
+      "retrieved_selection_ids": [
+        "masters-documents",
+        "masters-documents",
+        "masters-ranking",
+        "masters-grants",
+        "tokmok-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-equivalence",
+      "mode": "dense",
+      "query": "Нужна ли справка об эквивалентности иностранного диплома для поступления в магистратуру гражданину ЕАЭС?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77"
+      ],
+      "retrieved_selection_ids": [
+        "masters-documents",
+        "masters-grants",
+        "masters-ranking",
+        "masters-documents",
+        "tuition-33d632ae-near-foreign-other"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-equivalence",
+      "mode": "hybrid",
+      "query": "Нужна ли справка об эквивалентности иностранного диплома для поступления в магистратуру гражданину ЕАЭС?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77"
+      ],
+      "retrieved_selection_ids": [
+        "masters-documents",
+        "masters-documents",
+        "masters-grants",
+        "masters-ranking",
+        "tuition-33d632ae-near-foreign-other"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-design",
+      "mode": "bm25",
+      "query": "Нужен ли ОРТ на графический дизайн в филиале КГТУ в Токмоке?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173"
+      ],
+      "retrieved_selection_ids": [
+        "tokmok-documents",
+        "masters-ranking",
+        "masters-grants",
+        "masters-documents",
+        "masters-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-design",
+      "mode": "dense",
+      "query": "Нужен ли ОРТ на графический дизайн в филиале КГТУ в Токмоке?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a"
+      ],
+      "retrieved_selection_ids": [
+        "tokmok-documents",
+        "masters-grants",
+        "masters-gpa-appendix",
+        "masters-documents",
+        "masters-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-design",
+      "mode": "hybrid",
+      "query": "Нужен ли ОРТ на графический дизайн в филиале КГТУ в Токмоке?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173"
+      ],
+      "retrieved_selection_ids": [
+        "tokmok-documents",
+        "masters-grants",
+        "masters-gpa-appendix",
+        "masters-documents",
+        "masters-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-photos",
+      "mode": "bm25",
+      "query": "Сколько фотографий и какого размера нужно для поступления в Токмокский филиал?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a"
+      ],
+      "retrieved_selection_ids": [
+        "tokmok-documents",
+        "masters-ranking",
+        "masters-grants",
+        "masters-documents",
+        "masters-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-photos",
+      "mode": "dense",
+      "query": "Сколько фотографий и какого размера нужно для поступления в Токмокский филиал?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a"
+      ],
+      "retrieved_selection_ids": [
+        "tokmok-documents",
+        "masters-ranking",
+        "masters-grants",
+        "masters-documents",
+        "masters-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-photos",
+      "mode": "hybrid",
+      "query": "Сколько фотографий и какого размера нужно для поступления в Токмокский филиал?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a"
+      ],
+      "retrieved_selection_ids": [
+        "tokmok-documents",
+        "masters-ranking",
+        "masters-grants",
+        "masters-documents",
+        "masters-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-logistics",
+      "mode": "bm25",
+      "query": "Сколько стоит первый курс очной логистики 580600 для граждан КР в 2026-2027 году?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-33d632ae-near-foreign-agreement",
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-33d632ae-kr-distance",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.3333333333333333,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-logistics",
+      "mode": "dense",
+      "query": "Сколько стоит первый курс очной логистики 580600 для граждан КР в 2026-2027 году?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-33d632ae-kr-full-time",
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-33d632ae-near-foreign-agreement",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-logistics",
+      "mode": "hybrid",
+      "query": "Сколько стоит первый курс очной логистики 580600 для граждан КР в 2026-2027 году?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-33d632ae-kr-full-time",
+        "tuition-33d632ae-near-foreign-agreement",
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-33d632ae-kr-distance",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-distance",
+      "mode": "bm25",
+      "query": "Сколько стоит второй курс заочной логистики с ДОТ для граждан Кыргызстана?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-near-foreign-agreement",
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-distance",
+      "mode": "dense",
+      "query": "Сколько стоит второй курс заочной логистики с ДОТ для граждан Кыргызстана?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-33d632ae-near-foreign-agreement",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-distance",
+      "mode": "hybrid",
+      "query": "Сколько стоит второй курс заочной логистики с ДОТ для граждан Кыргызстана?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-36dba5e8c2008a74edc4023c8f02ceb9dd5321425c42c8e1c3d5413ba8a15548",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-33d632ae-kr-distance",
+        "tuition-33d632ae-near-foreign-agreement",
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-33d632ae-kr-full-time",
+        "tuition-7577d9d7-kr-full-time"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-exams",
+      "mode": "bm25",
+      "query": "Когда первая зимняя экзаменационная сессия у очных бакалавров в январе 2027 года?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-3465706c3727cc596c5379d88e112b4f04d040bac6bafcbbbafcfa2c0eb81ae6",
+        "kstu-3cf435eaa48210903f93eb715f9ee8a8ab5ba191c50d11efc93741c5e092677f",
+        "kstu-c1869a3003154c3e567053f25f2f9cf5bd8a7b7c0f4496311fa22978829b8228",
+        "kstu-c159430085b656222a75a6afdc897813224fc59804cc73dd8f3204418885de13",
+        "kstu-fde5486c589bc915f26646b513bebea345c0ec3c5651e69f3635e70f085d90ec"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-15",
+        "calendar-16",
+        "calendar-18",
+        "calendar-17",
+        "tokmok-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-exams",
+      "mode": "dense",
+      "query": "Когда первая зимняя экзаменационная сессия у очных бакалавров в январе 2027 года?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-3cf435eaa48210903f93eb715f9ee8a8ab5ba191c50d11efc93741c5e092677f",
+        "kstu-3465706c3727cc596c5379d88e112b4f04d040bac6bafcbbbafcfa2c0eb81ae6",
+        "kstu-9aa9c54a8090d0a2bc51d406b503a3925528defcf5ed2b24020cde62e4a6c95f",
+        "kstu-589a6a49258d29e2ced41fefd75adc49a4968cf40124dca19c0e7d90968dbec5",
+        "kstu-6dddff05a350b7998ee7a2a36a029dba1e878f506ebb3a228452b97aa68c1b4b"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-16",
+        "calendar-15",
+        "calendar-02",
+        "calendar-01",
+        "calendar-11"
+      ],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 0.5,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-exams",
+      "mode": "hybrid",
+      "query": "Когда первая зимняя экзаменационная сессия у очных бакалавров в январе 2027 года?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-3465706c3727cc596c5379d88e112b4f04d040bac6bafcbbbafcfa2c0eb81ae6",
+        "kstu-3cf435eaa48210903f93eb715f9ee8a8ab5ba191c50d11efc93741c5e092677f",
+        "kstu-c1869a3003154c3e567053f25f2f9cf5bd8a7b7c0f4496311fa22978829b8228",
+        "kstu-c159430085b656222a75a6afdc897813224fc59804cc73dd8f3204418885de13",
+        "kstu-9aa9c54a8090d0a2bc51d406b503a3925528defcf5ed2b24020cde62e4a6c95f"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-15",
+        "calendar-16",
+        "calendar-18",
+        "calendar-17",
+        "calendar-02"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-nooruz",
+      "mode": "bm25",
+      "query": "На какую дату календарь очных бакалавров и специалистов ставит Нооруз в 2027 году?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-574cdf46d7c8a3c80cb0e862feab09bf8b317e8e8996220af9c8f9c566ddf42f",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-3465706c3727cc596c5379d88e112b4f04d040bac6bafcbbbafcfa2c0eb81ae6"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-04",
+        "masters-ranking",
+        "masters-documents",
+        "masters-grants",
+        "calendar-15"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-nooruz",
+      "mode": "dense",
+      "query": "На какую дату календарь очных бакалавров и специалистов ставит Нооруз в 2027 году?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-574cdf46d7c8a3c80cb0e862feab09bf8b317e8e8996220af9c8f9c566ddf42f",
+        "kstu-af1b6df1d9c5af97f12cc108eb9d71fa5efd7a404a34eb4013d1eb3c988c76ca",
+        "kstu-f6df49cefda01876b6908f85b788b576ddd3d1e9ec296b36fc768a36c662227e",
+        "kstu-65f6bfaed7cea460e35a7729182c1415a7eee5e2e78f468462895bcd6696421e",
+        "kstu-9aa9c54a8090d0a2bc51d406b503a3925528defcf5ed2b24020cde62e4a6c95f"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-04",
+        "calendar-12",
+        "calendar-05",
+        "calendar-09",
+        "calendar-02"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "ru-nooruz",
+      "mode": "hybrid",
+      "query": "На какую дату календарь очных бакалавров и специалистов ставит Нооруз в 2027 году?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-574cdf46d7c8a3c80cb0e862feab09bf8b317e8e8996220af9c8f9c566ddf42f",
+        "kstu-3465706c3727cc596c5379d88e112b4f04d040bac6bafcbbbafcfa2c0eb81ae6",
+        "kstu-3cf435eaa48210903f93eb715f9ee8a8ab5ba191c50d11efc93741c5e092677f",
+        "kstu-9aa9c54a8090d0a2bc51d406b503a3925528defcf5ed2b24020cde62e4a6c95f",
+        "kstu-f6df49cefda01876b6908f85b788b576ddd3d1e9ec296b36fc768a36c662227e"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-04",
+        "calendar-15",
+        "calendar-16",
+        "calendar-02",
+        "calendar-05"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "en-grade",
+      "mode": "bm25",
+      "query": "Which letter grade represents scores from eighty to eighty-six in the masters admissions appendix?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8"
+      ],
+      "retrieved_selection_ids": [
+        "masters-gpa-appendix"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "en-grade",
+      "mode": "dense",
+      "query": "Which letter grade represents scores from eighty to eighty-six in the masters admissions appendix?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a"
+      ],
+      "retrieved_selection_ids": [
+        "masters-gpa-appendix",
+        "masters-ranking",
+        "masters-grants",
+        "tuition-7577d9d7-kr-full-time",
+        "masters-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "en-grade",
+      "mode": "hybrid",
+      "query": "Which letter grade represents scores from eighty to eighty-six in the masters admissions appendix?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+        "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+        "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a"
+      ],
+      "retrieved_selection_ids": [
+        "masters-gpa-appendix",
+        "masters-ranking",
+        "masters-grants",
+        "tuition-7577d9d7-kr-full-time",
+        "masters-documents"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "en-railway",
+      "mode": "bm25",
+      "query": "What are the railway institute fees for third-year roads and aerodromes students who are Kyrgyz citizens?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "en-railway",
+      "mode": "dense",
+      "query": "What are the railway institute fees for third-year roads and aerodromes students who are Kyrgyz citizens?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-33d632ae-near-foreign-agreement",
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-33d632ae-kr-distance"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "en-railway",
+      "mode": "hybrid",
+      "query": "What are the railway institute fees for third-year roads and aerodromes students who are Kyrgyz citizens?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-cd95b98811b550fedb91c2cb627fe8b68663796a5ce8163ac29879eb7ae7f49e",
+        "kstu-65db7fa48823c449873c772297fe52bdda14fb0debda9b362b19bf3d12e9cc81",
+        "kstu-7031f968fb20205390df25b1cb971e6c1e6b96ddae2d2854c8051a970aa3ab77",
+        "kstu-af8c731e5a43581bf465e719c71de68090987bae2fe713dffa63086f822d46f3",
+        "kstu-501ae63971218e72564da9bc5425e4c1f1e253a50395c987c34de58637356937"
+      ],
+      "retrieved_selection_ids": [
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-33d632ae-near-foreign-agreement",
+        "tuition-33d632ae-near-foreign-other",
+        "tuition-7577d9d7-kr-full-time",
+        "tuition-33d632ae-kr-distance"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "en-spring-registration",
+      "mode": "bm25",
+      "query": "When is advance registration for the spring semester in the full-time bachelor calendar?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "answerable",
+      "hit_at_1": false,
+      "hit_at_5": false,
+      "reciprocal_rank_at_5": 0,
+      "evidence_fragment_recall_at_5": 0.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "en-spring-registration",
+      "mode": "dense",
+      "query": "When is advance registration for the spring semester in the full-time bachelor calendar?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-9a677ee2b5e32af346395c83533263314e49e88c80f58e0e1296df11accf0660",
+        "kstu-af1b6df1d9c5af97f12cc108eb9d71fa5efd7a404a34eb4013d1eb3c988c76ca",
+        "kstu-65f6bfaed7cea460e35a7729182c1415a7eee5e2e78f468462895bcd6696421e",
+        "kstu-7a1348f23c67b784acdee3c2aaae8c1b5a4b8a5dd161672e1f66bc536d6d5eb7",
+        "kstu-a4f2ee314f0f8b10de00a9d4da07192025f51a1cd53832ab1f9952a96fd42e8d"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-14",
+        "calendar-12",
+        "calendar-09",
+        "calendar-13",
+        "calendar-07"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "en-spring-registration",
+      "mode": "hybrid",
+      "query": "When is advance registration for the spring semester in the full-time bachelor calendar?",
+      "request": {},
+      "status": "candidates",
+      "retrieved_chunk_ids": [
+        "kstu-9a677ee2b5e32af346395c83533263314e49e88c80f58e0e1296df11accf0660",
+        "kstu-af1b6df1d9c5af97f12cc108eb9d71fa5efd7a404a34eb4013d1eb3c988c76ca",
+        "kstu-65f6bfaed7cea460e35a7729182c1415a7eee5e2e78f468462895bcd6696421e",
+        "kstu-7a1348f23c67b784acdee3c2aaae8c1b5a4b8a5dd161672e1f66bc536d6d5eb7",
+        "kstu-a4f2ee314f0f8b10de00a9d4da07192025f51a1cd53832ab1f9952a96fd42e8d"
+      ],
+      "retrieved_selection_ids": [
+        "calendar-14",
+        "calendar-12",
+        "calendar-09",
+        "calendar-13",
+        "calendar-07"
+      ],
+      "kind": "answerable",
+      "hit_at_1": true,
+      "hit_at_5": true,
+      "reciprocal_rank_at_5": 1.0,
+      "evidence_fragment_recall_at_5": 1.0
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "scope-doctoral",
+      "mode": "bm25",
+      "query": "When are doctoral exams?",
+      "request": {
+        "scope": "doctoral_calendar"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "scope-doctoral",
+      "mode": "dense",
+      "query": "When are doctoral exams?",
+      "request": {
+        "scope": "doctoral_calendar"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "scope-doctoral",
+      "mode": "hybrid",
+      "query": "When are doctoral exams?",
+      "request": {
+        "scope": "doctoral_calendar"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "scope-bachelor",
+      "mode": "bm25",
+      "query": "What is the university-wide bachelor ORT threshold?",
+      "request": {
+        "scope": "bachelor_admissions"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "scope-bachelor",
+      "mode": "dense",
+      "query": "What is the university-wide bachelor ORT threshold?",
+      "request": {
+        "scope": "bachelor_admissions"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "scope-bachelor",
+      "mode": "hybrid",
+      "query": "What is the university-wide bachelor ORT threshold?",
+      "request": {
+        "scope": "bachelor_admissions"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "missing-retakes",
+      "mode": "bm25",
+      "query": "What are current general retake rules?",
+      "request": {
+        "topic": "retakes"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "missing-retakes",
+      "mode": "dense",
+      "query": "What are current general retake rules?",
+      "request": {
+        "topic": "retakes"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "missing-retakes",
+      "mode": "hybrid",
+      "query": "What are current general retake rules?",
+      "request": {
+        "topic": "retakes"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "missing-gpa",
+      "mode": "bm25",
+      "query": "How is current enrolled-student GPA calculated?",
+      "request": {
+        "topic": "gpa",
+        "category": "current student"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "missing-gpa",
+      "mode": "dense",
+      "query": "How is current enrolled-student GPA calculated?",
+      "request": {
+        "topic": "gpa",
+        "category": "current student"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "missing-gpa",
+      "mode": "hybrid",
+      "query": "How is current enrolled-student GPA calculated?",
+      "request": {
+        "topic": "gpa",
+        "category": "current student"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "missing-leave",
+      "mode": "bm25",
+      "query": "How long can I take academic leave?",
+      "request": {
+        "topic": "academic_leave"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "missing-leave",
+      "mode": "dense",
+      "query": "How long can I take academic leave?",
+      "request": {
+        "topic": "academic_leave"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "missing-leave",
+      "mode": "hybrid",
+      "query": "How long can I take academic leave?",
+      "request": {
+        "topic": "academic_leave"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "missing-year",
+      "mode": "bm25",
+      "query": "What are 2025-2026 master admissions requirements?",
+      "request": {
+        "academic_year": "2025-2026"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "missing-year",
+      "mode": "dense",
+      "query": "What are 2025-2026 master admissions requirements?",
+      "request": {
+        "academic_year": "2025-2026"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    },
+    {
+      "dataset": "heldout",
+      "case_id": "missing-year",
+      "mode": "hybrid",
+      "query": "What are 2025-2026 master admissions requirements?",
+      "request": {
+        "academic_year": "2025-2026"
+      },
+      "status": "no_matching_scope",
+      "retrieved_chunk_ids": [],
+      "retrieved_selection_ids": [],
+      "kind": "explicit_metadata_isolation",
+      "passed": true
+    }
+  ]
+}

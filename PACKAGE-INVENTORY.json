@@ -1,0 +1,575 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "de0f9b7c07cb9b54e1c0fdafb0ad90ceb983221e4c68bf34c3b4bda424816e07",
+      "bytes": 416
+    },
+    {
+      "path": "README.md",
+      "sha256": "b6cfd836cbe313cff68a487f6ba3f64c2461aad305c4b8f28c89c1457146f7f4",
+      "bytes": 1855
+    },
+    {
+      "path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+      "sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+      "bytes": 1161296
+    },
+    {
+      "path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+      "sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+      "bytes": 557909
+    },
+    {
+      "path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+      "sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+      "bytes": 1134946
+    },
+    {
+      "path": "data/expansion/pilot-20261019/extracted/899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9.json",
+      "sha256": "22a306e985dc136b33a4309567e93399b75ed6edf9664e31041b8024cee9d2b8",
+      "bytes": 323569
+    },
+    {
+      "path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+      "sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+      "bytes": 580947
+    },
+    {
+      "path": "data/expansion/pilot-20261019/extracted/cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d.json",
+      "sha256": "f379b984437ecebf0ab8ce069c430fc78dc9372243435286c024708f53f4be01",
+      "bytes": 227694
+    },
+    {
+      "path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+      "sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+      "bytes": 2647805
+    },
+    {
+      "path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+      "sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+      "bytes": 524820
+    },
+    {
+      "path": "data/expansion/pilot-20261019/raw/originals/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.pdf",
+      "sha256": "33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913",
+      "bytes": 14482415
+    },
+    {
+      "path": "data/expansion/pilot-20261019/raw/originals/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.pdf",
+      "sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+      "bytes": 248233
+    },
+    {
+      "path": "data/expansion/pilot-20261019/raw/originals/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.pdf",
+      "sha256": "7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e",
+      "bytes": 18995963
+    },
+    {
+      "path": "data/expansion/pilot-20261019/raw/originals/899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9.pdf",
+      "sha256": "899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9",
+      "bytes": 169610
+    },
+    {
+      "path": "data/expansion/pilot-20261019/raw/originals/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.pdf",
+      "sha256": "a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f",
+      "bytes": 791802
+    },
+    {
+      "path": "data/expansion/pilot-20261019/raw/originals/cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d.pdf",
+      "sha256": "cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d",
+      "bytes": 298218
+    },
+    {
+      "path": "data/expansion/pilot-20261019/raw/originals/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.pdf",
+      "sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "bytes": 3159340
+    },
+    {
+      "path": "data/expansion/pilot-20261019/raw/originals/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.pdf",
+      "sha256": "dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d",
+      "bytes": 709468
+    },
+    {
+      "path": "data/expansion/pilot-20261019/review/decisions.json",
+      "sha256": "7a755a7dd612cfc186cf4f83b388386af0157b6344747797e3952a636516d1be",
+      "bytes": 1195655
+    },
+    {
+      "path": "data/knowledge/manifest.json",
+      "sha256": "f73996dbbcbb82b8ccb96f8764f41646a34d47b1656e997a686d5f081ec0c54f",
+      "bytes": 2397164
+    },
+    {
+      "path": "data/knowledge/selection.json",
+      "sha256": "cc3281987548bda9ea1da600f603f7f8c1a7d153a7e4c43423887104bb2f8f85",
+      "bytes": 58984242
+    },
+    {
+      "path": "data/knowledge/universities.json",
+      "sha256": "74b767eae4402fcc87cc3915ede582cfdfeb47c7faad15315431bc46821b457c",
+      "bytes": 18545829
+    },
+    {
+      "path": "rag-kstu/.env.example",
+      "sha256": "a78e5a63dbfa437c5d699d2a2e5a5604146a2c6a217760d76d629a9df905a1ff",
+      "bytes": 356
+    },
+    {
+      "path": "rag-kstu/.gitignore",
+      "sha256": "de0f9b7c07cb9b54e1c0fdafb0ad90ceb983221e4c68bf34c3b4bda424816e07",
+      "bytes": 416
+    },
+    {
+      "path": "rag-kstu/ASSIGNMENT-STATUS.md",
+      "sha256": "bd70b03401fc3ae4b0cf4ddeb25b35aecaf6aad57e8486edc8ee09ae7ec25aaa",
+      "bytes": 2576
+    },
+    {
+      "path": "rag-kstu/ATTRIBUTION.md",
+      "sha256": "47e37f2c30f0cfd19730f1a070cb637fff384a5dff9b82b196ef473213cd733f",
+      "bytes": 696
+    },
+    {
+      "path": "rag-kstu/README.md",
+      "sha256": "faf29bc98a70d31c3137d86b574438b1d436ca86a0f4f1318a34d7fe3f04146a",
+      "bytes": 8632
+    },
+    {
+      "path": "rag-kstu/UNIVERSITY.md",
+      "sha256": "a4dcc8e3d41718a05faea55c6b9714f4bf03613841adf06b8c5e35ae7992d901",
+      "bytes": 5130
+    },
+    {
+      "path": "rag-kstu/app/__init__.py",
+      "sha256": "461ccb2c37ce3eabaa6adbc47c70f05aba98b0e4d1bb9cf5f99f011d82fd8798",
+      "bytes": 51
+    },
+    {
+      "path": "rag-kstu/app/api.py",
+      "sha256": "96b2fc30fc9f05444886ed300b5b04ef76512f37abb5fc07b4a8724f425b5b91",
+      "bytes": 4453
+    },
+    {
+      "path": "rag-kstu/app/config.py",
+      "sha256": "bb863cae374cae5a382f91747e4f31d510460cf84ae07794324512285fe46d38",
+      "bytes": 1568
+    },
+    {
+      "path": "rag-kstu/app/frontend.py",
+      "sha256": "c47fc39a20966b6cb6b71b13e0606b0e81052a9bc04044377380c0b791c0fe63",
+      "bytes": 2675
+    },
+    {
+      "path": "rag-kstu/app/groq.py",
+      "sha256": "8bc9f6b11464b96b436404405d5d0e8613d6d6c119dd17aaea38412068ab04ef",
+      "bytes": 7498
+    },
+    {
+      "path": "rag-kstu/app/grounding.py",
+      "sha256": "2806f1c0fce052fedd56ae79475f4b1ccbec3760453e0bf368bed04b9d0eacd2",
+      "bytes": 24411
+    },
+    {
+      "path": "rag-kstu/app/models.py",
+      "sha256": "5cc9de44f90131990c3ae83832d03a1594532c90fc9225de7a350abc12ab4dd9",
+      "bytes": 3093
+    },
+    {
+      "path": "rag-kstu/app/prompts/generate.txt",
+      "sha256": "63230cbd77bcb20567d2a808f784fe1985aa85786fc6cc6095183e4c3d04950a",
+      "bytes": 6570
+    },
+    {
+      "path": "rag-kstu/app/prompts/verify.txt",
+      "sha256": "8ec2fe385fe5af4416e22277628ed028af437fd578f095cdb28872566242820f",
+      "bytes": 3887
+    },
+    {
+      "path": "rag-kstu/data/CHAT-REPORT.md",
+      "sha256": "a9dd640c441cd7962b332fa3bcf1aa44aee96c8344b386be36ae35a8c304af5c",
+      "bytes": 6694
+    },
+    {
+      "path": "rag-kstu/data/REPORT.md",
+      "sha256": "31ea77057e4442f857a68a55bbed8fffc7429100c846149a45d0763e39771000",
+      "bytes": 11878
+    },
+    {
+      "path": "rag-kstu/data/RETRIEVAL-REPORT.md",
+      "sha256": "d0a7cb5438c0f8e77dc3c1795d3c276d01ced3754347d4e5bc34ecd9adf8291f",
+      "bytes": 10682
+    },
+    {
+      "path": "rag-kstu/data/acquisition/20261020-162300-936458/manifest.jsonl",
+      "sha256": "aa14d88cdfaaae16b122e11c8583379363348641a66bba412b33c2746115f906",
+      "bytes": 53934
+    },
+    {
+      "path": "rag-kstu/data/acquisition/20261020-162300-936458/originals/899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9.pdf",
+      "sha256": "899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9",
+      "bytes": 169610
+    },
+    {
+      "path": "rag-kstu/data/acquisition/20261020-tokmok-lead/manifest.jsonl",
+      "sha256": "bda0c1e341d7dbeb1271315b96098dfc67a35971ef65d85fb077d6e87763a10d",
+      "bytes": 1025
+    },
+    {
+      "path": "rag-kstu/data/acquisition/20261020-tokmok-lead/originals/f707f6aa8f6fa22b8e02a6c0c04a3abd934adbd4e7e380a61450efabaab0132b.pdf",
+      "sha256": "f707f6aa8f6fa22b8e02a6c0c04a3abd934adbd4e7e380a61450efabaab0132b",
+      "bytes": 2137700
+    },
+    {
+      "path": "rag-kstu/data/build-stats.json",
+      "sha256": "bb8fcb6ab36c0f8cc8498b914f05346f70da76ab19cb7bba2d4c5bfd197a2cb1",
+      "bytes": 8065
+    },
+    {
+      "path": "rag-kstu/data/chunks.archive.jsonl",
+      "sha256": "7f1bd394df8e24d9d3cade00b85fb0e524496ddb85d646b6fe71251b2fe689dd",
+      "bytes": 72016
+    },
+    {
+      "path": "rag-kstu/data/chunks.current.jsonl",
+      "sha256": "df0baeee207a42e79fa44c1b818690fffd0e02c9797bf5ddc004b402ec8203f1",
+      "bytes": 318395
+    },
+    {
+      "path": "rag-kstu/data/coverage.json",
+      "sha256": "9bf301f1538e36491a6fe560838cc104ebd7c72c3b8a073fa4f7d80ee2557c3d",
+      "bytes": 133121
+    },
+    {
+      "path": "rag-kstu/data/enrichment/REPORT.md",
+      "sha256": "c5caed40ba1bea29b4f5dfc8b0cf8e488d35a97e8fdcef9e7c9b0fff0f83c0a9",
+      "bytes": 4202
+    },
+    {
+      "path": "rag-kstu/data/enrichment/admissions/findings.json",
+      "sha256": "cb7629b5879c4eb2ed5003e51fef533b707d6b62745cec4c8158d559f85cd19f",
+      "bytes": 9709
+    },
+    {
+      "path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+      "sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+      "bytes": 14338
+    },
+    {
+      "path": "rag-kstu/data/enrichment/admissions/tokmok-p1.txt",
+      "sha256": "7011b9ec14a4e3591a41fd444a70b7726825220ec3780cc632a5517b4fdb26b1",
+      "bytes": 4629
+    },
+    {
+      "path": "rag-kstu/data/enrichment/calendar/findings.json",
+      "sha256": "fbd3682f3951de5581fa99092aa465dc066e3ca06330be9bdffd202647f215a1",
+      "bytes": 19099
+    },
+    {
+      "path": "rag-kstu/data/enrichment/calendar/independent-review.json",
+      "sha256": "747ca04cd1231e15feee86a493033702ccc8ad9647b79af0013eacdaa0214fca",
+      "bytes": 1794
+    },
+    {
+      "path": "rag-kstu/data/enrichment/coverage.json",
+      "sha256": "5d80679ecb6f765825fbf0ea58a070bd9a476bbf2eee4a11dfd533f8ce675ba5",
+      "bytes": 4273
+    },
+    {
+      "path": "rag-kstu/data/enrichment/policies/findings.json",
+      "sha256": "8ee6d213baa51af3e12576a80779957eff6d210318a038bb7e3d27bbbc253721",
+      "bytes": 46586
+    },
+    {
+      "path": "rag-kstu/data/enrichment/source-manifest.json",
+      "sha256": "422a110cc0ad0cad607cfdf86ddd938180fce8e90956ebe5472f1ca20ba11d42",
+      "bytes": 6935
+    },
+    {
+      "path": "rag-kstu/data/enrichment/tuition/findings.json",
+      "sha256": "3a3bf8e6ca0a1107769650566ff186bcb32027bb3f2a50664fc1bd7032eb740a",
+      "bytes": 14170
+    },
+    {
+      "path": "rag-kstu/data/enrichment/validation.json",
+      "sha256": "6097c0ce7922ed9ad640d1a4d8b61e010525e8ec4d497157aeb74e92e285c198",
+      "bytes": 577
+    },
+    {
+      "path": "rag-kstu/data/exclusions.json",
+      "sha256": "bc6313c5a2ee2d89440034b6d3cb9b67c0d7b431ca4ec88e1c3e01493cffd9e8",
+      "bytes": 35548
+    },
+    {
+      "path": "rag-kstu/data/expanded/admissions-documents-passages.json",
+      "sha256": "8d0812a607a8169d52d70ef8e0fd8383828a6d6f328ab85723d1e1481ea00717",
+      "bytes": 4370
+    },
+    {
+      "path": "rag-kstu/data/expanded/appeals-passages.json",
+      "sha256": "c669e4a7c9cda49c6245883093b4f3930155c1e365ffc7929c7c727357378d4b",
+      "bytes": 722
+    },
+    {
+      "path": "rag-kstu/data/expanded/build-stats.json",
+      "sha256": "6f69da2afd42af6e670c6b679e8eb518dc959dc46ae2d4691da7578dd255bfd7",
+      "bytes": 636
+    },
+    {
+      "path": "rag-kstu/data/expanded/chunks.archive.jsonl",
+      "sha256": "7f1bd394df8e24d9d3cade00b85fb0e524496ddb85d646b6fe71251b2fe689dd",
+      "bytes": 72016
+    },
+    {
+      "path": "rag-kstu/data/expanded/chunks.current.jsonl",
+      "sha256": "15db3c7d3850a6fcf10738076eda74012801e4c602924316e6d6b326bdaeb40e",
+      "bytes": 660996
+    },
+    {
+      "path": "rag-kstu/data/expanded/programmes-passages.json",
+      "sha256": "77962892f2c6a6d8b7c987e41d29d363dfec3320e81b95aee73d31aeb1bbd9b7",
+      "bytes": 122003
+    },
+    {
+      "path": "rag-kstu/data/expanded/review/approved-selections.json",
+      "sha256": "01e6680d13ec3ee86f5bdfb018a1a1495fe7eadd1e0dd7892968e05e5b533b40",
+      "bytes": 101914
+    },
+    {
+      "path": "rag-kstu/data/expanded/review/policies.json",
+      "sha256": "ab1660306f035efa435b9ac0ae3d77609d037273a84b4434ef63b468cdbbfc7a",
+      "bytes": 54712
+    },
+    {
+      "path": "rag-kstu/data/expanded/review/programmes-research.md",
+      "sha256": "f8e502197cfc4058ce1a6c714b1813b87b1150ea1c448b9938bedd202ed666c5",
+      "bytes": 5484
+    },
+    {
+      "path": "rag-kstu/data/expanded/source-manifest.json",
+      "sha256": "c230d8347cab132e317f9ee1268c4a600c7b042244e798bc34ee229a1ecd7aab",
+      "bytes": 107968
+    },
+    {
+      "path": "rag-kstu/data/expanded/sources/admissions-documents.html",
+      "sha256": "8ebbfe632d6b78a2ad0aa8fe8c76d1a0c9433dd37368b01f7ec4b0cfef81e060",
+      "bytes": 84923
+    },
+    {
+      "path": "rag-kstu/data/expanded/sources/appeals-2026.pdf",
+      "sha256": "e3378ef798972c111e5b0dea72b64f44385929bce483752fbf57e379d543a209",
+      "bytes": 824000
+    },
+    {
+      "path": "rag-kstu/data/expanded/sources/programmes.html",
+      "sha256": "6844f19b7f47daa5622c63e9e1c47a65e6d9845b3ec694c4f02a65ad38e73ca0",
+      "bytes": 175282
+    },
+    {
+      "path": "rag-kstu/data/expanded/validation.json",
+      "sha256": "a2796013d3d2da7f1e5f4c70c1b0408d6c42b36bced6f7033d8ad524602af6a1",
+      "bytes": 230
+    },
+    {
+      "path": "rag-kstu/data/retrieval-validation.json",
+      "sha256": "fc7e5f81314cf7a4a3247f2f514cf07f732611b113d77b87bef218282383dc9b",
+      "bytes": 1684
+    },
+    {
+      "path": "rag-kstu/data/shortlist-snapshot.json",
+      "sha256": "65269f4995cd8635f3191ab94cc0eaf890a20ec97358d273b374ef7e91a117a1",
+      "bytes": 1908
+    },
+    {
+      "path": "rag-kstu/data/source-manifest.json",
+      "sha256": "63110ddbf7e9738ce6c255d2eb902563d93de5395574c94bd15192cef4dbf17d",
+      "bytes": 192427
+    },
+    {
+      "path": "rag-kstu/data/tokenizer/9b5ad71b2ce5302211f9c61530b329a4922fc6a4",
+      "sha256": "223921b76ee99bde995b7ff738513eef100fb51d18c93597a113bcffe865b2a7",
+      "bytes": 1681126
+    },
+    {
+      "path": "rag-kstu/data/validation.json",
+      "sha256": "5592be0badda98d41c9cbc53580e4ce69ace93a1bd6d09566ec15475cfc0af98",
+      "bytes": 2368
+    },
+    {
+      "path": "rag-kstu/evaluation/chat-filter-results.json",
+      "sha256": "18850ac08dad76889259356fcc7ede4876e8febda9e262b96cb3113de09d53df",
+      "bytes": 130
+    },
+    {
+      "path": "rag-kstu/evaluation/chat-results.json",
+      "sha256": "af83e45a47b29ec93c949a5dc6be1a5daeead2e0d6b421da879b76cce2249710",
+      "bytes": 89475
+    },
+    {
+      "path": "rag-kstu/evaluation/expanded-smoke-results.json",
+      "sha256": "bb65a187be4396ae4f892a8b50327f66fa2c6dcf1bcf6c5798fb8b270868de83",
+      "bytes": 70919
+    },
+    {
+      "path": "rag-kstu/evaluation/expanded-smoke.jsonl",
+      "sha256": "08f929a6ba5b76c56174d982d254108a0ffadb6f8e660e9ad52aabee49f00f07",
+      "bytes": 1933
+    },
+    {
+      "path": "rag-kstu/evaluation/generation-final-manifest.json",
+      "sha256": "025d25a3cc37761020e05ee641221e47c1731b9fceab908f36221d57ffce91c1",
+      "bytes": 1826
+    },
+    {
+      "path": "rag-kstu/evaluation/generation-final.jsonl",
+      "sha256": "650cf137b3e69d9c8a2cfe860a4b29420cdcb8d6ce012f6b1c04022cb858af41",
+      "bytes": 28958
+    },
+    {
+      "path": "rag-kstu/evaluation/questions.jsonl",
+      "sha256": "34c9e055770b69b737a86fcd6ade9a11dac1815adeafd9d739af0b21ca355802",
+      "bytes": 26929
+    },
+    {
+      "path": "rag-kstu/evaluation/retrieval-heldout.jsonl",
+      "sha256": "20da1363f0221ff91f5044ecbdfd6eecc58ceb2a7ac127db9c5a4fe9fc66d68a",
+      "bytes": 6466
+    },
+    {
+      "path": "rag-kstu/evaluation/retrieval-results.json",
+      "sha256": "73585715347e53e52863354768741a151dfa338b50a0e29548850e2d9e4fb24b",
+      "bytes": 131631
+    },
+    {
+      "path": "rag-kstu/evaluation/validation-ru.md",
+      "sha256": "dd1c4272f4fadea1a587ddf179c517af639fbb569d737635b6601ca347bef08b",
+      "bytes": 16289
+    },
+    {
+      "path": "rag-kstu/evaluation/verification.json",
+      "sha256": "41ec09ffa3a463deb14500005f4580e258942af2b99686b21e65e7ad2a2d3549",
+      "bytes": 680
+    },
+    {
+      "path": "rag-kstu/models/ollama-embedding.json",
+      "sha256": "d66d2afc4c57b238f73415c873a39eb1eef6feb14601e000b2b03c3fdff5e96d",
+      "bytes": 304
+    },
+    {
+      "path": "rag-kstu/requirements-chat.txt",
+      "sha256": "faef3681b7a10a127f06d212d395a10186180b44b249eb9de27b34d3ca0bdc54",
+      "bytes": 526
+    },
+    {
+      "path": "rag-kstu/requirements-chunking.txt",
+      "sha256": "f346138582ec5f5d04bd62afa67da0db58faef4e12bc032b23535c73362f2ff3",
+      "bytes": 123
+    },
+    {
+      "path": "rag-kstu/requirements-retrieval.txt",
+      "sha256": "9f32fac1aa8ccc69ab8f3eb5ed62a16089ab4a8260de6af4baa11047119c1bf7",
+      "bytes": 449
+    },
+    {
+      "path": "rag-kstu/scripts/build_chunks.py",
+      "sha256": "49d19642dc20492cd41724a6f4d2e9edc255854f5d88a17d916fe06beee16e00",
+      "bytes": 15369
+    },
+    {
+      "path": "rag-kstu/scripts/check_chat_filters.py",
+      "sha256": "facde65e6c7029c286741476e1021bc9334116e6133b33d6f5b3c060d0694f24",
+      "bytes": 1744
+    },
+    {
+      "path": "rag-kstu/scripts/evaluate_chat.py",
+      "sha256": "d4beb40e342206d108e26fd322214a03d4c8b0213fffc66f5a11e9db22891ed7",
+      "bytes": 8375
+    },
+    {
+      "path": "rag-kstu/scripts/expanded_sources.py",
+      "sha256": "11d167758c9bce66c8c6cfdf775f80c2b17fec105677615abf57ccde2eb96745",
+      "bytes": 18360
+    },
+    {
+      "path": "rag-kstu/scripts/package_repository.py",
+      "sha256": "d63c01362703836da2e67af5b3b1b9cfdc3017cf5bc68a0de64e06f6263986aa",
+      "bytes": 8661
+    },
+    {
+      "path": "rag-kstu/scripts/prepare_expansion.py",
+      "sha256": "c6bbbd78b96cb9a3476704ea9b9b8e4bcf751f09470e5b279e67c0ced7fed089",
+      "bytes": 7876
+    },
+    {
+      "path": "rag-kstu/scripts/retrieval.py",
+      "sha256": "cd9d3ef5e0204a1129297ef81984e338752ec859045ff7307f49cdf25583867f",
+      "bytes": 26257
+    },
+    {
+      "path": "rag-kstu/scripts/setup_ollama.py",
+      "sha256": "1a2e1988f68fc6708688d2c21c54b5dabd726ad61b006a56ae4fcd748bebfba4",
+      "bytes": 3622
+    },
+    {
+      "path": "rag-kstu/scripts/test_chat.py",
+      "sha256": "64e97830e0bb20e322148e91824bcbeedb64972260673ed51832e6334476dd18",
+      "bytes": 28874
+    },
+    {
+      "path": "rag-kstu/scripts/test_chunks.py",
+      "sha256": "348894845c569c2be160a8542bf2b92d505d7d8bdf3175d5d32d4a3641749372",
+      "bytes": 11554
+    },
+    {
+      "path": "rag-kstu/scripts/test_expanded_sources.py",
+      "sha256": "742c58340dc362cfeab63e461283caddfdf5a3fa2d18e9fd726ee06e881d19c2",
+      "bytes": 13061
+    },
+    {
+      "path": "rag-kstu/scripts/test_package_repository.py",
+      "sha256": "d712c86c26727b178b9a82394d0a522e1fe150534dadeea75a8e8f3460cea2e5",
+      "bytes": 3589
+    },
+    {
+      "path": "rag-kstu/scripts/test_retrieval.py",
+      "sha256": "1dc30163ff4855df353a4423465f71cd0a649ab37bd8047da9a65167ee89bf7f",
+      "bytes": 21641
+    },
+    {
+      "path": "rag-kstu/scripts/validate_chunks.py",
+      "sha256": "b74ea884117b8e736bfeecaad24ee89b8a2f8b3b24ccd4d45283aaab222c0e29",
+      "bytes": 25881
+    },
+    {
+      "path": "rag-kstu/scripts/verify_package.py",
+      "sha256": "364b6a6bbce1da89d6373f7d13cb381c56b54bd87bbc1ee6261a7220bf9fae30",
+      "bytes": 936
+    },
+    {
+      "path": "rag-kstu/sources/shortlist.json",
+      "sha256": "97948bf30e50d74da095904447a431ccdc24a6af72befdc1ca9c4875c8c06560",
+      "bytes": 109027
+    },
+    {
+      "path": "rag-kstu/tasks/01-prepare-sources-and-chunks.md",
+      "sha256": "e61d1cf21051179aa1aab040dbd62ae0bc3f53a908090132b257cf9a0e643893",
+      "bytes": 13923
+    },
+    {
+      "path": "rag-kstu/tasks/02-build-retrieval.md",
+      "sha256": "704255071ff7637275fed5fb2eba14ac4beacf9cbf73a717bb93f03311f2e43f",
+      "bytes": 2338
+    },
+    {
+      "path": "rag-kstu/tasks/03-build-grounded-chat.md",
+      "sha256": "8f540ad2be0ec847469adf239105ce4ad500301d606c2b91a0cd4b0bab121cf4",
+      "bytes": 21990
+    },
+    {
+      "path": "task.md",
+      "sha256": "1ae5d04f3fb4f1f769d5c1b6f4a990057df4e32c13d971e5ba6e7e9ac48d7077",
+      "bytes": 3703
+    }
+  ]
+}

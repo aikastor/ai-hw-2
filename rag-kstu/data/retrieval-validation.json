@@ -1,0 +1,34 @@
+{
+  "schema_version": 2,
+  "status": "passed",
+  "embedding": {
+    "dimension": 1024,
+    "max_tokens": 8192,
+    "model": "bge-m3:latest",
+    "model_digest": "7907646426070047a77226ac3e684fbbe8410524f7b4a74d02837e43f2146bab",
+    "ollama_version": "0.40.6",
+    "provider": "ollama"
+  },
+  "current_parent_chunks": 30,
+  "embedding_points": 30,
+  "archive_parent_chunks_indexed": 0,
+  "source_chunks_unchanged_from_baseline": true,
+  "tests": {
+    "count": 24,
+    "status": "passed",
+    "surface": "Real local Ollama API and persisted Qdrant; mocked malformed/drift/interruption controls supplement real integration."
+  },
+  "independent_review": "Accepted after per-batch identity and interruption-recovery fixes; no remaining finding in reviewed scope.",
+  "stored_vector_fingerprint": "b2eaa73cf3726dd31e8dec0c0b15b652cec6e81a947ec52a363f4c513aca6a51",
+  "retrieval_manifest_sha256": "780536f29087745367497badf1058213e56edc210d7d7bfd28feb31ccdeb29b1",
+  "evaluation_report": "rag-kstu/evaluation/retrieval-results.json",
+  "bilingual_regression_hybrid_hit_at_5": 1.0,
+  "english_handoff_hybrid_hit_at_5": 0.8,
+  "semantic_refusal_validation": "Not performed; explicit metadata isolation passed.",
+  "tested_implementation_sha256": {
+    "rag-kstu/scripts/retrieval.py": "55b8f2ed77ee0535ef191ac6ad226dc881de76b1487390e64b678203fd7a8935",
+    "rag-kstu/scripts/test_retrieval.py": "1dc30163ff4855df353a4423465f71cd0a649ab37bd8047da9a65167ee89bf7f",
+    "rag-kstu/scripts/evaluate_retrieval.py": "8f2152ca78f0f43a58840be3fb7f12245934b03d5529a58528a29e8a6f498435",
+    "rag-kstu/scripts/setup_ollama.py": "1a2e1988f68fc6708688d2c21c54b5dabd726ad61b006a56ae4fcd748bebfba4"
+  }
+}

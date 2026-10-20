@@ -1,0 +1,938 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-20T12:47:22.314832+00:00",
+  "surface": "real POST /chat over HTTP",
+  "health": {
+    "ready": true,
+    "model": "openai/gpt-oss-120b",
+    "prompt_version": "kstu-grounding-v2",
+    "provider_requests": 1,
+    "provider_usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    }
+  },
+  "http_chat_requests": 7,
+  "dataset_hashes": {
+    "expanded": "08f929a6ba5b76c56174d982d254108a0ffadb6f8e660e9ad52aabee49f00f07"
+  },
+  "method": "Questions and user history only enter chat. Gold selections and expected answers are grading labels. Existing bilingual set is reused development evidence. Frozen final set stays untuned.",
+  "summary": {
+    "expanded": {
+      "cases": 7,
+      "service_errors": 1,
+      "supported_cases": 6,
+      "answered_with_expected_citation": 3,
+      "exact_refusal_count": 1,
+      "expected_refusals": 1,
+      "false_refusals": 2,
+      "evidence_found_but_not_answered": [
+        "school-programmes",
+        "school-documents"
+      ],
+      "local_support_error_cases": [],
+      "source_audit": "pending; automated quote/citation checks do not establish entailment"
+    }
+  },
+  "cases": [
+    {
+      "dataset": "expanded",
+      "case_id": "school-programmes",
+      "request": {
+        "question": "какие программы доступны после школы"
+      },
+      "http_status": 200,
+      "expected_status": "answered",
+      "expected_answer": null,
+      "expected_selection_ids": [
+        "programmes-01",
+        "programmes-02",
+        "programmes-03",
+        "programmes-04",
+        "programmes-05",
+        "programmes-06",
+        "programmes-07",
+        "programmes-08",
+        "programmes-09",
+        "programmes-10",
+        "programmes-11",
+        "programmes-12"
+      ],
+      "response": {
+        "status": "refused",
+        "answer": "Unfortunately, I do not have accurate information on this question. Please contact the Student Office (room 101).",
+        "citations": [],
+        "scope": "bachelor_programmes",
+        "academic_year": "2026-2027",
+        "grounding": {
+          "prompt_version": "kstu-grounding-v2",
+          "outcome": "support_check_failed",
+          "retrieved": [
+            {
+              "chunk_id": "kstu-expanded-964145ceb97832687199d6a5f19c3934dc5f455bcdf1a49656279386c204b5de",
+              "selection_id": "programmes-02",
+              "scope": "bachelor_programmes",
+              "source": "Бакалавр и Специалитет: направления подготовки КГТУ, 2026–2027",
+              "source_url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "ТЕХНОЛОГИЧЕСКИЙ ИНСТИТУТ"
+              ],
+              "limitations": [
+                "The page title includes bachelor and specialist programmes. Do not classify every specialization row as bachelor. This selection covers one institute; do not claim a complete university list."
+              ],
+              "text": "Бакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nТЕХНОЛОГИЧЕСКИЙ ИНСТИТУТ\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 1 | Технология и производство продуктов питания животного происхождения | профиль: Пищевая технология |\n\nБакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nТЕХНОЛОГИЧЕСКИЙ ИНСТИТУТ\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 2 | Технология и производство продуктов питания из растительного сырья | профиль: Пищевая технология |\n\nБакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nТЕХНОЛОГИЧЕСКИЙ ИНСТИТУТ\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 3 | Биотехнология | профиль: Пищевая биотехнология |\n\nБакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nТЕХНОЛОГИЧЕСКИЙ ИНСТИТУТ\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 4 | Технология и конструирование изделий легкой промышленности | профиль: Технология и проектирование изделий текстильной и легкой промышленности |\n\nБакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nТЕХНОЛОГИЧЕСКИЙ ИНСТИТУТ\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 5 | Технология продукции и организация общественного питания, | профиль: Технология общественного питания и ресторанный бизнес |",
+              "topic": [
+                "programmes"
+              ],
+              "pages": [
+                null
+              ]
+            },
+            {
+              "chunk_id": "kstu-expanded-7d1bf1560cf81f1bbb6cc4fb18becf96c04841ff7388a942ad17ad72f572a190",
+              "selection_id": "programmes-12",
+              "scope": "bachelor_programmes",
+              "source": "Бакалавр и Специалитет: направления подготовки КГТУ, 2026–2027",
+              "source_url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "ВЫСШАЯ ШКОЛА ЭКОНОМИКИ И БИЗНЕСА"
+              ],
+              "limitations": [
+                "The page title includes bachelor and specialist programmes. Do not classify every specialization row as bachelor. This selection covers one institute; do not claim a complete university list."
+              ],
+              "text": "Бакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nВЫСШАЯ ШКОЛА ЭКОНОМИКИ И БИЗНЕСА\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 1 | Экономика | профиль: Экономика и управление предприятием |\n| 2 | Экономика | профиль: Финансы, бухгалтерский учет и налоги |\n| 3 | Экономика | рофиль: Математические методы в экономике (на англ. языке) |\n| 4 | Экономика | профиль: Международная торговля и электронная коммерция (СОП с КНР) |\n\nБакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nВЫСШАЯ ШКОЛА ЭКОНОМИКИ И БИЗНЕСА\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 5 | Менеджмент | профили: Менеджмент, Производственный менеджмент (СОП с БГТУ «ВОЕНМЕХ») |\n\nБакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nВЫСШАЯ ШКОЛА ЭКОНОМИКИ И БИЗНЕСА\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 6 | Маркетинг | профиль: Маркетинг |\n\nБакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nВЫСШАЯ ШКОЛА ЭКОНОМИКИ И БИЗНЕСА\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 7 | Управление бизнесом | профиль: Управление бизнесом |",
+              "topic": [
+                "programmes"
+              ],
+              "pages": [
+                null
+              ]
+            }
+          ],
+          "claims": [
+            {
+              "text": "Например, в ТЕХНОЛОГИЧЕСКОМ ИНСТИТУТЕ доступно направление «Технология и производство продуктов питания животного происхождения» (профиль: Пищевая технология) и в ВЫСШЕЙ ШКОЛЕ ЭКОНОМИКИ И БИЗНЕСА – направление «Экономика» (профиль: Экономика и управление предприятием). Это примеры, а не полный список.",
+              "evidence": [
+                {
+                  "chunk_id": "kstu-expanded-964145ceb97832687199d6a5f19c3934dc5f455bcdf1a49656279386c204b5de",
+                  "quote": "| 1 | Технология и производство продуктов питания животного происхождения | профиль: Пищевая технология |"
+                },
+                {
+                  "chunk_id": "kstu-expanded-7d1bf1560cf81f1bbb6cc4fb18becf96c04841ff7388a942ad17ad72f572a190",
+                  "quote": "| 1 | Экономика | профиль: Экономика и управление предприятием |"
+                }
+              ]
+            }
+          ],
+          "retrieved_chunk_ids": [
+            "kstu-expanded-964145ceb97832687199d6a5f19c3934dc5f455bcdf1a49656279386c204b5de",
+            "kstu-expanded-7d1bf1560cf81f1bbb6cc4fb18becf96c04841ff7388a942ad17ad72f572a190"
+          ],
+          "retrieved_selection_ids": [
+            "programmes-02",
+            "programmes-12"
+          ],
+          "support_check": {
+            "answers_question": true,
+            "audience_applicable": true,
+            "complete": false,
+            "injection_free": true,
+            "claims": [
+              {
+                "claim_index": 0,
+                "entailed": true,
+                "audience_preserved": true,
+                "qualifiers_preserved": true
+              }
+            ]
+          },
+          "provider_calls": 2,
+          "usage": [
+            {
+              "queue_time": 0.092153828,
+              "prompt_tokens": 2677,
+              "prompt_time": 0.165078727,
+              "completion_tokens": 479,
+              "completion_time": 1.008465657,
+              "total_tokens": 3156,
+              "total_time": 1.173544384,
+              "completion_tokens_details": {
+                "reasoning_tokens": 209
+              }
+            },
+            {
+              "queue_time": 0.143368841,
+              "prompt_tokens": 2667,
+              "prompt_time": 0.13307235,
+              "completion_tokens": 330,
+              "completion_time": 0.690745392,
+              "total_tokens": 2997,
+              "total_time": 0.823817742,
+              "completion_tokens_details": {
+                "reasoning_tokens": 242
+              }
+            }
+          ]
+        }
+      },
+      "checks": {
+        "expected_status": "answered",
+        "status_correct": false,
+        "exact_refusal": true,
+        "expected_evidence_retrieved": true,
+        "answer_cites_expected_selection": false,
+        "quote_checks": [
+          true
+        ],
+        "citation_correctness": true,
+        "local_support_errors": [],
+        "support_check_limit": "Quote and metadata checks are deterministic; entailment and completeness require a source audit. Provider verification is probabilistic.",
+        "source_audit": "pending"
+      }
+    },
+    {
+      "dataset": "expanded",
+      "case_id": "bachelor-programmes",
+      "request": {
+        "question": "какие программы бакалавриата есть"
+      },
+      "http_status": 200,
+      "expected_status": "answered",
+      "expected_answer": null,
+      "expected_selection_ids": [
+        "programmes-01",
+        "programmes-02",
+        "programmes-03",
+        "programmes-04",
+        "programmes-05",
+        "programmes-06",
+        "programmes-07",
+        "programmes-08",
+        "programmes-09",
+        "programmes-10",
+        "programmes-11",
+        "programmes-12"
+      ],
+      "response": {
+        "status": "answered",
+        "answer": "Например, Технология и производство продуктов питания животного происхождения (Технологический институт) и Эксплуатация железных дорог (Институт путей сообщения). Это примеры, а не полный список.",
+        "citations": [
+          {
+            "chunk_id": "kstu-expanded-964145ceb97832687199d6a5f19c3934dc5f455bcdf1a49656279386c204b5de",
+            "chunk_ids": [
+              "kstu-expanded-964145ceb97832687199d6a5f19c3934dc5f455bcdf1a49656279386c204b5de",
+              "kstu-expanded-a385dae6702bb25596556eb8d55c52be76631f5ea4ba2cf411b14587b32f55b0"
+            ],
+            "source_title": "Бакалавр и Специалитет: направления подготовки КГТУ, 2026–2027",
+            "source_url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982",
+            "page_number": null,
+            "url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982"
+          }
+        ],
+        "scope": "bachelor_programmes",
+        "academic_year": "2026-2027",
+        "grounding": {
+          "prompt_version": "kstu-grounding-v2",
+          "outcome": "validated",
+          "retrieved": [
+            {
+              "chunk_id": "kstu-expanded-964145ceb97832687199d6a5f19c3934dc5f455bcdf1a49656279386c204b5de",
+              "selection_id": "programmes-02",
+              "scope": "bachelor_programmes",
+              "source": "Бакалавр и Специалитет: направления подготовки КГТУ, 2026–2027",
+              "source_url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "ТЕХНОЛОГИЧЕСКИЙ ИНСТИТУТ"
+              ],
+              "limitations": [
+                "The page title includes bachelor and specialist programmes. Do not classify every specialization row as bachelor. This selection covers one institute; do not claim a complete university list."
+              ],
+              "text": "Бакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nТЕХНОЛОГИЧЕСКИЙ ИНСТИТУТ\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 1 | Технология и производство продуктов питания животного происхождения | профиль: Пищевая технология |\n\nБакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nТЕХНОЛОГИЧЕСКИЙ ИНСТИТУТ\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 2 | Технология и производство продуктов питания из растительного сырья | профиль: Пищевая технология |\n\nБакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nТЕХНОЛОГИЧЕСКИЙ ИНСТИТУТ\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 3 | Биотехнология | профиль: Пищевая биотехнология |\n\nБакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nТЕХНОЛОГИЧЕСКИЙ ИНСТИТУТ\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 4 | Технология и конструирование изделий легкой промышленности | профиль: Технология и проектирование изделий текстильной и легкой промышленности |\n\nБакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nТЕХНОЛОГИЧЕСКИЙ ИНСТИТУТ\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 5 | Технология продукции и организация общественного питания, | профиль: Технология общественного питания и ресторанный бизнес |",
+              "topic": [
+                "programmes"
+              ],
+              "pages": [
+                null
+              ]
+            },
+            {
+              "chunk_id": "kstu-expanded-a385dae6702bb25596556eb8d55c52be76631f5ea4ba2cf411b14587b32f55b0",
+              "selection_id": "programmes-09",
+              "scope": "bachelor_programmes",
+              "source": "Бакалавр и Специалитет: направления подготовки КГТУ, 2026–2027",
+              "source_url": "https://kstu.kg/abiturientu/1/napravlenija-podgotovki/bakalavr-i-magistratura#cc11982",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "ИНСТИТУТ ПУТЕЙ СООБЩЕНИЯ"
+              ],
+              "limitations": [
+                "The page title includes bachelor and specialist programmes. Do not classify every specialization row as bachelor. This selection covers one institute; do not claim a complete university list."
+              ],
+              "text": "Бакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nИНСТИТУТ ПУТЕЙ СООБЩЕНИЯ\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 1 | Эксплуатация железных дорог | профиль: Организация перевозок и управление на железнодорожном транспорте |\n\nБакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nИНСТИТУТ ПУТЕЙ СООБЩЕНИЯ\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 2 | Подвижной состав железных дорог | специализация: Вагоны |\n\nБакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nИНСТИТУТ ПУТЕЙ СООБЩЕНИЯ\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 3 | Строительство железных дорог, мостов и транспортных тоннелей | специализация: Строительство магистральных железных дорог |\n\nБакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nИНСТИТУТ ПУТЕЙ СООБЩЕНИЯ\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 4 | Строительство | профиль: Строительство автомобильных дорог и аэродромов |\n\nБакалавр и Специалитет\n\nПрием абитуриентов в Кыргызский государственный технический университет им. И. Раззакова на 2026–2027 учебный год по направлениям бакалавриата.\n\nИНСТИТУТ ПУТЕЙ СООБЩЕНИЯ\n\n| № | Наименование направления | Профиль / специализация |\n| --- | --- | --- |\n| 5 | Строительство | профиль: Городские дороги и улицы |",
+              "topic": [
+                "programmes"
+              ],
+              "pages": [
+                null
+              ]
+            }
+          ],
+          "claims": [
+            {
+              "text": "Например, Технология и производство продуктов питания животного происхождения (Технологический институт) и Эксплуатация железных дорог (Институт путей сообщения). Это примеры, а не полный список.",
+              "evidence": [
+                {
+                  "chunk_id": "kstu-expanded-964145ceb97832687199d6a5f19c3934dc5f455bcdf1a49656279386c204b5de",
+                  "quote": "| 1 | Технология и производство продуктов питания животного происхождения | профиль: Пищевая технология |"
+                },
+                {
+                  "chunk_id": "kstu-expanded-a385dae6702bb25596556eb8d55c52be76631f5ea4ba2cf411b14587b32f55b0",
+                  "quote": "| 1 | Эксплуатация железных дорог | профиль: Организация перевозок и управление на железнодорожном транспорте |"
+                }
+              ]
+            }
+          ],
+          "retrieved_chunk_ids": [
+            "kstu-expanded-964145ceb97832687199d6a5f19c3934dc5f455bcdf1a49656279386c204b5de",
+            "kstu-expanded-a385dae6702bb25596556eb8d55c52be76631f5ea4ba2cf411b14587b32f55b0"
+          ],
+          "retrieved_selection_ids": [
+            "programmes-02",
+            "programmes-09"
+          ],
+          "support_check": {
+            "answers_question": true,
+            "audience_applicable": true,
+            "complete": true,
+            "injection_free": true,
+            "claims": [
+              {
+                "claim_index": 0,
+                "entailed": true,
+                "audience_preserved": true,
+                "qualifiers_preserved": true
+              }
+            ]
+          },
+          "provider_calls": 2,
+          "usage": [
+            {
+              "queue_time": 0.149474262,
+              "prompt_tokens": 2597,
+              "prompt_time": 0.142033699,
+              "completion_tokens": 336,
+              "completion_time": 0.708598106,
+              "total_tokens": 2933,
+              "total_time": 0.850631805,
+              "completion_tokens_details": {
+                "reasoning_tokens": 128
+              }
+            },
+            {
+              "queue_time": 0.235097908,
+              "prompt_tokens": 2637,
+              "prompt_time": 0.141888616,
+              "completion_tokens": 289,
+              "completion_time": 0.60372467,
+              "total_tokens": 2926,
+              "total_time": 0.745613286,
+              "completion_tokens_details": {
+                "reasoning_tokens": 201
+              }
+            }
+          ]
+        }
+      },
+      "checks": {
+        "expected_status": "answered",
+        "status_correct": true,
+        "exact_refusal": false,
+        "expected_evidence_retrieved": true,
+        "answer_cites_expected_selection": true,
+        "quote_checks": [
+          true
+        ],
+        "citation_correctness": true,
+        "local_support_errors": [],
+        "support_check_limit": "Quote and metadata checks are deterministic; entailment and completeness require a source audit. Provider verification is probabilistic.",
+        "source_audit": "pending"
+      }
+    },
+    {
+      "dataset": "expanded",
+      "case_id": "school-documents",
+      "request": {
+        "question": "Какие документы нужны для поступления после 11 класса?"
+      },
+      "http_status": 200,
+      "expected_status": "answered",
+      "expected_answer": null,
+      "expected_selection_ids": [
+        "bachelor-documents-01"
+      ],
+      "response": {
+        "status": "refused",
+        "answer": "Unfortunately, I do not have accurate information on this question. Please contact the Student Office (room 101).",
+        "citations": [],
+        "scope": "bachelor_admissions",
+        "academic_year": "2026-2027",
+        "grounding": {
+          "prompt_version": "kstu-grounding-v2",
+          "outcome": "malformed_provider_output",
+          "retrieved": [
+            {
+              "chunk_id": "kstu-expanded-f4a6d821453360136e6d57d29e0f73478c32145738276c6d76a0c0082ca4892f",
+              "selection_id": "bachelor-documents-01",
+              "scope": "bachelor_admissions",
+              "source": "Документы для поступления: официальный перечень КГТУ",
+              "source_url": "https://kstu.kg/abiturientu/4/dokumenty#c4011",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "На базе 11-го класса на бакалавриат по ОРТ"
+              ],
+              "limitations": [
+                "The central checklist prints no intake year. Describe the currently published checklist, without asserting an explicit 2026-2027 date. Other applicant groups have different lists."
+              ],
+              "text": "На базе 11-го класса на бакалавриат по ОРТ\n\n- аттестат (оригинал и две копии)\n- сертификат ОРТ;\n- паспорт или другие документы, удостоверяющие личность абитуриента (Түндүк);\n- приписное удостоверение о военном учете (для военнообязанных);\n- 4 фотографии размером 3 х 4 см.",
+              "topic": [
+                "admissions_documents"
+              ],
+              "pages": [
+                null
+              ]
+            },
+            {
+              "chunk_id": "kstu-expanded-e50ba2362534dcb7f21b026f1e6e2fe656e511eea902248d73db9534e50b9821",
+              "selection_id": "bachelor-documents-05",
+              "scope": "bachelor_admissions",
+              "source": "Документы для поступления: официальный перечень КГТУ",
+              "source_url": "https://kstu.kg/abiturientu/4/dokumenty#c4011",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "Для иностранных граждан"
+              ],
+              "limitations": [
+                "The central checklist prints no intake year. Describe the currently published checklist, without asserting an explicit 2026-2027 date. Other applicant groups have different lists."
+              ],
+              "text": "Для иностранных граждан\n\n- Документ о соответствующем образовании;\n- Паспорт или другие документы, удостоверяющие личность абитуриента;\n- Копию приписного свидетельства (для военнообязанных);\n- Фотографии 6 шт. (3х4)\n- Справка №086\n- Обязательная медицинская страховка (ОМС)",
+              "topic": [
+                "admissions_documents"
+              ],
+              "pages": [
+                null
+              ]
+            },
+            {
+              "chunk_id": "kstu-expanded-6efe3e6378d70bdc5dfa77dc86fde2484ae2f0561036ae1e24daee9885eb2750",
+              "selection_id": "bachelor-documents-04",
+              "scope": "bachelor_admissions",
+              "source": "Документы для поступления: официальный перечень КГТУ",
+              "source_url": "https://kstu.kg/abiturientu/4/dokumenty#c4011",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "На базе профессионального лицея"
+              ],
+              "limitations": [
+                "The central checklist prints no intake year. Describe the currently published checklist, without asserting an explicit 2026-2027 date. Other applicant groups have different lists."
+              ],
+              "text": "На базе профессионального лицея\n\n- диплом о начальном профессиональном образовании, со сроком обучения не менее 1-года (оригинал и две копии)\n- аттестат (оригинал и две копии)\n- паспорт или другие документы, удостоверяющие личность абитуриента (Түндүк);\n- приписное удостоверение о военном учете (для военнообязанных);\n- 4 фотографии размером 3 х 4 см.",
+              "topic": [
+                "admissions_documents"
+              ],
+              "pages": [
+                null
+              ]
+            },
+            {
+              "chunk_id": "kstu-expanded-885f909fdcd51e3b41fba20fc3f7426d6cef24089eb75dd5274451bccf32f7bf",
+              "selection_id": "bachelor-documents-03",
+              "scope": "bachelor_admissions",
+              "source": "Документы для поступления: официальный перечень КГТУ",
+              "source_url": "https://kstu.kg/abiturientu/4/dokumenty#c4011",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "На базе высшего образования для получения второго высшего образования"
+              ],
+              "limitations": [
+                "The central checklist prints no intake year. Describe the currently published checklist, without asserting an explicit 2026-2027 date. Other applicant groups have different lists."
+              ],
+              "text": "На базе высшего образования для получения второго высшего образования\n\n- диплом о высшем образовании (оригинал и две копии)\n- паспорт или другие документы, удостоверяющие личность абитуриента (Түндүк);\n- приписное удостоверение о военном учете (для военнообязанных);\n- 4 фотографии размером 3 х 4 см.",
+              "topic": [
+                "admissions_documents"
+              ],
+              "pages": [
+                null
+              ]
+            },
+            {
+              "chunk_id": "kstu-expanded-97308feff3ed7c3aada39813e83e956cf689134880d810f2fe9c68528cf0c191",
+              "selection_id": "bachelor-documents-02",
+              "scope": "bachelor_admissions",
+              "source": "Документы для поступления: официальный перечень КГТУ",
+              "source_url": "https://kstu.kg/abiturientu/4/dokumenty#c4011",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "На базе колледжа на ускоренную форму обучения"
+              ],
+              "limitations": [
+                "The central checklist prints no intake year. Describe the currently published checklist, without asserting an explicit 2026-2027 date. Other applicant groups have different lists."
+              ],
+              "text": "На базе колледжа на ускоренную форму обучения\n\n- диплом о среднем техническом образовании с присвоением квалификации “Техник” (оригинал и две копии)\n- паспорт или другие документы, удостоверяющие личность абитуриента (Түндүк);\n- приписное удостоверение о военном учете (для военнообязанных);\n- 4 фотографии размером 3 х 4 см.",
+              "topic": [
+                "admissions_documents"
+              ],
+              "pages": [
+                null
+              ]
+            }
+          ],
+          "claims": [],
+          "retrieved_chunk_ids": [
+            "kstu-expanded-f4a6d821453360136e6d57d29e0f73478c32145738276c6d76a0c0082ca4892f",
+            "kstu-expanded-e50ba2362534dcb7f21b026f1e6e2fe656e511eea902248d73db9534e50b9821",
+            "kstu-expanded-6efe3e6378d70bdc5dfa77dc86fde2484ae2f0561036ae1e24daee9885eb2750",
+            "kstu-expanded-885f909fdcd51e3b41fba20fc3f7426d6cef24089eb75dd5274451bccf32f7bf",
+            "kstu-expanded-97308feff3ed7c3aada39813e83e956cf689134880d810f2fe9c68528cf0c191"
+          ],
+          "retrieved_selection_ids": [
+            "bachelor-documents-01",
+            "bachelor-documents-05",
+            "bachelor-documents-04",
+            "bachelor-documents-03",
+            "bachelor-documents-02"
+          ],
+          "support_check": null,
+          "provider_calls": 1,
+          "usage": []
+        }
+      },
+      "checks": {
+        "expected_status": "answered",
+        "status_correct": false,
+        "exact_refusal": true,
+        "expected_evidence_retrieved": true,
+        "answer_cites_expected_selection": false,
+        "quote_checks": [],
+        "citation_correctness": true,
+        "local_support_errors": [],
+        "support_check_limit": "Quote and metadata checks are deterministic; entailment and completeness require a source audit. Provider verification is probabilistic.",
+        "source_audit": "pending"
+      }
+    },
+    {
+      "dataset": "expanded",
+      "case_id": "gpa",
+      "request": {
+        "question": "Как рассчитывается GPA?"
+      },
+      "http_status": 200,
+      "expected_status": "answered",
+      "expected_answer": null,
+      "expected_selection_ids": [
+        "published-policy-gpa-formula-published-2025"
+      ],
+      "response": {
+        "status": "answered",
+        "answer": "GPA рассчитывается как средневзвешенная оценка: GPA = (Σ кредит × оценка) / (Σ кредит), где n — число дисциплин в семестре.",
+        "citations": [
+          {
+            "chunk_id": "kstu-expanded-6960b5f082c905ce0711e9210efc16b00c74cb27f76d070e4b60f2c67fdd7712",
+            "chunk_ids": [
+              "kstu-expanded-6960b5f082c905ce0711e9210efc16b00c74cb27f76d070e4b60f2c67fdd7712"
+            ],
+            "source_title": "Положение об орган. учеб. процесса ВПО и СПО в КГТУ им. И.Раззакова с примен. акад. кредитов",
+            "source_url": "https://kstu.kg/fileadmin/user_upload/polozhenie_ob_organizacii_uchebnogo_processa_vpo_i_spo_v_kgtu_im.i.razzakova_s_primeneniem_akedemicheskikh_kreditov_compressed_compressed.pdf",
+            "page_number": 1,
+            "url": "https://kstu.kg/fileadmin/user_upload/polozhenie_ob_organizacii_uchebnogo_processa_vpo_i_spo_v_kgtu_im.i.razzakova_s_primeneniem_akedemicheskikh_kreditov_compressed_compressed.pdf#page=1"
+          },
+          {
+            "chunk_id": "kstu-expanded-6960b5f082c905ce0711e9210efc16b00c74cb27f76d070e4b60f2c67fdd7712",
+            "chunk_ids": [
+              "kstu-expanded-6960b5f082c905ce0711e9210efc16b00c74cb27f76d070e4b60f2c67fdd7712"
+            ],
+            "source_title": "Положение об орган. учеб. процесса ВПО и СПО в КГТУ им. И.Раззакова с примен. акад. кредитов",
+            "source_url": "https://kstu.kg/fileadmin/user_upload/polozhenie_ob_organizacii_uchebnogo_processa_vpo_i_spo_v_kgtu_im.i.razzakova_s_primeneniem_akedemicheskikh_kreditov_compressed_compressed.pdf",
+            "page_number": 16,
+            "url": "https://kstu.kg/fileadmin/user_upload/polozhenie_ob_organizacii_uchebnogo_processa_vpo_i_spo_v_kgtu_im.i.razzakova_s_primeneniem_akedemicheskikh_kreditov_compressed_compressed.pdf#page=16"
+          }
+        ],
+        "scope": "general_academic_policy",
+        "academic_year": "2026-2027",
+        "grounding": {
+          "prompt_version": "kstu-grounding-v2",
+          "outcome": "validated",
+          "retrieved": [
+            {
+              "chunk_id": "kstu-expanded-6960b5f082c905ce0711e9210efc16b00c74cb27f76d070e4b60f2c67fdd7712",
+              "selection_id": "published-policy-gpa-formula-published-2025",
+              "scope": "general_academic_policy",
+              "source": "Положение об орган. учеб. процесса ВПО и СПО в КГТУ им. И.Раззакова с примен. акад. кредитов",
+              "source_url": "https://kstu.kg/fileadmin/user_upload/polozhenie_ob_organizacii_uchebnogo_processa_vpo_i_spo_v_kgtu_im.i.razzakova_s_primeneniem_akedemicheskikh_kreditov_compressed_compressed.pdf",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "KSTU higher and secondary professional education students, as stated by source title."
+              ],
+              "limitations": [
+                "General explanation according to officially published2025policy. No assertion that an individual is eligible or that the policy is legally unchanged in2026-27.",
+                "Preserve all exceptions. Do not invent rector order dates or correct the printed amendment-sheet inconsistency.",
+                "The old appeal deadline in clause 3.4 is excluded because a separately published 2026 appeals policy differs."
+              ],
+              "text": "Кыргызский государственный технический университет им, И.Раззакова\n\nСИСТЕМА ОБЕСПЕЧЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ\n\nОДОБРЕНО:\n\nНа заседании Ученого совета КГТУ им. И.Раззакова\n\nПОЛОЖЕНИЕ\n\nОБ ОРГАНИЗАЦИИ УЧЕБНОГО ПРОЦЕССА ВЫСШЕГО И СРЕДНЕГО ПРОФЕССИОНАЛЬНОГО ОБРАЗОВАНИЯ В КГТУ ИМ.И.РАЗЗАКОВА С ПРИМЕНЕНИЕМ АКАДЕМИЧЕСКИХ КРЕДИТОВ\n\n8.6. По результатам успеваемости рассчитывается средний балл GPA, максимальное выражение которого составляет 4,0 балла. GPA (Grade Point Average) — средневзвешенная оценка уровня учебных достижений обучающегося. Средний балл обучающегося рассчитывается по итогам результатов обучения в каждом семестре и по окончании обучения по формуле:\n\nGPA = (Σ₁ⁿ кредит × оценка) / (Σ₁ⁿ кредиты)\n\nгде, n - число дисциплин в семестре (за прошедший период обучения)",
+              "topic": [
+                "gpa"
+              ],
+              "pages": [
+                1,
+                16
+              ]
+            },
+            {
+              "chunk_id": "kstu-expanded-d41c55e078c2ce86dfcef5acf09155e17ee32338c73c672b4336bc16ef93838f",
+              "selection_id": "published-policy-retake-fx-i-f-published-2025",
+              "scope": "general_academic_policy",
+              "source": "Положение о проведении текущей и промежут. аттес.обучающихся высшего и среднего проф-го образования КГТУ им.И.Раззакова",
+              "source_url": "https://kstu.kg/fileadmin/user_upload/polozhenie_o_provedenii_tekushchei_i_promezhutochnoi_attestacii_obuchajushchikhsja_vpo_i_spo_kgtu_im.i.razzakova_2025_compressed.pdf",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "KSTU higher and secondary professional education students, as stated by source title."
+              ],
+              "limitations": [
+                "General explanation according to officially published2025policy. No assertion that an individual is eligible or that the policy is legally unchanged in2026-27.",
+                "Preserve all exceptions. Do not invent rector order dates or correct the printed amendment-sheet inconsistency.",
+                "The old appeal deadline in clause 3.4 is excluded because a separately published 2026 appeals policy differs."
+              ],
+              "text": "Кыргызский государственный технический университет им. И.Раззакова\n\nСИСТЕМА ОБЕСПЕЧЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ\n\nОДОБРЕНО\n\nНа заселании Ученого Совета КГТУ им. И. Раззакова\n\nПОЛОЖЕНИЕ\n\nо проведении текущей и промежуточной аттестации обучающихся высшего и среднего профессионального образования КГТУ им.И.Раззакова\n\n—\n\nFX – означает неудовлетворительную успеваемость, которая близка к минимальному проходному баллу, и может исправить ее или добрать баллы для успешного завершения курса. Такая оценка может выставляться, когда студент не набрал достаточно баллов на экзамене или не выполнил большинство учебных заданий, но есть возможность улучшить результат при дополнительной работе над материалом. Добор баллов проводится в течение первого месяца следующего семестра текущего учебного года, согласно академического календаря или в летнем семестре по дисциплинам весеннего семестра. Если студент не исправил оценку FX в установленные сроки ему автоматически выставляется оценка F (не используется при вычислении GPA). Если обучающийся по уважительной причине не исправил оценку FX в установленные сроки, то ему предоставляются дополнительные сроки по заявлению.\n\nОбучающийся, получивший оценку F, должен повторить ту же учебную дисциплину снова в летнем семестре или следующем академическом периоде, если это обязательная дисциплина. Если обучающийся получит F вторично по обязательной для данной образовательной программы дисциплине, то он/она не может продолжать обучение по этой программе, т.е. отчисляется из университета (или СП СПО КГТУ) (Положение о порядке перевода, отчисления и восстановления обучающихся высшего и среднего профессионального образования в КГТУ им. И.Раззакова) или остается на повторный год обучения (Положение о порядке предоставления повторного года обучения обучающимся КГТУ им. И.Раззакова).\n\nI – выставляется обучающемуся, если он не выполнил все требования курса по уважительной причине (болезнь, поездки или участие в мероприятиях по линии университета, в том числе СП СПО, эпидемиологическая ситуация, пребывание за рубежом или чрезвычайная ситуация в семье), подтвержденной документально, о чем он должен сообщить куратору, эдвайзеру и сообщить в центр обслуживания студентов (ЦОС). Оценка I выставляется ЦОС. Если обучающийся не исправил оценку I в течении одного месяца с начала следующего семестра (или в летний семестр для дисциплин весеннего семестра), ему автоматически выставляется оценка F (не используется при вычислении GPA).",
+              "topic": [
+                "retakes"
+              ],
+              "pages": [
+                1,
+                6
+              ]
+            }
+          ],
+          "claims": [
+            {
+              "text": "GPA рассчитывается как средневзвешенная оценка: GPA = (Σ кредит × оценка) / (Σ кредит), где n — число дисциплин в семестре.",
+              "evidence": [
+                {
+                  "chunk_id": "kstu-expanded-6960b5f082c905ce0711e9210efc16b00c74cb27f76d070e4b60f2c67fdd7712",
+                  "quote": "8.6. По результатам успеваемости рассчитывается средний балл GPA, максимальное выражение которого составляет 4,0 балла. GPA (Grade Point Average) — средневзвешенная оценка уровня учебных достижений обучающегося. Средний балл обучающегося рассчитывается по итогам результатов обучения в каждом семестре и по окончании обучения по формуле:"
+                },
+                {
+                  "chunk_id": "kstu-expanded-6960b5f082c905ce0711e9210efc16b00c74cb27f76d070e4b60f2c67fdd7712",
+                  "quote": "GPA = (Σ₁ⁿ кредит × оценка) / (Σ₁ⁿ кредиты)"
+                },
+                {
+                  "chunk_id": "kstu-expanded-6960b5f082c905ce0711e9210efc16b00c74cb27f76d070e4b60f2c67fdd7712",
+                  "quote": "где, n - число дисциплин в семестре (за прошедший период обучения)"
+                }
+              ]
+            }
+          ],
+          "retrieved_chunk_ids": [
+            "kstu-expanded-6960b5f082c905ce0711e9210efc16b00c74cb27f76d070e4b60f2c67fdd7712",
+            "kstu-expanded-d41c55e078c2ce86dfcef5acf09155e17ee32338c73c672b4336bc16ef93838f"
+          ],
+          "retrieved_selection_ids": [
+            "published-policy-gpa-formula-published-2025",
+            "published-policy-retake-fx-i-f-published-2025"
+          ],
+          "support_check": {
+            "answers_question": true,
+            "audience_applicable": true,
+            "complete": true,
+            "injection_free": true,
+            "claims": [
+              {
+                "claim_index": 0,
+                "entailed": true,
+                "audience_preserved": true,
+                "qualifiers_preserved": true
+              }
+            ]
+          },
+          "provider_calls": 2,
+          "usage": [
+            {
+              "queue_time": 0.176115695,
+              "prompt_tokens": 3270,
+              "prompt_time": 0.165375686,
+              "completion_tokens": 307,
+              "completion_time": 0.653501299,
+              "total_tokens": 3577,
+              "total_time": 0.818876985,
+              "completion_tokens_details": {
+                "reasoning_tokens": 29
+              }
+            },
+            {
+              "queue_time": 0.089914664,
+              "prompt_tokens": 1750,
+              "prompt_time": 0.159613051,
+              "completion_tokens": 167,
+              "completion_time": 0.701072986,
+              "total_tokens": 1917,
+              "total_time": 0.860686037,
+              "prompt_tokens_details": {
+                "cached_tokens": 256
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 79
+              }
+            }
+          ]
+        }
+      },
+      "checks": {
+        "expected_status": "answered",
+        "status_correct": true,
+        "exact_refusal": false,
+        "expected_evidence_retrieved": true,
+        "answer_cites_expected_selection": true,
+        "quote_checks": [
+          true
+        ],
+        "citation_correctness": true,
+        "local_support_errors": [],
+        "support_check_limit": "Quote and metadata checks are deterministic; entailment and completeness require a source audit. Provider verification is probabilistic.",
+        "source_audit": "pending"
+      }
+    },
+    {
+      "dataset": "expanded",
+      "case_id": "leave",
+      "request": {
+        "question": "На какой срок можно взять академический отпуск?"
+      },
+      "http_status": 200,
+      "expected_status": "answered",
+      "expected_answer": null,
+      "expected_selection_ids": [
+        "published-policy-academic-leave-published-2025"
+      ],
+      "response": {
+        "status": "answered",
+        "answer": "Академический отпуск может быть предоставлен максимум на два семестра и только один раз за весь период обучения.",
+        "citations": [
+          {
+            "chunk_id": "kstu-expanded-e69f7087a7bd18840f966e419d5cb4007c092c91adc624d47fb60917aab2cd4d",
+            "chunk_ids": [
+              "kstu-expanded-e69f7087a7bd18840f966e419d5cb4007c092c91adc624d47fb60917aab2cd4d"
+            ],
+            "source_title": "Положение о порядке перев., отч., восст. и предос. акад.отпусков обуч. высшего и сред. проф.образ-я в КГТУ им.И.Раззакова",
+            "source_url": "https://kstu.kg/fileadmin/user_upload/polozhenie_o_porjadke_perevoda__otchislenija__vosstanovlenija_i_predostavlenija_akademicheskikh_otpuskov_obuchajushchimsja_vysshego_i_srednego__compressed.pdf",
+            "page_number": 1,
+            "url": "https://kstu.kg/fileadmin/user_upload/polozhenie_o_porjadke_perevoda__otchislenija__vosstanovlenija_i_predostavlenija_akademicheskikh_otpuskov_obuchajushchimsja_vysshego_i_srednego__compressed.pdf#page=1"
+          },
+          {
+            "chunk_id": "kstu-expanded-e69f7087a7bd18840f966e419d5cb4007c092c91adc624d47fb60917aab2cd4d",
+            "chunk_ids": [
+              "kstu-expanded-e69f7087a7bd18840f966e419d5cb4007c092c91adc624d47fb60917aab2cd4d"
+            ],
+            "source_title": "Положение о порядке перев., отч., восст. и предос. акад.отпусков обуч. высшего и сред. проф.образ-я в КГТУ им.И.Раззакова",
+            "source_url": "https://kstu.kg/fileadmin/user_upload/polozhenie_o_porjadke_perevoda__otchislenija__vosstanovlenija_i_predostavlenija_akademicheskikh_otpuskov_obuchajushchimsja_vysshego_i_srednego__compressed.pdf",
+            "page_number": 7,
+            "url": "https://kstu.kg/fileadmin/user_upload/polozhenie_o_porjadke_perevoda__otchislenija__vosstanovlenija_i_predostavlenija_akademicheskikh_otpuskov_obuchajushchimsja_vysshego_i_srednego__compressed.pdf#page=7"
+          }
+        ],
+        "scope": "general_academic_policy",
+        "academic_year": "2026-2027",
+        "grounding": {
+          "prompt_version": "kstu-grounding-v2",
+          "outcome": "validated",
+          "retrieved": [
+            {
+              "chunk_id": "kstu-expanded-e69f7087a7bd18840f966e419d5cb4007c092c91adc624d47fb60917aab2cd4d",
+              "selection_id": "published-policy-academic-leave-published-2025",
+              "scope": "general_academic_policy",
+              "source": "Положение о порядке перев., отч., восст. и предос. акад.отпусков обуч. высшего и сред. проф.образ-я в КГТУ им.И.Раззакова",
+              "source_url": "https://kstu.kg/fileadmin/user_upload/polozhenie_o_porjadke_perevoda__otchislenija__vosstanovlenija_i_predostavlenija_akademicheskikh_otpuskov_obuchajushchimsja_vysshego_i_srednego__compressed.pdf",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "KSTU higher and secondary professional education students, as stated by source title."
+              ],
+              "limitations": [
+                "General explanation according to officially published2025policy. No assertion that an individual is eligible or that the policy is legally unchanged in2026-27.",
+                "Preserve all exceptions. Do not invent rector order dates or correct the printed amendment-sheet inconsistency.",
+                "The old appeal deadline in clause 3.4 is excluded because a separately published 2026 appeals policy differs."
+              ],
+              "text": "Кыргызский государственный технический университет им. И.Раззакова\n\nСИСТЕМА ОБЕСПЕЧЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ\n\nДП-03-ПП(10)\n\nОДОБРЕНО:\nНа заседании Ученого совета КГТУ им. И.Раззакова\nПротокол № 3\nот «26» 11 2025 г.\n\nУТВЕРЖДАЮ:\nРектор КГТУ им.И.Раззакова\n[Фамилия под печатью не установлена] М.К.\nПриказ № _____ от « » _____ 2025 г.\n\nПОЛОЖЕНИЕ\nО ПОРЯДКЕ ПЕРЕВОДА, ОТЧИСЛЕНИЯ, ВОССТАНОВЛЕНИЯ И ПРЕДОСТАВЛЕНИЯ АКАДЕМИЧЕСКИХ ОТПУСКОВ ОБУЧАЮЩИМСЯ ВЫСШЕГО И СРЕДНЕГО ПРОФЕССИОНАЛЬНОГО ОБРАЗОВАНИЯ В КГТУ ИМ. И. РАЗЗАКОВА\n\nБишкек, 2025\n\n6. Порядок предоставления обучающимся академического отпуска\n\n6.1. Академический отпуск предоставляется обучающимся ВПО/СПО по состоянию здоровья, в связи с рождением ребенка, призывом в Вооруженные Силы Кыргызской Республики и в других случаях, связанных с семейными и другими обстоятельствами, в том числе стихийными бедствиями, не позволяющими продолжить обучение.\n\n6.2. Академический отпуск может быть предоставлен максимум на два семестра и только один раз за весь период обучения.\n\n6.3. Заключение о возможности предоставления обучающемуся академического отпуска по медицинским показаниям выдается государственным учреждением здравоохранения по месту постоянного наблюдения обучающегося, в том числе студенческой поликлиникой,\n\nПри наличии заключения медико-реабилитационной экспертной комиссии допуск обучающегося к занятиям обязателен. При этом обучающийся имеет право продолжить обучение с того семестра, с которого он ушел,",
+              "topic": [
+                "academic_leave"
+              ],
+              "pages": [
+                1,
+                7
+              ]
+            },
+            {
+              "chunk_id": "kstu-expanded-be61cf92551327a32c1a253c00d9c65ce11da33a8964a108bc724adc656f33b7",
+              "selection_id": "published-policy-academic-leave-published-2025",
+              "scope": "general_academic_policy",
+              "source": "Положение о порядке перев., отч., восст. и предос. акад.отпусков обуч. высшего и сред. проф.образ-я в КГТУ им.И.Раззакова",
+              "source_url": "https://kstu.kg/fileadmin/user_upload/polozhenie_o_porjadke_perevoda__otchislenija__vosstanovlenija_i_predostavlenija_akademicheskikh_otpuskov_obuchajushchimsja_vysshego_i_srednego__compressed.pdf",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "KSTU higher and secondary professional education students, as stated by source title."
+              ],
+              "limitations": [
+                "General explanation according to officially published2025policy. No assertion that an individual is eligible or that the policy is legally unchanged in2026-27.",
+                "Preserve all exceptions. Do not invent rector order dates or correct the printed amendment-sheet inconsistency.",
+                "The old appeal deadline in clause 3.4 is excluded because a separately published 2026 appeals policy differs."
+              ],
+              "text": "Кыргызский государственный технический университет им. И.Раззакова\n\nСИСТЕМА ОБЕСПЕЧЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ\n\nДП-03-ПП(10)\n\nОДОБРЕНО:\nНа заседании Ученого совета КГТУ им. И.Раззакова\nПротокол № 3\nот «26» 11 2025 г.\n\nУТВЕРЖДАЮ:\nРектор КГТУ им.И.Раззакова\n[Фамилия под печатью не установлена] М.К.\nПриказ № _____ от « » _____ 2025 г.\n\nПОЛОЖЕНИЕ\nО ПОРЯДКЕ ПЕРЕВОДА, ОТЧИСЛЕНИЯ, ВОССТАНОВЛЕНИЯ И ПРЕДОСТАВЛЕНИЯ АКАДЕМИЧЕСКИХ ОТПУСКОВ ОБУЧАЮЩИМСЯ ВЫСШЕГО И СРЕДНЕГО ПРОФЕССИОНАЛЬНОГО ОБРАЗОВАНИЯ В КГТУ ИМ. И. РАЗЗАКОВА\n\nБишкек, 2025\n\n6.4. Основанием для издания приказа о предоставлении обучающемуся академического отпуска является:\n\nпо медицинским показаниям — личное заявление обучающегося и заключение государственного учреждения здравоохранения;\n\n• в других случаях — личное заявление обучающегося и соответствующий документ, подтверждающий основание для получения академического отпуска с указанием причины.\n\n6.5. Иностранным гражданам, обучающимся в КГТУ им. И.Раззакова за счет средств республиканского бюджета и по договору с оплатой стоимости обучения, академический отпуск предоставляется в порядке, установленном настоящим Положением, если иное не предусмотрено межправительственными и межведомственными соглашениями.",
+              "topic": [
+                "academic_leave"
+              ],
+              "pages": [
+                1,
+                7
+              ]
+            }
+          ],
+          "claims": [
+            {
+              "text": "Академический отпуск может быть предоставлен максимум на два семестра и только один раз за весь период обучения.",
+              "evidence": [
+                {
+                  "chunk_id": "kstu-expanded-e69f7087a7bd18840f966e419d5cb4007c092c91adc624d47fb60917aab2cd4d",
+                  "quote": "6.2. Академический отпуск может быть предоставлен максимум на два семестра и только один раз за весь период обучения."
+                }
+              ]
+            }
+          ],
+          "retrieved_chunk_ids": [
+            "kstu-expanded-e69f7087a7bd18840f966e419d5cb4007c092c91adc624d47fb60917aab2cd4d",
+            "kstu-expanded-be61cf92551327a32c1a253c00d9c65ce11da33a8964a108bc724adc656f33b7"
+          ],
+          "retrieved_selection_ids": [
+            "published-policy-academic-leave-published-2025"
+          ],
+          "support_check": {
+            "answers_question": true,
+            "audience_applicable": true,
+            "complete": true,
+            "injection_free": true,
+            "claims": [
+              {
+                "claim_index": 0,
+                "entailed": true,
+                "audience_preserved": true,
+                "qualifiers_preserved": true
+              }
+            ]
+          },
+          "provider_calls": 2,
+          "usage": [
+            {
+              "queue_time": 0.355020251,
+              "prompt_tokens": 3562,
+              "prompt_time": 0.410699834,
+              "completion_tokens": 167,
+              "completion_time": 0.355874888,
+              "total_tokens": 3729,
+              "total_time": 0.766574722,
+              "completion_tokens_details": {
+                "reasoning_tokens": 34
+              }
+            },
+            {
+              "queue_time": 0.23406286,
+              "prompt_tokens": 1744,
+              "prompt_time": 0.063818247,
+              "completion_tokens": 243,
+              "completion_time": 0.50677124,
+              "total_tokens": 1987,
+              "total_time": 0.570589487,
+              "prompt_tokens_details": {
+                "cached_tokens": 512
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 155
+              }
+            }
+          ]
+        }
+      },
+      "checks": {
+        "expected_status": "answered",
+        "status_correct": true,
+        "exact_refusal": false,
+        "expected_evidence_retrieved": true,
+        "answer_cites_expected_selection": true,
+        "quote_checks": [
+          true
+        ],
+        "citation_correctness": true,
+        "local_support_errors": [],
+        "support_check_limit": "Quote and metadata checks are deterministic; entailment and completeness require a source audit. Provider verification is probabilistic.",
+        "source_audit": "pending"
+      }
+    },
+    {
+      "dataset": "expanded",
+      "case_id": "appeal",
+      "request": {
+        "question": "Когда нужно подать апелляцию после объявления результатов экзамена?"
+      },
+      "http_status": 503,
+      "expected_status": "answered",
+      "expected_answer": null,
+      "expected_selection_ids": [
+        "published-appeal-deadline-2026"
+      ],
+      "service_error": {
+        "detail": {
+          "code": "provider_rate_limited",
+          "retryable": true
+        }
+      }
+    },
+    {
+      "dataset": "expanded",
+      "case_id": "threshold",
+      "request": {
+        "question": "Какой порог ОРТ для бакалавриата в 2026-2027 году?"
+      },
+      "http_status": 200,
+      "expected_status": "refused",
+      "expected_answer": null,
+      "expected_selection_ids": [],
+      "response": {
+        "status": "refused",
+        "answer": "Unfortunately, I do not have accurate information on this question. Please contact the Student Office (room 101).",
+        "citations": [],
+        "scope": null,
+        "academic_year": "2026-2027",
+        "grounding": {
+          "prompt_version": "kstu-grounding-v2",
+          "outcome": "unsupported_bachelor_rule",
+          "retrieved": [],
+          "claims": [],
+          "retrieved_chunk_ids": [],
+          "retrieved_selection_ids": [],
+          "support_check": null,
+          "provider_calls": 0,
+          "usage": []
+        }
+      },
+      "checks": {
+        "expected_status": "refused",
+        "status_correct": true,
+        "exact_refusal": true,
+        "expected_evidence_retrieved": false,
+        "answer_cites_expected_selection": false,
+        "quote_checks": [],
+        "citation_correctness": true,
+        "local_support_errors": [],
+        "support_check_limit": "Quote and metadata checks are deterministic; entailment and completeness require a source audit. Provider verification is probabilistic.",
+        "source_audit": "pending"
+      }
+    }
+  ]
+}

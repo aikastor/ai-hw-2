@@ -1,0 +1,41 @@
+{
+  "shortlist_sha256": "97948bf30e50d74da095904447a431ccdc24a6af72befdc1ca9c4875c8c06560",
+  "reconciliation": [
+    {
+      "path": "task.md",
+      "recorded_sha256": "1ae5d04f3fb4f1f769d5c1b6f4a990057df4e32c13d971e5ba6e7e9ac48d7077",
+      "live_sha256": "1ae5d04f3fb4f1f769d5c1b6f4a990057df4e32c13d971e5ba6e7e9ac48d7077",
+      "matches": true
+    },
+    {
+      "path": "data/knowledge/selection.json",
+      "recorded_sha256": "cc3281987548bda9ea1da600f603f7f8c1a7d153a7e4c43423887104bb2f8f85",
+      "live_sha256": "cc3281987548bda9ea1da600f603f7f8c1a7d153a7e4c43423887104bb2f8f85",
+      "matches": true
+    },
+    {
+      "path": "data/knowledge/universities.json",
+      "recorded_sha256": "74b767eae4402fcc87cc3915ede582cfdfeb47c7faad15315431bc46821b457c",
+      "live_sha256": "74b767eae4402fcc87cc3915ede582cfdfeb47c7faad15315431bc46821b457c",
+      "matches": true
+    },
+    {
+      "path": "data/knowledge/manifest.json",
+      "recorded_sha256": "f73996dbbcbb82b8ccb96f8764f41646a34d47b1656e997a686d5f081ec0c54f",
+      "live_sha256": "f73996dbbcbb82b8ccb96f8764f41646a34d47b1656e997a686d5f081ec0c54f",
+      "matches": true
+    }
+  ],
+  "reconciled_with": "rag-kstu/data/enrichment/source-manifest.json",
+  "source_sha256_allowlist": [
+    "a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f",
+    "cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d",
+    "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+    "dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d",
+    "899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9",
+    "f707f6aa8f6fa22b8e02a6c0c04a3abd934adbd4e7e380a61450efabaab0132b",
+    "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+    "33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913",
+    "7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source_sha256": "e3378ef798972c111e5b0dea72b64f44385929bce483752fbf57e379d543a209",
+  "review_method": "Compared visually to physical page 4 rendered from the exact source PDF; paragraph 2.4 transcribed with layout whitespace normalized.",
+  "passages": [
+    {
+      "id": "appeals-deadline-2.4",
+      "page_number": 4,
+      "text": "2.4. Апелляция подается обучающимся не позднее следующего рабочего дня после объявления результатов аттестации. После истечения указанного срока обжалования, апелляционные заявления не принимаются."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "in_progress",
+  "source_tests": {
+    "passed": 13
+  },
+  "retrieval_tests": {
+    "passed": 24
+  },
+  "chat_tests": {
+    "passed": 28
+  },
+  "package_tests": {
+    "passed": 4
+  },
+  "api_health_http": 200,
+  "ui_health_http": 200,
+  "browser_exact_refusal": "observed in Safari",
+  "browser_two_session_isolation": "pending",
+  "fresh_clone": "pending",
+  "publication": "deferred by user; local first",
+  "model": "openai/gpt-oss-120b",
+  "prompt_hashes": {
+    "app/prompts/generate.txt": "bee625c4d242782ff0305e60c2f248b12db70720342ac544ece21477c75a5478",
+    "app/prompts/verify.txt": "23fab030d380651f5b34fc9f7639cb72792ab5f503cbb9027a6241a767b08231"
+  }
+}

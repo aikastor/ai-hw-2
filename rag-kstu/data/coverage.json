@@ -1,0 +1,2444 @@
+{
+  "schema_version": 1,
+  "full_assignment_coverage": false,
+  "topics_with_current_scoped_evidence": 7,
+  "topics": [
+    {
+      "topic": "retakes",
+      "status": "partial",
+      "current_scoped_support": false,
+      "general_current_support": false,
+      "evidence": [
+        {
+          "selection_id": "policy-retake-fx-i-f",
+          "source_sha256": "dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d",
+          "eligibility": "archive",
+          "academic_year": null,
+          "audience": [
+            "KSTU higher and secondary professional education students, as stated by source title."
+          ],
+          "effective_date_evidence": {
+            "status": "operative_applicability_unresolved",
+            "publication_year": 2025,
+            "review": "Currently listed official 2025 policy; 2026-2027 operative applicability not explicitly confirmed.",
+            "cover": {
+              "institution_and_title_verified": true,
+              "printed_year": 2025,
+              "rector_approval_heading_and_signature_seal_visible": true,
+              "academic_council_protocol": "4",
+              "academic_council_date": "2025-12-24",
+              "rector_order_number": null,
+              "rector_order_date": null,
+              "order_observation": "Handwritten order information present but not confidently transcribed. Unknown values deliberately retained.",
+              "whole_cover_recognition_status": "Previously rejected; not overridden by this limited inspection."
+            }
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 6,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "76da415f7cf19e70357c18e6ff9ecae4cdbd4eb531d2ed880d756c969f182aad"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 6,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "ef0ac99b05234e1ff9cadeb071ab1a07db36458fd0bfc3a578a366012daabe95"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 6,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "3a74f4ac655e461c39baa7f0ab16024d9123fece8d77f1888c3ed5accaf39a07"
+            }
+          ]
+        },
+        {
+          "selection_id": "policy-retake-rules",
+          "source_sha256": "dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d",
+          "eligibility": "archive",
+          "academic_year": null,
+          "audience": [
+            "KSTU higher and secondary professional education students, as stated by source title."
+          ],
+          "effective_date_evidence": {
+            "status": "operative_applicability_unresolved",
+            "publication_year": 2025,
+            "review": "Currently listed official 2025 policy; 2026-2027 operative applicability not explicitly confirmed.",
+            "cover": {
+              "institution_and_title_verified": true,
+              "printed_year": 2025,
+              "rector_approval_heading_and_signature_seal_visible": true,
+              "academic_council_protocol": "4",
+              "academic_council_date": "2025-12-24",
+              "rector_order_number": null,
+              "rector_order_date": null,
+              "order_observation": "Handwritten order information present but not confidently transcribed. Unknown values deliberately retained.",
+              "whole_cover_recognition_status": "Previously rejected; not overridden by this limited inspection."
+            }
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 11,
+              "text_sha256": "d2c46faf5ce975a6607f1e9bbdd26a5391299cddb7ea48414ba275ebe971e1bb"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 12,
+              "text_sha256": "cf54dad0c4fff1afda5cc9f4fb3115664b1590e5beff570192a651a84f175506"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 13,
+              "text_sha256": "cf1cb9585167d2f67f6a2aab01b9a318411089121e1613aec6f96708f1f62a0e"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 14,
+              "text_sha256": "633c69d69bbc109e3e6d79326b554a90342e807901b5e180865f6b3d7e966908"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 8,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "18727e58c0d3f6ce9994ea0075e831422e354c02458bb4d3d6c6b8d11fe54a36"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 8,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "3fc545c44b21bbdc40c1cb85afbd5bca3bf9449007d1824b3abc727ed15afa1c"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 8,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "a9ca8b473fdb74359671b9ab2b98e685d83a180dc884a084d3d0e0fe8f659607"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 8,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "e969dc399bb04df6fbf48cd9bae5d8a32f7a9b5370c28366dc9a9ad89f39d9ae"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 8,
+              "reader": "block",
+              "block_index": 4,
+              "text_sha256": "9017bc569300d828ccaef06e0c1ea329867a51b3110d6fc667c14f102f8ab108"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 8,
+              "reader": "block",
+              "block_index": 5,
+              "text_sha256": "0ca059712b03d9ca22608277b102fa79cfb14908a565b75010015549b207231f"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 8,
+              "reader": "block",
+              "block_index": 6,
+              "text_sha256": "e6cb92156090d6f7bc32b9fa3e4adeadcb2f8d5fff42478a681b7ff7a39b5b86"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 8,
+              "reader": "block",
+              "block_index": 7,
+              "text_sha256": "3cc3a928fabde54de410ca4baea187878c0aa54c550751a4d47f1313041c92f4"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+              "artifact_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+              "page_number": 8,
+              "reader": "block",
+              "block_index": 8,
+              "text_sha256": "2912def80108e1e4b12923f7187894ce41b48d67b30fe55f3854b014b2eacb61"
+            }
+          ]
+        }
+      ],
+      "remaining_gap": "Confirm operative applicability/amendments.",
+      "next_action": "Confirm operative applicability/amendments.",
+      "fallback_question": "May I retake a failed exam under the current general KSTU policy?"
+    },
+    {
+      "topic": "gpa",
+      "status": "partial",
+      "current_scoped_support": false,
+      "general_current_support": false,
+      "evidence": [
+        {
+          "selection_id": "policy-gpa-formula",
+          "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+          "eligibility": "archive",
+          "academic_year": null,
+          "audience": [
+            "KSTU higher and secondary professional education students, as stated by source title."
+          ],
+          "effective_date_evidence": {
+            "status": "operative_applicability_unresolved",
+            "publication_year": 2025,
+            "review": "Currently listed official 2025 policy; 2026-2027 operative applicability not explicitly confirmed.",
+            "cover": {
+              "institution_and_title_verified": true,
+              "printed_year": 2025,
+              "rector_approval_heading_and_signature_seal_visible": true,
+              "academic_council_protocol": "3",
+              "academic_council_date": "2025-11-26",
+              "rector_order_number": null,
+              "rector_order_date": null,
+              "order_observation": "Handwritten order information present but not confidently transcribed. Unknown values deliberately retained.",
+              "whole_cover_recognition_status": "Previously rejected; not overridden by this limited inspection."
+            }
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+              "artifact_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+              "page_number": 16,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "ec7fec12abca07e11b62432923ba4b680b53a4ba4f32ffa01e59b2976e6a5098"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+              "artifact_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+              "page_number": 16,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "5d8a5b0d8eb799e3dd652a90b3e230351c9b1abd6fd5b89ccce4ca4f34265ab1"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+              "artifact_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+              "page_number": 16,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "6819b137a9ffc193570689b1c72ef976d56c02a1e83e37c79131b3959f4b6c90"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+              "artifact_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+              "page_number": 16,
+              "reader": "block",
+              "block_index": 4,
+              "text_sha256": "d2d4317f6462de0938052867af0e7038ea2099f008808efd0c7e949823e6340c"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+              "artifact_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+              "page_number": 16,
+              "reader": "block",
+              "block_index": 5,
+              "text_sha256": "eb85343f412d482bdd57ae85602354efd48ff08cd8427f3d056dce31111ed957"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+              "artifact_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+              "page_number": 16,
+              "reader": "block",
+              "block_index": 9,
+              "text_sha256": "ec99379bf8fc2723a3c2579cbddfeef6bc900bb9d7bcae35a7cad252894f5690"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+              "artifact_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+              "page_number": 16,
+              "reader": "block",
+              "block_index": 10,
+              "text_sha256": "ead5e417dfccfd10ffd4f37174f1b8738c06bca455bd2d2797bf22d303b534f0"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+              "artifact_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+              "page_number": 16,
+              "reader": "block",
+              "block_index": 11,
+              "text_sha256": "d9fdaf4157a0d724acefb07174178ee41871a801415a25694bbe2e00ed693054"
+            }
+          ]
+        }
+      ],
+      "remaining_gap": "Confirm operative applicability/amendments. For GPA calculator also reconcile grade-conversion matrix.",
+      "next_action": "Confirm operative applicability/amendments. For GPA calculator also reconcile grade-conversion matrix.",
+      "fallback_question": "How is my enrolled-student GPA calculated, including repeated courses?"
+    },
+    {
+      "topic": "academic_leave",
+      "status": "partial",
+      "current_scoped_support": false,
+      "general_current_support": false,
+      "evidence": [
+        {
+          "selection_id": "policy-academic-leave",
+          "source_sha256": "a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f",
+          "eligibility": "archive",
+          "academic_year": null,
+          "audience": [
+            "KSTU higher and secondary professional education students, as stated by source title."
+          ],
+          "effective_date_evidence": {
+            "status": "operative_applicability_unresolved",
+            "publication_year": 2025,
+            "review": "Currently listed official 2025 policy; 2026-2027 operative applicability not explicitly confirmed.",
+            "cover": {
+              "institution_and_title_verified": true,
+              "printed_year": 2025,
+              "rector_approval_heading_and_signature_seal_visible": true,
+              "academic_council_protocol": "3",
+              "academic_council_date": "2025-11-26",
+              "rector_order_number": null,
+              "rector_order_date": null,
+              "order_observation": "Number and day/month fields blank in source.",
+              "whole_cover_recognition_status": "Previously rejected; not overridden by this limited inspection."
+            }
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 8,
+              "text_sha256": "4e3517b52cc07cef86b1e22c3d3ffdc544d1a87753cbbe05d7f4a2fddb1d6aa6"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 9,
+              "text_sha256": "166ed1c05675cc9e09d50920b877c8312b02916f1b6ed5fd71fda3c00844e506"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 10,
+              "text_sha256": "c46120a13a18a8d07f90c540263de44dc9a51dd18cf5d8d47e819d89d7fe6d60"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 11,
+              "text_sha256": "d14ea1b2d07b2e0e6bcff0757b345c8351e47066446ef65bc6a53a611a4becf9"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 12,
+              "text_sha256": "f9d962e25b7f500cb1498cb8b3c182cb9aeebcb913ad0907eced810ef4fe56f6"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 13,
+              "text_sha256": "bed7de9b11aae6b581e5dee85022a7e1458765e614a34ea352ddbaa45d9461e5"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 14,
+              "text_sha256": "b56aa83bc84a20017c4209b9e00f8136beb92151c6ac8e2ec06309476cb053f9"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 15,
+              "text_sha256": "71810d4af5b0dce2b976d5cf5cdf67e2a4bdeada79b660e76857758edc6ed5c8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+              "artifact_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+              "page_number": 7,
+              "reader": "block",
+              "block_index": 16,
+              "text_sha256": "95b418098c12562deebb9895ab988d315ce6983a24604b62a36f157e56acf19e"
+            }
+          ]
+        }
+      ],
+      "remaining_gap": "Confirm operative applicability/amendments.",
+      "next_action": "Confirm operative applicability/amendments.",
+      "fallback_question": "What are the current academic leave rules?"
+    },
+    {
+      "topic": "admissions_documents",
+      "status": "partial",
+      "current_scoped_support": true,
+      "general_current_support": false,
+      "evidence": [
+        {
+          "selection_id": "masters-documents",
+          "source_sha256": "899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU masters admissions 2026-2027; not general enrolled-student GPA or bachelor ORT"
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority_note": "Signed/stamped rector approval and explicit 2026/2027 masters title visually verified on page 1. Handwritten day/month not asserted. Same hash downloaded live on 2026-10-20.",
+            "authority_reference": {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 1,
+              "reader": "passage",
+              "passage_id": "masters-authority",
+              "text_sha256": "ee20d79f95cf04880de0ff51296ad7b8db1ae406d1e3a2015a26deff2adead11"
+            }
+          },
+          "references": [
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 1,
+              "reader": "passage",
+              "passage_id": "masters-authority",
+              "text_sha256": "ee20d79f95cf04880de0ff51296ad7b8db1ae406d1e3a2015a26deff2adead11"
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 2,
+              "reader": "passage",
+              "passage_id": "masters-eligibility",
+              "text_sha256": "339dbda3780589a26a7fe13ac9634e1f4e4a264eaf8f698b6d8c1427725d0e06",
+              "start": 0,
+              "end": 276
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 2,
+              "reader": "passage",
+              "passage_id": "masters-eligibility",
+              "text_sha256": "339dbda3780589a26a7fe13ac9634e1f4e4a264eaf8f698b6d8c1427725d0e06",
+              "start": 539,
+              "end": 889
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 2,
+              "reader": "passage",
+              "passage_id": "masters-eligibility",
+              "text_sha256": "339dbda3780589a26a7fe13ac9634e1f4e4a264eaf8f698b6d8c1427725d0e06",
+              "start": 276,
+              "end": 424
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 3,
+              "reader": "passage",
+              "passage_id": "masters-admission",
+              "text_sha256": "2d7d39b7bfd077a1c57bee851235fa7f5105096f87571925db6ca93020ad1261",
+              "start": 0,
+              "end": 556
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 3,
+              "reader": "passage",
+              "passage_id": "masters-admission",
+              "text_sha256": "2d7d39b7bfd077a1c57bee851235fa7f5105096f87571925db6ca93020ad1261",
+              "start": 2263,
+              "end": 2763
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 3,
+              "reader": "passage",
+              "passage_id": "masters-admission",
+              "text_sha256": "2d7d39b7bfd077a1c57bee851235fa7f5105096f87571925db6ca93020ad1261",
+              "start": 2763,
+              "end": 2949
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 3,
+              "reader": "passage",
+              "passage_id": "masters-admission",
+              "text_sha256": "2d7d39b7bfd077a1c57bee851235fa7f5105096f87571925db6ca93020ad1261",
+              "start": 2949,
+              "end": 3083
+            }
+          ]
+        },
+        {
+          "selection_id": "tokmok-documents",
+          "source_sha256": "f707f6aa8f6fa22b8e02a6c0c04a3abd934adbd4e7e380a61450efabaab0132b",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU Tokmok branch 2026-2027 Russian admissions brochure checklist"
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority_note": "KSTU-hosted official branch brochure explicitly names 2026-2027 and branch on same page."
+          },
+          "references": [
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/tokmok-p1.txt",
+              "artifact_sha256": "7011b9ec14a4e3591a41fd444a70b7726825220ec3780cc632a5517b4fdb26b1",
+              "page_number": 1,
+              "reader": "text",
+              "text_sha256": "876e8d4b335b34da270630c0003cd804a902af119182523991a8a40da97268ee",
+              "start": 0,
+              "end": 113
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/tokmok-p1.txt",
+              "artifact_sha256": "7011b9ec14a4e3591a41fd444a70b7726825220ec3780cc632a5517b4fdb26b1",
+              "page_number": 1,
+              "reader": "text",
+              "text_sha256": "876e8d4b335b34da270630c0003cd804a902af119182523991a8a40da97268ee",
+              "start": 950,
+              "end": 1261
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/tokmok-p1.txt",
+              "artifact_sha256": "7011b9ec14a4e3591a41fd444a70b7726825220ec3780cc632a5517b4fdb26b1",
+              "page_number": 1,
+              "reader": "text",
+              "text_sha256": "876e8d4b335b34da270630c0003cd804a902af119182523991a8a40da97268ee",
+              "start": 2365,
+              "end": 2444
+            }
+          ]
+        }
+      ],
+      "remaining_gap": "University-wide bachelor checklist is not established.",
+      "next_action": "University-wide bachelor checklist is not established.",
+      "fallback_question": "What documents are required for university-wide bachelor admissions?"
+    },
+    {
+      "topic": "thresholds",
+      "status": "partial",
+      "current_scoped_support": true,
+      "general_current_support": false,
+      "evidence": [
+        {
+          "selection_id": "masters-ranking",
+          "source_sha256": "899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU masters admissions 2026-2027; not general enrolled-student GPA or bachelor ORT"
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority_note": "Signed/stamped rector approval and explicit 2026/2027 masters title visually verified on page 1. Handwritten day/month not asserted. Same hash downloaded live on 2026-10-20.",
+            "authority_reference": {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 1,
+              "reader": "passage",
+              "passage_id": "masters-authority",
+              "text_sha256": "ee20d79f95cf04880de0ff51296ad7b8db1ae406d1e3a2015a26deff2adead11"
+            }
+          },
+          "references": [
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 1,
+              "reader": "passage",
+              "passage_id": "masters-authority",
+              "text_sha256": "ee20d79f95cf04880de0ff51296ad7b8db1ae406d1e3a2015a26deff2adead11"
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 2,
+              "reader": "passage",
+              "passage_id": "masters-eligibility",
+              "text_sha256": "339dbda3780589a26a7fe13ac9634e1f4e4a264eaf8f698b6d8c1427725d0e06",
+              "start": 0,
+              "end": 276
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 2,
+              "reader": "passage",
+              "passage_id": "masters-eligibility",
+              "text_sha256": "339dbda3780589a26a7fe13ac9634e1f4e4a264eaf8f698b6d8c1427725d0e06",
+              "start": 424,
+              "end": 539
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 3,
+              "reader": "passage",
+              "passage_id": "masters-admission",
+              "text_sha256": "2d7d39b7bfd077a1c57bee851235fa7f5105096f87571925db6ca93020ad1261",
+              "start": 556,
+              "end": 1465
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 3,
+              "reader": "passage",
+              "passage_id": "masters-admission",
+              "text_sha256": "2d7d39b7bfd077a1c57bee851235fa7f5105096f87571925db6ca93020ad1261",
+              "start": 1465,
+              "end": 1757
+            }
+          ]
+        }
+      ],
+      "remaining_gap": "Bachelor ORT2026-2027 signed authoritative order and exceptions remain unverified. Do not use masters GPA as ORT.",
+      "next_action": "Bachelor ORT2026-2027 signed authoritative order and exceptions remain unverified. Do not use masters GPA as ORT.",
+      "fallback_question": "What is the current bachelor ORT threshold?"
+    },
+    {
+      "topic": "grants",
+      "status": "partial",
+      "current_scoped_support": true,
+      "general_current_support": false,
+      "evidence": [
+        {
+          "selection_id": "masters-grants",
+          "source_sha256": "899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU masters admissions 2026-2027; not general enrolled-student GPA or bachelor ORT"
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority_note": "Signed/stamped rector approval and explicit 2026/2027 masters title visually verified on page 1. Handwritten day/month not asserted. Same hash downloaded live on 2026-10-20.",
+            "authority_reference": {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 1,
+              "reader": "passage",
+              "passage_id": "masters-authority",
+              "text_sha256": "ee20d79f95cf04880de0ff51296ad7b8db1ae406d1e3a2015a26deff2adead11"
+            }
+          },
+          "references": [
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 1,
+              "reader": "passage",
+              "passage_id": "masters-authority",
+              "text_sha256": "ee20d79f95cf04880de0ff51296ad7b8db1ae406d1e3a2015a26deff2adead11"
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 2,
+              "reader": "passage",
+              "passage_id": "masters-eligibility",
+              "text_sha256": "339dbda3780589a26a7fe13ac9634e1f4e4a264eaf8f698b6d8c1427725d0e06",
+              "start": 0,
+              "end": 276
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 2,
+              "reader": "passage",
+              "passage_id": "masters-eligibility",
+              "text_sha256": "339dbda3780589a26a7fe13ac9634e1f4e4a264eaf8f698b6d8c1427725d0e06",
+              "start": 889,
+              "end": 1468
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 2,
+              "reader": "passage",
+              "passage_id": "masters-eligibility",
+              "text_sha256": "339dbda3780589a26a7fe13ac9634e1f4e4a264eaf8f698b6d8c1427725d0e06",
+              "start": 1468,
+              "end": 2518
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 3,
+              "reader": "passage",
+              "passage_id": "masters-admission",
+              "text_sha256": "2d7d39b7bfd077a1c57bee851235fa7f5105096f87571925db6ca93020ad1261",
+              "start": 1465,
+              "end": 1757
+            },
+            {
+              "artifact_path": "rag-kstu/data/enrichment/admissions/masters-passages.json",
+              "artifact_sha256": "36b10a6586c1e0c48e96e47f9d811a94b5c91edd7cfd9df4b2a23a3ae752b392",
+              "page_number": 3,
+              "reader": "passage",
+              "passage_id": "masters-admission",
+              "text_sha256": "2d7d39b7bfd077a1c57bee851235fa7f5105096f87571925db6ca93020ad1261",
+              "start": 1757,
+              "end": 2263
+            }
+          ]
+        }
+      ],
+      "remaining_gap": "Bachelor grant eligibility and nationwide quota rules remain unverified.",
+      "next_action": "Bachelor grant eligibility and nationwide quota rules remain unverified.",
+      "fallback_question": "Am I eligible for a bachelor state grant?"
+    },
+    {
+      "topic": "tuition",
+      "status": "partial",
+      "current_scoped_support": true,
+      "general_current_support": false,
+      "evidence": [
+        {
+          "selection_id": "tuition-33d632ae-kr-full-time",
+          "source_sha256": "33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "InternationalHigherSchoolofLogistics,KSTU; KyrgyzCitizensfull-timeanddistancewithDOT; near-foreigncitizensfull-timeinintergovernmentalagreementandnonagreementgroupsasliterallyprinted. Source doesnotlistmembercountries."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "effective_dates": "Tariffexplicitly2026–2027; trusteeagreement10June2026; rectorapprovalprinted2026,exactday/monthunknownbecauseoverlaidseal/signature",
+            "authority_basis": "OfficialKSTUsavedPDFpersonallycompared, Rectorandtrusteeapprovalsignatures/sealvisible, literal2026–2027titleandcompletecurrency/course/categorycontextonpage1."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "efb67d12a972d2bdb17360b5adf430fc2646f6a14ac035f81d0f970f198cac2b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "9b66c626490e5ddaab6f8d902fab74e35013ad831c53e6dbe4f090467110285b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "5278239b62a10192f1f9b5061ef75bf26bcdaf1cd6fa65c83ba8d0174122bfdd"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "9d48f7609aa0020dd28686b53ed38e1c1b2399b65ed635c0626f92efb692c9eb"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 4,
+              "text_sha256": "56beb9ee517ed0e0d5e5d0d9fdab409e6d514de2269e32fb5c6fae6554f3db6c"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 5,
+              "text_sha256": "42cb7e25ad6c2882b89e1ed3a8eb37f60485f4cf8503c1e764789cd68bea470d"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 6,
+              "text_sha256": "87e796110a18b37d92d3e32508eb60c74e5b5bf6d820c5321758e14a4b41e320"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 7,
+              "text_sha256": "429c8a3cfe5e956bf473c8b17c48d99f443b6ff7e4169ffd6c990c17387acd8b",
+              "start": 0,
+              "end": 134
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 7,
+              "text_sha256": "429c8a3cfe5e956bf473c8b17c48d99f443b6ff7e4169ffd6c990c17387acd8b",
+              "start": 134,
+              "end": 290
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 7,
+              "text_sha256": "429c8a3cfe5e956bf473c8b17c48d99f443b6ff7e4169ffd6c990c17387acd8b",
+              "start": 290,
+              "end": 485
+            }
+          ]
+        },
+        {
+          "selection_id": "tuition-33d632ae-kr-distance",
+          "source_sha256": "33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "InternationalHigherSchoolofLogistics,KSTU; KyrgyzCitizensfull-timeanddistancewithDOT; near-foreigncitizensfull-timeinintergovernmentalagreementandnonagreementgroupsasliterallyprinted. Source doesnotlistmembercountries."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "effective_dates": "Tariffexplicitly2026–2027; trusteeagreement10June2026; rectorapprovalprinted2026,exactday/monthunknownbecauseoverlaidseal/signature",
+            "authority_basis": "OfficialKSTUsavedPDFpersonallycompared, Rectorandtrusteeapprovalsignatures/sealvisible, literal2026–2027titleandcompletecurrency/course/categorycontextonpage1."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "efb67d12a972d2bdb17360b5adf430fc2646f6a14ac035f81d0f970f198cac2b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "9b66c626490e5ddaab6f8d902fab74e35013ad831c53e6dbe4f090467110285b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "5278239b62a10192f1f9b5061ef75bf26bcdaf1cd6fa65c83ba8d0174122bfdd"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "9d48f7609aa0020dd28686b53ed38e1c1b2399b65ed635c0626f92efb692c9eb"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 4,
+              "text_sha256": "56beb9ee517ed0e0d5e5d0d9fdab409e6d514de2269e32fb5c6fae6554f3db6c"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 5,
+              "text_sha256": "42cb7e25ad6c2882b89e1ed3a8eb37f60485f4cf8503c1e764789cd68bea470d"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 8,
+              "text_sha256": "57308023c27cfc7cbad337d54b107f19f910703eec7dbd283d93b14fce8e96e7"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 9,
+              "text_sha256": "64d8d642e6a98d9406ee460d0b8ee1f4139c979611a867c7e8c3c3e68e136b74",
+              "start": 0,
+              "end": 134
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 9,
+              "text_sha256": "64d8d642e6a98d9406ee460d0b8ee1f4139c979611a867c7e8c3c3e68e136b74",
+              "start": 134,
+              "end": 290
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 9,
+              "text_sha256": "64d8d642e6a98d9406ee460d0b8ee1f4139c979611a867c7e8c3c3e68e136b74",
+              "start": 290,
+              "end": 484
+            }
+          ]
+        },
+        {
+          "selection_id": "tuition-33d632ae-near-foreign-agreement",
+          "source_sha256": "33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "InternationalHigherSchoolofLogistics,KSTU; KyrgyzCitizensfull-timeanddistancewithDOT; near-foreigncitizensfull-timeinintergovernmentalagreementandnonagreementgroupsasliterallyprinted. Source doesnotlistmembercountries."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "effective_dates": "Tariffexplicitly2026–2027; trusteeagreement10June2026; rectorapprovalprinted2026,exactday/monthunknownbecauseoverlaidseal/signature",
+            "authority_basis": "OfficialKSTUsavedPDFpersonallycompared, Rectorandtrusteeapprovalsignatures/sealvisible, literal2026–2027titleandcompletecurrency/course/categorycontextonpage1."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "efb67d12a972d2bdb17360b5adf430fc2646f6a14ac035f81d0f970f198cac2b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "9b66c626490e5ddaab6f8d902fab74e35013ad831c53e6dbe4f090467110285b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "5278239b62a10192f1f9b5061ef75bf26bcdaf1cd6fa65c83ba8d0174122bfdd"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "9d48f7609aa0020dd28686b53ed38e1c1b2399b65ed635c0626f92efb692c9eb"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 5,
+              "text_sha256": "42cb7e25ad6c2882b89e1ed3a8eb37f60485f4cf8503c1e764789cd68bea470d"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 10,
+              "text_sha256": "d1dac6d1b67739b8508ce73a8b79696e501f159e44af8bfc276db6be1dca5c4d"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 11,
+              "text_sha256": "6df9f9b051af54564ff06b283ab0485c78f4c3c4289371ace51035b4d470f45f"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 12,
+              "text_sha256": "87e796110a18b37d92d3e32508eb60c74e5b5bf6d820c5321758e14a4b41e320"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 13,
+              "text_sha256": "eb73bf8f66dfd8885f2a66f338a1f76b095ccfe8820b85cd781de4ebf70f0815",
+              "start": 0,
+              "end": 134
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 13,
+              "text_sha256": "eb73bf8f66dfd8885f2a66f338a1f76b095ccfe8820b85cd781de4ebf70f0815",
+              "start": 134,
+              "end": 290
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 13,
+              "text_sha256": "eb73bf8f66dfd8885f2a66f338a1f76b095ccfe8820b85cd781de4ebf70f0815",
+              "start": 290,
+              "end": 486
+            }
+          ]
+        },
+        {
+          "selection_id": "tuition-33d632ae-near-foreign-other",
+          "source_sha256": "33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "InternationalHigherSchoolofLogistics,KSTU; KyrgyzCitizensfull-timeanddistancewithDOT; near-foreigncitizensfull-timeinintergovernmentalagreementandnonagreementgroupsasliterallyprinted. Source doesnotlistmembercountries."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "effective_dates": "Tariffexplicitly2026–2027; trusteeagreement10June2026; rectorapprovalprinted2026,exactday/monthunknownbecauseoverlaidseal/signature",
+            "authority_basis": "OfficialKSTUsavedPDFpersonallycompared, Rectorandtrusteeapprovalsignatures/sealvisible, literal2026–2027titleandcompletecurrency/course/categorycontextonpage1."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "efb67d12a972d2bdb17360b5adf430fc2646f6a14ac035f81d0f970f198cac2b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "9b66c626490e5ddaab6f8d902fab74e35013ad831c53e6dbe4f090467110285b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "5278239b62a10192f1f9b5061ef75bf26bcdaf1cd6fa65c83ba8d0174122bfdd"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "9d48f7609aa0020dd28686b53ed38e1c1b2399b65ed635c0626f92efb692c9eb"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 5,
+              "text_sha256": "42cb7e25ad6c2882b89e1ed3a8eb37f60485f4cf8503c1e764789cd68bea470d"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 10,
+              "text_sha256": "d1dac6d1b67739b8508ce73a8b79696e501f159e44af8bfc276db6be1dca5c4d"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 14,
+              "text_sha256": "0a40e3c4f5e69f5e75afa280c25e69624ce8965a531973250d433abe732a0e39"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 15,
+              "text_sha256": "87e796110a18b37d92d3e32508eb60c74e5b5bf6d820c5321758e14a4b41e320"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 16,
+              "text_sha256": "09581cf9a23b310222f2072cdfd10af17ef74a74277630bc43e542042b2008c4",
+              "start": 0,
+              "end": 134
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 16,
+              "text_sha256": "09581cf9a23b310222f2072cdfd10af17ef74a74277630bc43e542042b2008c4",
+              "start": 134,
+              "end": 293
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+              "artifact_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 16,
+              "text_sha256": "09581cf9a23b310222f2072cdfd10af17ef74a74277630bc43e542042b2008c4",
+              "start": 293,
+              "end": 492
+            }
+          ]
+        },
+        {
+          "selection_id": "tuition-7577d9d7-kr-full-time",
+          "source_sha256": "7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "Only citizens of the Kyrgyz Republic, Institute of Railway Communication, full-time (Очная форма обучения), six complete programme/credit pairs by printed course1–6 columns in som. Not foreign categories or extramural/masters continuation."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "effective_dates": "2026–2027 academic year; Trustee agreement10June2026; rector panel prints2026, exact day/month unknown",
+            "authority_basis": "Official saved KSTU price-list PDF, personally inspected readable Rector Чыныбаев М.К. approval and Trustee chair Турдумамбетова Э.Д. agreement10June2026, explicit2026–2027 academic-year title and complete local KR citizen/full-time/som/course header."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+              "artifact_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "efb67d12a972d2bdb17360b5adf430fc2646f6a14ac035f81d0f970f198cac2b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+              "artifact_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "9b66c626490e5ddaab6f8d902fab74e35013ad831c53e6dbe4f090467110285b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+              "artifact_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "5278239b62a10192f1f9b5061ef75bf26bcdaf1cd6fa65c83ba8d0174122bfdd"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+              "artifact_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 4,
+              "text_sha256": "9d48f7609aa0020dd28686b53ed38e1c1b2399b65ed635c0626f92efb692c9eb"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+              "artifact_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 5,
+              "text_sha256": "56beb9ee517ed0e0d5e5d0d9fdab409e6d514de2269e32fb5c6fae6554f3db6c"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+              "artifact_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 6,
+              "text_sha256": "b6bb0f8e833716ec5aa170a58b11588461bb7b59a11855ae9d6a76b0c5657e67"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+              "artifact_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 7,
+              "text_sha256": "87e796110a18b37d92d3e32508eb60c74e5b5bf6d820c5321758e14a4b41e320"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+              "artifact_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 8,
+              "text_sha256": "298bf91644d877ea54e8634729575dcc0f297d461bf6c1773437dec99fb029d3",
+              "start": 0,
+              "end": 134
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+              "artifact_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 8,
+              "text_sha256": "298bf91644d877ea54e8634729575dcc0f297d461bf6c1773437dec99fb029d3",
+              "start": 134,
+              "end": 305
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+              "artifact_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 8,
+              "text_sha256": "298bf91644d877ea54e8634729575dcc0f297d461bf6c1773437dec99fb029d3",
+              "start": 305,
+              "end": 463
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+              "artifact_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 8,
+              "text_sha256": "298bf91644d877ea54e8634729575dcc0f297d461bf6c1773437dec99fb029d3",
+              "start": 463,
+              "end": 686
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+              "artifact_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 8,
+              "text_sha256": "298bf91644d877ea54e8634729575dcc0f297d461bf6c1773437dec99fb029d3",
+              "start": 686,
+              "end": 932
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+              "artifact_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 8,
+              "text_sha256": "298bf91644d877ea54e8634729575dcc0f297d461bf6c1773437dec99fb029d3",
+              "start": 932,
+              "end": 1137
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+              "artifact_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 8,
+              "text_sha256": "298bf91644d877ea54e8634729575dcc0f297d461bf6c1773437dec99fb029d3",
+              "start": 1137,
+              "end": 1274
+            }
+          ]
+        }
+      ],
+      "remaining_gap": "Other institutes/programmes and excluded table continuations are not covered.",
+      "next_action": "Other institutes/programmes and excluded table continuations are not covered.",
+      "fallback_question": "What is tuition at an institute outside the reviewed logistics and railway tables?"
+    },
+    {
+      "topic": "examination_periods",
+      "status": "partial",
+      "current_scoped_support": true,
+      "general_current_support": false,
+      "evidence": [
+        {
+          "selection_id": "calendar-15",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 84,
+              "text_sha256": "8382b06a80b5c2026575e9578a05c7b7c6af117fd1d7f13de00c8894f8210b1e"
+            }
+          ]
+        },
+        {
+          "selection_id": "calendar-16",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 85,
+              "text_sha256": "6c397722ac1170b8f45ff0ffc43f76d3d8ba3554e651da95fc64fa2940456361"
+            }
+          ]
+        },
+        {
+          "selection_id": "calendar-17",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 86,
+              "text_sha256": "193c4786f309b0a403a2bd65268138beb719826eaebde8d5e696dec2d30b00a1"
+            }
+          ]
+        },
+        {
+          "selection_id": "calendar-18",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 87,
+              "text_sha256": "8f31fdb522f1cd56c30a314167b363d53f1e297f2f92882c4e474e554f70e690"
+            }
+          ]
+        }
+      ],
+      "remaining_gap": "No blanket scope for masters, part-time or doctoral students; unselected calendar cells stay excluded.",
+      "next_action": "No blanket scope for masters, part-time or doctoral students; unselected calendar cells stay excluded.",
+      "fallback_question": "When are doctoral examinations?"
+    },
+    {
+      "topic": "course_registration",
+      "status": "partial",
+      "current_scoped_support": true,
+      "general_current_support": false,
+      "evidence": [
+        {
+          "selection_id": "calendar-09",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 6,
+              "text_sha256": "e4d11750e8dc320e88515b488d97453dd2b26eb4cf28d7d08a81cd6e013bff01"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 24,
+              "text_sha256": "194ebf047e8b1015effecec1fac9db475107f8740b9692369933e2e4fc4d388d"
+            }
+          ]
+        },
+        {
+          "selection_id": "calendar-10",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 11,
+              "text_sha256": "633e6e2674b2c93c3fd408f29794b2335f33d9478ed4e4c14673cffa88f7d568"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 36,
+              "text_sha256": "4a59181714b97722926e3a81b0d454ae1407359edd1d262aa3a4e97855489f66"
+            }
+          ]
+        },
+        {
+          "selection_id": "calendar-11",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 11,
+              "text_sha256": "633e6e2674b2c93c3fd408f29794b2335f33d9478ed4e4c14673cffa88f7d568"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 37,
+              "text_sha256": "4a59181714b97722926e3a81b0d454ae1407359edd1d262aa3a4e97855489f66"
+            }
+          ]
+        },
+        {
+          "selection_id": "calendar-12",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 14,
+              "text_sha256": "18ca2d1d5c1ed1781a0be998bf8ae5dc731e8c364276478439bb6fd53fbee7ae"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 52,
+              "text_sha256": "46c37fb899b6dccb64c4e752d620553ad9e27430057e43a7325ad22928fac562"
+            }
+          ]
+        },
+        {
+          "selection_id": "calendar-13",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 16,
+              "text_sha256": "9ae74248805caacf488891208a92c51307e89479d770d721e70fb9a48c886bc7"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 67,
+              "text_sha256": "ee96ab5cbd92243d494752d14a9152f5ef2b60d2b5f84e5e2e8f7f95347c44b4"
+            }
+          ]
+        },
+        {
+          "selection_id": "calendar-14",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 83,
+              "text_sha256": "6a92aef2be670bb1a6a906743b64a0a954ab6ed118431631bb257484cb0c7e10"
+            }
+          ]
+        }
+      ],
+      "remaining_gap": "No blanket scope for masters, part-time or doctoral students; unselected calendar cells stay excluded.",
+      "next_action": "No blanket scope for masters, part-time or doctoral students; unselected calendar cells stay excluded.",
+      "fallback_question": "When does registration close for part-time masters students?"
+    },
+    {
+      "topic": "holidays",
+      "status": "partial",
+      "current_scoped_support": true,
+      "general_current_support": false,
+      "evidence": [
+        {
+          "selection_id": "calendar-01",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 10,
+              "text_sha256": "1d5e0bcc0e612eacc95dd34faa440c08ec1cbcce862f995542ed9606c21235fa"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 28,
+              "text_sha256": "90b4c95dee317e4b3424563a8fcb0b5ca44540bd5b43b407c761709193a0f5fd"
+            }
+          ]
+        },
+        {
+          "selection_id": "calendar-02",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 10,
+              "text_sha256": "1d5e0bcc0e612eacc95dd34faa440c08ec1cbcce862f995542ed9606c21235fa"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 30,
+              "text_sha256": "3f6821be1e4b446e943581f9efcad0565e2e4f4d1dffb28d15d9eedb9a306a52"
+            }
+          ]
+        },
+        {
+          "selection_id": "calendar-03",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 12,
+              "text_sha256": "81567ee842e93b3a16425f2de0788c75becae3f8505cf97c91fa6c3600963a9d"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 42,
+              "text_sha256": "c1c6f1ecefcce9258628814eef5aef0a74285050b377d6fee57dfcea14620d8d"
+            }
+          ]
+        },
+        {
+          "selection_id": "calendar-04",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 12,
+              "text_sha256": "81567ee842e93b3a16425f2de0788c75becae3f8505cf97c91fa6c3600963a9d"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 45,
+              "text_sha256": "875541afb92b8379056c43c60d90df538a607e48eefcde0de9dab88c9afea92e"
+            }
+          ]
+        },
+        {
+          "selection_id": "calendar-05",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 14,
+              "text_sha256": "18ca2d1d5c1ed1781a0be998bf8ae5dc731e8c364276478439bb6fd53fbee7ae"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 53,
+              "text_sha256": "773cf470b12f4208b35643ebc464ee76a7bef44f09b0f2e144024b7083b095e7"
+            }
+          ]
+        },
+        {
+          "selection_id": "calendar-06",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 14,
+              "text_sha256": "18ca2d1d5c1ed1781a0be998bf8ae5dc731e8c364276478439bb6fd53fbee7ae"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 55,
+              "text_sha256": "cf8045e385595738d1936f79eed944b9139edff4acbfab56689de1f15e1ef790"
+            }
+          ]
+        },
+        {
+          "selection_id": "calendar-07",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 14,
+              "text_sha256": "18ca2d1d5c1ed1781a0be998bf8ae5dc731e8c364276478439bb6fd53fbee7ae"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 56,
+              "text_sha256": "013a7170f857e921c4009e336a994b83409c1d8559bb0d66fae63d30c4c0882f"
+            }
+          ]
+        },
+        {
+          "selection_id": "calendar-08",
+          "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+          "eligibility": "current",
+          "academic_year": "2026-2027",
+          "audience": [
+            "KSTU full-time bachelor and specialist programmes; graduating-course qualifiers retained exactly."
+          ],
+          "effective_date_evidence": {
+            "status": "explicit_current_scoped",
+            "authority": "Same-page named rector approval, vice-rector agreement, signature/seal and explicit 2026-27 title observed. Handwritten approval date not used."
+          },
+          "references": [
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 0,
+              "text_sha256": "ac1d2db6c310a2d4f651f83c1f5cf3f4df7bba459284756ebca462de16ea8c8b"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 1,
+              "text_sha256": "98250bbceca8384f90ec99aac5e1a636326fc65d0a770399e6eda2f2645191ec"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 2,
+              "text_sha256": "9da9d36b45528e6e42e4d3172d63d14924075ecd99744f1b57f6a46cc7d57754"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 3,
+              "text_sha256": "1bf590c6e702931aa62dcb88ed40130a52254d38faf1b094bd0e9c4c4d1a29d8"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 18,
+              "text_sha256": "fe6a9a3ea77d7493427aabb1bd75917482ad0ac6eea1d84f2081b83ca033a625"
+            },
+            {
+              "artifact_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+              "artifact_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+              "page_number": 1,
+              "reader": "block",
+              "block_index": 79,
+              "text_sha256": "33730c9991ecf9bd57192b9d817f8177210f89c8fa359c07d03775bc24561d88"
+            }
+          ]
+        }
+      ],
+      "remaining_gap": "No blanket scope for masters, part-time or doctoral students; unselected calendar cells stay excluded.",
+      "next_action": "No blanket scope for masters, part-time or doctoral students; unselected calendar cells stay excluded.",
+      "fallback_question": "What holidays apply to doctoral students?"
+    }
+  ]
+}

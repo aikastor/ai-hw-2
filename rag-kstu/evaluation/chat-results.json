@@ -1,0 +1,999 @@
+{
+  "status": "running",
+  "cases": [
+    {
+      "dataset": "handoff",
+      "case_id": "masters-docs",
+      "request": {
+        "question": "What prior-education records do KSTU masters applicants need for 2026-2027?"
+      },
+      "http_status": 200,
+      "expected_status": "answered",
+      "expected_answer": "An original transcript, or a bachelor/specialist diploma copy with its supplement if the transcript is absent. Register for the selected masters programme. Foreign-education applicants have an additional diploma/equivalence requirement, with the EAEU-citizen exception.",
+      "expected_selection_ids": [
+        "masters-documents"
+      ],
+      "response": {
+        "status": "refused",
+        "answer": "Unfortunately, I do not have accurate information on this question. Please contact the Student Office (room 101).",
+        "citations": [],
+        "scope": "masters_admissions",
+        "academic_year": "2026-2027",
+        "grounding": {
+          "prompt_version": "kstu-grounding-v1",
+          "outcome": "unsupported_or_invalid_proposal",
+          "retrieved": [
+            {
+              "chunk_id": "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+              "selection_id": "masters-documents",
+              "scope": "masters_admissions",
+              "source": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+              "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "KSTU masters admissions 2026-2027; not general enrolled-student GPA or bachelor ORT"
+              ],
+              "limitations": [
+                "Exact reception/confirmation dates are not printed here; the university determines them.",
+                "Do not apply masters checklist to bachelor applicants."
+              ],
+              "text": "«УТВЕРЖДАЮ»\nРектор КГТУ им.И.Раззакова\nЧыныбаев М.К.\n2026 г.\n\nПРАВИЛА\nприема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)\n\n3.1. На обучение по программе подготовки магистра принимаются лица, имеющие диплом государственного образца о высшем профессиональном образовании с присвоением академической степени \"бакалавр\" или высшее профессиональное образование, с присвоением квалификации \"специалист\".\n\n\n\n3.4. При зачислении в магистратуру на заочную форму обучения, выпускники педагогических направлений и специальностей, обучавшиеся на грантовой основе, представляют копию диплома о высшем профессиональном образовании, заверенную выдавшим его учебным заведением, и справку учебного заведения об обучении на грантовой основе и распределении на работу.\n\n\n\n3.2. Прием документов абитуриентов, поступающих на обучение по программам магистратуры, осуществляется в сроки, установленные КГТУ самостоятельно.\n\n\n\n3.8. Претенденты на поступление в магистратуру:\n\n- должны пройти регистрацию для участия в конкурсе, по представленной приемной комиссией форме с указанием избранной магистерской программы;\n\n- оригинал транскрипта или копию диплома бакалавра или специалиста с приложением вкладыша, при отсутствии транскрипта;\n\n- для лиц, получивших образование за рубежом, за исключением граждан государств - участников ЕАЭС, копию соответствующего диплома, а также свидетельство об эквивалентности к диплому о высшем профессиональном образовании КР, выданного МНВОИ КР;\n\n",
+              "topic": [
+                "admissions_documents"
+              ],
+              "pages": [
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "chunk_id": "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+              "selection_id": "masters-documents",
+              "scope": "masters_admissions",
+              "source": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+              "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "KSTU masters admissions 2026-2027; not general enrolled-student GPA or bachelor ORT"
+              ],
+              "limitations": [
+                "Exact reception/confirmation dates are not printed here; the university determines them.",
+                "Do not apply masters checklist to bachelor applicants."
+              ],
+              "text": "«УТВЕРЖДАЮ»\nРектор КГТУ им.И.Раззакова\nЧыныбаев М.К.\n2026 г.\n\nПРАВИЛА\nприема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)\n\n3.1. На обучение по программе подготовки магистра принимаются лица, имеющие диплом государственного образца о высшем профессиональном образовании с присвоением академической степени \"бакалавр\" или высшее профессиональное образование, с присвоением квалификации \"специалист\".\n\n\n\n3.4. При зачислении в магистратуру на заочную форму обучения, выпускники педагогических направлений и специальностей, обучавшиеся на грантовой основе, представляют копию диплома о высшем профессиональном образовании, заверенную выдавшим его учебным заведением, и справку учебного заведения об обучении на грантовой основе и распределении на работу.\n\n\n\n3.12. Кандидаты на обучение в магистратуре, рекомендованные к зачислению на места с оплатой стоимости обучения, должны подтвердить желание обучаться в КГТУ им. И.Раззакова в установленные приемной комиссией сроки путем сдачи необходимых документов, диплома о высшем образовании и оформленного договора на оказание платных образовательных услуг с оплатой 50% годовой стоимости обучения. В случае неуплаты в оговоренные сроки, данные места считаются вакантными и выносятся на конкурс следующего тура.\n\n\n\n3.13. После сдачи документов и предъявления в техническую комиссию квитанции, об оплате по тарифу за обработку документов абитуриента, абитуриент получает расписку о приеме документов.\n\n\n\n3.14. Зачисление на первый курс в магистратуру КГТУ им. И. Раззакова производится приказом ректора по представлению приемной комиссии.",
+              "topic": [
+                "admissions_documents"
+              ],
+              "pages": [
+                1,
+                2,
+                3
+              ]
+            }
+          ],
+          "claims": [
+            {
+              "text": "Для поступления в магистратуру необходимо предоставить оригинал транскрипта или копию диплома бакалавра или специалиста с приложением вкладыша, а для получивших образование за рубежом – копию диплома и свидетельство об эквивалентности к диплому о высшем профессиональном образовании КР, выданное МНВОИ КР.",
+              "evidence": [
+                {
+                  "chunk_id": "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+                  "quote": "- оригинал транскрипта или копию диплома бакалавра или специалиста с приложением вкладыша, при отсутствии транскрипта;\n- для лиц, получивших образование за рубежом, за исключением граждан государств - участников ЕАЭС, копию соответствующего диплома, а также свидетельство об эквивалентности к диплому о высшем профессиональном образовании КР, выданного МНВОИ КР;"
+                }
+              ]
+            }
+          ],
+          "retrieved_chunk_ids": [
+            "kstu-8191f9e5f5a60474926012b9eebe4331d3db2a3312b22a8922c14aac3387f173",
+            "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a"
+          ],
+          "retrieved_selection_ids": [
+            "masters-documents"
+          ],
+          "support_check": null,
+          "provider_calls": 1,
+          "usage": [
+            {
+              "queue_time": 0.15580334,
+              "prompt_tokens": 2228,
+              "prompt_time": 0.118774549,
+              "completion_tokens": 386,
+              "completion_time": 0.804609583,
+              "total_tokens": 2614,
+              "total_time": 0.923384132,
+              "completion_tokens_details": {
+                "reasoning_tokens": 98
+              }
+            }
+          ]
+        }
+      },
+      "checks": {
+        "expected_status": "answered",
+        "status_correct": false,
+        "exact_refusal": true,
+        "expected_evidence_retrieved": true,
+        "answer_cites_expected_selection": false,
+        "quote_checks": [
+          false
+        ],
+        "citation_correctness": false,
+        "local_support_errors": [
+          "claim quotation not in supplied chunk"
+        ],
+        "support_check_limit": "Quote and metadata checks are deterministic; entailment and completeness require a source audit. Provider verification is probabilistic.",
+        "source_audit": "pending"
+      }
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-fee-confirmation",
+      "request": {
+        "question": "How much must recommended fee-paying masters applicants pay to confirm a place?"
+      },
+      "http_status": 200,
+      "expected_status": "answered",
+      "expected_answer": "Pay 50% of annual tuition and submit the required documents, diploma and signed paid-education contract within the admissions commission deadline. Failure to pay in time makes the place vacant for the next round.",
+      "expected_selection_ids": [
+        "masters-documents"
+      ],
+      "response": {
+        "status": "refused",
+        "answer": "Unfortunately, I do not have accurate information on this question. Please contact the Student Office (room 101).",
+        "citations": [],
+        "scope": "masters_admissions",
+        "academic_year": "2026-2027",
+        "grounding": {
+          "prompt_version": "kstu-grounding-v1",
+          "outcome": "unsupported_or_invalid_proposal",
+          "retrieved": [
+            {
+              "chunk_id": "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+              "selection_id": "masters-gpa-appendix",
+              "scope": "masters_admissions",
+              "source": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+              "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "Prior-qualification GPA for masters admissions only"
+              ],
+              "limitations": [
+                "This is the grading appendix used by masters admissions. Do not assert that it resolves all current-student GPA rules or repeat-course handling."
+              ],
+              "text": "«УТВЕРЖДАЮ»\nРектор КГТУ им.И.Раззакова\nЧыныбаев М.К.\n2026 г.\n\nПРАВИЛА\nприема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)\n\nПРИЛОЖЕНИЕ 1\n\nСистема оценивания\n\n(Выписка из Положения об организации учебного процесса в КГТУ им. И. Раззакова на основе кредитной системы обучения ECTS)\n\nВ КГТУ используется балльная система оценивания с использованием буквенных символов, что позволяет преподавателю более гибко подойти к определению уровня достижений студентов.\n\nШкала оценок академической успеваемости\n\nТаблица 1\n\n| Рейтинг (баллы) | Оценка по буквенной системе | Цифровой эквивалент оценки | Оценка по традиционной системе |\n| --- | --- | --- | --- |\n| 87 – 100 | A | 4.0 | Отлично |\n| 80 – 86 | B | 3.33 | Хорошо |\n| 74 – 79 | C | 3.0 | Хорошо |\n| 68 -73 | D | 2.33 | Удовлетворительно |\n| 61-67 | E | 2,0 | Удовлетворительно |\n| 41-60 | FX | 0 | Неудовлетворительно |\n| 0-40 | F | 0 | Неудовлетворительно |\n\nПо результатам успеваемости рассчитывается средний балл GPA, максимальное выражение которого составляет 4.0 балла. GPA (Grade Point Average) — средневзвешенная оценка уровня учебных достижений студента. Средний балл студента рассчитывается по итогам результатов обучения в каждом семестре и по окончании обучения по формуле:\n\nGPA = \\frac{\\sum_{1}^{n}\\text{кредит} \\times \\text{оценки}}{\\sum_{1}^{n}\\text{кредитов}}\n\nгде, n – число дисциплин за все время обучения",
+              "topic": [
+                "admission_gpa"
+              ],
+              "pages": [
+                1,
+                4
+              ]
+            },
+            {
+              "chunk_id": "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+              "selection_id": "masters-ranking",
+              "scope": "masters_admissions",
+              "source": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+              "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "KSTU masters admissions 2026-2027; not general enrolled-student GPA or bachelor ORT"
+              ],
+              "limitations": [
+                "These are masters GPA thresholds, not bachelor ORT scores.",
+                "Minimum threshold allows competition and does not guarantee admission."
+              ],
+              "text": "«УТВЕРЖДАЮ»\nРектор КГТУ им.И.Раззакова\nЧыныбаев М.К.\n2026 г.\n\nПРАВИЛА\nприема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)\n\n3.1. На обучение по программе подготовки магистра принимаются лица, имеющие диплом государственного образца о высшем профессиональном образовании с присвоением академической степени \"бакалавр\" или высшее профессиональное образование, с присвоением квалификации \"специалист\".\n\n\n\n3.3. Конкурс на обучение по программам магистратуры проводится по результатам GPA на основании заявления граждан.\n\n\n\n3.9. Ранжированные списки кандидатов на обучение в магистратуре, претендующих к зачислению на грантовые места или места с оплатой стоимости обучения, составляются приемной комиссией на основании среднего уровня баллов успеваемости (GPA) предыдущего уровня подготовки, по следующему алгоритму:\n\n- при предоставлении претендентом оригинала Транскрипта, в ранжированные списки кандидатов на обучение в магистратуре включается GPA;\n\n- при отсутствии Транскрипта и предоставлении претендентом копии диплома с приложением выписки из зачетной ведомости (вкладыша) формируется Транскрипт на основе предоставленных документов в соответствии с системой оценивания по Положению об организации учебного процесса в КГТУ им. И. Раззакова на основе кредитной системы обучения ECTS (Приложение 1) и GPA рассчитанный в соответствии с данным положением включается в ранжированные списки кандидатов на обучение в магистратуре.\n\n\n\n3.10. Пороговый балл по GPA для участия в конкурсе на поступление в магистратуру составляет:\n\n- для лиц, претендующих на поступление в магистратуру на государственные грантовые места — 2,33;\n\n- для лиц, претендующих на поступление в магистратуру на места с оплатой стоимости обучения -2,18.\n\n",
+              "topic": [
+                "thresholds"
+              ],
+              "pages": [
+                1,
+                2,
+                3
+              ]
+            }
+          ],
+          "claims": [],
+          "retrieved_chunk_ids": [
+            "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+            "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687"
+          ],
+          "retrieved_selection_ids": [
+            "masters-gpa-appendix",
+            "masters-ranking"
+          ],
+          "support_check": null,
+          "provider_calls": 1,
+          "usage": [
+            {
+              "queue_time": 0.036464533,
+              "prompt_tokens": 2331,
+              "prompt_time": 0.123748265,
+              "completion_tokens": 72,
+              "completion_time": 0.15176462,
+              "total_tokens": 2403,
+              "total_time": 0.275512885,
+              "completion_tokens_details": {
+                "reasoning_tokens": 39
+              }
+            }
+          ]
+        }
+      },
+      "checks": {
+        "expected_status": "answered",
+        "status_correct": false,
+        "exact_refusal": true,
+        "expected_evidence_retrieved": false,
+        "answer_cites_expected_selection": false,
+        "quote_checks": [],
+        "citation_correctness": true,
+        "local_support_errors": [],
+        "support_check_limit": "Quote and metadata checks are deterministic; entailment and completeness require a source audit. Provider verification is probabilistic.",
+        "source_audit": "pending"
+      }
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-pedagogical",
+      "request": {
+        "question": "What extra documents apply to pedagogical grant graduates entering extramural masters study?"
+      },
+      "http_status": 200,
+      "expected_status": "answered",
+      "expected_answer": "A diploma copy certified by the issuing institution and an institution certificate about grant-funded study and work placement.",
+      "expected_selection_ids": [
+        "masters-documents"
+      ],
+      "response": {
+        "status": "answered",
+        "answer": "Pedagogical grant graduates enrolling in extramural master’s programs must submit a copy of their higher education diploma certified by the issuing institution, and a certificate from the institution confirming they studied on a grant basis and were assigned a job.",
+        "citations": [
+          {
+            "chunk_id": "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+            "chunk_ids": [
+              "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a"
+            ],
+            "source_title": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+            "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+            "page_number": 1,
+            "url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf#page=1"
+          },
+          {
+            "chunk_id": "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+            "chunk_ids": [
+              "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a"
+            ],
+            "source_title": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+            "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+            "page_number": 2,
+            "url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf#page=2"
+          },
+          {
+            "chunk_id": "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+            "chunk_ids": [
+              "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a"
+            ],
+            "source_title": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+            "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+            "page_number": 3,
+            "url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf#page=3"
+          }
+        ],
+        "scope": "masters_admissions",
+        "academic_year": "2026-2027",
+        "grounding": {
+          "prompt_version": "kstu-grounding-v1",
+          "outcome": "validated",
+          "retrieved": [
+            {
+              "chunk_id": "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+              "selection_id": "masters-ranking",
+              "scope": "masters_admissions",
+              "source": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+              "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "KSTU masters admissions 2026-2027; not general enrolled-student GPA or bachelor ORT"
+              ],
+              "limitations": [
+                "These are masters GPA thresholds, not bachelor ORT scores.",
+                "Minimum threshold allows competition and does not guarantee admission."
+              ],
+              "text": "«УТВЕРЖДАЮ»\nРектор КГТУ им.И.Раззакова\nЧыныбаев М.К.\n2026 г.\n\nПРАВИЛА\nприема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)\n\n3.1. На обучение по программе подготовки магистра принимаются лица, имеющие диплом государственного образца о высшем профессиональном образовании с присвоением академической степени \"бакалавр\" или высшее профессиональное образование, с присвоением квалификации \"специалист\".\n\n\n\n3.3. Конкурс на обучение по программам магистратуры проводится по результатам GPA на основании заявления граждан.\n\n\n\n3.9. Ранжированные списки кандидатов на обучение в магистратуре, претендующих к зачислению на грантовые места или места с оплатой стоимости обучения, составляются приемной комиссией на основании среднего уровня баллов успеваемости (GPA) предыдущего уровня подготовки, по следующему алгоритму:\n\n- при предоставлении претендентом оригинала Транскрипта, в ранжированные списки кандидатов на обучение в магистратуре включается GPA;\n\n- при отсутствии Транскрипта и предоставлении претендентом копии диплома с приложением выписки из зачетной ведомости (вкладыша) формируется Транскрипт на основе предоставленных документов в соответствии с системой оценивания по Положению об организации учебного процесса в КГТУ им. И. Раззакова на основе кредитной системы обучения ECTS (Приложение 1) и GPA рассчитанный в соответствии с данным положением включается в ранжированные списки кандидатов на обучение в магистратуре.\n\n\n\n3.10. Пороговый балл по GPA для участия в конкурсе на поступление в магистратуру составляет:\n\n- для лиц, претендующих на поступление в магистратуру на государственные грантовые места — 2,33;\n\n- для лиц, претендующих на поступление в магистратуру на места с оплатой стоимости обучения -2,18.\n\n",
+              "topic": [
+                "thresholds"
+              ],
+              "pages": [
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "chunk_id": "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+              "selection_id": "masters-documents",
+              "scope": "masters_admissions",
+              "source": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+              "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "KSTU masters admissions 2026-2027; not general enrolled-student GPA or bachelor ORT"
+              ],
+              "limitations": [
+                "Exact reception/confirmation dates are not printed here; the university determines them.",
+                "Do not apply masters checklist to bachelor applicants."
+              ],
+              "text": "«УТВЕРЖДАЮ»\nРектор КГТУ им.И.Раззакова\nЧыныбаев М.К.\n2026 г.\n\nПРАВИЛА\nприема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)\n\n3.1. На обучение по программе подготовки магистра принимаются лица, имеющие диплом государственного образца о высшем профессиональном образовании с присвоением академической степени \"бакалавр\" или высшее профессиональное образование, с присвоением квалификации \"специалист\".\n\n\n\n3.4. При зачислении в магистратуру на заочную форму обучения, выпускники педагогических направлений и специальностей, обучавшиеся на грантовой основе, представляют копию диплома о высшем профессиональном образовании, заверенную выдавшим его учебным заведением, и справку учебного заведения об обучении на грантовой основе и распределении на работу.\n\n\n\n3.12. Кандидаты на обучение в магистратуре, рекомендованные к зачислению на места с оплатой стоимости обучения, должны подтвердить желание обучаться в КГТУ им. И.Раззакова в установленные приемной комиссией сроки путем сдачи необходимых документов, диплома о высшем образовании и оформленного договора на оказание платных образовательных услуг с оплатой 50% годовой стоимости обучения. В случае неуплаты в оговоренные сроки, данные места считаются вакантными и выносятся на конкурс следующего тура.\n\n\n\n3.13. После сдачи документов и предъявления в техническую комиссию квитанции, об оплате по тарифу за обработку документов абитуриента, абитуриент получает расписку о приеме документов.\n\n\n\n3.14. Зачисление на первый курс в магистратуру КГТУ им. И. Раззакова производится приказом ректора по представлению приемной комиссии.",
+              "topic": [
+                "admissions_documents"
+              ],
+              "pages": [
+                1,
+                2,
+                3
+              ]
+            }
+          ],
+          "claims": [
+            {
+              "text": "Pedagogical grant graduates enrolling in extramural master’s programs must submit a copy of their higher education diploma certified by the issuing institution, and a certificate from the institution confirming they studied on a grant basis and were assigned a job.",
+              "evidence": [
+                {
+                  "chunk_id": "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+                  "quote": "При зачислении в магистратуру на заочную форму обучения, выпускники педагогических направлений и специальностей, обучавшиеся на грантовой основе, представляют копию диплома о высшем профессиональном образовании, заверенную выдавшим его учебным заведением, и справку учебного заведения об обучении на грантовой основе и распределении на работу."
+                }
+              ]
+            }
+          ],
+          "retrieved_chunk_ids": [
+            "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+            "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a"
+          ],
+          "retrieved_selection_ids": [
+            "masters-ranking",
+            "masters-documents"
+          ],
+          "support_check": {
+            "answers_question": true,
+            "audience_applicable": true,
+            "complete": true,
+            "injection_free": true,
+            "claims": [
+              {
+                "claim_index": 0,
+                "entailed": true,
+                "audience_preserved": true,
+                "qualifiers_preserved": true
+              }
+            ]
+          },
+          "provider_calls": 2,
+          "usage": [
+            {
+              "queue_time": 0.090007351,
+              "prompt_tokens": 2286,
+              "prompt_time": 0.119911331,
+              "completion_tokens": 284,
+              "completion_time": 0.597474306,
+              "total_tokens": 2570,
+              "total_time": 0.717385637,
+              "completion_tokens_details": {
+                "reasoning_tokens": 48
+              }
+            },
+            {
+              "queue_time": 0.264839148,
+              "prompt_tokens": 1531,
+              "prompt_time": 0.08515732,
+              "completion_tokens": 254,
+              "completion_time": 0.536356279,
+              "total_tokens": 1785,
+              "total_time": 0.621513599,
+              "completion_tokens_details": {
+                "reasoning_tokens": 166
+              }
+            }
+          ]
+        }
+      },
+      "checks": {
+        "expected_status": "answered",
+        "status_correct": true,
+        "exact_refusal": false,
+        "expected_evidence_retrieved": true,
+        "answer_cites_expected_selection": true,
+        "quote_checks": [
+          true
+        ],
+        "citation_correctness": true,
+        "local_support_errors": [],
+        "support_check_limit": "Quote and metadata checks are deterministic; entailment and completeness require a source audit. Provider verification is probabilistic.",
+        "source_audit": "pending"
+      }
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-grant-threshold",
+      "request": {
+        "question": "What GPA minimum permits competition for a masters state-grant place?"
+      },
+      "http_status": 200,
+      "expected_status": "answered",
+      "expected_answer": "2.33 on the four-point GPA scale. This permits competition and does not guarantee admission.",
+      "expected_selection_ids": [
+        "masters-ranking"
+      ],
+      "response": {
+        "status": "refused",
+        "answer": "Unfortunately, I do not have accurate information on this question. Please contact the Student Office (room 101).",
+        "citations": [],
+        "scope": "masters_admissions",
+        "academic_year": "2026-2027",
+        "grounding": {
+          "prompt_version": "kstu-grounding-v1",
+          "outcome": "unsupported_or_invalid_proposal",
+          "retrieved": [
+            {
+              "chunk_id": "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+              "selection_id": "masters-ranking",
+              "scope": "masters_admissions",
+              "source": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+              "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "KSTU masters admissions 2026-2027; not general enrolled-student GPA or bachelor ORT"
+              ],
+              "limitations": [
+                "These are masters GPA thresholds, not bachelor ORT scores.",
+                "Minimum threshold allows competition and does not guarantee admission."
+              ],
+              "text": "«УТВЕРЖДАЮ»\nРектор КГТУ им.И.Раззакова\nЧыныбаев М.К.\n2026 г.\n\nПРАВИЛА\nприема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)\n\n3.1. На обучение по программе подготовки магистра принимаются лица, имеющие диплом государственного образца о высшем профессиональном образовании с присвоением академической степени \"бакалавр\" или высшее профессиональное образование, с присвоением квалификации \"специалист\".\n\n\n\n3.3. Конкурс на обучение по программам магистратуры проводится по результатам GPA на основании заявления граждан.\n\n\n\n3.9. Ранжированные списки кандидатов на обучение в магистратуре, претендующих к зачислению на грантовые места или места с оплатой стоимости обучения, составляются приемной комиссией на основании среднего уровня баллов успеваемости (GPA) предыдущего уровня подготовки, по следующему алгоритму:\n\n- при предоставлении претендентом оригинала Транскрипта, в ранжированные списки кандидатов на обучение в магистратуре включается GPA;\n\n- при отсутствии Транскрипта и предоставлении претендентом копии диплома с приложением выписки из зачетной ведомости (вкладыша) формируется Транскрипт на основе предоставленных документов в соответствии с системой оценивания по Положению об организации учебного процесса в КГТУ им. И. Раззакова на основе кредитной системы обучения ECTS (Приложение 1) и GPA рассчитанный в соответствии с данным положением включается в ранжированные списки кандидатов на обучение в магистратуре.\n\n\n\n3.10. Пороговый балл по GPA для участия в конкурсе на поступление в магистратуру составляет:\n\n- для лиц, претендующих на поступление в магистратуру на государственные грантовые места — 2,33;\n\n- для лиц, претендующих на поступление в магистратуру на места с оплатой стоимости обучения -2,18.\n\n",
+              "topic": [
+                "thresholds"
+              ],
+              "pages": [
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "chunk_id": "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+              "selection_id": "masters-gpa-appendix",
+              "scope": "masters_admissions",
+              "source": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+              "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "Prior-qualification GPA for masters admissions only"
+              ],
+              "limitations": [
+                "This is the grading appendix used by masters admissions. Do not assert that it resolves all current-student GPA rules or repeat-course handling."
+              ],
+              "text": "«УТВЕРЖДАЮ»\nРектор КГТУ им.И.Раззакова\nЧыныбаев М.К.\n2026 г.\n\nПРАВИЛА\nприема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)\n\nПРИЛОЖЕНИЕ 1\n\nСистема оценивания\n\n(Выписка из Положения об организации учебного процесса в КГТУ им. И. Раззакова на основе кредитной системы обучения ECTS)\n\nВ КГТУ используется балльная система оценивания с использованием буквенных символов, что позволяет преподавателю более гибко подойти к определению уровня достижений студентов.\n\nШкала оценок академической успеваемости\n\nТаблица 1\n\n| Рейтинг (баллы) | Оценка по буквенной системе | Цифровой эквивалент оценки | Оценка по традиционной системе |\n| --- | --- | --- | --- |\n| 87 – 100 | A | 4.0 | Отлично |\n| 80 – 86 | B | 3.33 | Хорошо |\n| 74 – 79 | C | 3.0 | Хорошо |\n| 68 -73 | D | 2.33 | Удовлетворительно |\n| 61-67 | E | 2,0 | Удовлетворительно |\n| 41-60 | FX | 0 | Неудовлетворительно |\n| 0-40 | F | 0 | Неудовлетворительно |\n\nПо результатам успеваемости рассчитывается средний балл GPA, максимальное выражение которого составляет 4.0 балла. GPA (Grade Point Average) — средневзвешенная оценка уровня учебных достижений студента. Средний балл студента рассчитывается по итогам результатов обучения в каждом семестре и по окончании обучения по формуле:\n\nGPA = \\frac{\\sum_{1}^{n}\\text{кредит} \\times \\text{оценки}}{\\sum_{1}^{n}\\text{кредитов}}\n\nгде, n – число дисциплин за все время обучения",
+              "topic": [
+                "admission_gpa"
+              ],
+              "pages": [
+                1,
+                4
+              ]
+            }
+          ],
+          "claims": [
+            {
+              "text": "The minimum GPA required to compete for a state‑grant master’s place is 2,33.",
+              "evidence": [
+                {
+                  "chunk_id": "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+                  "quote": "Пороговый балл по GPA для участия в конкурсе на поступление в магистратуру составляет:\n- для лиц, претендующих на поступление в магистратуру на государственные грантовые места — 2,33;"
+                }
+              ]
+            }
+          ],
+          "retrieved_chunk_ids": [
+            "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+            "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8"
+          ],
+          "retrieved_selection_ids": [
+            "masters-ranking",
+            "masters-gpa-appendix"
+          ],
+          "support_check": null,
+          "provider_calls": 1,
+          "usage": [
+            {
+              "queue_time": 0.096333667,
+              "prompt_tokens": 2330,
+              "prompt_time": 0.209795728,
+              "completion_tokens": 225,
+              "completion_time": 0.711804026,
+              "total_tokens": 2555,
+              "total_time": 0.921599754,
+              "prompt_tokens_details": {
+                "cached_tokens": 256
+              },
+              "completion_tokens_details": {
+                "reasoning_tokens": 47
+              }
+            }
+          ]
+        }
+      },
+      "checks": {
+        "expected_status": "answered",
+        "status_correct": false,
+        "exact_refusal": true,
+        "expected_evidence_retrieved": true,
+        "answer_cites_expected_selection": false,
+        "quote_checks": [
+          false
+        ],
+        "citation_correctness": false,
+        "local_support_errors": [
+          "claim quotation not in supplied chunk"
+        ],
+        "support_check_limit": "Quote and metadata checks are deterministic; entailment and completeness require a source audit. Provider verification is probabilistic.",
+        "source_audit": "pending"
+      }
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-contract-threshold",
+      "request": {
+        "question": "What GPA minimum permits competition for a fee-paying masters place?"
+      },
+      "http_status": 200,
+      "expected_status": "answered",
+      "expected_answer": "2.18 on the four-point GPA scale. This permits competition and does not guarantee admission.",
+      "expected_selection_ids": [
+        "masters-ranking"
+      ],
+      "response": {
+        "status": "answered",
+        "answer": "The minimum GPA for competition for a fee‑paying master’s place is 2,18.",
+        "citations": [
+          {
+            "chunk_id": "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+            "chunk_ids": [
+              "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687"
+            ],
+            "source_title": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+            "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+            "page_number": 1,
+            "url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf#page=1"
+          },
+          {
+            "chunk_id": "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+            "chunk_ids": [
+              "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687"
+            ],
+            "source_title": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+            "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+            "page_number": 2,
+            "url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf#page=2"
+          },
+          {
+            "chunk_id": "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+            "chunk_ids": [
+              "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687"
+            ],
+            "source_title": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+            "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+            "page_number": 3,
+            "url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf#page=3"
+          }
+        ],
+        "scope": "masters_admissions",
+        "academic_year": "2026-2027",
+        "grounding": {
+          "prompt_version": "kstu-grounding-v1",
+          "outcome": "validated",
+          "retrieved": [
+            {
+              "chunk_id": "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+              "selection_id": "masters-ranking",
+              "scope": "masters_admissions",
+              "source": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+              "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "KSTU masters admissions 2026-2027; not general enrolled-student GPA or bachelor ORT"
+              ],
+              "limitations": [
+                "These are masters GPA thresholds, not bachelor ORT scores.",
+                "Minimum threshold allows competition and does not guarantee admission."
+              ],
+              "text": "«УТВЕРЖДАЮ»\nРектор КГТУ им.И.Раззакова\nЧыныбаев М.К.\n2026 г.\n\nПРАВИЛА\nприема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)\n\n3.1. На обучение по программе подготовки магистра принимаются лица, имеющие диплом государственного образца о высшем профессиональном образовании с присвоением академической степени \"бакалавр\" или высшее профессиональное образование, с присвоением квалификации \"специалист\".\n\n\n\n3.3. Конкурс на обучение по программам магистратуры проводится по результатам GPA на основании заявления граждан.\n\n\n\n3.9. Ранжированные списки кандидатов на обучение в магистратуре, претендующих к зачислению на грантовые места или места с оплатой стоимости обучения, составляются приемной комиссией на основании среднего уровня баллов успеваемости (GPA) предыдущего уровня подготовки, по следующему алгоритму:\n\n- при предоставлении претендентом оригинала Транскрипта, в ранжированные списки кандидатов на обучение в магистратуре включается GPA;\n\n- при отсутствии Транскрипта и предоставлении претендентом копии диплома с приложением выписки из зачетной ведомости (вкладыша) формируется Транскрипт на основе предоставленных документов в соответствии с системой оценивания по Положению об организации учебного процесса в КГТУ им. И. Раззакова на основе кредитной системы обучения ECTS (Приложение 1) и GPA рассчитанный в соответствии с данным положением включается в ранжированные списки кандидатов на обучение в магистратуре.\n\n\n\n3.10. Пороговый балл по GPA для участия в конкурсе на поступление в магистратуру составляет:\n\n- для лиц, претендующих на поступление в магистратуру на государственные грантовые места — 2,33;\n\n- для лиц, претендующих на поступление в магистратуру на места с оплатой стоимости обучения -2,18.\n\n",
+              "topic": [
+                "thresholds"
+              ],
+              "pages": [
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "chunk_id": "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8",
+              "selection_id": "masters-gpa-appendix",
+              "scope": "masters_admissions",
+              "source": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+              "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "Prior-qualification GPA for masters admissions only"
+              ],
+              "limitations": [
+                "This is the grading appendix used by masters admissions. Do not assert that it resolves all current-student GPA rules or repeat-course handling."
+              ],
+              "text": "«УТВЕРЖДАЮ»\nРектор КГТУ им.И.Раззакова\nЧыныбаев М.К.\n2026 г.\n\nПРАВИЛА\nприема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)\n\nПРИЛОЖЕНИЕ 1\n\nСистема оценивания\n\n(Выписка из Положения об организации учебного процесса в КГТУ им. И. Раззакова на основе кредитной системы обучения ECTS)\n\nВ КГТУ используется балльная система оценивания с использованием буквенных символов, что позволяет преподавателю более гибко подойти к определению уровня достижений студентов.\n\nШкала оценок академической успеваемости\n\nТаблица 1\n\n| Рейтинг (баллы) | Оценка по буквенной системе | Цифровой эквивалент оценки | Оценка по традиционной системе |\n| --- | --- | --- | --- |\n| 87 – 100 | A | 4.0 | Отлично |\n| 80 – 86 | B | 3.33 | Хорошо |\n| 74 – 79 | C | 3.0 | Хорошо |\n| 68 -73 | D | 2.33 | Удовлетворительно |\n| 61-67 | E | 2,0 | Удовлетворительно |\n| 41-60 | FX | 0 | Неудовлетворительно |\n| 0-40 | F | 0 | Неудовлетворительно |\n\nПо результатам успеваемости рассчитывается средний балл GPA, максимальное выражение которого составляет 4.0 балла. GPA (Grade Point Average) — средневзвешенная оценка уровня учебных достижений студента. Средний балл студента рассчитывается по итогам результатов обучения в каждом семестре и по окончании обучения по формуле:\n\nGPA = \\frac{\\sum_{1}^{n}\\text{кредит} \\times \\text{оценки}}{\\sum_{1}^{n}\\text{кредитов}}\n\nгде, n – число дисциплин за все время обучения",
+              "topic": [
+                "admission_gpa"
+              ],
+              "pages": [
+                1,
+                4
+              ]
+            }
+          ],
+          "claims": [
+            {
+              "text": "The minimum GPA for competition for a fee‑paying master’s place is 2,18.",
+              "evidence": [
+                {
+                  "chunk_id": "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+                  "quote": "для лиц, претендующих на поступление в магистратуру на места с оплатой стоимости обучения -2,18."
+                }
+              ]
+            }
+          ],
+          "retrieved_chunk_ids": [
+            "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+            "kstu-8ba594e82acb4c9bd12c7c156a4fd840b7875684dcbb7835679f38e4b84f64a8"
+          ],
+          "retrieved_selection_ids": [
+            "masters-ranking",
+            "masters-gpa-appendix"
+          ],
+          "support_check": {
+            "answers_question": true,
+            "audience_applicable": true,
+            "complete": true,
+            "injection_free": true,
+            "claims": [
+              {
+                "claim_index": 0,
+                "entailed": true,
+                "audience_preserved": true,
+                "qualifiers_preserved": true
+              }
+            ]
+          },
+          "provider_calls": 2,
+          "usage": [
+            {
+              "queue_time": 0.132278586,
+              "prompt_tokens": 2329,
+              "prompt_time": 0.11895286,
+              "completion_tokens": 201,
+              "completion_time": 0.422453404,
+              "total_tokens": 2530,
+              "total_time": 0.541406264,
+              "completion_tokens_details": {
+                "reasoning_tokens": 48
+              }
+            },
+            {
+              "queue_time": 0.092184895,
+              "prompt_tokens": 1487,
+              "prompt_time": 0.111733566,
+              "completion_tokens": 177,
+              "completion_time": 0.377090476,
+              "total_tokens": 1664,
+              "total_time": 0.488824042,
+              "completion_tokens_details": {
+                "reasoning_tokens": 89
+              }
+            }
+          ]
+        }
+      },
+      "checks": {
+        "expected_status": "answered",
+        "status_correct": true,
+        "exact_refusal": false,
+        "expected_evidence_retrieved": true,
+        "answer_cites_expected_selection": true,
+        "quote_checks": [
+          true
+        ],
+        "citation_correctness": true,
+        "local_support_errors": [],
+        "support_check_limit": "Quote and metadata checks are deterministic; entailment and completeness require a source audit. Provider verification is probabilistic.",
+        "source_audit": "pending"
+      }
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-grant-conditions",
+      "request": {
+        "question": "What are the reviewed masters state-grant competition conditions?"
+      },
+      "http_status": 200,
+      "expected_status": "answered",
+      "expected_answer": "A bachelor/specialist qualification in a related field, first education at this level, and GPA of at least 2.33. Recommended applicants must confirm with documents, diploma and a budget-study contract in the required period. The reviewed packet does not establish individual entitlement or vacant places.",
+      "expected_selection_ids": [
+        "masters-grants"
+      ],
+      "response": {
+        "status": "refused",
+        "answer": "Unfortunately, I do not have accurate information on this question. Please contact the Student Office (room 101).",
+        "citations": [],
+        "scope": "masters_admissions",
+        "academic_year": "2026-2027",
+        "grounding": {
+          "prompt_version": "kstu-grounding-v1",
+          "outcome": "unsupported_or_invalid_proposal",
+          "retrieved": [
+            {
+              "chunk_id": "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+              "selection_id": "masters-ranking",
+              "scope": "masters_admissions",
+              "source": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+              "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "KSTU masters admissions 2026-2027; not general enrolled-student GPA or bachelor ORT"
+              ],
+              "limitations": [
+                "These are masters GPA thresholds, not bachelor ORT scores.",
+                "Minimum threshold allows competition and does not guarantee admission."
+              ],
+              "text": "«УТВЕРЖДАЮ»\nРектор КГТУ им.И.Раззакова\nЧыныбаев М.К.\n2026 г.\n\nПРАВИЛА\nприема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)\n\n3.1. На обучение по программе подготовки магистра принимаются лица, имеющие диплом государственного образца о высшем профессиональном образовании с присвоением академической степени \"бакалавр\" или высшее профессиональное образование, с присвоением квалификации \"специалист\".\n\n\n\n3.3. Конкурс на обучение по программам магистратуры проводится по результатам GPA на основании заявления граждан.\n\n\n\n3.9. Ранжированные списки кандидатов на обучение в магистратуре, претендующих к зачислению на грантовые места или места с оплатой стоимости обучения, составляются приемной комиссией на основании среднего уровня баллов успеваемости (GPA) предыдущего уровня подготовки, по следующему алгоритму:\n\n- при предоставлении претендентом оригинала Транскрипта, в ранжированные списки кандидатов на обучение в магистратуре включается GPA;\n\n- при отсутствии Транскрипта и предоставлении претендентом копии диплома с приложением выписки из зачетной ведомости (вкладыша) формируется Транскрипт на основе предоставленных документов в соответствии с системой оценивания по Положению об организации учебного процесса в КГТУ им. И. Раззакова на основе кредитной системы обучения ECTS (Приложение 1) и GPA рассчитанный в соответствии с данным положением включается в ранжированные списки кандидатов на обучение в магистратуре.\n\n\n\n3.10. Пороговый балл по GPA для участия в конкурсе на поступление в магистратуру составляет:\n\n- для лиц, претендующих на поступление в магистратуру на государственные грантовые места — 2,33;\n\n- для лиц, претендующих на поступление в магистратуру на места с оплатой стоимости обучения -2,18.\n\n",
+              "topic": [
+                "thresholds"
+              ],
+              "pages": [
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "chunk_id": "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a",
+              "selection_id": "masters-documents",
+              "scope": "masters_admissions",
+              "source": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+              "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "KSTU masters admissions 2026-2027; not general enrolled-student GPA or bachelor ORT"
+              ],
+              "limitations": [
+                "Exact reception/confirmation dates are not printed here; the university determines them.",
+                "Do not apply masters checklist to bachelor applicants."
+              ],
+              "text": "«УТВЕРЖДАЮ»\nРектор КГТУ им.И.Раззакова\nЧыныбаев М.К.\n2026 г.\n\nПРАВИЛА\nприема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)\n\n3.1. На обучение по программе подготовки магистра принимаются лица, имеющие диплом государственного образца о высшем профессиональном образовании с присвоением академической степени \"бакалавр\" или высшее профессиональное образование, с присвоением квалификации \"специалист\".\n\n\n\n3.4. При зачислении в магистратуру на заочную форму обучения, выпускники педагогических направлений и специальностей, обучавшиеся на грантовой основе, представляют копию диплома о высшем профессиональном образовании, заверенную выдавшим его учебным заведением, и справку учебного заведения об обучении на грантовой основе и распределении на работу.\n\n\n\n3.12. Кандидаты на обучение в магистратуре, рекомендованные к зачислению на места с оплатой стоимости обучения, должны подтвердить желание обучаться в КГТУ им. И.Раззакова в установленные приемной комиссией сроки путем сдачи необходимых документов, диплома о высшем образовании и оформленного договора на оказание платных образовательных услуг с оплатой 50% годовой стоимости обучения. В случае неуплаты в оговоренные сроки, данные места считаются вакантными и выносятся на конкурс следующего тура.\n\n\n\n3.13. После сдачи документов и предъявления в техническую комиссию квитанции, об оплате по тарифу за обработку документов абитуриента, абитуриент получает расписку о приеме документов.\n\n\n\n3.14. Зачисление на первый курс в магистратуру КГТУ им. И. Раззакова производится приказом ректора по представлению приемной комиссии.",
+              "topic": [
+                "admissions_documents"
+              ],
+              "pages": [
+                1,
+                2,
+                3
+              ]
+            }
+          ],
+          "claims": [
+            {
+              "text": "Для участия в конкурсе на поступление в магистратуру на государственные грантовые места необходимо иметь GPA не ниже 2,33.",
+              "evidence": [
+                {
+                  "chunk_id": "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+                  "quote": "Пороговый балл по GPA для участия в конкурсе на поступление в магистратуру составляет: - для лиц, претендующих на поступление в магистратуру на государственные грантовые места — 2,33;"
+                }
+              ]
+            }
+          ],
+          "retrieved_chunk_ids": [
+            "kstu-2c6dfe0015601fc07a77af0c43d6dad47ae9894ed0863ae3c0d2aad2168dc687",
+            "kstu-13cd5e3e9719d7c11e53e12750d8e59d904e97a2494f639a16fc64abd719cb4a"
+          ],
+          "retrieved_selection_ids": [
+            "masters-ranking",
+            "masters-documents"
+          ],
+          "support_check": null,
+          "provider_calls": 1,
+          "usage": [
+            {
+              "queue_time": 0.285412995,
+              "prompt_tokens": 2281,
+              "prompt_time": 0.263624171,
+              "completion_tokens": 228,
+              "completion_time": 0.480380358,
+              "total_tokens": 2509,
+              "total_time": 0.744004529,
+              "completion_tokens_details": {
+                "reasoning_tokens": 41
+              }
+            }
+          ]
+        }
+      },
+      "checks": {
+        "expected_status": "answered",
+        "status_correct": false,
+        "exact_refusal": true,
+        "expected_evidence_retrieved": false,
+        "answer_cites_expected_selection": false,
+        "quote_checks": [
+          false
+        ],
+        "citation_correctness": false,
+        "local_support_errors": [
+          "claim quotation not in supplied chunk"
+        ],
+        "support_check_limit": "Quote and metadata checks are deterministic; entailment and completeness require a source audit. Provider verification is probabilistic.",
+        "source_audit": "pending"
+      }
+    },
+    {
+      "dataset": "handoff",
+      "case_id": "masters-foreign-exception",
+      "request": {
+        "question": "Do the reviewed masters fee-paying categories include every foreign citizen without exception?"
+      },
+      "http_status": 200,
+      "expected_status": "answered",
+      "expected_answer": "The foreign-citizen category contains an exception for countries with international treaties in force under Kyrgyz law. The text does not list the countries.",
+      "expected_selection_ids": [
+        "masters-grants"
+      ],
+      "response": {
+        "status": "answered",
+        "answer": "Fee‑paying categories for master’s programmes do NOT include every foreign citizen; citizens of foreign states that have international treaties in force with Kyrgyzstan are excluded.",
+        "citations": [
+          {
+            "chunk_id": "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+            "chunk_ids": [
+              "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0"
+            ],
+            "source_title": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+            "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+            "page_number": 1,
+            "url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf#page=1"
+          },
+          {
+            "chunk_id": "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+            "chunk_ids": [
+              "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0"
+            ],
+            "source_title": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+            "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+            "page_number": 2,
+            "url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf#page=2"
+          },
+          {
+            "chunk_id": "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+            "chunk_ids": [
+              "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0"
+            ],
+            "source_title": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+            "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+            "page_number": 3,
+            "url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf#page=3"
+          }
+        ],
+        "scope": "masters_admissions",
+        "academic_year": "2026-2027",
+        "grounding": {
+          "prompt_version": "kstu-grounding-v1",
+          "outcome": "validated",
+          "retrieved": [
+            {
+              "chunk_id": "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+              "selection_id": "masters-grants",
+              "scope": "masters_admissions",
+              "source": "ПРАВИЛА приема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)",
+              "source_url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+              "academic_year": "2026-2027",
+              "audience_restrictions": [
+                "KSTU masters admissions 2026-2027; not general enrolled-student GPA or bachelor ORT"
+              ],
+              "limitations": [
+                "Related-field mapping is not included in this reviewed packet.",
+                "Grant places and remaining vacancies are not established.",
+                "Do not infer an individual entitlement or bachelor grant eligibility."
+              ],
+              "text": "«УТВЕРЖДАЮ»\nРектор КГТУ им.И.Раззакова\nЧыныбаев М.К.\n2026 г.\n\nПРАВИЛА\nприема в Кыргызский Государственный Технический Университет им. И. Раззакова на 2026 / 2027 учебный год (на программы подготовки магистров)\n\n3.1. На обучение по программе подготовки магистра принимаются лица, имеющие диплом государственного образца о высшем профессиональном образовании с присвоением академической степени \"бакалавр\" или высшее профессиональное образование, с присвоением квалификации \"специалист\".\n\n\n\n3.5. На обучение по магистерским программам КГТУ на государственные грантовые места, на конкурсной основе, принимаются лица, получившие полное высшее профессиональном образовании с присвоением квалификации \"бакалавр\" или \"специалист\":\n\n- по родственным направлениям к выбранному направлению магистратуры. Перечень родственных направлений для продолжения обучения по образовательным программам магистратуры, КГТУ определяет самостоятельно на основании «Заключения УМО по образованию в области техники и технологии»;\n\n- абитуриенты, получающие образование данного уровня впервые.\n\n\n\n3.6. На обучение по магистерским программам КГТУ с оплатой стоимости обучения на основе договора (контракта), на конкурсной основе, принимаются лица, получившие полное высшее профессиональном образовании с присвоением квалификации \"бакалавр\" или \"специалист\":\n\n- по направлениям, не входящим к родственным направлениям к выбранному направлению магистратуры. В данном случаи формируются выравнивающие курсы для приобретения базовых профессиональных знаний и компетенций претендентом, требуемых для освоения основной образовательной программы подготовки магистров по направлению. Количество выравнивающих курсов определяется руководителем образовательной программы и доводится до абитуриента до заключения договора с оплатой стоимости обучения;\n\n- абитуриенты, получающие образование данного уровня повторно;\n\n- граждане иностранных государств (за исключением стран с международными договорами, вступившими в силу в соответствии с законодательством Кыргызской Республики);\n\n-абитуриенты, не прошедшие в магистратуру КГТУ по конкурсу на бюджетные места.\n\n3.10. Пороговый балл по GPA для участия в конкурсе на поступление в магистратуру составляет:\n\n- для лиц, претендующих на поступление в магистратуру на государственные грантовые места — 2,33;\n\n- для лиц, претендующих на поступление в магистратуру на места с оплатой стоимости обучения -2,18.\n\n\n\n3.11. Кандидаты на обучение в магистратуре, рекомендованные к зачислению на бюджетную основу обучения должны подтвердить желание обучаться в КГТУ им. И.Раззакова в установленные сроки путем сдачи необходимых документов, диплома об образовании предыдущего уровня и подписать договор об обучении на бюджетной форме образования. В случае невыполнения этих условий в оговоренные сроки до заседания комиссии по зачислению данного тура, данные места считаются вакантными и выносятся на конкурс следующего тура.\n\n",
+              "topic": [
+                "grants"
+              ],
+              "pages": [
+                1,
+                2,
+                3
+              ]
+            }
+          ],
+          "claims": [
+            {
+              "text": "Fee‑paying categories for master’s programmes do NOT include every foreign citizen; citizens of foreign states that have international treaties in force with Kyrgyzstan are excluded.",
+              "evidence": [
+                {
+                  "chunk_id": "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0",
+                  "quote": "граждане иностранных государств (за исключением стран с международными договорами, вступившими в силу в соответствии с законодательством Кыргызской Республики)"
+                }
+              ]
+            }
+          ],
+          "retrieved_chunk_ids": [
+            "kstu-24f86be6a1b3be6b6c6e3e18216c78a8e7f4a87a395addca50854a585db413d0"
+          ],
+          "retrieved_selection_ids": [
+            "masters-grants"
+          ],
+          "support_check": {
+            "answers_question": true,
+            "audience_applicable": true,
+            "complete": true,
+            "injection_free": true,
+            "claims": [
+              {
+                "claim_index": 0,
+                "entailed": true,
+                "audience_preserved": true,
+                "qualifiers_preserved": true
+              }
+            ]
+          },
+          "provider_calls": 2,
+          "usage": [
+            {
+              "queue_time": 0.099714844,
+              "prompt_tokens": 1875,
+              "prompt_time": 0.112560783,
+              "completion_tokens": 253,
+              "completion_time": 0.530357455,
+              "total_tokens": 2128,
+              "total_time": 0.642918238,
+              "completion_tokens_details": {
+                "reasoning_tokens": 77
+              }
+            },
+            {
+              "queue_time": 0.224294845,
+              "prompt_tokens": 1786,
+              "prompt_time": 0.100842949,
+              "completion_tokens": 232,
+              "completion_time": 0.479555768,
+              "total_tokens": 2018,
+              "total_time": 0.580398717,
+              "completion_tokens_details": {
+                "reasoning_tokens": 144
+              }
+            }
+          ]
+        }
+      },
+      "checks": {
+        "expected_status": "answered",
+        "status_correct": true,
+        "exact_refusal": false,
+        "expected_evidence_retrieved": true,
+        "answer_cites_expected_selection": true,
+        "quote_checks": [
+          true
+        ],
+        "citation_correctness": true,
+        "local_support_errors": [],
+        "support_check_limit": "Quote and metadata checks are deterministic; entailment and completeness require a source audit. Provider verification is probabilistic.",
+        "source_audit": "pending"
+      }
+    }
+  ]
+}

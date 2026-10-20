@@ -1,0 +1,1490 @@
+{
+  "schema_version": 1,
+  "assessment_date": "2026-10-20",
+  "university_id": "kstu",
+  "target_academic_year": "2026-2027",
+  "status": "candidate_shortlist_not_approved_input_manifest",
+  "path_base": "repository_root",
+  "live_currentness_verified": false,
+  "crawl_executed": false,
+  "input_sha256": {
+    "task.md": "1ae5d04f3fb4f1f769d5c1b6f4a990057df4e32c13d971e5ba6e7e9ac48d7077",
+    "data/knowledge/selection.json": "cc3281987548bda9ea1da600f603f7f8c1a7d153a7e4c43423887104bb2f8f85",
+    "data/knowledge/universities.json": "74b767eae4402fcc87cc3915ede582cfdfeb47c7faad15315431bc46821b457c",
+    "data/knowledge/manifest.json": "f73996dbbcbb82b8ccb96f8764f41646a34d47b1656e997a686d5f081ec0c54f"
+  },
+  "source_record_count": 15,
+  "distinct_source_hashes": 14,
+  "records": [
+    {
+      "batch": "additional-20261020-01-batch-014",
+      "source_sha256": "8ebbfe632d6b78a2ad0aa8fe8c76d1a0c9433dd37368b01f7ec4b0cfef81e060",
+      "purpose": "Undated admissions document list",
+      "original_path": "data/expansion/additional-20261020-01/batch-014/raw/originals/8ebbfe632d6b78a2ad0aa8fe8c76d1a0c9433dd37368b01f7ec4b0cfef81e060.html",
+      "references": [
+        {
+          "title": "Документы для поступления",
+          "url": "https://kstu.kg/abiturientu/4/dokumenty",
+          "university_id": "kstu"
+        }
+      ],
+      "pages": [
+        {
+          "page_number": null,
+          "extraction_path": "data/expansion/additional-20261020-01/batch-014/extracted/8ebbfe632d6b78a2ad0aa8fe8c76d1a0c9433dd37368b01f7ec4b0cfef81e060.json",
+          "extraction_sha256": "80b9bbae0997a5da48b4ea722f4f1871ebcf13212ab5045bf9f37f62944864db",
+          "recognition_decisions_path": "data/expansion/additional-20261020-01/batch-014/review/decisions.json",
+          "approved_export_path": "data/expansion/additional-20261020-01/batch-014/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Complete undated document lists archived. No2026–2027 approving act; linked migration/insurance legal bodies not approved and no current legal advice inferred."
+        }
+      ]
+    },
+    {
+      "batch": "pilot-20261019",
+      "source_sha256": "33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913",
+      "purpose": "Scoped logistics tuition table",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.pdf",
+      "references": [
+        {
+          "title": "Международная высшая школа логистики tuition schedule 2026-2027",
+          "url": "https://kstu.kg/fileadmin/user_upload/mvshl_03.pdf",
+          "university_id": "kstu"
+        }
+      ],
+      "pages": [
+        {
+          "page_number": 1,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+          "extraction_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "current",
+          "reason": "Complete signed2026–2027tariffpagewithcurrency,sixcourseheaders,twoprogramcodesandper-creditrates. Includesonlyself-containedKRandnear-foreigngroupsonpage1. Bottomfar-foreignheadingomittedbecauseamountscontinueonpage2. Saved-sourceauthoritydoesnotassertlivecurrentness."
+        },
+        {
+          "page_number": 2,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+          "extraction_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Wholepageaccuratelyrecognizedbutcontinuationhasnoprintedcourse/currencyheaders/year. Topfar-foreigncategorycontinuesfrompage1andmastersinitialcitizenshiplabelisuncertain. Noamountchunkuntilcontextdependenciesexplicitlysupportedbybuilderorindependentcompletecontextsource."
+        },
+        {
+          "page_number": 3,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/33d632ae2851c98df12d94a25f6ee986a160cdda6ad62b9b813219cd625f8913.json",
+          "extraction_sha256": "09f43532a8c76664efeb0f8d616625b618e3ae34b280ea4baee46b5cdafc9c58",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Accuratecontinuedtariffpagewithtableamountsandfinalsignatures,butmasterscontext,course/currencyheadersand2026–2027titleareonotherpages. Nochunkwithoutverifiedcross-pagecontextdependency; retainedrecognitiondoesnotinventmissingheaders."
+        }
+      ]
+    },
+    {
+      "batch": "pilot-20261019",
+      "source_sha256": "3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e",
+      "purpose": "Current full-time bachelor/specialist calendar",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.pdf",
+      "references": [
+        {
+          "title": "Академический календарь 2026-27 уч.год_очная форма обучения (бакалавр, специалист)",
+          "url": "https://kstu.kg/fileadmin/user_upload/akademicheskii_kalendar_2026-27_uch.god_ochnaja_forma_obuchenija__bakalavr__specialist_.pdf",
+          "university_id": "kstu"
+        }
+      ],
+      "pages": [
+        {
+          "page_number": 1,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/3d93310d53e7a92a89da4822084acd8032cc162f776d303146d441c20577cd3e.json",
+          "extraction_sha256": "5a735c89195300a1895f895385842e943a04f9817990179ac040d152f463afcc",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "current",
+          "reason": "Official KSTU2026–27calendar explicitly governs fulltime bachelor/specialist programmes. Complete same-page year/audience/named institutional authority and independently source-image-adjudicated five cyan/pink weekday spans support narrowly selected planned preregistration/exam facts, including all graduating-course qualifiers. Intrinsically unclear handwritten approval date/decorative seal details remain unknown; no broader schedule, executed-date or future-occurrence claim."
+        }
+      ]
+    },
+    {
+      "batch": "pilot-20261019",
+      "source_sha256": "4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746",
+      "purpose": "Saved national admissions procedure; recognition review pending",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.pdf",
+      "references": [
+        {
+          "title": "Постановление 355 ПорядокПриемавВУЗыКыргызскойРеспублики",
+          "url": "https://kstu.kg/fileadmin/user_upload/postanovlenie_355_porjadokpriemavvuzykyrgyzskoirespubliki.pdf",
+          "university_id": "kstu"
+        },
+        {
+          "title": "постановление 382 о внесении изменений в 355",
+          "url": "https://kstu.kg/fileadmin/user_upload/postanovlenie_382_o_vnesenii_izmenenii_v_355.pdf",
+          "university_id": "kstu"
+        }
+      ],
+      "pages": [
+        {
+          "page_number": 1,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 2,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 3,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 4,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 5,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 6,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 7,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 8,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 9,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 10,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 11,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 12,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 13,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 14,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 15,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 16,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 17,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 18,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 19,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 20,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 21,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 22,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 23,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 24,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 25,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 26,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 27,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4512f4941c270edaf0e1fbb928de6336d4661f2dddd55f64c900ceb717311746.json",
+          "extraction_sha256": "845810422ad85cb761a1310b9e8fac82eeed1a67554bc20fbe6dbcd6119f931b",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        }
+      ]
+    },
+    {
+      "batch": "pilot-20261019",
+      "source_sha256": "4e3c3cc8f059a5eec43d4b7b7852467887816d56f6fc8a46dc0c5fb62a39dd42",
+      "purpose": "Historical administrative calendar; negative retrieval case",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/4e3c3cc8f059a5eec43d4b7b7852467887816d56f6fc8a46dc0c5fb62a39dd42.pdf",
+      "references": [
+        {
+          "title": "Календарь представления документов по ОУП на  2025-26 уч. год",
+          "url": "https://kstu.kg/fileadmin/user_upload/kalendar_predstavlenija_dokumentov_po_oup_na__2025-26_uch._god.pdf",
+          "university_id": "kstu"
+        }
+      ],
+      "pages": [
+        {
+          "page_number": 1,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4e3c3cc8f059a5eec43d4b7b7852467887816d56f6fc8a46dc0c5fb62a39dd42.json",
+          "extraction_sha256": "3541eb77d37dd620229ed4b06c4eb2740d555c78a8f53163d15d6748701c9bc1",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "rejected",
+          "decision": "withheld",
+          "reason": "Whole cover and scale4 approval crop inspected. Recovered readable rector label, Чыныбаев М.К.,2025year, and all three approval role/name pairings. Day/month blank form fields remain blank. Decorative emblem has no text. Overprinted circular seal letters/numerals cannot be completely resolved after actual pinned rus+kir+eng psm6/11. Reject whole-page recognition. Next need clearer approval/rector panel; no current authority claim."
+        },
+        {
+          "page_number": 2,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4e3c3cc8f059a5eec43d4b7b7852467887816d56f6fc8a46dc0c5fb62a39dd42.json",
+          "extraction_sha256": "3541eb77d37dd620229ed4b06c4eb2740d555c78a8f53163d15d6748701c9bc1",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Archive only. No reviewed evidence establishes this saved source applies to 2026–2027. Whole five-column table and every numbered row1–12checked against original. Reconstructed all row5appointment/pay/hour details, row6course modality deadlines, row7all six registration substeps, row10assessment deadlines and responsibility/output pairings. Removed shifted educational-portal text from row7back to row6. Exact source letters FХ versus FX retained. Numbered column guide1–5preserved. All selected table context and explicit dates are on this page."
+        },
+        {
+          "page_number": 3,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4e3c3cc8f059a5eec43d4b7b7852467887816d56f6fc8a46dc0c5fb62a39dd42.json",
+          "extraction_sha256": "3541eb77d37dd620229ed4b06c4eb2740d555c78a8f53163d15d6748701c9bc1",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Whole continuation table rows13–26and every subrow checked. Repaired row14portal clause separated from row15audit, row19fees/pay schedule, all row20autumn2026–27registration steps with their actual April2026dates and outputs, row21all assessment subrows. Retained literal row17new2025–26datedMay2026source anomaly. Structural headers are empty because source does not reprint them. Table withheld until verified required cross-page table context exists; no new headers copied."
+        },
+        {
+          "page_number": 4,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4e3c3cc8f059a5eec43d4b7b7852467887816d56f6fc8a46dc0c5fb62a39dd42.json",
+          "extraction_sha256": "3541eb77d37dd620229ed4b06c4eb2740d555c78a8f53163d15d6748701c9bc1",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Whole continuation rows27–36compared, every subrow/date/person/output and all merged responsibility cells. Removed duplicate pseudo-column and recovered row27caption originally misused as a Markdown header. Kept row30specialty phrase with its parent, not as part of first bullet. Explicit source_table_structure records actual row27and29merged responsibility/output cells. No invented repeated printed headers. Entire table withheld for missing verified cross-page headers."
+        },
+        {
+          "page_number": 5,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/4e3c3cc8f059a5eec43d4b7b7852467887816d56f6fc8a46dc0c5fb62a39dd42.json",
+          "extraction_sha256": "3541eb77d37dd620229ed4b06c4eb2740d555c78a8f53163d15d6748701c9bc1",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Archive only. No reviewed evidence establishes this saved source applies to 2026–2027. Whole final table rows37–42, summersemester8June–3July2026with registration8–12June2026and first-week stream formation, all report dates30June/10July/24July2026, actual leader role/name and all12abbreviation definitions checked. Corrected mixed Latin A in СА to actual Cyrillic source glyph. Continuation table withheld for missing verified cross-page headers. Only complete local glossary selected as historical institutional terminology."
+        }
+      ]
+    },
+    {
+      "batch": "pilot-20261019",
+      "source_sha256": "580216d6b1e25736ff8ad95c8725028385ce36fc2a61580bccaacb4eecf25dc0",
+      "purpose": "Admissions schedule and voucher provision; dependency restrictions apply",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/580216d6b1e25736ff8ad95c8725028385ce36fc2a61580bccaacb4eecf25dc0.pdf",
+      "references": [
+        {
+          "title": "Приказ График Туров ОРТ 2026 год",
+          "url": "https://kstu.kg/fileadmin/user_upload/prikazgrafikturovort2026god.pdf",
+          "university_id": "kstu"
+        }
+      ],
+      "pages": [
+        {
+          "page_number": 1,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/580216d6b1e25736ff8ad95c8725028385ce36fc2a61580bccaacb4eecf25dc0.json",
+          "extraction_sha256": "453e34cf24ad0c64f0cc23d77479a704c796cdcf726ccc93ade5bb5876fc5461",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "current",
+          "reason": "Current target-year order explicitly requires intake-plan submission by rectors of participating pedagogical higher-education providers. This is administrative admissions context, not an applicant voucher entitlement, operational intake-status or current open-admissions guarantee."
+        },
+        {
+          "page_number": 2,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/580216d6b1e25736ff8ad95c8725028385ce36fc2a61580bccaacb4eecf25dc0.json",
+          "extraction_sha256": "453e34cf24ad0c64f0cc23d77479a704c796cdcf726ccc93ade5bb5876fc5461",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Russian/Kyrgyz self-contained administrative clauses retained as archive snapshot. Physical page2 lacks the ministry header/electronic order-number footer; no authority is imported from page1 and no current classification assigned."
+        },
+        {
+          "page_number": 3,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/580216d6b1e25736ff8ad95c8725028385ce36fc2a61580bccaacb4eecf25dc0.json",
+          "extraction_sha256": "453e34cf24ad0c64f0cc23d77479a704c796cdcf726ccc93ade5bb5876fc5461",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Entire schedule dependency set is withheld. Required title/authority, material voucher-stop note or physical row continuation spans another page. The current approved-context feature cannot bridge body, table or footnote conditions."
+        },
+        {
+          "page_number": 4,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/580216d6b1e25736ff8ad95c8725028385ce36fc2a61580bccaacb4eecf25dc0.json",
+          "extraction_sha256": "453e34cf24ad0c64f0cc23d77479a704c796cdcf726ccc93ade5bb5876fc5461",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Entire schedule dependency set is withheld. Required title/authority, material voucher-stop note or physical row continuation spans another page. The current approved-context feature cannot bridge body, table or footnote conditions."
+        },
+        {
+          "page_number": 5,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/580216d6b1e25736ff8ad95c8725028385ce36fc2a61580bccaacb4eecf25dc0.json",
+          "extraction_sha256": "453e34cf24ad0c64f0cc23d77479a704c796cdcf726ccc93ade5bb5876fc5461",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Entire schedule dependency set is withheld. Required title/authority, material voucher-stop note or physical row continuation spans another page. The current approved-context feature cannot bridge body, table or footnote conditions."
+        },
+        {
+          "page_number": 6,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/580216d6b1e25736ff8ad95c8725028385ce36fc2a61580bccaacb4eecf25dc0.json",
+          "extraction_sha256": "453e34cf24ad0c64f0cc23d77479a704c796cdcf726ccc93ade5bb5876fc5461",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Entire schedule dependency set is withheld. Required title/authority, material voucher-stop note or physical row continuation spans another page. The current approved-context feature cannot bridge body, table or footnote conditions."
+        },
+        {
+          "page_number": 7,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/580216d6b1e25736ff8ad95c8725028385ce36fc2a61580bccaacb4eecf25dc0.json",
+          "extraction_sha256": "453e34cf24ad0c64f0cc23d77479a704c796cdcf726ccc93ade5bb5876fc5461",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Entire schedule dependency set is withheld. Required title/authority, material voucher-stop note or physical row continuation spans another page. The current approved-context feature cannot bridge body, table or footnote conditions."
+        },
+        {
+          "page_number": 8,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/580216d6b1e25736ff8ad95c8725028385ce36fc2a61580bccaacb4eecf25dc0.json",
+          "extraction_sha256": "453e34cf24ad0c64f0cc23d77479a704c796cdcf726ccc93ade5bb5876fc5461",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Actual final physical page contains only the printed electronic approval/date/signer footer. All visible text recognized; body contains no student policy or schedule content. No cleaner original required for this page."
+        }
+      ]
+    },
+    {
+      "batch": "pilot-20261019",
+      "source_sha256": "745910ad63f8f56de523c2ff32f6b699fad57f55501bb97b446f77308275a70d",
+      "purpose": "2025 threshold document; not current-year threshold evidence",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/745910ad63f8f56de523c2ff32f6b699fad57f55501bb97b446f77308275a70d.pdf",
+      "references": [
+        {
+          "title": "Пороговые баллы ОРТ на 2025 год",
+          "url": "https://kstu.kg/fileadmin/user_upload/porogovye_bally_ort_na_2025_god.pdf",
+          "university_id": "kstu"
+        }
+      ],
+      "pages": [
+        {
+          "page_number": 1,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/745910ad63f8f56de523c2ff32f6b699fad57f55501bb97b446f77308275a70d.json",
+          "extraction_sha256": "18ae59cb4f2a653c920d4fc85587fa2e8afa91cad69b000b8286b04c336b4d8d",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 2,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/745910ad63f8f56de523c2ff32f6b699fad57f55501bb97b446f77308275a70d.json",
+          "extraction_sha256": "18ae59cb4f2a653c920d4fc85587fa2e8afa91cad69b000b8286b04c336b4d8d",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 3,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/745910ad63f8f56de523c2ff32f6b699fad57f55501bb97b446f77308275a70d.json",
+          "extraction_sha256": "18ae59cb4f2a653c920d4fc85587fa2e8afa91cad69b000b8286b04c336b4d8d",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 4,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/745910ad63f8f56de523c2ff32f6b699fad57f55501bb97b446f77308275a70d.json",
+          "extraction_sha256": "18ae59cb4f2a653c920d4fc85587fa2e8afa91cad69b000b8286b04c336b4d8d",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 5,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/745910ad63f8f56de523c2ff32f6b699fad57f55501bb97b446f77308275a70d.json",
+          "extraction_sha256": "18ae59cb4f2a653c920d4fc85587fa2e8afa91cad69b000b8286b04c336b4d8d",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 6,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/745910ad63f8f56de523c2ff32f6b699fad57f55501bb97b446f77308275a70d.json",
+          "extraction_sha256": "18ae59cb4f2a653c920d4fc85587fa2e8afa91cad69b000b8286b04c336b4d8d",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        },
+        {
+          "page_number": 7,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/745910ad63f8f56de523c2ff32f6b699fad57f55501bb97b446f77308275a70d.json",
+          "extraction_sha256": "18ae59cb4f2a653c920d4fc85587fa2e8afa91cad69b000b8286b04c336b4d8d",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "unchecked",
+          "decision": "withheld",
+          "reason": "Recognition unchecked. Saved source comparison pending."
+        }
+      ]
+    },
+    {
+      "batch": "pilot-20261019",
+      "source_sha256": "7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e",
+      "purpose": "Scoped railway-institute tuition table",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.pdf",
+      "references": [
+        {
+          "title": "Институт путей сообщения tuition schedule 2026-2027",
+          "url": "https://kstu.kg/fileadmin/user_upload/preiskurant_ips.pdf",
+          "university_id": "kstu"
+        }
+      ],
+      "pages": [
+        {
+          "page_number": 1,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+          "extraction_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "current",
+          "reason": "Readable same-page named rector/trustee panels, explicit2026–2027 title, full institution/institute, KR citizen category, full-time mode, som currency and course1–6 headings qualify the six complete programme rows plus every per-credit row. Preserve actual blank cells and atypical printed values; no price is moved, filled, arithmetically corrected or labelled a live offer. Selected scope excludes all incomplete/inherited continuation groups."
+        },
+        {
+          "page_number": 2,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+          "extraction_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Complete recognized visible source requires a separately reviewed same-document binding to page1’s authority,2026–2027 year,institute,som currency and course1–6 column identities. Leading credit row is an orphan from page1’s programme; final far-abroad group continues onto source-defective page3. Until exact context and every selected group boundary are reviewed, no foreign/extramural price claim is indexed."
+        },
+        {
+          "page_number": 3,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+          "extraction_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "rejected",
+          "decision": "withheld",
+          "reason": "Recognition rejected. Whole original page and every visible table cell were personally inspected and all recoverable visible programme/profile/code/category/mode/amount/credit text is staged. The direct saved-original3.3x top-left crop proves an opaque physical paper fold covers the first programme row-number cell; its ordinal is unobservable, not an OCR-confidence issue. Staged blank ordinal explicitly denotes masked unknown, never a verified source blank; no2 is inferred from adjacent3/4. Re-rendering at double whole-page scale makes the fold boundary clearer but cannot recover covered pixels; rerunning OCR cannot see through the saved opaque paper. A clean unfolded official 2026–2027 Institute of Railway Communication schedule (same four-page scope, all row ordinals/headers) must be newly collected. Visible unusual values are retained: near-agreement transport72000 vs other81000; non-agreement road third-course credit2376 despite blank total; only3 printed non-agreement programmes. None of this page is approved for retrieval pending complete source recovery."
+        },
+        {
+          "page_number": 4,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/7577d9d7e428269ab71509fd399f76f324c645954ae5885a97591a48f0542d3e.json",
+          "extraction_sha256": "530f6f89f1bde4548f859894f6646543528bd73be8fdc15ed6ee25947c276922",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "rejected",
+          "decision": "withheld",
+          "reason": "Recognition rejected. Whole original page including bottom signatures/margins and all visible rate groups personally inspected; all recoverable visible table/credit/footer text is staged. Opaque physical paper fold covers the first row-number cell at top; actual3 cannot be observed and is not inferred from source sequence. Direct3.3x raw-source crop preserves exact physical evidence; higher scale cannot recreate covered source pixels, so OCR rerun cannot repair this missing original marker. Newly collect an unfolded complete official four-page source. All visible far-abroad continuation and master groups, exact codes760100 vs750500, citizenship/agreement/mode distinctions, all course/credit amounts and true blanks, and all five literal role/name signature pairs were compared/restored. Retained42955/859,61875/1238,82500/1650 as printed; no arithmetic normalization. Whole page stays rejected until its actual missing ordinal is recovered from a new official original, not guessed."
+        }
+      ]
+    },
+    {
+      "batch": "pilot-20261019",
+      "source_sha256": "899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9",
+      "purpose": "Masters admissions only; preserve page-specific eligibility",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9.pdf",
+      "references": [
+        {
+          "title": "Правила Приема Магистратура 2026",
+          "url": "https://kstu.kg/fileadmin/user_upload/pravilapriemamagistr2026.pdf",
+          "university_id": "kstu"
+        }
+      ],
+      "pages": [
+        {
+          "page_number": 1,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9.json",
+          "extraction_sha256": "22a306e985dc136b33a4309567e93399b75ed6edf9664e31041b8024cee9d2b8",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "current",
+          "reason": "Signedsaved2026/2027rulescoverwithcompletegeneralprovisions1.1–1.3. Supportslicensingandbudget/contractfundingbasis, notanapplicationdeadline, thresholdorindividualadmissionguarantee. Dictionaryentriesandbrokenlastdefinitionarenotemitted. Saved-sourceauthoritydoesnotclaimlivecurrentness."
+        },
+        {
+          "page_number": 2,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9.json",
+          "extraction_sha256": "22a306e985dc136b33a4309567e93399b75ed6edf9664e31041b8024cee9d2b8",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Completeadmissionssubsection3.1–3.6withallgrant/paidconditionsretainedasarchive. Thispagehasnoprinted2026–2027yearorapprovalregion; source-yearauthorityonpage1isnotembeddedintothispage. Incompleteprecedingdefinitionandcommission3.7continuationomitted."
+        },
+        {
+          "page_number": 3,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9.json",
+          "extraction_sha256": "22a306e985dc136b33a4309567e93399b75ed6edf9664e31041b8024cee9d2b8",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Completeclauses3.8–3.14retainregistration/document/ranking/GPAthreshold/confirmation/payment/receiptenrollmentrulesandallscopeexceptions. Archiveonlybecausedatedauthorityisnotprintedonthispage. Initialcommissiondutyfragmentcontinuespage2andisomitted."
+        },
+        {
+          "page_number": 4,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/899b709bbeaa07606b50303f720b92b900c904753d8693f7ff31007792bb86f9.json",
+          "extraction_sha256": "22a306e985dc136b33a4309567e93399b75ed6edf9664e31041b8024cee9d2b8",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Self-containedappendixgradingtableandGPAformulaaccuratelyrecognized. Archiveonlybecausethispagecontainsnodateor2026–2027authoritystatement. Noactivegradingpolicycontinuityisinferredfromdownloadorfilename."
+        }
+      ]
+    },
+    {
+      "batch": "pilot-20261019",
+      "source_sha256": "8ebbfe632d6b78a2ad0aa8fe8c76d1a0c9433dd37368b01f7ec4b0cfef81e060",
+      "purpose": "Undated admissions document list",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/8ebbfe632d6b78a2ad0aa8fe8c76d1a0c9433dd37368b01f7ec4b0cfef81e060.html",
+      "references": [
+        {
+          "title": "Документы для поступления",
+          "url": "https://kstu.kg/abiturientu/4/dokumenty",
+          "university_id": "kstu"
+        }
+      ],
+      "pages": [
+        {
+          "page_number": null,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/8ebbfe632d6b78a2ad0aa8fe8c76d1a0c9433dd37368b01f7ec4b0cfef81e060.json",
+          "extraction_sha256": "b37999664ccccfdaba5a7dbfad0f718b4aca25061f24de15d61b9fde2d45e6c5",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Complete undated document lists archived. No2026–2027 approving act; linked migration/insurance legal bodies not approved and no current legal advice inferred."
+        }
+      ]
+    },
+    {
+      "batch": "pilot-20261019",
+      "source_sha256": "a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f",
+      "purpose": "Academic leave; unresolved cover authority",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.pdf",
+      "references": [
+        {
+          "title": "Положение о порядке перев., отч., восст. и предос. акад.отпусков обуч. высшего и сред. проф.образ-я в КГТУ им.И.Раззакова",
+          "url": "https://kstu.kg/fileadmin/user_upload/polozhenie_o_porjadke_perevoda__otchislenija__vosstanovlenija_i_predostavlenija_akademicheskikh_otpuskov_obuchajushchimsja_vysshego_i_srednego__compressed.pdf",
+          "university_id": "kstu"
+        }
+      ],
+      "pages": [
+        {
+          "page_number": 1,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "extraction_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "rejected",
+          "decision": "withheld",
+          "reason": "Recognition rejected. Whole cover compared. Printed institutional heading, code,title and2025place/year restored. Approval surname beneath seal and handwritten secondary code not established; no inferred authority. Recognition reject excludes wholepage."
+        },
+        {
+          "page_number": 2,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "extraction_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Reconstructed three-column change log with rows1-3,blank revisioncells1-2, protocols21/26.01.2021,10/29.06.2022,3/26.11.2025, cited cabinet590/27September2024and329/10June2025. No fees or formulas. Archive only.2025dated source does not establish2026–2027applicability."
+        },
+        {
+          "page_number": 3,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "extraction_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Compared complete1.1–1.2,2.1–2.8 and2.9opening. Restored omitted clause markers and passport continuation.30fulltime/24correspondence credits and no-last-year transfer retained.2.9withheld in full acrosspp3-4. Archive only.2025dated source does not establish2026–2027applicability."
+        },
+        {
+          "page_number": 4,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "extraction_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Reordered2.9continuation as commission,list submission,then CISinterview paragraph. Recovered2.10–2.17 order,30/24difference caps,D-minus minimum,10daydeadline andexam/credit reassessment.2.9and2.17continued material excluded in full. Archive only.2025dated source does not establish2026–2027applicability."
+        },
+        {
+          "page_number": 5,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "extraction_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Reordered internal transfer3.1–3.3 andexpulsion4.1–4.2. Recovered complete voluntary grounds and administrative grounds,>100hour threshold,3discipline condition,one-month disciplinary limit,notice byISAVN. Opening paragraph continuation2.17excluded in full. Archive only.2025dated source does not establish2026–2027applicability."
+        },
+        {
+          "page_number": 6,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "extraction_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Compared4.3 and5.1–5.8 pluspartial5.9. Restored clause numbers,annex4reference,minimum30credits,one-semester/firstsemester restrictions,contract-only restoration,10daydeadline.5.9excluded in full acrosspp6-7. Archive only.2025dated source does not establish2026–2027applicability."
+        },
+        {
+          "page_number": 7,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "extraction_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Compared5.9continuation,5.10–5.12and6.1–6.5.45semester/75year creditcaps,academic leave maximumtwosemesters/once,medical and foreignstudent exceptions retained.5.9continuation excluded. Signatures/seals remain sourcegraphics. Archive only.2025dated source does not establish2026–2027applicability."
+        },
+        {
+          "page_number": 8,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "extraction_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Rebuilt completeAnnex1external transferapplication labels,study mode and institution/programme/course/profile blanks,date/signature. Archive only.2025dated source does not establish2026–2027applicability."
+        },
+        {
+          "page_number": 9,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "extraction_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Rebuilt completeAnnex2internal transferapplication including old/newmodes,direction/profile fields,transferreason,date/signature. Archive only.2025dated source does not establish2026–2027applicability."
+        },
+        {
+          "page_number": 10,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "extraction_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Rebuilt completeAnnex3expulsionapplication from upright source page; originalextraction was reversed/gibberish. Recovered programme/structuraldivision/mode/reason labels,date/signature. Archive only.2025dated source does not establish2026–2027applicability."
+        },
+        {
+          "page_number": 11,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/a7cbedbf7a1153a09ade9f2fab53a26c88267e196d89d7e6b9a9d2cb589a577f.json",
+          "extraction_sha256": "0d7ead7f7049f723f5e9342f5397638d816ca414a2b97dd1b773587fc0123ffe",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Rebuilt completeAnnex4reinstatementapplication withmode,direction/profile/institute,course,expulsionordernumber/reason,date/signature;blank formfields retained. Archive only.2025dated source does not establish2026–2027applicability."
+        }
+      ]
+    },
+    {
+      "batch": "pilot-20261019",
+      "source_sha256": "cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d",
+      "purpose": "Course repetition; unresolved cover authority",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d.pdf",
+      "references": [
+        {
+          "title": "Положение о порядке предоставления повторного обучения студентам высшего и среднего профессионального образования в КГТУ им.И.Раззакова",
+          "url": "https://kstu.kg/fileadmin/user_upload/polozhenie_o_porjadke_predostavlenija_povtornogo_obuchenija_studentam_vpo_i_spo_v_kgtu_im.i.razzakova_2025_compressed.pdf",
+          "university_id": "kstu"
+        }
+      ],
+      "pages": [
+        {
+          "page_number": 1,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d.json",
+          "extraction_sha256": "f379b984437ecebf0ab8ce069c430fc78dc9372243435286c024708f53f4be01",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "rejected",
+          "decision": "withheld",
+          "reason": "Recognition rejected. Printed cover title and body repaired; approval date, printed rector name and signature areas inspected. Meaningful handwritten rector order number/date is crossed by signature and cannot be established confidently. Its uncertain content remains image-only and this page is rejected. Do not use it as authority/date anchor. Incidental logo/seal microlettering retained graphically without repeated transcription work."
+        },
+        {
+          "page_number": 2,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d.json",
+          "extraction_sha256": "f379b984437ecebf0ab8ce069c430fc78dc9372243435286c024708f53f4be01",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Administrative revision sheet preserved but withheld from advice."
+        },
+        {
+          "page_number": 3,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d.json",
+          "extraction_sha256": "f379b984437ecebf0ab8ce069c430fc78dc9372243435286c024708f53f4be01",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Archive only. No verified2026–2027applicability or reliable completeapprovalorder. Selected complete local clauses and application form retain source conditions. Whole1.3 with source-missing numerical threshold is omitted. No rejected cover anchors or inferred current validity."
+        },
+        {
+          "page_number": 4,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d.json",
+          "extraction_sha256": "f379b984437ecebf0ab8ce069c430fc78dc9372243435286c024708f53f4be01",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Archive only. No verified2026–2027applicability or reliable completeapprovalorder. Selected complete local clauses and application form retain source conditions. Whole1.3 with source-missing numerical threshold is omitted. No rejected cover anchors or inferred current validity."
+        },
+        {
+          "page_number": 5,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/cc1f5ffb7666fda393997e0341790f4da8ed947591cfd4f1062de7e553a1f26d.json",
+          "extraction_sha256": "f379b984437ecebf0ab8ce069c430fc78dc9372243435286c024708f53f4be01",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Archive only. No verified2026–2027applicability or reliable completeapprovalorder. Selected complete local clauses and application form retain source conditions. Whole1.3 with source-missing numerical threshold is omitted. No rejected cover anchors or inferred current validity."
+        }
+      ]
+    },
+    {
+      "batch": "pilot-20261019",
+      "source_sha256": "d0df7412d91f9aad358f0a200c644209e9a1598d392662808580e5fb1d5a867e",
+      "purpose": "Admissions directory for targeted discovery, not advice text",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/d0df7412d91f9aad358f0a200c644209e9a1598d392662808580e5fb1d5a867e.html",
+      "references": [
+        {
+          "title": "Правила приема",
+          "url": "https://kstu.kg/abiturientu/pravila-priema-1",
+          "university_id": "kstu"
+        }
+      ],
+      "pages": [
+        {
+          "page_number": null,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d0df7412d91f9aad358f0a200c644209e9a1598d392662808580e5fb1d5a867e.json",
+          "extraction_sha256": "0af6988a9818600f2ff313b29123c0d2859d365dbf8e8ef0313c57e13b525730",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Withheld from current and archive student-advice chunks. This compared snapshot supplies directory/wrapper labels or institutional staff content without an approved self-contained student rule/event. Linked document bodies require separate processing. Source-specific scope is recorded in the recognition findings. "
+        }
+      ]
+    },
+    {
+      "batch": "pilot-20261019",
+      "source_sha256": "d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f",
+      "purpose": "Credit system and grading; unresolved cover authority",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.pdf",
+      "references": [
+        {
+          "title": "Положение об орган. учеб. процесса ВПО и СПО в КГТУ им. И.Раззакова с примен. акад. кредитов",
+          "url": "https://kstu.kg/fileadmin/user_upload/polozhenie_ob_organizacii_uchebnogo_processa_vpo_i_spo_v_kgtu_im.i.razzakova_s_primeneniem_akedemicheskikh_kreditov_compressed_compressed.pdf",
+          "university_id": "kstu"
+        }
+      ],
+      "pages": [
+        {
+          "page_number": 1,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "rejected",
+          "decision": "withheld",
+          "reason": "Recognition rejected. Substantive cover approval text, handwritten protocol/date/order and footer omitted from published OCR. Primary print is legible but handwritten approval order remains unclear. Retained rejected original cover blocks, no guessed approval or current authority."
+        },
+        {
+          "page_number": 2,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Recognition accurate, but contents/change-history/blank or example forms or cross-page appendix/calendar/global rating conditions are unsuitable as independent advice units. No currentness inferred."
+        },
+        {
+          "page_number": 3,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Recognition accurate, but contents/change-history/blank or example forms or cross-page appendix/calendar/global rating conditions are unsuitable as independent advice units. No currentness inferred."
+        },
+        {
+          "page_number": 4,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 5,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 6,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 7,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 8,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 9,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 10,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 11,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 12,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 13,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 14,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 15,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "rejected",
+          "decision": "withheld",
+          "reason": "Recognition rejected. Whole original and repaired grade matrix compared. Source itself clips the right-hand section title and two grade-table header suffixes. Restored visible rows including B+ 3,33, Д+ 1,33 and F blank numeric cell, but did not invent clipped words; full-page pass withheld. FX paragraph also continues to page16."
+        },
+        {
+          "page_number": 16,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 17,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 18,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 19,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 20,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 21,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 22,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Recognition accurate, but contents/change-history/blank or example forms or cross-page appendix/calendar/global rating conditions are unsuitable as independent advice units. No currentness inferred."
+        },
+        {
+          "page_number": 23,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 24,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 25,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Recognition accurate, but contents/change-history/blank or example forms or cross-page appendix/calendar/global rating conditions are unsuitable as independent advice units. No currentness inferred."
+        },
+        {
+          "page_number": 26,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Recognition accurate, but contents/change-history/blank or example forms or cross-page appendix/calendar/global rating conditions are unsuitable as independent advice units. No currentness inferred."
+        },
+        {
+          "page_number": 27,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Whole-page recognition compared. Selected only complete page-local source clauses and their conditions. No 2026-2027 authority or applicability inferred."
+        },
+        {
+          "page_number": 28,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Recognition accurate, but contents/change-history/blank or example forms or cross-page appendix/calendar/global rating conditions are unsuitable as independent advice units. No currentness inferred."
+        },
+        {
+          "page_number": 29,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Recognition accurate, but contents/change-history/blank or example forms or cross-page appendix/calendar/global rating conditions are unsuitable as independent advice units. No currentness inferred."
+        },
+        {
+          "page_number": 30,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Recognition accurate, but contents/change-history/blank or example forms or cross-page appendix/calendar/global rating conditions are unsuitable as independent advice units. No currentness inferred."
+        },
+        {
+          "page_number": 31,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Recognition accurate, but contents/change-history/blank or example forms or cross-page appendix/calendar/global rating conditions are unsuitable as independent advice units. No currentness inferred."
+        },
+        {
+          "page_number": 32,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Recognition accurate, but contents/change-history/blank or example forms or cross-page appendix/calendar/global rating conditions are unsuitable as independent advice units. No currentness inferred."
+        },
+        {
+          "page_number": 33,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Recognition accurate, but contents/change-history/blank or example forms or cross-page appendix/calendar/global rating conditions are unsuitable as independent advice units. No currentness inferred."
+        },
+        {
+          "page_number": 34,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Recognition accurate, but contents/change-history/blank or example forms or cross-page appendix/calendar/global rating conditions are unsuitable as independent advice units. No currentness inferred."
+        },
+        {
+          "page_number": 35,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Recognition accurate, but contents/change-history/blank or example forms or cross-page appendix/calendar/global rating conditions are unsuitable as independent advice units. No currentness inferred."
+        },
+        {
+          "page_number": 36,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Recognition accurate, but contents/change-history/blank or example forms or cross-page appendix/calendar/global rating conditions are unsuitable as independent advice units. No currentness inferred."
+        },
+        {
+          "page_number": 37,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Recognition accurate, but contents/change-history/blank or example forms or cross-page appendix/calendar/global rating conditions are unsuitable as independent advice units. No currentness inferred."
+        },
+        {
+          "page_number": 38,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/d1e1139648469097827837a412f03f3b8ed6a29bc24ea403a5564a5b4880aa9f.json",
+          "extraction_sha256": "e5d543b17f37fc27bea963832a2fe5ed44514494e254c0d01a0bd9f8948cb014",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Recognition accurate, but contents/change-history/blank or example forms or cross-page appendix/calendar/global rating conditions are unsuitable as independent advice units. No currentness inferred."
+        }
+      ]
+    },
+    {
+      "batch": "pilot-20261019",
+      "source_sha256": "dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d",
+      "purpose": "Assessment and retakes; unresolved cover authority",
+      "original_path": "data/expansion/pilot-20261019/raw/originals/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.pdf",
+      "references": [
+        {
+          "title": "Положение о проведении текущей и промежут. аттес.обучающихся высшего и среднего проф-го образования КГТУ им.И.Раззакова",
+          "url": "https://kstu.kg/fileadmin/user_upload/polozhenie_o_provedenii_tekushchei_i_promezhutochnoi_attestacii_obuchajushchikhsja_vpo_i_spo_kgtu_im.i.razzakova_2025_compressed.pdf",
+          "university_id": "kstu"
+        }
+      ],
+      "pages": [
+        {
+          "page_number": 1,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "extraction_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "rejected",
+          "decision": "withheld",
+          "reason": "Recognition rejected. Whole saved cover and all ordered existing blocks inspected. Existing extraction omits approval/order/date/DP/2025 footer and misreads заседании. A 4x-source approval enlargement still cannot resolve the rector order number beneath overlapping seal and autograph safely. The title, handwritten protocol 4 and printed 2025 are visible, but no authority/date inferred from URL filename. Need clearer official cover/approval order. Page remains excluded in full."
+        },
+        {
+          "page_number": 2,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "extraction_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "withheld",
+          "reason": "Amendment history is not standalone student advice. Source explicitly contradicts dates: 2024/2025 acts beside December 2015 protocol. Cover authority unresolved; no current date inferred."
+        },
+        {
+          "page_number": 3,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "extraction_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Complete local general assessment clauses 1.1-1.8 for KSTU VPO/SPO; historical or undated archive only. No current-year applicability inferred."
+        },
+        {
+          "page_number": 4,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "extraction_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Complete local assessment clauses 1.10-1.13 and 2.1-2.3 only. Historical or unknown-date archive, not current advice."
+        },
+        {
+          "page_number": 5,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "extraction_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "rejected",
+          "decision": "withheld",
+          "reason": "Recognition rejected. Whole original and repaired ordered blocks compared, with 3x full table crop. Restored 2.5 before 2.6, table row associations and grade symbols Д+/Д/Д-, literal decimal 1.33, blank F numeric-equivalent cell and all I/W/X/P explanations. Source itself clips the ends of headers at cell borders: visible Оценка по буквенной систем and Цифровой эквивалент оцен. No hidden suffix inferred. Under whole-page failed-region rule, page remains rejected; need clearer original table with complete meaningful headers. Table and 2.4 continuation excluded in full."
+        },
+        {
+          "page_number": 6,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "extraction_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Complete standalone grade-symbol explanations and their whole retake conditions preserved as unknown-date archive; no current applicability inferred."
+        },
+        {
+          "page_number": 7,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "extraction_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Complete local clauses 2.10-2.17 and 3.1-3.2 with all exceptions. Unknown-date archive only."
+        },
+        {
+          "page_number": 8,
+          "extraction_path": "data/expansion/pilot-20261019/extracted/dedfb53249c61035f7e05b43c3b8403bd027b285ca631144b015f93f924bca6d.json",
+          "extraction_sha256": "83fbf4e06e7584afc069442b0623397e7b2193322ef435edcbb9b198f3a4c4c0",
+          "recognition_decisions_path": "data/expansion/pilot-20261019/review/decisions.json",
+          "approved_export_path": "data/expansion/pilot-20261019/review/approved_pages.jsonl",
+          "recognition_status": "approved",
+          "decision": "archive",
+          "reason": "Complete local clauses 3.4-3.10, including entire 3.5 follow-on paragraph and full 3.7 motivated request/restrictions. Unknown-date archive only."
+        }
+      ]
+    }
+  ]
+}

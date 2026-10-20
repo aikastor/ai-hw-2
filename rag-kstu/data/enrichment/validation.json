@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-20T10:32:22.763674+00:00",
+  "status": "passed",
+  "source_originals_verified": 9,
+  "policy_and_calendar_block_hashes_checked": 62,
+  "main_crawl_download_hashes_checked": 42,
+  "topic_records": 10,
+  "scope": "Structural identity and selected-block consistency. Source interpretation relies on separately recorded visual reviews. This is not a declaration of full current coverage.",
+  "handoff_checked_at": "2026-10-20T10:36:30.188138+00:00",
+  "handoff_local_links_checked": 22,
+  "manifest_extraction_and_selected_text_hashes_rechecked": true
+}
